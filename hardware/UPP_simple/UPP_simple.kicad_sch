@@ -1,0 +1,200 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6b5c3a33-e0c0-4354-bc3d-665cd56165a2")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 69.596 83.058) (xy 69.596 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af974df-88b0-4dc3-8cfd-4e988e4f02d5")
+	)
+	(bus
+		(pts
+			(xy 81.026 83.058) (xy 81.026 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4c253f-ca57-47a4-9858-41e058bb3028")
+	)
+	(sheet
+		(at 127.762 25.4)
+		(size 51.562 51.308)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04b6300e-da58-4f6a-a04f-2c738757da60")
+		(property "Sheetname" "power"
+			(at 127.762 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 127.762 77.2926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UPP_simple"
+				(path "/6b5c3a33-e0c0-4354-bc3d-665cd56165a2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.434 109.728)
+		(size 59.69 52.578)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "150cd0cf-f39f-4744-842f-32bf63665b5f")
+		(property "Sheetname" "analog_inputs"
+			(at 43.434 109.0164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_inputs.kicad_sch"
+			(at 43.434 162.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIF[1..6]" output
+			(at 69.596 109.728 90)
+			(uuid "89c5baab-3421-4eaf-a219-78b7efb5ee54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SE[1..6]" output
+			(at 81.026 109.728 90)
+			(uuid "36f11ca7-9bf1-42ac-9978-422530a2ef3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "UPP_simple"
+				(path "/6b5c3a33-e0c0-4354-bc3d-665cd56165a2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 24.13)
+		(size 62.992 59.182)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e9be577-9098-40f6-bf7d-f157812c3f0a")
+		(property "Sheetname" "adc"
+			(at 41.91 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 41.91 83.8966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIF[1..6]" input
+			(at 81.026 83.312 270)
+			(uuid "ed9b958d-52a4-4478-81a1-0c5e08dc9af8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SE[1..6]" input
+			(at 69.596 83.312 270)
+			(uuid "136e4bcf-7a64-4388-9a25-9528dc16acfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "UPP_simple"
+				(path "/6b5c3a33-e0c0-4354-bc3d-665cd56165a2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
