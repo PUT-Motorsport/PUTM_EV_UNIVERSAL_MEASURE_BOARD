@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ADS114S08BIPBSR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADS114S08BIPBSR.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS114S08BIPBSR")(type "KiCad")(uri "C:/Users/Admin/Documents/..putM/Uniwersalne płytki pomiarowe/UPP_simple/symbols/ADS114S08BIPBSR.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G0C1KCT6N")(type "KiCad")(uri "C:/Users/Admin/Documents/..putM/Uniwersalne płytki pomiarowe/UPP_simple/symbols/STM32G0C1KCT6N.kicad_sym")(options "")(descr ""))
 )
