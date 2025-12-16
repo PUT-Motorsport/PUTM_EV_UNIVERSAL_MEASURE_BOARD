@@ -1644,8 +1644,8 @@
 		)
 	)
 	(rectangle
-		(start 49.53 164.846)
-		(end 57.15 193.294)
+		(start 85.852 160.274)
+		(end 114.808 194.056)
 		(stroke
 			(width 0)
 			(type default)
@@ -1653,7 +1653,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 188bdce3-d38d-45d5-a937-60a6f138ea01)
+		(uuid 6c6f69e9-ea94-4a98-bb37-ed4be8c4c723)
 	)
 	(rectangle
 		(start 15.494 23.368)
@@ -1679,6 +1679,16 @@
 		)
 		(uuid b5c41085-fafb-477c-be9c-659ee1b2f160)
 	)
+	(text "OpAmps power\n"
+		(exclude_from_sim no)
+		(at 100.584 157.734 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "0d718736-c1af-4c08-ba7c-88278127c099")
+	)
 	(text "Single-ended input signal"
 		(exclude_from_sim no)
 		(at 46.736 19.812 0)
@@ -1698,16 +1708,6 @@
 			)
 		)
 		(uuid "5ea5a339-3c78-430e-bf62-d66bc6da7da3")
-	)
-	(text "OpAmp power"
-		(exclude_from_sim no)
-		(at 54.102 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0fe67f5-9d35-4e1f-8fcd-1b9d349aa1ab")
 	)
 	(junction
 		(at 118.11 116.84)
@@ -1902,6 +1902,12 @@
 		(uuid "d477c1e3-3461-4af6-ad7a-54581aa0421b")
 	)
 	(junction
+		(at 99.06 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82c17f0-4330-4cda-b841-a96931b33e44")
+	)
+	(junction
 		(at 179.07 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1914,6 +1920,12 @@
 		(uuid "ecd19a74-4f15-4dcd-ae2b-baab93de6544")
 	)
 	(junction
+		(at 99.06 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f40ffa40-840b-474c-95aa-11ab50b9d9c9")
+	)
+	(junction
 		(at 181.61 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1924,6 +1936,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbf0e2ef-dd0a-4915-9ae5-e3f4827dbfac")
+	)
+	(no_connect
+		(at 25.4 80.01)
+		(uuid "9fa5d3d8-10eb-4722-8be3-8fee312ece57")
 	)
 	(bus_entry
 		(at 207.01 118.11)
@@ -2185,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 74.93) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f1dd71-5843-4f0e-b90e-49e4cddefcdb")
+	)
+	(wire
+		(pts
 			(xy 101.6 90.17) (xy 101.6 85.09)
 		)
 		(stroke
@@ -2325,16 +2351,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 187.96) (xy 53.34 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1812703f-2665-47d9-9c34-6e584f39c1b8")
-	)
-	(wire
-		(pts
 			(xy 179.07 105.41) (xy 179.07 115.57)
 		)
 		(stroke
@@ -2352,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "1858479b-d316-4738-becc-4fae8c8813db")
+	)
+	(wire
+		(pts
+			(xy 99.06 167.64) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d43132-75bd-4f26-bdc3-72555b0ef2c2")
 	)
 	(wire
 		(pts
@@ -2445,6 +2471,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 167.64) (xy 107.95 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0bce7e-6e06-4e8f-89d1-121408004ea6")
+	)
+	(wire
+		(pts
 			(xy 102.87 100.33) (xy 111.76 100.33)
 		)
 		(stroke
@@ -2532,16 +2568,6 @@
 			(type default)
 		)
 		(uuid "26cc01b6-6578-49e0-a9d7-1109e5017d7d")
-	)
-	(wire
-		(pts
-			(xy 19.05 67.31) (xy 19.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d28999-d035-432f-b0fa-7b69b0f50796")
 	)
 	(wire
 		(pts
@@ -2785,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 187.96) (xy 107.95 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ac61d7-4d61-44b7-a422-4b1f59586dc4")
+	)
+	(wire
+		(pts
 			(xy 232.41 80.01) (xy 241.3 80.01)
 		)
 		(stroke
@@ -2802,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "3d067c4c-3f17-4d58-9eb1-175d4667d264")
+	)
+	(wire
+		(pts
+			(xy 107.95 185.42) (xy 107.95 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcfa34b-37b9-484a-ac4b-28cb24496660")
 	)
 	(wire
 		(pts
@@ -3095,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ec3a32-4845-465d-ba29-42cb0fdd4fe8")
+	)
+	(wire
+		(pts
 			(xy 201.93 44.45) (xy 207.01 44.45)
 		)
 		(stroke
@@ -3255,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 46.99) (xy 118.11 46.99)
+			(xy 118.11 46.99) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3282,16 +3338,6 @@
 			(type default)
 		)
 		(uuid "62f71108-81f9-4e33-8d39-5b352a6036ca")
-	)
-	(wire
-		(pts
-			(xy 31.75 69.85) (xy 31.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d814ea-c1e7-4328-859e-c8ad26701d35")
 	)
 	(wire
 		(pts
@@ -3322,6 +3368,26 @@
 			(type default)
 		)
 		(uuid "6676e61d-5fdf-4b03-9a12-c63941c91aa5")
+	)
+	(wire
+		(pts
+			(xy 99.06 166.37) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fcdaf6-ec7d-4ac3-9148-0cff3997b40e")
+	)
+	(wire
+		(pts
+			(xy 90.17 167.64) (xy 90.17 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ff8553-9d0c-446e-aec9-4cb7743835aa")
 	)
 	(wire
 		(pts
@@ -3383,16 +3449,6 @@
 		)
 		(uuid "6ca87d5a-4ee2-4667-a949-0239ea87abc2")
 	)
-	(wire
-		(pts
-			(xy 53.34 171.45) (xy 53.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0b6278-14ca-4b35-bbd7-df4a0921d985")
-	)
 	(bus
 		(pts
 			(xy 209.55 41.91) (xy 209.55 78.74)
@@ -3435,16 +3491,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72aa7590-6598-4146-bce4-5059295fe2c6")
-	)
-	(wire
-		(pts
 			(xy 226.06 116.84) (xy 226.06 119.38)
 		)
 		(stroke
@@ -3472,6 +3518,16 @@
 			(type default)
 		)
 		(uuid "75f967f2-d818-4d60-9bba-a818b38f7b58")
+	)
+	(wire
+		(pts
+			(xy 107.95 167.64) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76880eb7-9df4-4d7d-ab6c-c0ee53546f17")
 	)
 	(wire
 		(pts
@@ -3795,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 185.42) (xy 90.17 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6b9e2d-1e3b-4065-813f-babd9a6ca2ef")
+	)
+	(wire
+		(pts
 			(xy 101.6 52.07) (xy 92.71 52.07)
 		)
 		(stroke
@@ -3965,16 +4031,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 73.66) (xy 25.4 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d448bc7-b3af-4a81-acca-d262703e93a5")
-	)
-	(wire
-		(pts
 			(xy 25.4 110.49) (xy 25.4 116.84)
 		)
 		(stroke
@@ -4072,16 +4128,6 @@
 			(type default)
 		)
 		(uuid "a498f113-8e48-48f2-a6e1-960d13579ef6")
-	)
-	(wire
-		(pts
-			(xy 121.92 80.01) (xy 118.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a60e0a8c-a0e8-4c86-b527-668709310582")
 	)
 	(wire
 		(pts
@@ -4202,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "af57579e-bbdd-4a9d-a713-12ccdf32b399")
+	)
+	(wire
+		(pts
+			(xy 90.17 167.64) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0519d38-6914-4a2f-971b-535fa91f9474")
 	)
 	(wire
 		(pts
@@ -4513,6 +4569,16 @@
 		)
 		(uuid "c8dbdb16-0099-493a-afc1-eb83db6d8968")
 	)
+	(wire
+		(pts
+			(xy 118.11 80.01) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93a7bcc-5153-4597-a956-d42ba5260f88")
+	)
 	(bus
 		(pts
 			(xy 209.55 115.57) (xy 209.55 138.43)
@@ -4532,16 +4598,6 @@
 			(type default)
 		)
 		(uuid "c99e8df1-3afb-4d60-81e9-8df1c928f79f")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 138.43 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3c6235-40e4-4f35-8f8f-9105e731ffd6")
 	)
 	(bus
 		(pts
@@ -4615,6 +4671,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 187.96) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d321f35a-0225-41b2-985b-a70ac43e47e0")
+	)
+	(wire
+		(pts
 			(xy 38.1 114.3) (xy 38.1 116.84)
 		)
 		(stroke
@@ -4682,6 +4748,16 @@
 			(type default)
 		)
 		(uuid "d6ded2aa-e7ef-4c77-b54c-35663185b8e6")
+	)
+	(wire
+		(pts
+			(xy 99.06 185.42) (xy 99.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8bf00b-9318-46d5-b7ef-91f8b92b68a5")
 	)
 	(wire
 		(pts
@@ -4862,6 +4938,16 @@
 			(type default)
 		)
 		(uuid "e7505b98-51d7-42dd-91e5-57c59b22a2bd")
+	)
+	(wire
+		(pts
+			(xy 90.17 187.96) (xy 99.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e790d595-ef8e-4d55-834b-5eb16cea5c57")
 	)
 	(bus
 		(pts
@@ -5256,71 +5342,6 @@
 		(uuid "f0995f6f-b653-43e3-822d-4a953ce5ffac")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 53.34 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "001aae0b-73ab-43fd-94cc-88639f2ca003")
-		(property "Reference" "#PWR034"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 53.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f082952-eea0-4e76-95f8-b081be618800")
-		)
-		(instances
-			(project "upp_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 222.25 35.56 0)
 		(unit 1)
@@ -5383,6 +5404,12 @@
 			(uuid "14dec980-725a-498b-9c75-04663e2faf47")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP19")
@@ -5453,151 +5480,15 @@
 			(uuid "5fe33218-e43d-41c7-a191-57a2133671f4")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R1")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 62.23 43.18 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0809d9ae-3f77-4077-9e6f-43ff20ef0164")
-		(property "Reference" "U9"
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 62.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f633")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1a")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa24")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bb9")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a17")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2924")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe24")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d434c")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aede8")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890ee6")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75b5")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936eb")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e85")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df72")
-		)
-		(instances
-			(project "upp_simple"
+			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5669,6 +5560,12 @@
 			(uuid "b7bc0f87-59ca-42ea-800f-6d6c5140aefb")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J11")
@@ -5739,6 +5636,12 @@
 			(uuid "eca6eb5c-aaf6-4734-aab1-48142c9277d1")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R52")
@@ -5809,6 +5712,12 @@
 			(uuid "7f811375-3eff-4de1-870d-421ceaf1518e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R53")
@@ -5879,6 +5788,12 @@
 			(uuid "9ce6911c-9ca8-48c4-81a1-68668835a9de")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R39")
@@ -5953,152 +5868,16 @@
 			(uuid "77c63944-1653-4012-b0ce-ea7d5e5e2061")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 255.27 82.55 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a0fb1f0-ddf0-427c-920e-72c2ce325c51")
-		(property "Reference" "U4"
-			(at 255.27 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f639")
-		)
-		(pin "5"
-			(uuid "c96618bd-2def-4c31-8a2f-cce36815fa47")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2a")
-		)
-		(pin "7"
-			(uuid "322bb3ef-b23c-47f4-9f41-2e594e34398f")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a1d")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d292f")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe2f")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4357")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf3")
-		)
-		(pin "6"
-			(uuid "df109b51-933a-432e-83b0-87bc02bd034a")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c0")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f6")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e90")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df7d")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -6162,6 +5941,12 @@
 			(uuid "2c4ab249-cdbf-4d80-a6b5-a647387094ac")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR08")
@@ -6232,218 +6017,15 @@
 			(uuid "6ce93df7-b4d9-43f3-87dd-b6619dad8f80")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cdaeb87-df84-40bd-87dc-3a6097ac3ea7")
-		(property "Reference" "#PWR035"
-			(at 53.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac424762-30b8-463a-8905-507fbbb5e416")
-		)
-		(instances
-			(project "upp_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 129.54 77.47 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d69426b-4544-4323-9d47-899cde39571a")
-		(property "Reference" "U4"
-			(at 129.54 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 129.54 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b3e07a2-516d-4f1a-a208-eafa4e929594")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1b")
-		)
-		(pin "3"
-			(uuid "c0f3eea0-7859-4667-b79f-247edfc04b68")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bba")
-		)
-		(pin "2"
-			(uuid "2101816b-aaec-49bc-aefb-fe5d8acae89f")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2925")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe25")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d434d")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aede9")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890ee7")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75b6")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936ec")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e86")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df73")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6508,6 +6090,12 @@
 			(uuid "59d3aeae-ad90-456f-abdf-690aacc87c6e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR021")
@@ -6575,74 +6163,15 @@
 			(uuid "111ef6e2-36ba-4abc-9f52-01319213b6ec")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR063")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 19.05 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f37f03b-78a4-4252-8057-421fb5c4267b")
-		(property "Reference" "#PWR03"
-			(at 19.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 19.05 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d37bc642-09f2-47a1-91b8-b9be5eb6a6d6")
-		)
-		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR03")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6707,6 +6236,12 @@
 			(uuid "8d509daa-071c-4d75-9509-d0873d7cf573")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR031")
@@ -6774,6 +6309,12 @@
 			(uuid "487d6d3c-67b4-4fc2-a7a2-e6da61fae35e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR060")
@@ -6844,6 +6385,12 @@
 			(uuid "9fc5dad7-93d1-40c6-907f-4cb3beaf465f")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R32")
@@ -6914,6 +6461,12 @@
 			(uuid "58e8e22e-f367-4b00-bff0-1048de3017c9")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R28")
@@ -6979,6 +6532,12 @@
 			(uuid "6b981987-1c2b-414d-b12d-dc441237536f")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR029")
@@ -7051,6 +6610,12 @@
 			(uuid "781be3d2-622f-4685-9231-2d6b777054ba")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP1")
@@ -7121,6 +6686,12 @@
 			(uuid "6e9c08da-f643-496c-ab6f-981fc5c20b17")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R50")
@@ -7193,6 +6764,12 @@
 			(uuid "724d0c24-556f-4295-8ac8-17512a4f73c7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP2")
@@ -7265,216 +6842,15 @@
 			(uuid "526224a7-3f2e-4948-bb7b-996e113109e2")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "JP10")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 255.27 45.72 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f331f1e-9799-45f6-ab2a-7f6a6265a339")
-		(property "Reference" "U3"
-			(at 255.27 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 255.27 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f63a")
-		)
-		(pin "5"
-			(uuid "ca238ce4-00c4-4548-96b5-9704c71b1c0e")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2b")
-		)
-		(pin "7"
-			(uuid "cfffd018-704d-40f9-b419-d6d70a098374")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a1e")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2930")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe30")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4358")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf4")
-		)
-		(pin "6"
-			(uuid "5e249111-0158-4bb7-929b-8ae1aa00cd4f")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c1")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f7")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e91")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df7e")
-		)
-		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 31.75 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f5c3a18-053f-4e66-bbe4-21a1170e199e")
-		(property "Reference" "#PWR04"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 31.75 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "996600d9-9d50-4f3d-a5fa-209e4968fd29")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR04")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -7539,6 +6915,12 @@
 			(uuid "bd6eb5a8-9841-488a-a087-48f6ef4b7e07")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR085")
@@ -7611,6 +6993,12 @@
 			(uuid "e22bc68c-5d02-403c-b1f9-29ed4f6ee464")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP7")
@@ -7677,6 +7065,12 @@
 			(uuid "fbaf34ea-c28f-423f-b8b3-ac18bd02ed38")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR057")
@@ -7742,6 +7136,12 @@
 			(uuid "809c6db3-0a08-43d0-905a-80fe50cb60e8")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR011")
@@ -7813,6 +7213,12 @@
 			(uuid "cac1feb6-0afd-4aab-a4e3-328112aebf36")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D10")
@@ -7880,6 +7286,12 @@
 			(uuid "271da03a-a933-4682-b1ab-e0cb7a96fb02")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR022")
@@ -7950,6 +7362,12 @@
 			(uuid "5ac8385f-ed24-441b-b9b4-f893f5c99a76")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R16")
@@ -8016,6 +7434,12 @@
 			(uuid "6ce62f45-fe9f-492b-9a32-1f34d762fbb1")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR051")
@@ -8081,6 +7505,12 @@
 			(uuid "d0bb9fbe-2360-4cb9-aa1b-2b21032106b5")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR010")
@@ -8151,6 +7581,12 @@
 			(uuid "50ba5bf9-2e18-474a-8f17-07b25e9b1ebe")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R30")
@@ -8218,6 +7654,12 @@
 			(uuid "8362a79a-0250-4fa9-8167-8e3f25d55ffb")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR084")
@@ -8289,6 +7731,12 @@
 			(uuid "4c4f9fa6-c7aa-4a6a-b106-3a015bccbb85")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J5")
@@ -8359,6 +7807,12 @@
 			(uuid "95799437-bb9c-4745-822a-dd16e2711d65")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R54")
@@ -8429,152 +7883,16 @@
 			(uuid "5e215292-8def-49ac-afba-97a88f10832f")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 193.04 81.28 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30c18ffc-8b7e-460d-8429-ea0d7accbcbe")
-		(property "Reference" "U1"
-			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 193.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f63b")
-		)
-		(pin "5"
-			(uuid "8c2eb5b4-0fdb-4297-98a0-71d8e8f68004")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2c")
-		)
-		(pin "7"
-			(uuid "e46eb6a0-71da-4280-a156-c3da71b22363")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a1f")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2931")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe31")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4359")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf5")
-		)
-		(pin "6"
-			(uuid "093eaaa3-647c-478d-ae2c-e5f8701b0f1f")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c2")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f8")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e92")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df7f")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -8642,6 +7960,12 @@
 			(uuid "0fbb61ea-300e-4358-8071-6714e5a2c3fa")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D12")
@@ -8713,6 +8037,12 @@
 			(uuid "0c519774-c1de-4bf5-b105-325e8c6e27ad")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J1")
@@ -8723,36 +8053,35 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 55.88 180.34 0)
+		(at 87.63 177.8 0)
+		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bf8bae2-3bca-4b1d-a046-ec57b8a88e13")
-		(property "Reference" "U8"
-			(at 54.61 180.3399 0)
+		(uuid "367a0f6d-b588-4145-bb34-c14d43de332f")
+		(property "Reference" "U1"
+			(at 91.186 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 54.61 181.6099 0)
+			(at 91.44 176.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8099,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8108,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,7 +8117,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +8126,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +8135,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 55.88 180.34 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,52 +8143,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f635")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1d")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa26")
-		)
 		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bbc")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a19")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2928")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe28")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4350")
+			(uuid "48f33165-8d7a-4a8c-8352-51b8f608af8f")
 		)
 		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedec")
+			(uuid "61bca98f-cb44-4c0d-bffa-270d2e955a5a")
 		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890ee9")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75b9")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936ef")
+		(pin "5"
+			(uuid "e8394dfb-8d79-4ece-a2a3-04301b0362af")
 		)
 		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e89")
+			(uuid "2dc843ec-6db1-4d0f-83c2-48ad43e4b16d")
+		)
+		(pin "14"
+			(uuid "3564593a-feb5-48b8-95a3-dd38080a39bc")
 		)
 		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df76")
+			(uuid "f012976d-f95d-4ab9-9fe9-23f07274abf8")
+		)
+		(pin "1"
+			(uuid "0ee152ea-2faf-401e-96e0-1426cd656b7d")
+		)
+		(pin "3"
+			(uuid "4824d962-16ac-4c6c-845a-823b44876fbd")
+		)
+		(pin "6"
+			(uuid "27bfdd3a-2f4d-4a6f-a08f-b3a143d98fed")
+		)
+		(pin "13"
+			(uuid "9c4750c1-629f-4c5c-92b7-a64f1d8a732d")
+		)
+		(pin "10"
+			(uuid "b69cbb33-7000-41f9-b4de-3598d5a3d59e")
+		)
+		(pin "2"
+			(uuid "2decac97-8b63-478d-9e02-d25731626eef")
+		)
+		(pin "4"
+			(uuid "e2ca5052-1b95-45cd-b7c6-7fcc0de33a24")
+		)
+		(pin "9"
+			(uuid "ed398731-bccd-41af-8f9c-6412d49be9fe")
 		)
 		(instances
-			(project "upp_simple"
+			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U8")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -8927,6 +8256,12 @@
 			(uuid "bbed5603-ddda-4bc1-ad5e-e87e934bc6d4")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R49")
@@ -8997,6 +8332,12 @@
 			(uuid "fb9b4c5d-d0b1-4d05-9016-1de063d00afd")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R36")
@@ -9063,6 +8404,12 @@
 			(uuid "f301623e-9709-41d3-80a4-1d25a398345d")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR043")
@@ -9133,6 +8480,12 @@
 			(uuid "16e9cae9-8f29-4a57-a55c-ead0006c5281")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R37")
@@ -9199,9 +8552,82 @@
 			(uuid "d31395c0-4ff7-4a09-8913-bc9c0691d98b")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418937fc-b066-4db2-9021-4a5134dcf6cf")
+		(property "Reference" "#PWR034"
+			(at 99.06 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e43357d-4f1d-42ed-9abe-0dcbcd648209")
+		)
+		(instances
+			(project "UPP_simple"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9264,9 +8690,156 @@
 			(uuid "964b6b87-a240-4642-9646-635a5ddb1249")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 129.54 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48bece86-f3cc-4a4b-b73a-897eca168fc5")
+		(property "Reference" "U2"
+			(at 129.54 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0e7fdf58-d937-4f73-872b-1acd7e20d639")
+		)
+		(pin "1"
+			(uuid "57d27af0-ec5f-4a41-80b0-e1b4932e64ed")
+		)
+		(pin "7"
+			(uuid "612ef55e-7bf0-4594-9932-f9f76b02594d")
+		)
+		(pin "10"
+			(uuid "c06ad5b7-4468-4aaf-9ded-cacb7d456ae8")
+		)
+		(pin "3"
+			(uuid "48485211-7419-4d82-8570-5ac518a2ce75")
+		)
+		(pin "2"
+			(uuid "a0969470-2d1f-454e-aaee-f8ef779fbde2")
+		)
+		(pin "5"
+			(uuid "cf4105d3-c7a3-4622-b42f-c54e46aaf820")
+		)
+		(pin "8"
+			(uuid "b5485812-3abc-4d32-bb01-2b6545be7727")
+		)
+		(pin "4"
+			(uuid "bbd9c982-c989-4ed8-924d-4c5ac85e9c16")
+		)
+		(pin "6"
+			(uuid "5630868e-f718-4dc6-820f-106505595f12")
+		)
+		(pin "9"
+			(uuid "b8169803-1d8f-42eb-a580-e5c175f3bb93")
+		)
+		(pin "14"
+			(uuid "2072ff8d-7816-402a-81e0-eefc370a6c0a")
+		)
+		(pin "12"
+			(uuid "2c10e640-84d5-4a33-9958-b097ed3483e6")
+		)
+		(pin "11"
+			(uuid "184cc677-6d46-40bc-97d7-7a2c40ec6ef2")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9335,6 +8908,12 @@
 			(uuid "7dcd21e1-a822-4e2d-8d2a-fa56e3e6b4fd")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J4")
@@ -9400,151 +8979,15 @@
 			(uuid "d83e22f8-9ee8-4da2-b59d-114f10263f0f")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR020")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 62.23 77.47 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55780886-4adf-49ae-812e-c459cd24f1a0")
-		(property "Reference" "U1"
-			(at 62.23 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a712113-54be-4bd6-a6c5-c7a88c7667cd")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1c")
-		)
-		(pin "3"
-			(uuid "a1267e23-ef05-4934-ae1b-37f61b0a0d7e")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bbb")
-		)
-		(pin "2"
-			(uuid "2f9d6a04-cfb5-4f78-84e3-a2e4a27a6b64")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2926")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe26")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d434e")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedea")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890ee8")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75b7")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936ed")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e87")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df74")
-		)
-		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U1")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9612,6 +9055,12 @@
 			(uuid "7f0941fd-ae9c-4e19-b5c4-78dc02d1fd15")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R55")
@@ -9684,10 +9133,157 @@
 			(uuid "b77a965e-5a14-4faf-ac4f-fbfa62eaeff4")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 129.54 44.45 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58c9de28-5d44-4b52-b355-379128d98bcb")
+		(property "Reference" "U2"
+			(at 129.54 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0e7fdf58-d937-4f73-872b-1acd7e20d63a")
+		)
+		(pin "1"
+			(uuid "57d27af0-ec5f-4a41-80b0-e1b4932e64ee")
+		)
+		(pin "7"
+			(uuid "612ef55e-7bf0-4594-9932-f9f76b02594e")
+		)
+		(pin "10"
+			(uuid "c06ad5b7-4468-4aaf-9ded-cacb7d456ae9")
+		)
+		(pin "3"
+			(uuid "48485211-7419-4d82-8570-5ac518a2ce76")
+		)
+		(pin "2"
+			(uuid "a0969470-2d1f-454e-aaee-f8ef779fbde3")
+		)
+		(pin "5"
+			(uuid "cf4105d3-c7a3-4622-b42f-c54e46aaf821")
+		)
+		(pin "8"
+			(uuid "b5485812-3abc-4d32-bb01-2b6545be7728")
+		)
+		(pin "4"
+			(uuid "bbd9c982-c989-4ed8-924d-4c5ac85e9c17")
+		)
+		(pin "6"
+			(uuid "5630868e-f718-4dc6-820f-106505595f13")
+		)
+		(pin "9"
+			(uuid "b8169803-1d8f-42eb-a580-e5c175f3bb94")
+		)
+		(pin "14"
+			(uuid "2072ff8d-7816-402a-81e0-eefc370a6c0b")
+		)
+		(pin "12"
+			(uuid "2c10e640-84d5-4a33-9958-b097ed3483e7")
+		)
+		(pin "11"
+			(uuid "184cc677-6d46-40bc-97d7-7a2c40ec6ef3")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -9751,6 +9347,12 @@
 			(uuid "16ec8786-108e-41ee-9ff8-648cec705ea3")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR032")
@@ -9818,6 +9420,12 @@
 			(uuid "680af240-0fbd-4877-ad02-cfc919e938d7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR049")
@@ -9885,6 +9493,12 @@
 			(uuid "79212b18-9994-4936-9d52-861a32e1bd75")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR056")
@@ -9955,6 +9569,12 @@
 			(uuid "58baaefb-8788-46d6-98dc-8836b3434009")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R18")
@@ -9964,25 +9584,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 25.4 69.85 0)
-		(unit 1)
+		(lib_id "Device:Opamp_Quad")
+		(at 255.27 119.38 0)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "629c0a12-e513-4cf0-b1e0-19a1a2910ef4")
-		(property "Reference" "JP3"
-			(at 25.4 66.04 0)
+		(uuid "65eb4742-8881-40c8-930a-69373c0b7c75")
+		(property "Reference" "U3"
+			(at 255.27 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_3_Open"
-			(at 25.4 66.04 0)
+		(property "Value" "Opamp_Quad"
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 69.85 0)
+			(at 255.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +9620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 69.85 0)
+			(at 255.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,29 +9628,98 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 25.4 69.85 0)
+		(property "Description" "Quad operational amplifier"
+			(at 255.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a5d6609c-8403-4e51-bf03-6f562faf0495")
+		)
+		(pin "13"
+			(uuid "5bbe265d-9a95-4271-b4ae-30ba23d7224b")
 		)
 		(pin "2"
-			(uuid "915ac31a-eef4-4566-8f4a-c737a9213b82")
+			(uuid "5df4d57c-b667-451e-9afb-dfdac27c68a1")
 		)
-		(pin "1"
-			(uuid "4b19575d-2027-4410-9b28-e098f9028ec1")
+		(pin "10"
+			(uuid "e7856ed5-d207-4b3d-8108-d2b70f897273")
+		)
+		(pin "7"
+			(uuid "78a89531-2d2b-4e53-b989-a52cef1a0a9d")
+		)
+		(pin "8"
+			(uuid "23b24cd3-6e04-43b2-b62b-6fa7199fa08b")
+		)
+		(pin "12"
+			(uuid "9b85be31-897d-4bfc-a831-2cbeb214e832")
 		)
 		(pin "3"
-			(uuid "3a5e5cb5-fda6-476d-a46d-ede1dbc85772")
+			(uuid "1aa827a1-8303-42a8-94ba-b03602e8f5ab")
+		)
+		(pin "1"
+			(uuid "97f6e6d4-a114-456e-b2ac-ebd65e036647")
+		)
+		(pin "5"
+			(uuid "80c6dba9-929a-42fa-a37f-d823102aef29")
+		)
+		(pin "11"
+			(uuid "e044216b-f001-4882-a531-9ab27ad38bd9")
+		)
+		(pin "6"
+			(uuid "e6bb4762-6aa2-41f3-bf9d-f9f376c5abcd")
+		)
+		(pin "9"
+			(uuid "51947907-f000-44bf-b69f-7cc113b77cbc")
+		)
+		(pin "14"
+			(uuid "84d4f7ea-dce9-4808-b0dc-9a203006d837")
 		)
 		(instances
-			(project "UPP_simple"
+			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "JP3")
-					(unit 1)
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -10101,6 +9790,12 @@
 			(uuid "c0c2956a-9632-4682-8732-9d32826a56a1")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J10")
@@ -10167,10 +9862,157 @@
 			(uuid "fb125555-37f3-4789-928d-09edf9dbe62e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR048")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 255.27 82.55 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6903ba5f-90eb-42eb-a91c-d9bc0b55224e")
+		(property "Reference" "U3"
+			(at 255.27 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a5d6609c-8403-4e51-bf03-6f562faf0496")
+		)
+		(pin "13"
+			(uuid "5bbe265d-9a95-4271-b4ae-30ba23d7224c")
+		)
+		(pin "2"
+			(uuid "5df4d57c-b667-451e-9afb-dfdac27c68a2")
+		)
+		(pin "10"
+			(uuid "e7856ed5-d207-4b3d-8108-d2b70f897274")
+		)
+		(pin "7"
+			(uuid "78a89531-2d2b-4e53-b989-a52cef1a0a9e")
+		)
+		(pin "8"
+			(uuid "23b24cd3-6e04-43b2-b62b-6fa7199fa08c")
+		)
+		(pin "12"
+			(uuid "9b85be31-897d-4bfc-a831-2cbeb214e833")
+		)
+		(pin "3"
+			(uuid "1aa827a1-8303-42a8-94ba-b03602e8f5ac")
+		)
+		(pin "1"
+			(uuid "97f6e6d4-a114-456e-b2ac-ebd65e036648")
+		)
+		(pin "5"
+			(uuid "80c6dba9-929a-42fa-a37f-d823102aef2a")
+		)
+		(pin "11"
+			(uuid "e044216b-f001-4882-a531-9ab27ad38bda")
+		)
+		(pin "6"
+			(uuid "e6bb4762-6aa2-41f3-bf9d-f9f376c5abce")
+		)
+		(pin "9"
+			(uuid "51947907-f000-44bf-b69f-7cc113b77cbd")
+		)
+		(pin "14"
+			(uuid "84d4f7ea-dce9-4808-b0dc-9a203006d838")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U3")
+					(unit 3)
 				)
 			)
 		)
@@ -10237,6 +10079,12 @@
 			(uuid "93744752-3158-4612-ac75-b7dd5b2d5b04")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R35")
@@ -10307,6 +10155,12 @@
 			(uuid "73a7e03f-716c-44cd-8741-c7a0b05ffd97")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R26")
@@ -10372,6 +10226,12 @@
 			(uuid "d506e1fc-c321-4750-8dc8-77ed6a903aee")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR019")
@@ -10437,6 +10297,12 @@
 			(uuid "51047622-7d79-445e-af98-43437a2b7748")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR07")
@@ -10509,6 +10375,12 @@
 			(uuid "78ef3f07-afd6-4082-bee4-986e1c9da1d1")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP11")
@@ -10576,6 +10448,12 @@
 			(uuid "6d66ba1e-3aa8-4552-a639-d1673a6c4f17")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR023")
@@ -10646,151 +10524,15 @@
 			(uuid "9c100225-6020-4ee4-a616-53925ec884f5")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R34")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 129.54 44.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71f370ba-e47a-4f21-92f6-697e4547377c")
-		(property "Reference" "U3"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 129.54 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4913f0bf-e941-4e27-9602-dda3b680e82d")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1e")
-		)
-		(pin "3"
-			(uuid "711d3b70-10a8-4ace-b4d2-a5a50c292590")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bbd")
-		)
-		(pin "2"
-			(uuid "4235ff3a-2c2f-4d19-9a62-93dbf0586105")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2927")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe27")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d434f")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedeb")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890eea")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75b8")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936ee")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e88")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df75")
-		)
-		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U3")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10859,6 +10601,12 @@
 			(uuid "75748546-f368-46fa-be40-086392f331ef")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J6")
@@ -10929,6 +10677,12 @@
 			(uuid "fb3037aa-92c0-402b-9abb-626c70e2f8fa")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R33")
@@ -10999,6 +10753,12 @@
 			(uuid "361554b5-e33d-4bcb-bc5a-ce1326b892c0")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R4")
@@ -11069,6 +10829,12 @@
 			(uuid "bc402d0d-1ad9-4a3b-90cf-90ba15fb543d")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R19")
@@ -11136,6 +10902,12 @@
 			(uuid "acf2ecd8-9164-4fe8-9f58-d9d759d95dfb")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR042")
@@ -11203,6 +10975,12 @@
 			(uuid "b17e244a-8553-41da-b0d5-2b379459a3a4")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR012")
@@ -11273,6 +11051,12 @@
 			(uuid "0bacad4b-9937-403a-a913-6b42eaf0675b")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R2")
@@ -11343,6 +11127,12 @@
 			(uuid "91651635-b224-4657-bd1e-3011e35bb722")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R45")
@@ -11413,6 +11203,12 @@
 			(uuid "b1bad95b-c1f6-43fc-bb40-5c729becfbf9")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R22")
@@ -11479,6 +11275,12 @@
 			(uuid "92fba30d-f6b9-4585-9b43-4afdf996607c")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR036")
@@ -11549,152 +11351,16 @@
 			(uuid "a504b137-c286-46ed-9181-3a8f0c493a57")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 255.27 119.38 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89b89bcf-b621-49ee-90f4-902c2b503ddc")
-		(property "Reference" "U5"
-			(at 255.27 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 255.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f63c")
-		)
-		(pin "5"
-			(uuid "79d7ef1c-89dc-4634-8f72-a38d904e65ed")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2d")
-		)
-		(pin "7"
-			(uuid "52c6a241-4f45-4162-ab2e-522d9f0afa02")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a20")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2932")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe32")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d435a")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf6")
-		)
-		(pin "6"
-			(uuid "bdc5435c-2e37-4b5d-a749-e35b847108dc")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c3")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f9")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e93")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df80")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U5")
-					(unit 2)
 				)
 			)
 		)
@@ -11761,6 +11427,12 @@
 			(uuid "90686b84-974b-49e4-813a-4242d4365f1d")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R8")
@@ -11828,6 +11500,12 @@
 			(uuid "74a824da-c09a-4ad8-9698-d3a7d3b2660d")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR061")
@@ -11898,6 +11576,12 @@
 			(uuid "572321cb-25c5-4950-ba3a-c06f449dfd0a")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R17")
@@ -11968,6 +11652,12 @@
 			(uuid "97e0b7e9-8eb8-463b-8d4b-033ac1a79238")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R3")
@@ -12034,6 +11724,12 @@
 			(uuid "35fef544-0b75-4237-9c1e-b986d2b02331")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR058")
@@ -12101,6 +11797,12 @@
 			(uuid "949fd1fe-829b-41bc-88c0-042eea7fd565")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR033")
@@ -12168,10 +11870,157 @@
 			(uuid "6b93822b-e91c-4ca5-b93e-45c0073f7b6e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR062")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 62.23 77.47 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "971de354-dfb2-49b0-96ee-5581201ef402")
+		(property "Reference" "U1"
+			(at 62.23 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "48f33165-8d7a-4a8c-8352-51b8f608af90")
+		)
+		(pin "8"
+			(uuid "61bca98f-cb44-4c0d-bffa-270d2e955a5b")
+		)
+		(pin "5"
+			(uuid "e8394dfb-8d79-4ece-a2a3-04301b0362b0")
+		)
+		(pin "12"
+			(uuid "2dc843ec-6db1-4d0f-83c2-48ad43e4b16e")
+		)
+		(pin "14"
+			(uuid "3564593a-feb5-48b8-95a3-dd38080a39bd")
+		)
+		(pin "11"
+			(uuid "f012976d-f95d-4ab9-9fe9-23f07274abf9")
+		)
+		(pin "1"
+			(uuid "0ee152ea-2faf-401e-96e0-1426cd656b7e")
+		)
+		(pin "3"
+			(uuid "4824d962-16ac-4c6c-845a-823b44876fbe")
+		)
+		(pin "6"
+			(uuid "27bfdd3a-2f4d-4a6f-a08f-b3a143d98fee")
+		)
+		(pin "13"
+			(uuid "9c4750c1-629f-4c5c-92b7-a64f1d8a732e")
+		)
+		(pin "10"
+			(uuid "b69cbb33-7000-41f9-b4de-3598d5a3d59f")
+		)
+		(pin "2"
+			(uuid "2decac97-8b63-478d-9e02-d25731626ef0")
+		)
+		(pin "4"
+			(uuid "e2ca5052-1b95-45cd-b7c6-7fcc0de33a25")
+		)
+		(pin "9"
+			(uuid "ed398731-bccd-41af-8f9c-6412d49be9ff")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -12235,6 +12084,12 @@
 			(uuid "beb98e4e-49c7-46f9-9a52-9cc445765fae")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR037")
@@ -12306,6 +12161,12 @@
 			(uuid "5e39deba-2cd4-4160-ad91-934a6b8d7be7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP17")
@@ -12377,6 +12238,12 @@
 			(uuid "fa61e8dd-ecf9-4ccd-8dce-9640072b40f3")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP18")
@@ -12443,6 +12310,12 @@
 			(uuid "82d91171-97e9-4c35-a4d7-5cafe8412ffd")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR046")
@@ -12514,6 +12387,12 @@
 			(uuid "f50da935-cfd7-49cc-80cd-7c088e327773")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP14")
@@ -12584,6 +12463,12 @@
 			(uuid "537d3f67-fe62-4472-897a-940be48db25c")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R20")
@@ -12651,6 +12536,12 @@
 			(uuid "eb685243-3932-4a0f-974b-50ffb22d4aee")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR040")
@@ -12718,6 +12609,12 @@
 			(uuid "581cdb4b-19b9-43be-9abe-1ae62590c56c")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR026")
@@ -12728,25 +12625,24 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 62.23 114.3 0)
+		(at 62.23 43.18 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a21bab17-a5f6-4d99-ac9e-4ed4a546087e")
-		(property "Reference" "U2"
-			(at 62.23 124.46 0)
+		(uuid "a2fc2cd3-98c7-414c-bedb-cf570aea171f")
+		(property "Reference" "U1"
+			(at 62.23 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 62.23 121.92 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12669,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,7 +12678,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12687,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12696,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +12705,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 62.23 114.3 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,52 +12713,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "36879c1d-046f-4659-9da0-f6a050e92471")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a1f")
-		)
-		(pin "3"
-			(uuid "dc95862b-9acb-465d-8214-ca03af99f924")
-		)
 		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bbe")
-		)
-		(pin "2"
-			(uuid "3ab950b2-8101-4a52-84eb-b11798d6acfc")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2929")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe29")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4351")
+			(uuid "48f33165-8d7a-4a8c-8352-51b8f608af91")
 		)
 		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aeded")
+			(uuid "61bca98f-cb44-4c0d-bffa-270d2e955a5c")
 		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890eeb")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75ba")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f0")
+		(pin "5"
+			(uuid "e8394dfb-8d79-4ece-a2a3-04301b0362b1")
 		)
 		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e8a")
+			(uuid "2dc843ec-6db1-4d0f-83c2-48ad43e4b16f")
+		)
+		(pin "14"
+			(uuid "3564593a-feb5-48b8-95a3-dd38080a39be")
 		)
 		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df77")
+			(uuid "f012976d-f95d-4ab9-9fe9-23f07274abfa")
+		)
+		(pin "1"
+			(uuid "0ee152ea-2faf-401e-96e0-1426cd656b7f")
+		)
+		(pin "3"
+			(uuid "4824d962-16ac-4c6c-845a-823b44876fbf")
+		)
+		(pin "6"
+			(uuid "27bfdd3a-2f4d-4a6f-a08f-b3a143d98fef")
+		)
+		(pin "13"
+			(uuid "9c4750c1-629f-4c5c-92b7-a64f1d8a732f")
+		)
+		(pin "10"
+			(uuid "b69cbb33-7000-41f9-b4de-3598d5a3d5a0")
+		)
+		(pin "2"
+			(uuid "2decac97-8b63-478d-9e02-d25731626ef1")
+		)
+		(pin "4"
+			(uuid "e2ca5052-1b95-45cd-b7c6-7fcc0de33a26")
+		)
+		(pin "9"
+			(uuid "ed398731-bccd-41af-8f9c-6412d49bea00")
 		)
 		(instances
-			(project "UPP_simple"
+			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12931,9 +12827,80 @@
 			(uuid "a6578674-2fcb-48ca-b945-b866c808c0e6")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a361f0a0-2d53-4f0e-bafd-a2db2e7ea42c")
+		(property "Reference" "#PWR035"
+			(at 99.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.06 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c90a5e0f-afad-4b3e-aeac-742e1c1bab48")
+		)
+		(instances
+			(project "UPP_simple"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13001,6 +12968,12 @@
 			(uuid "2a714102-3cf4-414d-976f-b0b39ed6248f")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R42")
@@ -13068,10 +13041,157 @@
 			(uuid "cf641164-f27d-45bd-9dbc-7ffeea8b21c9")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 129.54 114.3 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4f542e5-13ac-4320-b5fc-0d2b7abf1d30")
+		(property "Reference" "U1"
+			(at 129.54 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "48f33165-8d7a-4a8c-8352-51b8f608af92")
+		)
+		(pin "8"
+			(uuid "61bca98f-cb44-4c0d-bffa-270d2e955a5d")
+		)
+		(pin "5"
+			(uuid "e8394dfb-8d79-4ece-a2a3-04301b0362b2")
+		)
+		(pin "12"
+			(uuid "2dc843ec-6db1-4d0f-83c2-48ad43e4b170")
+		)
+		(pin "14"
+			(uuid "3564593a-feb5-48b8-95a3-dd38080a39bf")
+		)
+		(pin "11"
+			(uuid "f012976d-f95d-4ab9-9fe9-23f07274abfb")
+		)
+		(pin "1"
+			(uuid "0ee152ea-2faf-401e-96e0-1426cd656b80")
+		)
+		(pin "3"
+			(uuid "4824d962-16ac-4c6c-845a-823b44876fc0")
+		)
+		(pin "6"
+			(uuid "27bfdd3a-2f4d-4a6f-a08f-b3a143d98ff0")
+		)
+		(pin "13"
+			(uuid "9c4750c1-629f-4c5c-92b7-a64f1d8a7330")
+		)
+		(pin "10"
+			(uuid "b69cbb33-7000-41f9-b4de-3598d5a3d5a1")
+		)
+		(pin "2"
+			(uuid "2decac97-8b63-478d-9e02-d25731626ef2")
+		)
+		(pin "4"
+			(uuid "e2ca5052-1b95-45cd-b7c6-7fcc0de33a27")
+		)
+		(pin "9"
+			(uuid "ed398731-bccd-41af-8f9c-6412d49bea01")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U1")
+					(unit 4)
 				)
 			)
 		)
@@ -13138,6 +13258,12 @@
 			(uuid "0b39a1bc-9b5c-4a94-bc74-d3aee0eff4ea")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R40")
@@ -13208,6 +13334,12 @@
 			(uuid "186af5db-466b-4cdf-944e-af3389433c0a")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R41")
@@ -13273,6 +13405,12 @@
 			(uuid "21d43232-1727-4602-a2e4-2d9b849d1779")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR025")
@@ -13343,6 +13481,12 @@
 			(uuid "e0428147-8350-4e7a-9ab7-87fe6b2c5404")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R23")
@@ -13413,10 +13557,157 @@
 			(uuid "19dcb713-1c2d-4d9c-9319-6671153f991a")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R46")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 62.23 114.3 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8cb82b2-8992-441c-89a9-cf5772d978cb")
+		(property "Reference" "U1"
+			(at 62.23 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "48f33165-8d7a-4a8c-8352-51b8f608af93")
+		)
+		(pin "8"
+			(uuid "61bca98f-cb44-4c0d-bffa-270d2e955a5e")
+		)
+		(pin "5"
+			(uuid "e8394dfb-8d79-4ece-a2a3-04301b0362b3")
+		)
+		(pin "12"
+			(uuid "2dc843ec-6db1-4d0f-83c2-48ad43e4b171")
+		)
+		(pin "14"
+			(uuid "3564593a-feb5-48b8-95a3-dd38080a39c0")
+		)
+		(pin "11"
+			(uuid "f012976d-f95d-4ab9-9fe9-23f07274abfc")
+		)
+		(pin "1"
+			(uuid "0ee152ea-2faf-401e-96e0-1426cd656b81")
+		)
+		(pin "3"
+			(uuid "4824d962-16ac-4c6c-845a-823b44876fc1")
+		)
+		(pin "6"
+			(uuid "27bfdd3a-2f4d-4a6f-a08f-b3a143d98ff1")
+		)
+		(pin "13"
+			(uuid "9c4750c1-629f-4c5c-92b7-a64f1d8a7331")
+		)
+		(pin "10"
+			(uuid "b69cbb33-7000-41f9-b4de-3598d5a3d5a2")
+		)
+		(pin "2"
+			(uuid "2decac97-8b63-478d-9e02-d25731626ef3")
+		)
+		(pin "4"
+			(uuid "e2ca5052-1b95-45cd-b7c6-7fcc0de33a28")
+		)
+		(pin "9"
+			(uuid "ed398731-bccd-41af-8f9c-6412d49bea02")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -13480,6 +13771,12 @@
 			(uuid "a906b818-7d47-49f4-902f-d8ba900a81b5")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR064")
@@ -13552,6 +13849,12 @@
 			(uuid "33388e45-39d9-487b-aef2-d923c642a5f9")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP5")
@@ -13622,10 +13925,157 @@
 			(uuid "4e7e960b-946c-4dd8-936b-33eb3abcbbbc")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R21")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 193.04 44.45 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaed2e5c-7d0d-43a0-9547-7265c29d1fc8")
+		(property "Reference" "U2"
+			(at 193.04 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0e7fdf58-d937-4f73-872b-1acd7e20d63b")
+		)
+		(pin "1"
+			(uuid "57d27af0-ec5f-4a41-80b0-e1b4932e64ef")
+		)
+		(pin "7"
+			(uuid "612ef55e-7bf0-4594-9932-f9f76b02594f")
+		)
+		(pin "10"
+			(uuid "c06ad5b7-4468-4aaf-9ded-cacb7d456aea")
+		)
+		(pin "3"
+			(uuid "48485211-7419-4d82-8570-5ac518a2ce77")
+		)
+		(pin "2"
+			(uuid "a0969470-2d1f-454e-aaee-f8ef779fbde4")
+		)
+		(pin "5"
+			(uuid "cf4105d3-c7a3-4622-b42f-c54e46aaf822")
+		)
+		(pin "8"
+			(uuid "b5485812-3abc-4d32-bb01-2b6545be7729")
+		)
+		(pin "4"
+			(uuid "bbd9c982-c989-4ed8-924d-4c5ac85e9c18")
+		)
+		(pin "6"
+			(uuid "5630868e-f718-4dc6-820f-106505595f14")
+		)
+		(pin "9"
+			(uuid "b8169803-1d8f-42eb-a580-e5c175f3bb95")
+		)
+		(pin "14"
+			(uuid "2072ff8d-7816-402a-81e0-eefc370a6c0c")
+		)
+		(pin "12"
+			(uuid "2c10e640-84d5-4a33-9958-b097ed3483e8")
+		)
+		(pin "11"
+			(uuid "184cc677-6d46-40bc-97d7-7a2c40ec6ef4")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -13689,6 +14139,12 @@
 			(uuid "fffd7095-1b3d-4060-a106-6a3df431deae")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR065")
@@ -13763,6 +14219,12 @@
 			(uuid "020e75ab-1134-44e5-81b0-9a388364d50d")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J8")
@@ -13829,6 +14291,12 @@
 			(uuid "181c9d47-3db4-4c95-846f-36a848029014")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR050")
@@ -13900,6 +14368,12 @@
 			(uuid "35814c7b-3884-45a3-8ffe-4559927eacba")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP20")
@@ -13967,6 +14441,12 @@
 			(uuid "ca88d26f-3f5d-4cb6-b2cf-9ce066545d11")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR039")
@@ -14034,152 +14514,16 @@
 			(uuid "a8007b1a-3276-44fd-a0aa-344e0e20e81c")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR045")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 193.04 118.11 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b24e9bc4-d72f-44c6-b0b7-dbaf8ca9d418")
-		(property "Reference" "U2"
-			(at 193.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 193.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 193.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f63d")
-		)
-		(pin "5"
-			(uuid "fcac0e02-7d4c-47aa-8a4e-b36222a5d8fc")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2e")
-		)
-		(pin "7"
-			(uuid "aafad2a5-03f3-4373-82ee-b4289e1880d7")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a21")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2933")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe33")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d435b")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf7")
-		)
-		(pin "6"
-			(uuid "c28b6e4a-f20f-4d4f-ab36-a780ee3aa742")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c4")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936fa")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e94")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df81")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -14247,10 +14591,159 @@
 			(uuid "3986269f-22f6-4e6a-9b63-155e27923c4b")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 96.52 177.8 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b436d825-1895-49b7-8965-aa0682d07e03")
+		(property "Reference" "U2"
+			(at 100.076 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 100.33 176.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0e7fdf58-d937-4f73-872b-1acd7e20d63c")
+		)
+		(pin "1"
+			(uuid "57d27af0-ec5f-4a41-80b0-e1b4932e64f0")
+		)
+		(pin "7"
+			(uuid "612ef55e-7bf0-4594-9932-f9f76b025950")
+		)
+		(pin "10"
+			(uuid "c06ad5b7-4468-4aaf-9ded-cacb7d456aeb")
+		)
+		(pin "3"
+			(uuid "48485211-7419-4d82-8570-5ac518a2ce78")
+		)
+		(pin "2"
+			(uuid "a0969470-2d1f-454e-aaee-f8ef779fbde5")
+		)
+		(pin "5"
+			(uuid "cf4105d3-c7a3-4622-b42f-c54e46aaf823")
+		)
+		(pin "8"
+			(uuid "b5485812-3abc-4d32-bb01-2b6545be772a")
+		)
+		(pin "4"
+			(uuid "bbd9c982-c989-4ed8-924d-4c5ac85e9c19")
+		)
+		(pin "6"
+			(uuid "5630868e-f718-4dc6-820f-106505595f15")
+		)
+		(pin "9"
+			(uuid "b8169803-1d8f-42eb-a580-e5c175f3bb96")
+		)
+		(pin "14"
+			(uuid "2072ff8d-7816-402a-81e0-eefc370a6c0d")
+		)
+		(pin "12"
+			(uuid "2c10e640-84d5-4a33-9958-b097ed3483e9")
+		)
+		(pin "11"
+			(uuid "184cc677-6d46-40bc-97d7-7a2c40ec6ef5")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U2")
+					(unit 5)
 				)
 			)
 		)
@@ -14321,6 +14814,12 @@
 			(uuid "10fbe41e-388c-487c-abab-8a6c6d961463")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J19")
@@ -14392,6 +14891,12 @@
 			(uuid "d56ce70a-502e-42ce-a96f-499f96a9a158")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP16")
@@ -14462,6 +14967,12 @@
 			(uuid "54a8590e-b7cd-4f90-9d0a-be3f643bbb93")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R5")
@@ -14532,6 +15043,12 @@
 			(uuid "7c89c884-904c-43b2-b1a3-651f68cd681e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R25")
@@ -14602,10 +15119,159 @@
 			(uuid "2ab11a6c-d6e8-45ac-9fb8-7b557e2fe2be")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R24")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 105.41 177.8 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcf934d0-51b9-4a13-bc4d-160287011e4a")
+		(property "Reference" "U3"
+			(at 108.966 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 109.22 176.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a5d6609c-8403-4e51-bf03-6f562faf0497")
+		)
+		(pin "13"
+			(uuid "5bbe265d-9a95-4271-b4ae-30ba23d7224d")
+		)
+		(pin "2"
+			(uuid "5df4d57c-b667-451e-9afb-dfdac27c68a3")
+		)
+		(pin "10"
+			(uuid "e7856ed5-d207-4b3d-8108-d2b70f897275")
+		)
+		(pin "7"
+			(uuid "78a89531-2d2b-4e53-b989-a52cef1a0a9f")
+		)
+		(pin "8"
+			(uuid "23b24cd3-6e04-43b2-b62b-6fa7199fa08d")
+		)
+		(pin "12"
+			(uuid "9b85be31-897d-4bfc-a831-2cbeb214e834")
+		)
+		(pin "3"
+			(uuid "1aa827a1-8303-42a8-94ba-b03602e8f5ad")
+		)
+		(pin "1"
+			(uuid "97f6e6d4-a114-456e-b2ac-ebd65e036649")
+		)
+		(pin "5"
+			(uuid "80c6dba9-929a-42fa-a37f-d823102aef2b")
+		)
+		(pin "11"
+			(uuid "e044216b-f001-4882-a531-9ab27ad38bdb")
+		)
+		(pin "6"
+			(uuid "e6bb4762-6aa2-41f3-bf9d-f9f376c5abcf")
+		)
+		(pin "9"
+			(uuid "51947907-f000-44bf-b69f-7cc113b77cbe")
+		)
+		(pin "14"
+			(uuid "84d4f7ea-dce9-4808-b0dc-9a203006d839")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U3")
+					(unit 5)
 				)
 			)
 		)
@@ -14672,6 +15338,12 @@
 			(uuid "96acac0f-48ab-4462-9892-5241947d0d46")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R51")
@@ -14742,6 +15414,12 @@
 			(uuid "48a31c25-a1fc-40ca-9918-12020b47239c")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R43")
@@ -14813,6 +15491,12 @@
 			(uuid "8550ecda-c353-4322-b78f-552db346fc24")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP22")
@@ -14884,6 +15568,12 @@
 			(uuid "b736978d-203e-4ff3-8840-b38dc7621432")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D8")
@@ -14951,6 +15641,12 @@
 			(uuid "b600c9a9-f6d8-4353-b09c-6a4fc6200217")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR028")
@@ -15022,6 +15718,12 @@
 			(uuid "24b6a332-4776-4ba6-a413-3b30b25f9978")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP23")
@@ -15093,10 +15795,157 @@
 			(uuid "179bae13-29d2-421d-8846-b8a9b680f0fc")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 255.27 45.72 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c65db663-67f4-451d-be44-a3414071e8cd")
+		(property "Reference" "U3"
+			(at 255.27 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a5d6609c-8403-4e51-bf03-6f562faf0498")
+		)
+		(pin "13"
+			(uuid "5bbe265d-9a95-4271-b4ae-30ba23d7224e")
+		)
+		(pin "2"
+			(uuid "5df4d57c-b667-451e-9afb-dfdac27c68a4")
+		)
+		(pin "10"
+			(uuid "e7856ed5-d207-4b3d-8108-d2b70f897276")
+		)
+		(pin "7"
+			(uuid "78a89531-2d2b-4e53-b989-a52cef1a0aa0")
+		)
+		(pin "8"
+			(uuid "23b24cd3-6e04-43b2-b62b-6fa7199fa08e")
+		)
+		(pin "12"
+			(uuid "9b85be31-897d-4bfc-a831-2cbeb214e835")
+		)
+		(pin "3"
+			(uuid "1aa827a1-8303-42a8-94ba-b03602e8f5ae")
+		)
+		(pin "1"
+			(uuid "97f6e6d4-a114-456e-b2ac-ebd65e03664a")
+		)
+		(pin "5"
+			(uuid "80c6dba9-929a-42fa-a37f-d823102aef2c")
+		)
+		(pin "11"
+			(uuid "e044216b-f001-4882-a531-9ab27ad38bdc")
+		)
+		(pin "6"
+			(uuid "e6bb4762-6aa2-41f3-bf9d-f9f376c5abd0")
+		)
+		(pin "9"
+			(uuid "51947907-f000-44bf-b69f-7cc113b77cbf")
+		)
+		(pin "14"
+			(uuid "84d4f7ea-dce9-4808-b0dc-9a203006d83a")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U3")
+					(unit 4)
 				)
 			)
 		)
@@ -15165,6 +16014,12 @@
 			(uuid "5b74d3fd-284e-4bba-bcba-29d8a051626f")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP8")
@@ -15236,6 +16091,12 @@
 			(uuid "889eee76-202f-4ba2-94ec-cb026757bc35")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D4")
@@ -15302,6 +16163,12 @@
 			(uuid "900e24dc-cfa2-4734-bf2d-0dd1a45eefc9")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR053")
@@ -15374,6 +16241,12 @@
 			(uuid "13de7fd4-d38b-4d56-af73-bf7bf3699647")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP9")
@@ -15441,6 +16314,12 @@
 			(uuid "8c0920c1-06f0-4780-927d-91ccedbfe75e")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR054")
@@ -15512,6 +16391,12 @@
 			(uuid "93c51e7d-1ca6-45c5-82d8-90deb6cfd126")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP24")
@@ -15583,9 +16468,156 @@
 			(uuid "ce3a7f5f-185e-493b-a592-6323394c36b0")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 193.04 118.11 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d657d8-7da1-42f5-864e-eef26e57bbf1")
+		(property "Reference" "U3"
+			(at 193.04 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a5d6609c-8403-4e51-bf03-6f562faf0499")
+		)
+		(pin "13"
+			(uuid "5bbe265d-9a95-4271-b4ae-30ba23d7224f")
+		)
+		(pin "2"
+			(uuid "5df4d57c-b667-451e-9afb-dfdac27c68a5")
+		)
+		(pin "10"
+			(uuid "e7856ed5-d207-4b3d-8108-d2b70f897277")
+		)
+		(pin "7"
+			(uuid "78a89531-2d2b-4e53-b989-a52cef1a0aa1")
+		)
+		(pin "8"
+			(uuid "23b24cd3-6e04-43b2-b62b-6fa7199fa08f")
+		)
+		(pin "12"
+			(uuid "9b85be31-897d-4bfc-a831-2cbeb214e836")
+		)
+		(pin "3"
+			(uuid "1aa827a1-8303-42a8-94ba-b03602e8f5af")
+		)
+		(pin "1"
+			(uuid "97f6e6d4-a114-456e-b2ac-ebd65e03664b")
+		)
+		(pin "5"
+			(uuid "80c6dba9-929a-42fa-a37f-d823102aef2d")
+		)
+		(pin "11"
+			(uuid "e044216b-f001-4882-a531-9ab27ad38bdd")
+		)
+		(pin "6"
+			(uuid "e6bb4762-6aa2-41f3-bf9d-f9f376c5abd1")
+		)
+		(pin "9"
+			(uuid "51947907-f000-44bf-b69f-7cc113b77cc0")
+		)
+		(pin "14"
+			(uuid "84d4f7ea-dce9-4808-b0dc-9a203006d83b")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15650,6 +16682,12 @@
 			(uuid "bfb26399-81cc-4c99-af5e-9e76e760fbbd")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR047")
@@ -15722,6 +16760,12 @@
 			(uuid "83cb9e78-fdd5-494b-af75-3c7a4572ada7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP12")
@@ -15789,6 +16833,12 @@
 			(uuid "43b2974f-c6a8-4b90-b6fc-b65848245d76")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR05")
@@ -15855,6 +16905,12 @@
 			(uuid "e0bdb959-8142-41c2-9bce-f8246b9074d7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR038")
@@ -15926,6 +16982,12 @@
 			(uuid "a39487fe-631d-4c5b-ba34-feaf8eda5be4")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D9")
@@ -15993,151 +17055,15 @@
 			(uuid "a0ad6256-cd74-483c-86db-cde4c248a3f6")
 		)
 		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR044")
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 129.54 114.3 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbdeaef4-6027-4ff9-a3c5-553738f94dfd")
-		(property "Reference" "U5"
-			(at 129.54 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90aa442b-f5b2-43d8-b05e-283bffb8e0ab")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a20")
-		)
-		(pin "3"
-			(uuid "bd95b95c-7d2c-44dd-8c5b-6d09c2f006c1")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bbf")
-		)
-		(pin "2"
-			(uuid "eea8b752-6058-4bab-819d-491d2a4aa3ab")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d292a")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe2a")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d4352")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedee")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890eec")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75bb")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936f1")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e8b")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df78")
-		)
-		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U5")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16201,6 +17127,12 @@
 			(uuid "6ed010ab-febc-44bd-904b-44f0194177db")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR041")
@@ -16271,6 +17203,12 @@
 			(uuid "f205dad4-2355-4202-9f70-b43ad07c6eed")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R31")
@@ -16338,6 +17276,12 @@
 			(uuid "1181740b-83bf-49b5-9599-ea8e443604a8")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR052")
@@ -16403,6 +17347,12 @@
 			(uuid "9c29f87a-1e3e-4f33-868a-3976e1aba4d7")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR06")
@@ -16474,6 +17424,12 @@
 			(uuid "dcded70e-ad8c-4e89-9d50-7b2b92cf222a")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D5")
@@ -16544,6 +17500,12 @@
 			(uuid "cba436bd-629b-4108-885d-5203176a37c0")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R38")
@@ -16615,6 +17577,12 @@
 			(uuid "c8e69034-f920-47eb-bc12-70eddfb5ad40")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D7")
@@ -16687,6 +17655,12 @@
 			(uuid "af4e39e6-bccb-459e-8ff5-c3d1a02f54a3")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP6")
@@ -16758,6 +17732,12 @@
 			(uuid "a7c585c9-3703-49ec-a7fc-80579e5cd879")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D1")
@@ -16825,6 +17805,12 @@
 			(uuid "3bd56031-787b-48c1-9b7e-30b014c0eaaa")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR014")
@@ -16899,6 +17885,12 @@
 			(uuid "d433f5cf-5b85-49fb-80c1-6b02bc7d2941")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J9")
@@ -16970,152 +17962,16 @@
 			(uuid "6ab2c9de-9ce5-4457-9075-158e72944c21")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP15")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 193.04 44.45 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edbda1b6-9460-43e2-a80d-89eef21a6d0c")
-		(property "Reference" "U8"
-			(at 193.04 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Opamp_Quad"
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad operational amplifier"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a596ded5-47c5-4433-af50-ef643988f63e")
-		)
-		(pin "5"
-			(uuid "03a96e38-d9ba-407d-a2a4-ee16c14c8a21")
-		)
-		(pin "3"
-			(uuid "a14ae935-e28c-4125-a44b-cc8e8bd4aa2f")
-		)
-		(pin "7"
-			(uuid "e214c137-6ec1-4612-a35f-002b2e963bc0")
-		)
-		(pin "2"
-			(uuid "9e57d070-8f21-48ba-b43e-8d0f29ab0a22")
-		)
-		(pin "14"
-			(uuid "ceed87d0-57f8-48de-9bd7-26c29d7d2934")
-		)
-		(pin "4"
-			(uuid "4b4f4bb7-bb12-439a-8f6c-be955b4ffe34")
-		)
-		(pin "10"
-			(uuid "2f8413b2-9739-4119-b0eb-83619b1d435c")
-		)
-		(pin "8"
-			(uuid "e4d0ccf4-2327-41ea-96e8-3ddbee5aedf8")
-		)
-		(pin "6"
-			(uuid "f2b97639-2ff9-48a4-ac65-be44cb890eed")
-		)
-		(pin "9"
-			(uuid "60fd6bed-5c8e-461a-a3de-3a45e72a75c5")
-		)
-		(pin "13"
-			(uuid "88c2f7f2-cd4b-4f8d-96ed-bd2c2e3936fb")
-		)
-		(pin "12"
-			(uuid "b98ed138-de12-4085-84c8-dfdee6b66e95")
-		)
-		(pin "11"
-			(uuid "dac10e84-d7b6-4f51-bd07-bbe00bd4df82")
-		)
-		(instances
-			(project "upp_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U8")
-					(unit 2)
 				)
 			)
 		)
@@ -17177,6 +18033,12 @@
 			(uuid "9388269b-e254-48dd-8ca0-aa759ec0f777")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR030")
@@ -17247,6 +18109,12 @@
 			(uuid "178e6fb3-5ad8-4e42-b097-51ce69106aeb")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R27")
@@ -17317,6 +18185,12 @@
 			(uuid "2bf43ba0-b76a-4e8c-842c-513eded6d9b1")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R47")
@@ -17388,6 +18262,12 @@
 			(uuid "79bfdf3d-03d6-46e6-a332-76b448e21bc0")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D6")
@@ -17455,6 +18335,12 @@
 			(uuid "42ce7b46-26b6-42d7-a58d-19c78aaa55f4")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR018")
@@ -17526,6 +18412,12 @@
 			(uuid "88fb5976-7a40-4c29-8b6b-6e41a54ac6f0")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "D2")
@@ -17593,10 +18485,157 @@
 			(uuid "497989d1-e3f8-426f-bb32-b91c24e3ceca")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR027")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 193.04 81.28 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f59b6ab7-fee4-4125-9952-46b4dbf218e8")
+		(property "Reference" "U2"
+			(at 193.04 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0e7fdf58-d937-4f73-872b-1acd7e20d63d")
+		)
+		(pin "1"
+			(uuid "57d27af0-ec5f-4a41-80b0-e1b4932e64f1")
+		)
+		(pin "7"
+			(uuid "612ef55e-7bf0-4594-9932-f9f76b025951")
+		)
+		(pin "10"
+			(uuid "c06ad5b7-4468-4aaf-9ded-cacb7d456aec")
+		)
+		(pin "3"
+			(uuid "48485211-7419-4d82-8570-5ac518a2ce79")
+		)
+		(pin "2"
+			(uuid "a0969470-2d1f-454e-aaee-f8ef779fbde6")
+		)
+		(pin "5"
+			(uuid "cf4105d3-c7a3-4622-b42f-c54e46aaf824")
+		)
+		(pin "8"
+			(uuid "b5485812-3abc-4d32-bb01-2b6545be772b")
+		)
+		(pin "4"
+			(uuid "bbd9c982-c989-4ed8-924d-4c5ac85e9c1a")
+		)
+		(pin "6"
+			(uuid "5630868e-f718-4dc6-820f-106505595f16")
+		)
+		(pin "9"
+			(uuid "b8169803-1d8f-42eb-a580-e5c175f3bb97")
+		)
+		(pin "14"
+			(uuid "2072ff8d-7816-402a-81e0-eefc370a6c0e")
+		)
+		(pin "12"
+			(uuid "2c10e640-84d5-4a33-9958-b097ed3483ea")
+		)
+		(pin "11"
+			(uuid "184cc677-6d46-40bc-97d7-7a2c40ec6ef6")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)
@@ -17664,6 +18703,12 @@
 			(uuid "fe8a0e11-73c5-4a07-991a-fde249ca1b2a")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP13")
@@ -17731,6 +18776,12 @@
 			(uuid "45ceb5b8-e51b-461b-b23b-9f876113f2ed")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "upp_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR09")
@@ -17801,6 +18852,12 @@
 			(uuid "b973545d-bf23-4182-994f-87bb91bf3269")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R44")
@@ -17872,6 +18929,12 @@
 			(uuid "180b5ee4-f2c3-4657-b11f-2ee20edb9afa")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "JP21")
@@ -17939,6 +19002,12 @@
 			(uuid "74e6233c-02b2-41d2-a330-e70c6f8a1ea2")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR055")
@@ -18009,12 +19078,181 @@
 			(uuid "7870331e-b695-4992-8755-5e9639e107e2")
 		)
 		(instances
+			(project "analog_inputs"
+				(path "/0d2afb90-90da-4b4c-bb25-1a147ab0d94c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R48")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "putm_frame.kicad_wks")
+			(type worksheet)
+			(data |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
+				uXj+X6axfEzhjOzkh2p3f8SMTz8=|
+			)
+			(checksum "1B39459C842BC64857430BCFC80AD9D7")
 		)
 	)
 )

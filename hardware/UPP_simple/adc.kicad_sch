@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Universal use measuring PCB")
+		(rev "1")
 		(company "Author: Kacper Pawlak")
 	)
 	(lib_symbols
@@ -2427,7 +2428,7 @@
 			(uuid "13c15fb4-d794-4ef1-b1bc-d25334421b40")
 		)
 		(instances
-			(project "upp_simple"
+			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
 					(reference "IC1")
 					(unit 1)
