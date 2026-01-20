@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RAA2114034GP3#JA0
+D The RAA211403 is a tiny, easy-to-use, ultra-low quiescent current (IQ) buck regulators with wide input voltage range of 7V to 40V, up to 300mA output current with fixed 3.3V output.The device offers comprehensive protections, including VIN UVLO, VOUT OVP, overcurrent, and over-temperature protections.The device comes in a TSOT23-5 package.
+K
+F https://www.renesas.com/us/en/products/power-power-management/dc-dc-converters/step-down-buck/buck-regulators-integrated-fets/raa211403-40v-300ma-ultra-low-quiescent-current-step-down-regulator-33v-fixed-output
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,6956 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0da44b93-7a7f-4f8d-901a-06680d7d49cd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2604-1104_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2604-1104"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "26041104"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+				(at 0 18.415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wago"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2604-1104"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "2604-1104"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2604-1104_1_1_1"
+				(rectangle
+					(start -2.54 7.62)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 15.875 15.875)
+		(end 148.59 86.36)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e638cfb-3b3c-4773-bed9-bf828224d3d4)
+	)
+	(rectangle
+		(start 15.875 90.17)
+		(end 148.59 160.655)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 93a4c052-6e7a-49a1-b0b3-4b71c7e7258d)
+	)
+	(rectangle
+		(start 152.4 15.875)
+		(end 189.865 57.785)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de3d8561-9048-4cfd-ae12-f20949ba4bb9)
+	)
+	(text "POWER / CAN"
+		(exclude_from_sim no)
+		(at 153.035 19.05 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 1.016)
+				(bold yes)
+				(color 160 160 160 1)
+			)
+			(justify left)
+		)
+		(uuid "75b13a13-9694-45bd-b53f-6e456e2e2e6a")
+	)
+	(text "5V CHN"
+		(exclude_from_sim no)
+		(at 16.51 93.345 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 1.016)
+				(bold yes)
+				(color 160 160 160 1)
+			)
+			(justify left)
+		)
+		(uuid "a092d82b-a4f7-4a52-a373-4b33862d8ab6")
+	)
+	(text "12V CHN"
+		(exclude_from_sim no)
+		(at 16.51 19.05 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 1.016)
+				(bold yes)
+				(color 160 160 160 1)
+			)
+			(justify left)
+		)
+		(uuid "a842f1e7-5d5d-423b-8d5c-b0ec3e408ba3")
+	)
+	(wire
+		(pts
+			(xy 121.285 28.575) (xy 121.285 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e25b1ca-7e85-4c55-bd99-74b467f900b3")
+	)
+	(wire
+		(pts
+			(xy 24.765 31.115) (xy 27.305 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6eb677-a200-4648-b6ed-9844c910d1f2")
+	)
+	(wire
+		(pts
+			(xy 164.465 41.275) (xy 165.735 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1232357b-a134-4532-a35e-59d287256c88")
+	)
+	(wire
+		(pts
+			(xy 89.535 109.22) (xy 90.805 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124de556-af9e-460a-8167-cc9668d32886")
+	)
+	(wire
+		(pts
+			(xy 24.765 42.545) (xy 27.305 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180d6e32-8162-44e7-962d-5f50314db1e0")
+	)
+	(wire
+		(pts
+			(xy 122.555 34.925) (xy 123.825 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ac6a51-a26a-4e2e-aa6a-4aa524c72b35")
+	)
+	(wire
+		(pts
+			(xy 25.4 144.145) (xy 26.67 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f2eb37-c70b-4f1f-a876-57e8043a1317")
+	)
+	(wire
+		(pts
+			(xy 24.765 59.69) (xy 24.765 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb10b95-ee17-401c-91fa-12b3f22a6c0f")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.985) (xy 55.88 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf5bb09-6e17-4ade-8a0f-c6698cbb6f29")
+	)
+	(wire
+		(pts
+			(xy 88.265 116.84) (xy 90.805 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ded0899-d916-4b3a-8890-90e87a98e0cc")
+	)
+	(wire
+		(pts
+			(xy 120.65 150.495) (xy 120.65 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f957761-7ae8-448d-bcaa-418336b8e51f")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.335) (xy 26.67 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326a7d34-3d33-49e0-b2f8-412e03b12ba9")
+	)
+	(wire
+		(pts
+			(xy 88.265 102.87) (xy 88.265 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ce5930-4c89-4f6e-a92e-1336ec4f8f26")
+	)
+	(wire
+		(pts
+			(xy 88.9 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374272f8-13ac-4cfb-a397-8ca72b52abd1")
+	)
+	(wire
+		(pts
+			(xy 121.285 59.69) (xy 121.285 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383446db-8f9b-452f-bc49-7e35437a0e89")
+	)
+	(wire
+		(pts
+			(xy 55.88 136.525) (xy 58.42 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cf2ea1-b152-4f17-900c-eeb56c6228d3")
+	)
+	(wire
+		(pts
+			(xy 24.13 119.38) (xy 24.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc1bbf3-c24f-4435-aa08-fb3e2a90aed4")
+	)
+	(wire
+		(pts
+			(xy 56.515 62.23) (xy 59.055 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6904d8-55ec-4f82-9077-a5dfaea712a0")
+	)
+	(wire
+		(pts
+			(xy 25.4 113.03) (xy 26.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f93a5e9-fe1b-4a55-98a4-12f6f6bf8a18")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.085) (xy 88.9 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42256a7f-3ce4-412e-a932-e11690c036be")
+	)
+	(wire
+		(pts
+			(xy 55.88 150.495) (xy 55.88 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d2d073-1f57-4753-a969-88ae9beb2d64")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e5dd29-c865-4f11-bdc8-54c895692b68")
+	)
+	(wire
+		(pts
+			(xy 57.15 109.22) (xy 58.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bd0ca0-abef-4110-bbe3-0ffa7ca73f22")
+	)
+	(wire
+		(pts
+			(xy 24.13 116.84) (xy 26.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475ad7b9-2814-4a67-b1c1-27bdfbe42928")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a5349c-7a7c-4164-849e-13d346b112fc")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.145) (xy 123.19 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ee5749-3b41-4062-8ee6-f915f56aae0b")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5217b8b9-bb32-4fc1-8425-80ed8941eef8")
+	)
+	(wire
+		(pts
+			(xy 24.13 133.985) (xy 24.13 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522b3974-2021-4f9c-9cae-0056a97870c1")
+	)
+	(wire
+		(pts
+			(xy 25.4 109.22) (xy 26.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548beb3f-d55a-4684-b987-fcd9d26f633f")
+	)
+	(wire
+		(pts
+			(xy 24.765 73.66) (xy 27.305 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55eae239-13f7-4ce1-8fcb-eeab9bebb5af")
+	)
+	(wire
+		(pts
+			(xy 56.515 45.085) (xy 56.515 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596dab89-7359-4058-bf25-6b780a571d01")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.115) (xy 91.44 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596fda3d-fdce-49e4-9d16-5cbcbe281a79")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7b84c7-3903-4012-8aba-1e017ebe194e")
+	)
+	(wire
+		(pts
+			(xy 57.785 38.735) (xy 59.055 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efa38d1-48ec-4bf3-8e76-f02979f9078e")
+	)
+	(wire
+		(pts
+			(xy 24.13 150.495) (xy 24.13 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602241a1-8119-459d-b757-7f1c24b2c039")
+	)
+	(wire
+		(pts
+			(xy 24.765 28.575) (xy 24.765 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643e6946-b567-4c9c-a93b-5b8f29cde71e")
+	)
+	(wire
+		(pts
+			(xy 89.535 113.03) (xy 90.805 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69811048-c4cf-49d1-bf30-d551c24c376f")
+	)
+	(wire
+		(pts
+			(xy 57.785 66.04) (xy 59.055 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c00fcb5-2269-465b-b01a-1222b11c175f")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2b5c45-4203-4837-8f1c-75a6b665923d")
+	)
+	(wire
+		(pts
+			(xy 24.765 76.2) (xy 24.765 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718530ab-3d2f-49ba-b265-622c0ecc4626")
+	)
+	(wire
+		(pts
+			(xy 24.13 136.525) (xy 26.67 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7253d536-7e0c-4a5c-9879-d6efe9c4c4b7")
+	)
+	(wire
+		(pts
+			(xy 26.035 34.925) (xy 27.305 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732a1854-8ce8-4003-af29-f2986ce6b52b")
+	)
+	(wire
+		(pts
+			(xy 24.765 45.085) (xy 24.765 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7491ffdb-3ba5-4da6-ba4b-e2ba560c91c5")
+	)
+	(wire
+		(pts
+			(xy 56.515 42.545) (xy 59.055 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7498c982-f913-4874-873f-a8fcc27b8443")
+	)
+	(wire
+		(pts
+			(xy 88.9 28.575) (xy 88.9 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db4f50-3bba-4841-bd76-a6c92de8f9f7")
+	)
+	(wire
+		(pts
+			(xy 88.265 136.525) (xy 90.805 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e09a43-e018-45b5-be8b-c48bd47c03b5")
+	)
+	(wire
+		(pts
+			(xy 57.785 34.925) (xy 59.055 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782babe7-a226-463c-86fd-7921ea000c98")
+	)
+	(wire
+		(pts
+			(xy 121.285 76.2) (xy 121.285 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdd79b3-ed7a-4e7d-9bfd-db28e5955bb6")
+	)
+	(wire
+		(pts
+			(xy 56.515 28.575) (xy 56.515 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c60f165-acc2-4c59-a040-a3050ae43fd4")
+	)
+	(wire
+		(pts
+			(xy 121.285 42.545) (xy 123.825 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffadd6b-7959-47e0-8ac8-6b00d26a8b95")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 58.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80272cd3-28d7-4b3d-bfa5-5170d21c1380")
+	)
+	(wire
+		(pts
+			(xy 24.13 102.87) (xy 24.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cc2b24-f643-400d-a9cc-c99b7bdf9175")
+	)
+	(wire
+		(pts
+			(xy 90.17 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8963d738-9ce2-4474-9b27-a8415d6dfdab")
+	)
+	(wire
+		(pts
+			(xy 88.265 119.38) (xy 88.265 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c779a0-3581-477e-ad41-6404bddd3687")
+	)
+	(wire
+		(pts
+			(xy 88.265 147.955) (xy 90.805 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad255cb-ea86-40e4-89fe-99063e88b4f4")
+	)
+	(wire
+		(pts
+			(xy 164.465 37.465) (xy 165.735 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae835a3-91af-4052-8b69-ccae5e901aa3")
+	)
+	(wire
+		(pts
+			(xy 88.9 42.545) (xy 91.44 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ac5a1-9820-402f-82ee-2ff1a5c6bb87")
+	)
+	(wire
+		(pts
+			(xy 24.765 62.23) (xy 27.305 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c631dc9-5cfc-4ebe-a9d8-84f7e6d24179")
+	)
+	(wire
+		(pts
+			(xy 56.515 73.66) (xy 59.055 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3b9ea6-bc2d-422c-80b6-6ec538102c88")
+	)
+	(wire
+		(pts
+			(xy 26.035 38.735) (xy 27.305 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f873a54-9865-49d0-8937-74db24e45e4e")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbb1aaf-d2a4-4096-8ac0-dc5401d26c0c")
+	)
+	(wire
+		(pts
+			(xy 163.195 47.625) (xy 163.195 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900b096e-7858-42fe-b24c-2a2c98006523")
+	)
+	(wire
+		(pts
+			(xy 88.265 105.41) (xy 90.805 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c8a7be-3fd9-4f10-8f76-65f59b535ca6")
+	)
+	(wire
+		(pts
+			(xy 55.88 147.955) (xy 58.42 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924827ed-e06d-4b34-b61e-c50f34232cec")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e127ec-8f19-42d3-8222-cddae7613d22")
+	)
+	(wire
+		(pts
+			(xy 122.555 38.735) (xy 123.825 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9537516c-0a86-4c17-94a0-f63ad3ec0d7f")
+	)
+	(wire
+		(pts
+			(xy 121.285 62.23) (xy 123.825 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aed472-4e33-4dfd-830d-f228e8a0e3a9")
+	)
+	(wire
+		(pts
+			(xy 163.195 45.085) (xy 165.735 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc82ddc-3335-4c24-b89f-ce84863d4556")
+	)
+	(wire
+		(pts
+			(xy 121.285 45.085) (xy 121.285 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d21ae61-546c-4709-9066-fff45fa48891")
+	)
+	(wire
+		(pts
+			(xy 89.535 144.145) (xy 90.805 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d319c33-5201-48bb-9e07-4ac6fe4e28cf")
+	)
+	(wire
+		(pts
+			(xy 57.15 140.335) (xy 58.42 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6b907f-7b67-42b8-9258-3f1e025705e1")
+	)
+	(wire
+		(pts
+			(xy 90.17 34.925) (xy 91.44 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30100a2-929c-4c15-a6ff-6327d7de4c80")
+	)
+	(wire
+		(pts
+			(xy 120.65 136.525) (xy 123.19 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6b1880-1d07-434d-b90b-08a9b7660ac4")
+	)
+	(wire
+		(pts
+			(xy 88.265 150.495) (xy 88.265 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "accbf881-4879-4d6d-b911-d5347c170757")
+	)
+	(wire
+		(pts
+			(xy 163.195 31.115) (xy 163.195 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "accc19e2-77ad-4182-8bb2-cda482136d20")
+	)
+	(wire
+		(pts
+			(xy 24.13 105.41) (xy 26.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbdc278-ecc2-4dce-b2bc-1a853a36c6aa")
+	)
+	(wire
+		(pts
+			(xy 163.195 33.655) (xy 165.735 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae149f5e-f341-4e89-ad2b-bf3cd7fdadb5")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9cf0ac-bf46-4137-b219-7df6af485098")
+	)
+	(wire
+		(pts
+			(xy 24.13 147.955) (xy 26.67 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0aea18b-a08d-4d1d-80c5-499c798a00df")
+	)
+	(wire
+		(pts
+			(xy 89.535 140.335) (xy 90.805 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f9b776-b199-434d-b2e2-b7b867def440")
+	)
+	(wire
+		(pts
+			(xy 26.035 66.04) (xy 27.305 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d80ca6-488a-44e7-9cef-cd957ffb4366")
+	)
+	(wire
+		(pts
+			(xy 120.65 147.955) (xy 123.19 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc49f1ff-a849-4c24-9410-67074551f2e5")
+	)
+	(wire
+		(pts
+			(xy 55.88 102.87) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde276aa-cb96-4b82-bf40-5394b623419c")
+	)
+	(wire
+		(pts
+			(xy 122.555 66.04) (xy 123.825 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cdb575-9249-4a95-a3f1-8a269c8704a5")
+	)
+	(wire
+		(pts
+			(xy 56.515 59.69) (xy 56.515 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34d7cec-e7a8-4295-a9df-7748d433f371")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73582ce-547d-411c-ae1a-bfa79fc84250")
+	)
+	(wire
+		(pts
+			(xy 26.035 69.85) (xy 27.305 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1be2fce-c782-4013-936c-7f58b3435cf5")
+	)
+	(wire
+		(pts
+			(xy 56.515 76.2) (xy 56.515 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4201bd3-c8c3-4493-ae19-25cf60ebf731")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54c8893-afb3-446f-8d5b-18972ad3730f")
+	)
+	(wire
+		(pts
+			(xy 120.65 133.985) (xy 120.65 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d717a2-56a7-4339-9158-9950d7f3d09e")
+	)
+	(wire
+		(pts
+			(xy 56.515 31.115) (xy 59.055 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d71a46-23fa-4a44-b0aa-937f88857358")
+	)
+	(wire
+		(pts
+			(xy 88.265 133.985) (xy 88.265 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8595e40-1a27-4e34-acac-e3ec4eb0dfe7")
+	)
+	(wire
+		(pts
+			(xy 121.285 31.115) (xy 123.825 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da58ecf5-2ffe-43c4-aeae-d8a7248b0009")
+	)
+	(wire
+		(pts
+			(xy 57.785 69.85) (xy 59.055 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0196ec-afa6-4bd3-aeb7-c39003379041")
+	)
+	(wire
+		(pts
+			(xy 121.92 140.335) (xy 123.19 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ee56b1-6f62-4e2c-8fae-dfb479d08cbb")
+	)
+	(wire
+		(pts
+			(xy 57.15 113.03) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ba8edd-b177-48f3-990d-c8ccc241dce8")
+	)
+	(wire
+		(pts
+			(xy 121.285 73.66) (xy 123.825 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83b5cb6-d137-497f-ba13-c3b5539d5911")
+	)
+	(wire
+		(pts
+			(xy 120.65 119.38) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bd672c-ee3c-44a2-92ef-1f7bdd91a7a4")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.735) (xy 91.44 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d251d5-9090-42e1-91f9-a64a459e943a")
+	)
+	(wire
+		(pts
+			(xy 120.65 116.84) (xy 123.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3fe7933-1f4a-42d7-82d0-1f51b23f17bb")
+	)
+	(wire
+		(pts
+			(xy 57.15 144.145) (xy 58.42 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c84622-4fba-4e20-9458-f07457cf2716")
+	)
+	(wire
+		(pts
+			(xy 122.555 69.85) (xy 123.825 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d45c6f-c8cb-4925-9861-ea6f456420d7")
+	)
+	(hierarchical_label "A16P"
+		(shape output)
+		(at 121.92 140.335 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08aa3a6c-7e96-486a-a535-d27040112084")
+	)
+	(hierarchical_label "A4P"
+		(shape output)
+		(at 122.555 34.925 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11c5a49f-a5a9-45a8-8d13-b82553c808d7")
+	)
+	(hierarchical_label "A14N"
+		(shape output)
+		(at 57.15 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a4125d3-c459-4a56-8cd6-ceeb37ac51ef")
+	)
+	(hierarchical_label "A11P"
+		(shape output)
+		(at 89.535 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25dcf458-c5fc-46fe-837d-6350b8a9b455")
+	)
+	(hierarchical_label "A5P"
+		(shape output)
+		(at 26.035 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26c5d112-591f-4146-abc1-b57d46231434")
+	)
+	(hierarchical_label "A13N"
+		(shape output)
+		(at 25.4 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28adbeaf-f683-4730-8bc4-b9ac571cab81")
+	)
+	(hierarchical_label "A7N"
+		(shape output)
+		(at 90.17 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36f6a56e-a231-41ac-abdc-a328e4727b87")
+	)
+	(hierarchical_label "A7P"
+		(shape output)
+		(at 90.17 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aeec6fb-b1c3-43ae-990e-d29453028584")
+	)
+	(hierarchical_label "A6P"
+		(shape output)
+		(at 57.785 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "461b7310-9b0b-4e17-bf90-ae40e47d0941")
+	)
+	(hierarchical_label "A8P"
+		(shape output)
+		(at 122.555 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b6aef91-223c-42b9-b065-7f240b9a4c83")
+	)
+	(hierarchical_label "A1P"
+		(shape output)
+		(at 26.035 34.925 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55c875b1-2152-4b4c-a2e2-ce0048886b25")
+	)
+	(hierarchical_label "A3N"
+		(shape output)
+		(at 90.17 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "705a996a-f8c5-447f-a12b-1e6b22c65ad8")
+	)
+	(hierarchical_label "A2P"
+		(shape output)
+		(at 57.785 34.925 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71c32912-c749-4013-8776-8947d3fe60f8")
+	)
+	(hierarchical_label "A12N"
+		(shape output)
+		(at 121.92 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "767f1160-276f-4b02-a6f4-2a23be04dc7f")
+	)
+	(hierarchical_label "A11N"
+		(shape output)
+		(at 89.535 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78911cb4-4a20-45c0-9b88-4944b16932de")
+	)
+	(hierarchical_label "A15N"
+		(shape output)
+		(at 89.535 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a7e554d-dd51-4281-bcea-a2ded75c4b50")
+	)
+	(hierarchical_label "A14P"
+		(shape output)
+		(at 57.15 140.335 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7df3f467-2d74-40d4-a749-eaa46e6dc600")
+	)
+	(hierarchical_label "CANH"
+		(shape input)
+		(at 164.465 37.465 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83e7560f-f130-4ca1-a18b-6520fc3f7872")
+	)
+	(hierarchical_label "CANL"
+		(shape input)
+		(at 164.465 41.275 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83e7560f-f130-4ca1-a18b-6520fc3f7873")
+	)
+	(hierarchical_label "A15P"
+		(shape output)
+		(at 89.535 140.335 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98f136bd-d17a-4064-b771-b371e0ec2f7a")
+	)
+	(hierarchical_label "A12P"
+		(shape output)
+		(at 121.92 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9eea09f1-d1e7-4616-bd12-723a64e92c97")
+	)
+	(hierarchical_label "A1N"
+		(shape output)
+		(at 26.035 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abb90c97-0dcc-440a-b0a9-dc1f005b8ed7")
+	)
+	(hierarchical_label "A9P"
+		(shape output)
+		(at 25.4 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b117439e-1637-47b8-8cc6-fdf51d52d7f4")
+	)
+	(hierarchical_label "A9N"
+		(shape output)
+		(at 25.4 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b221b249-a255-46b2-9412-b6704c540ea6")
+	)
+	(hierarchical_label "A5N"
+		(shape output)
+		(at 26.035 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b92780a1-7f50-4e11-9cb5-fad3c1398352")
+	)
+	(hierarchical_label "A16N"
+		(shape output)
+		(at 121.92 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c139d864-b468-49eb-a55c-20ab5d844325")
+	)
+	(hierarchical_label "A13P"
+		(shape output)
+		(at 25.4 140.335 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1cb9689-719e-40ac-82da-eb61ff124c16")
+	)
+	(hierarchical_label "A3P"
+		(shape output)
+		(at 90.17 34.925 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5e1a49e-879e-4e0b-a0b6-44e357371d8e")
+	)
+	(hierarchical_label "A10N"
+		(shape output)
+		(at 57.15 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6bcbc69-a318-4db1-b4a3-fb2c6ef977ee")
+	)
+	(hierarchical_label "A10P"
+		(shape output)
+		(at 57.15 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8f21d93-7b54-4f95-9e3c-633f6bd32e70")
+	)
+	(hierarchical_label "A8N"
+		(shape output)
+		(at 122.555 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5663b9f-cb67-41c4-83ac-882e1fdf5ccc")
+	)
+	(hierarchical_label "A2N"
+		(shape output)
+		(at 57.785 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5f105c4-87c5-4f99-9582-8013019f4c7b")
+	)
+	(hierarchical_label "A6N"
+		(shape output)
+		(at 57.785 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f65b854e-e2ec-49fc-bf81-013f302d02db")
+	)
+	(hierarchical_label "A4N"
+		(shape output)
+		(at 122.555 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffddb5b7-8382-4f13-8bdb-a6a79de58c96")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f89397-596d-479c-8b1d-406adc544957")
+		(property "Reference" "#PWR042"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a97fd1ae-87e6-402c-ada1-ee5fffcf93f7")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 28.575 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "044e532e-2738-46d9-909c-337b6afb244a")
+		(property "Reference" "#PWR033"
+			(at 88.9 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 88.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7cfc2ba-261c-431b-b869-0efb94c0bc28")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 56.515 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d083251-d64e-4c7f-9bc2-ca8ba08c449e")
+		(property "Reference" "#PWR039"
+			(at 56.515 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 56.515 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 56.515 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08fb7a7e-890a-4a46-8305-9a7ad51734f1")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 55.88 133.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e40914c-e911-4019-9d23-a8c5e0aaeacb")
+		(property "Reference" "#PWR055"
+			(at 55.88 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 55.88 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "369dfc68-7a93-4ed8-bcb5-f72d2acb709c")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d3a594-d491-4ee3-bc1c-53cf501d9bd4")
+		(property "Reference" "#PWR041"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 88.9 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b67c94a0-a5ca-4479-a344-50ff4c93cb6d")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 56.515 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21cecf28-edba-4167-aea2-e0edf269ea4e")
+		(property "Reference" "#PWR032"
+			(at 56.515 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.515 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 56.515 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "252b89c0-bada-468b-b5a3-7e79add4f7dc")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c99d8a-7102-4da9-96c9-fa516094c109")
+		(property "Reference" "#PWR034"
+			(at 88.9 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f19fcd16-0362-47e9-8270-2d355cadce52")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 56.515 28.575 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d8fee4-e969-4af3-a2b0-5c142d318792")
+		(property "Reference" "#PWR031"
+			(at 56.515 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 56.515 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 56.515 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b19e48-f68f-479a-9404-b54d05872051")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.265 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "330a8e6b-2707-48fc-9f09-8daccdc0fd64")
+		(property "Reference" "#PWR054"
+			(at 88.265 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.265 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.265 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a591546-ce32-413c-9ea1-d1e8487002fc")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 31.75 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca78911-cfd5-487f-927a-2528f1fce396")
+		(property "Reference" "J10"
+			(at 35.56 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 35.56 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 53.34 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 53.34 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 31.75 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 53.34 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 53.34 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 53.34 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 53.34 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 53.34 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 53.34 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 53.34 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f2a2e5-b0bc-45bb-8d36-ceb19b9df6fc")
+		)
+		(pin "5"
+			(uuid "1c519755-d9c9-4d5f-9a5a-1ea70263aea9")
+		)
+		(pin "7"
+			(uuid "60a47c9b-4066-4c7d-a130-ced4b758be98")
+		)
+		(pin "8"
+			(uuid "e0444a99-9a34-4db1-b95b-0ecc857176a2")
+		)
+		(pin "3"
+			(uuid "584676b2-0788-414a-a9af-a5bec4be2fc6")
+		)
+		(pin "6"
+			(uuid "0fbf5ba2-23c1-4a49-a323-bf4b869c66db")
+		)
+		(pin "2"
+			(uuid "dd0a1e14-b3b0-43f6-b3d8-f0a91226c359")
+		)
+		(pin "4"
+			(uuid "2b5faef8-d9b2-4aa9-8a13-d2cfb1156f98")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.265 150.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41b437eb-485c-42d9-9d4f-d39f9e00543b")
+		(property "Reference" "#PWR056"
+			(at 88.265 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.265 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.265 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f215bb-d500-45f7-83b2-5640fc7154b3")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 150.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42725954-e35d-4c2a-b61e-7a36dc5a99c8")
+		(property "Reference" "#PWR060"
+			(at 120.65 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd55200-fefb-42a3-8666-6b6e7bef50ae")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42803bc5-31e1-4bc6-b1db-e421e70e1688")
+		(property "Reference" "#PWR050"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a106eb-f8cc-4179-a739-18df47021095")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 121.285 28.575 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42b6a7b4-5c6f-4f7b-96e1-6e3b1e68b003")
+		(property "Reference" "#PWR035"
+			(at 121.285 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 121.285 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.285 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9deb09a7-8af0-4320-aac6-0d231ac4386f")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 96.52 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43f57fbc-7f7b-44e8-bdc4-25806c865948")
+		(property "Reference" "J4"
+			(at 100.33 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 100.33 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 118.11 131.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 118.11 231.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 96.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 431.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 118.11 531.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 118.11 631.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 731.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 831.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 118.11 931.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 118.11 1031.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0bbf04-f405-4967-9836-b6c327c39e8f")
+		)
+		(pin "5"
+			(uuid "79893ce7-099e-4110-9979-f1c19797a868")
+		)
+		(pin "7"
+			(uuid "4fe0623a-b7b6-4e7b-bc14-d3d2cbeae512")
+		)
+		(pin "8"
+			(uuid "9c1df7a9-4751-4292-a9d7-016512f98f3b")
+		)
+		(pin "3"
+			(uuid "6bac69ca-a28b-4692-ab2c-06e7ecdf2d53")
+		)
+		(pin "6"
+			(uuid "6d43acb3-f1b7-4fcf-bfcf-cffda604af65")
+		)
+		(pin "2"
+			(uuid "4c4ad49d-1635-4315-aea6-9221a7e11527")
+		)
+		(pin "4"
+			(uuid "772a5945-ee81-4ddd-a332-f7c93a69ca17")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.265 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "447b9766-497e-4ba3-a116-766c1a7024df")
+		(property "Reference" "#PWR049"
+			(at 88.265 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 88.265 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.265 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9771d4e-a344-455b-8a75-f45620bb962a")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 63.5 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c5a23c9-ab42-4e8a-a590-ca7f4694c563")
+		(property "Reference" "J12"
+			(at 67.31 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 67.31 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 85.09 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 85.09 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 63.5 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 85.09 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 85.09 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 85.09 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.09 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.09 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 85.09 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 85.09 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7427c8fa-7735-49db-978f-cc2c230047c4")
+		)
+		(pin "5"
+			(uuid "7f7527be-469d-4f60-a11c-3d4a9c385cc7")
+		)
+		(pin "7"
+			(uuid "d9e0d42d-cb88-44bf-9b3c-3e025be5aa29")
+		)
+		(pin "8"
+			(uuid "688243f3-52fe-4c95-b9d8-1bbdecc1dbd0")
+		)
+		(pin "3"
+			(uuid "3f7bf41b-19d0-47db-9f1b-be4eeb8fa913")
+		)
+		(pin "6"
+			(uuid "24d933f4-8e56-49b7-80b0-9c604999502b")
+		)
+		(pin "2"
+			(uuid "4ff33d53-03dc-4752-a6d8-498c9e136424")
+		)
+		(pin "4"
+			(uuid "95841911-b24f-4a7b-981c-1fe1b3bf1721")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 95.885 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7bd0c8-ee70-461a-8f0c-4007ac8df4f7")
+		(property "Reference" "J14"
+			(at 99.695 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 99.695 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 117.475 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 117.475 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 117.475 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 117.475 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 117.475 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 117.475 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 117.475 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 117.475 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 117.475 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824a4760-4049-40ab-8f3d-ee3afe43f705")
+		)
+		(pin "5"
+			(uuid "f1b7d6af-65d3-4dc0-8132-0ec35cead31d")
+		)
+		(pin "7"
+			(uuid "b580efbd-3a34-4a51-9fff-91c4447d9911")
+		)
+		(pin "8"
+			(uuid "23752acb-2690-4b2d-9b92-06d6df273dc2")
+		)
+		(pin "3"
+			(uuid "481e519a-f865-4576-9936-f797e1cdebd5")
+		)
+		(pin "6"
+			(uuid "3e107d1e-0df0-479b-afed-7c76f0b422c4")
+		)
+		(pin "2"
+			(uuid "fa240ef9-569a-4885-9421-92c6570089ab")
+		)
+		(pin "4"
+			(uuid "62a881f9-437f-474b-a665-dcc795a49529")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dad6f7e-649f-4b92-8c1c-108082a4313a")
+		(property "Reference" "#PWR051"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54150536-793b-4683-95a8-d8bbbbe6493f")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 56.515 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e4dbb99-7ca7-4cd0-8e2b-f2377a028bec")
+		(property "Reference" "#PWR040"
+			(at 56.515 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.515 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 56.515 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8afdcefd-c86a-46e4-8c8c-ac80179b2b34")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 128.27 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a92152a-6753-48ff-b0d6-a8d770852272")
+		(property "Reference" "J16"
+			(at 132.08 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 132.08 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 149.86 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 149.86 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 128.27 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 149.86 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 149.86 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 149.86 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 149.86 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 149.86 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc618f9-60c3-45ff-a337-c6e3d8c27577")
+		)
+		(pin "5"
+			(uuid "19f31cdf-5abb-4a70-9cd8-074cb875ef0a")
+		)
+		(pin "7"
+			(uuid "85075bca-027f-4470-b06e-1159b2ceb67f")
+		)
+		(pin "8"
+			(uuid "1cbd2b67-49dc-45db-95a3-9a3e658f9b5d")
+		)
+		(pin "3"
+			(uuid "f0882408-95a4-4098-ab68-e7225286d010")
+		)
+		(pin "6"
+			(uuid "834967d9-209d-4519-a3a1-2d861822f8b1")
+		)
+		(pin "2"
+			(uuid "f8ba91bf-8c88-45a3-ab41-2044bebab33d")
+		)
+		(pin "4"
+			(uuid "ccd9cb1e-f24d-408c-9eca-36f1cd8363f1")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 150.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d95fe02-2988-43e0-a629-79afbd7cc6da")
+		(property "Reference" "#PWR048"
+			(at 24.13 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "125c8ca2-c02b-4e53-bd81-0be1ebd2284e")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 170.815 38.735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656980d9-bfe6-4b40-8390-5705524eee2d")
+		(property "Reference" "J1"
+			(at 174.625 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 174.625 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 192.405 133.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 192.405 233.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 170.815 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 192.405 433.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 192.405 533.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 192.405 633.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 192.405 733.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 192.405 833.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 192.405 933.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 192.405 1033.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06fadb7b-1435-413d-9f28-8c462e52d210")
+		)
+		(pin "5"
+			(uuid "86d36d3d-db8f-4090-8f21-1c99b3d4a780")
+		)
+		(pin "7"
+			(uuid "75bc7d54-3f68-46d0-85e5-56c22f73a86b")
+		)
+		(pin "8"
+			(uuid "439c6b8e-e796-416f-aafa-3ef8837b1fb7")
+		)
+		(pin "3"
+			(uuid "c39afae2-4381-485a-9202-cf285445d499")
+		)
+		(pin "6"
+			(uuid "7e635616-fa61-48d1-9c4a-c2fc2b390dee")
+		)
+		(pin "2"
+			(uuid "e69d75a9-b00a-4bc0-9a33-45252318c8d8")
+		)
+		(pin "4"
+			(uuid "0c242ded-af1e-4d44-8f0e-8bbfe22ab5e7")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.765 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa6a03b-8794-46ca-bedf-2bd6a1606b58")
+		(property "Reference" "#PWR038"
+			(at 24.765 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.765 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.765 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60df651d-cfa2-4448-a451-23b19a9819bf")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.285 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d417d3f-0d0b-4db1-ae8b-7d169f8c8600")
+		(property "Reference" "#PWR036"
+			(at 121.285 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.285 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.285 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e61f95d-0f4e-42b9-9327-d337f6df2731")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.285 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc06112-8632-4196-ad28-b53f1021168b")
+		(property "Reference" "#PWR044"
+			(at 121.285 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.285 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.285 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc1406de-3e90-471f-a92d-87aa2c28f02b")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 121.285 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76ef68c8-75de-4a09-b6ad-fc20ce1c9af7")
+		(property "Reference" "#PWR043"
+			(at 121.285 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 121.285 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.285 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50c46cf9-e716-4719-ac60-67d37bdbe078")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.765 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dd90a71-5456-408a-9e6f-40ece3c7e918")
+		(property "Reference" "#PWR037"
+			(at 24.765 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 24.765 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.765 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d3b2dae-1e39-4eee-ad4d-f1b9972fc954")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 64.135 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c27f58c-3d8c-4bdf-973e-2329c226ae97")
+		(property "Reference" "J3"
+			(at 67.945 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 67.945 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 85.725 131.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 85.725 231.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 64.135 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 85.725 431.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 85.725 531.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 85.725 631.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.725 731.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.725 831.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 85.725 931.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 85.725 1031.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a2828b-b420-4fd8-b89c-7a896cb75f4a")
+		)
+		(pin "5"
+			(uuid "13a3118e-97cd-427b-bc94-1cca8bc8353f")
+		)
+		(pin "7"
+			(uuid "5d52ad4c-b07b-4461-87ff-2850ab339a46")
+		)
+		(pin "8"
+			(uuid "3424c416-0711-47ff-8540-4a3138df8a4e")
+		)
+		(pin "3"
+			(uuid "a35f6514-57ae-4d4b-a1ed-53b0ae9a11e8")
+		)
+		(pin "6"
+			(uuid "3a388d32-e8e2-4b51-b68c-9237d694f0da")
+		)
+		(pin "2"
+			(uuid "cb9e872a-1cc2-4aaa-9e83-b8da2ab11e34")
+		)
+		(pin "4"
+			(uuid "471bed02-6f9e-4e98-b7df-08aaaef1c055")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 31.75 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9135821f-643b-4d64-bdc6-1b51816e6bbb")
+		(property "Reference" "J11"
+			(at 35.56 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 35.56 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 53.34 236.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 53.34 336.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 53.34 536.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 53.34 636.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 53.34 736.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 53.34 836.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 53.34 936.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 53.34 1036.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 53.34 1136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24720313-5846-428a-aca2-35b327930761")
+		)
+		(pin "5"
+			(uuid "f9aa825c-fcf7-44d5-a00d-ee2d3427b002")
+		)
+		(pin "7"
+			(uuid "9e4e2bb8-86a9-47b8-a624-a9d9d8ab3d41")
+		)
+		(pin "8"
+			(uuid "b9e70013-14f6-4d6a-9902-9c359da58f15")
+		)
+		(pin "3"
+			(uuid "8996dbbc-8910-476e-a45c-23dfdfd71467")
+		)
+		(pin "6"
+			(uuid "a4363671-ecdd-40de-af04-85e5967c690d")
+		)
+		(pin "2"
+			(uuid "b077ff31-d34f-47cb-8220-3879133ea6b4")
+		)
+		(pin "4"
+			(uuid "bee3fb03-36f1-4322-85f2-7a96dd7aa2ad")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c035b0-51dd-4c0d-99d3-a311dcb9405c")
+		(property "Reference" "#PWR058"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce291a15-5d18-4a5a-8621-08fd393f8473")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.13 133.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9620fd9a-2900-438d-8c2b-9aae366afd4c")
+		(property "Reference" "#PWR053"
+			(at 24.13 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.13 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228dc4f4-5da9-4e1a-b58e-c705177759ca")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 133.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e8ae6bb-f609-4904-8bae-d2ec87b4662a")
+		(property "Reference" "#PWR059"
+			(at 120.65 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42c100b1-1bfe-40d0-b70c-90537458a7ea")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 96.52 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0032e7-82da-4dbd-a60b-4ce2e453dd4b")
+		(property "Reference" "J8"
+			(at 100.33 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 100.33 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 118.11 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 118.11 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 96.52 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 118.11 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 118.11 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 118.11 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 118.11 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12384922-8f70-41ac-b5cc-87fc04a6acd8")
+		)
+		(pin "5"
+			(uuid "cdd69ae2-906a-49c8-b8e8-697cc0a231aa")
+		)
+		(pin "7"
+			(uuid "628fb68e-5dc9-4d17-a66c-b48cbcbeebd1")
+		)
+		(pin "8"
+			(uuid "f7986bf7-970e-4359-b87a-56a8d37307c4")
+		)
+		(pin "3"
+			(uuid "54768455-cdf7-45bc-ba35-b2a51a27cf13")
+		)
+		(pin "6"
+			(uuid "2992f4a1-c081-4c38-b418-5b882160ba01")
+		)
+		(pin "2"
+			(uuid "32f4f22c-f3bf-4fe1-984e-878553ce8be5")
+		)
+		(pin "4"
+			(uuid "34c2a1d6-1775-4aef-a4c7-b39ed61af1ed")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 150.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a623f9fc-2eda-4319-83b2-4b127cc086ee")
+		(property "Reference" "#PWR052"
+			(at 55.88 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310cc78e-6818-4f1e-8403-663304f717da")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.765 28.575 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6f2c314-3eee-42c2-a83b-5784d9e68e8b")
+		(property "Reference" "#PWR029"
+			(at 24.765 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 24.765 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.765 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f87199-2b18-4cbc-88d0-e3efc789b365")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9464ded-2b78-4d9c-96d0-aeb7da882d00")
+		(property "Reference" "#PWR046"
+			(at 24.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5cf4acf-addd-40f9-8ccf-66db13a55913")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.195 31.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae667cb3-3f00-46d1-8cd1-8af44ca3fba5")
+		(property "Reference" "#PWR027"
+			(at 163.195 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 163.195 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.195 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.195 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a498eae-4ba7-46e8-9fc5-a91058e854d4")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 55.88 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b622916e-436c-4104-9c7f-c58bd49aa21b")
+		(property "Reference" "#PWR047"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78033e60-7f5a-4a0a-8606-35cad58e3a45")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 32.385 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65cb363-f272-4f20-9b0b-5160bd5b899b")
+		(property "Reference" "J2"
+			(at 36.195 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 36.195 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 53.975 131.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 53.975 231.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 32.385 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 53.975 431.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 53.975 531.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 53.975 631.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 53.975 731.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 53.975 831.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 53.975 931.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 53.975 1031.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13e0b4b9-698b-40fa-946e-21609ae8509a")
+		)
+		(pin "5"
+			(uuid "1a19de37-c0e8-45c6-a539-f96abaf969ca")
+		)
+		(pin "7"
+			(uuid "6277632a-4ebd-41d2-88d2-cd7f7314c30c")
+		)
+		(pin "8"
+			(uuid "1771e9d4-756a-4b50-94dd-632588f8248e")
+		)
+		(pin "3"
+			(uuid "d0026d70-7fae-4c6d-8506-6251ad3f4437")
+		)
+		(pin "6"
+			(uuid "2bfe15bd-75c6-400b-9794-a8a3e5a6726a")
+		)
+		(pin "2"
+			(uuid "cef35e01-d0a9-431f-8337-cb1140b591d0")
+		)
+		(pin "4"
+			(uuid "a88fb011-7383-433b-ae8a-ae8e0e8cb570")
+		)
+		(instances
+			(project ""
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2ecc17f-e6ab-4c29-bd51-6492ef48f52b")
+		(property "Reference" "#PWR045"
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.13 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "660205da-b8c3-40c1-92b8-652ad362e515")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 128.27 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c596a7e8-d0fa-47dc-a412-0cdee09c2ff2")
+		(property "Reference" "J17"
+			(at 132.08 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 132.08 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 149.86 236.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 149.86 336.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 149.86 536.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 149.86 636.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 149.86 736.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 836.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 936.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 149.86 1036.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 149.86 1136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25abff30-ee19-4437-b496-c6687ec24876")
+		)
+		(pin "5"
+			(uuid "33b1dcee-245c-4764-acf0-89d91be0901e")
+		)
+		(pin "7"
+			(uuid "6a7e7f72-bdc3-4fb2-949e-8483be621197")
+		)
+		(pin "8"
+			(uuid "0d79b25c-fe0f-4ba5-9389-be7cd48f3560")
+		)
+		(pin "3"
+			(uuid "c86e115b-2bc2-4979-b7c9-71540a29a6c3")
+		)
+		(pin "6"
+			(uuid "e31cac33-ee8d-4ae4-af62-9fd858d0fd4f")
+		)
+		(pin "2"
+			(uuid "0561019c-1bfb-47c0-9d79-3f3f645ee36d")
+		)
+		(pin "4"
+			(uuid "38a339d8-a75e-4f1b-b950-e95fcb179fb8")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.765 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f2f150-0853-404c-9493-ce0e17aa99c1")
+		(property "Reference" "#PWR030"
+			(at 24.765 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.765 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.765 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6463204-8237-43c1-acce-8c21131054d3")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 128.905 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb57342d-d955-43b8-8667-3d71ba6894e6")
+		(property "Reference" "J5"
+			(at 132.715 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 132.715 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 150.495 131.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 150.495 231.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 128.905 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 150.495 431.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 150.495 531.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 150.495 631.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 150.495 731.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 150.495 831.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 150.495 931.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 150.495 1031.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "577307da-4bb4-47d0-b3fc-5f8a9b45a0ea")
+		)
+		(pin "5"
+			(uuid "202cefc2-5edd-4d97-b712-e97bc6c3038b")
+		)
+		(pin "7"
+			(uuid "d4175e60-1885-44ed-ae9d-f551088cb566")
+		)
+		(pin "8"
+			(uuid "cd2405c4-7e5e-4706-8696-042e9f7f67f2")
+		)
+		(pin "3"
+			(uuid "d57ca3ee-c0b5-4963-adc7-cc829b5ba5f5")
+		)
+		(pin "6"
+			(uuid "c1fe253e-b38a-4324-9704-7d5fff345a9e")
+		)
+		(pin "2"
+			(uuid "24bbcf9f-4396-431b-8456-3627b7c9036d")
+		)
+		(pin "4"
+			(uuid "52717a03-3cc3-4870-a741-43d6d34dda49")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 32.385 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd6b962e-176e-46c6-9d04-b328a24ca4be")
+		(property "Reference" "J6"
+			(at 36.195 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 36.195 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 53.975 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 53.975 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 32.385 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 53.975 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 53.975 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 53.975 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 53.975 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 53.975 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 53.975 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 53.975 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a9bf5c0-7e75-49a1-9117-ea6daeafab4e")
+		)
+		(pin "5"
+			(uuid "7b603523-af7f-4ea3-9d6f-363fb319878c")
+		)
+		(pin "7"
+			(uuid "0597ca7a-1542-4f05-b3e2-feb39cdabad0")
+		)
+		(pin "8"
+			(uuid "e07fb6fc-95ce-4757-9a07-62780f4b3016")
+		)
+		(pin "3"
+			(uuid "46d84d49-c143-46df-b71e-f2698f197e5c")
+		)
+		(pin "6"
+			(uuid "a1531a00-1484-4f02-8b6e-ee8d2a475de5")
+		)
+		(pin "2"
+			(uuid "1b13f83c-97ee-4774-8ec9-aa1bc1672ab4")
+		)
+		(pin "4"
+			(uuid "23d13206-2848-48de-b99e-5357af97d067")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.265 133.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3f79be8-613c-428d-900e-7d2c12dcc443")
+		(property "Reference" "#PWR057"
+			(at 88.265 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 88.265 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.265 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e0d7003-3493-4499-b8f8-70e3a1f6a668")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.195 47.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d68cc351-06ea-4459-adcf-0a391bd3de6b")
+		(property "Reference" "#PWR028"
+			(at 163.195 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.195 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.195 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.195 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07fa8aee-06f8-453d-9352-ae74b5e47f54")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 63.5 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da0263e3-ae81-46ed-a35b-742ca33862f9")
+		(property "Reference" "J13"
+			(at 67.31 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 67.31 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 85.09 236.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 85.09 336.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 85.09 536.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 85.09 636.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 85.09 736.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.09 836.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.09 936.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 85.09 1036.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 85.09 1136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53838632-c7df-4303-af42-4ebe86667e7b")
+		)
+		(pin "5"
+			(uuid "6d371c0a-16a8-401e-9115-b7f750d1b3bf")
+		)
+		(pin "7"
+			(uuid "ff9f6423-9e94-4b98-b63c-eca25a360587")
+		)
+		(pin "8"
+			(uuid "184371c1-7931-49df-8333-9c25b4341b4f")
+		)
+		(pin "3"
+			(uuid "3187638d-ec0a-479b-9ae2-f1bf417a7f22")
+		)
+		(pin "6"
+			(uuid "4c087ded-2b8a-4cfa-863a-4339c42b3f24")
+		)
+		(pin "2"
+			(uuid "f5f2a3b6-8bf3-4eac-9f2d-78105c4e8a16")
+		)
+		(pin "4"
+			(uuid "dc5670da-e243-4000-9a88-214dbed182cc")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 128.905 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df6e97d2-8064-4c36-a28e-8d35cc9a8924")
+		(property "Reference" "J9"
+			(at 132.715 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 132.715 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 150.495 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 150.495 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 128.905 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 150.495 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 150.495 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 150.495 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 150.495 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 150.495 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 150.495 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 150.495 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3567c0a-5503-43fd-90af-b6efde7720d5")
+		)
+		(pin "5"
+			(uuid "a283fc40-81b3-4ba4-a707-4ef88fef6dc0")
+		)
+		(pin "7"
+			(uuid "e340e9f1-fc4c-4306-a919-ae0e34c9bcf6")
+		)
+		(pin "8"
+			(uuid "fc037e4e-410c-4574-97fd-41dcda70fef7")
+		)
+		(pin "3"
+			(uuid "01aeec10-2f3e-4a88-8fbf-de7b181c557d")
+		)
+		(pin "6"
+			(uuid "382d5b06-093e-486c-a675-5edc84df4c3e")
+		)
+		(pin "2"
+			(uuid "ada55f28-4d98-4c72-820f-395cd7ea6c91")
+		)
+		(pin "4"
+			(uuid "f94cff8b-427a-4eaf-858b-cbffc94aa4d4")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 64.135 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa54332d-ad74-48e2-a1b2-03099522b25f")
+		(property "Reference" "J7"
+			(at 67.945 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 67.945 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 85.725 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 85.725 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 64.135 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 85.725 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 85.725 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 85.725 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.725 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.725 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 85.725 962.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 85.725 1062.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e689b8a7-d26f-4774-88a5-7d1c9b8e8631")
+		)
+		(pin "5"
+			(uuid "b9da597d-6fbb-4c94-b73c-7017d0c38745")
+		)
+		(pin "7"
+			(uuid "6fb50ec1-5f61-477d-9a0c-89aea93d9b8b")
+		)
+		(pin "8"
+			(uuid "b461a7d4-1033-4980-ac5d-4ec97b6cd620")
+		)
+		(pin "3"
+			(uuid "f877a96a-973a-49ca-a5eb-a4c1e0c88459")
+		)
+		(pin "6"
+			(uuid "53b539b2-f68c-4ea4-a584-2ede89fb5173")
+		)
+		(pin "2"
+			(uuid "bbafc06f-ea12-4736-9919-00072cfde1bd")
+		)
+		(pin "4"
+			(uuid "9de9b820-2d33-4eee-a1cf-c85afe061321")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2604-1104_1")
+		(lib_id "2604-1104:2604-1104")
+		(at 95.885 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafe9406-54dc-42a6-891f-51f51ffded5a")
+		(property "Reference" "J15"
+			(at 99.695 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 99.695 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "26041104"
+			(at 117.475 236.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 117.475 336.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 95.885 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 117.475 536.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 117.475 636.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 117.475 736.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 117.475 836.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 117.475 936.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 117.475 1036.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 117.475 1136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43bc4b94-f115-4a41-bd45-26cf79f81b6b")
+		)
+		(pin "5"
+			(uuid "e80d08c0-54bc-428d-ab19-4b07810efd87")
+		)
+		(pin "7"
+			(uuid "68d20a2e-0998-4b75-a33b-40af6a6ab1bb")
+		)
+		(pin "8"
+			(uuid "ba84865f-df59-4a80-bc74-12946ac84a50")
+		)
+		(pin "3"
+			(uuid "b6150d26-96c6-4b71-a9b3-cb2536694609")
+		)
+		(pin "6"
+			(uuid "71993017-5bcc-4d09-80a2-e314658da8e0")
+		)
+		(pin "2"
+			(uuid "2f123b88-a52c-4efd-a380-5d550b863751")
+		)
+		(pin "4"
+			(uuid "b3ecbdc1-1ddf-4d10-89b9-f6bbd8e26c39")
+		)
+		(instances
+			(project "measurment_board"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

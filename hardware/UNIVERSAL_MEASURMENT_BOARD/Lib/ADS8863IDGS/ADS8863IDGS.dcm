@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8863IDGS
+D 16-Bit, 680-kSPS, Serial Interface, Micro-Power, Miniature, Differential Input SAR ADC
+K
+F http://www.ti.com/lit/gpn/ADS8863
+$ENDCMP
+#
+#End Doc Library

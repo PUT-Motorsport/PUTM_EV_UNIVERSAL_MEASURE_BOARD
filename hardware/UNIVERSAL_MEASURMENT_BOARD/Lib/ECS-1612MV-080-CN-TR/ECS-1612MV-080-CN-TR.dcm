@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-1612MV-080-CN-TR
+D Standard Clock Oscillators 8MHz CMOS 1.6-3.6V
+K
+F https://www.arrow.com/en/products/ecs-1612mv-080-cn-tr/ecs-international
+$ENDCMP
+#
+#End Doc Library

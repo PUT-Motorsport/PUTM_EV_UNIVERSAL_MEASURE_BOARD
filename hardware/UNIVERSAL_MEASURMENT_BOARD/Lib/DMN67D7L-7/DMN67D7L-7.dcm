@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN67D7L-7
+D N-Channel 60 V 210mA (Ta) 570mW (Ta) Surface Mount SOT-23-3
+K
+F https://www.diodes.com//assets/Datasheets/DMN67D7L.pdf
+$ENDCMP
+#
+#End Doc Library
