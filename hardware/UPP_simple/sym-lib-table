@@ -1,7 +1,11 @@
 (sym_lib_table
   (version 7)
   (lib (name "ADS114S08BIPBSR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADS114S08BIPBSR.kicad_sym")(options "")(descr ""))
-  (lib (name "mc78m05_to252-regulator_linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/mc78m05_to252-regulator_linear.kicad_sym")(options "")(descr ""))
   (lib (name "lm1117-5.0-regulator_linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/lm1117-5.0-regulator_linear.kicad_sym")(options "")(descr ""))
   (lib (name "ADM3057ExRW")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADM3057ExRW.kicad_sym")(options "")(descr ""))
+  (lib (name "mc78m05_to252-regulator_linear")(type "KiCad")(uri "${KIPRJMOD}/symbols/mc78m05_to252-regulator_linear.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G0C1KCT6N")(type "KiCad")(uri "${KIPRJMOD}/symbols/STM32G0C1KCT6N.kicad_sym")(options "")(descr ""))
+  (lib (name "UCD1J681MNQ1MS")(type "KiCad")(uri "${KIPRJMOD}/symbols/UCD1J681MNQ1MS.kicad_sym")(options "")(descr ""))
+  (lib (name "INA2128UA_1K")(type "KiCad")(uri "${KIPRJMOD}/symbols/INA2128UA_1K.kicad_sym")(options "")(descr ""))
+  (lib (name "TLC274AIDR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TLC274AIDR.kicad_sym")(options "")(descr ""))
 )

@@ -5,7 +5,7 @@
 	(uuid "043e188b-a26d-4534-bafb-f3ce551d8694")
 	(paper "A4")
 	(title_block
-		(title "Universal use measuring PCB")
+		(title "Universal Measurement Board")
 		(company "Author: Kacper Pawlak")
 	)
 	(lib_symbols
@@ -1743,16 +1743,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbece03-14bc-4452-879d-19b18eba17bc")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 171.45 83.82)
 		)
 		(stroke
@@ -1991,7 +1981,7 @@
 		)
 		(uuid "748c496f-f8a0-4ca8-92e8-12005401e741")
 	)
-	(label "ADC.RST"
+	(label "ADC_RST"
 		(at 81.28 100.33 0)
 		(effects
 			(font
@@ -2001,7 +1991,7 @@
 		)
 		(uuid "8c6824ed-960a-42ab-823c-22b24859c06f")
 	)
-	(label "ADC.DRDY"
+	(label "ADC_DRDY"
 		(at 81.28 90.17 0)
 		(effects
 			(font
@@ -2011,7 +2001,7 @@
 		)
 		(uuid "9ce9c38d-a226-4a81-89b3-39733762659e")
 	)
-	(label "ADC.START"
+	(label "ADC_START"
 		(at 81.28 110.49 0)
 		(effects
 			(font
@@ -2021,7 +2011,7 @@
 		)
 		(uuid "cae7861d-c787-4cf1-ba63-a31843761776")
 	)
-	(hierarchical_label "ADC.RST"
+	(hierarchical_label "ADC_RST"
 		(shape input)
 		(at 78.74 100.33 180)
 		(effects
@@ -2032,7 +2022,7 @@
 		)
 		(uuid "286fd371-41c8-4b34-bb85-1f72d6360fe8")
 	)
-	(hierarchical_label "CAN.TX"
+	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 91.44 80.01 180)
 		(effects
@@ -2043,7 +2033,7 @@
 		)
 		(uuid "6f667b68-9b42-4887-b2ad-1275e5869a05")
 	)
-	(hierarchical_label "ADC.DRDY"
+	(hierarchical_label "ADC_DRDY"
 		(shape input)
 		(at 78.74 90.17 180)
 		(effects
@@ -2054,7 +2044,7 @@
 		)
 		(uuid "7abb98b9-1695-46ee-9785-4c90f7f5b4e6")
 	)
-	(hierarchical_label "CAN.RX"
+	(hierarchical_label "CAN_RX"
 		(shape output)
 		(at 91.44 77.47 180)
 		(effects
@@ -2076,7 +2066,7 @@
 		)
 		(uuid "b09e18e0-ada8-40aa-8ebe-5d075f5a22ad")
 	)
-	(hierarchical_label "ADC.START"
+	(hierarchical_label "ADC_START"
 		(shape input)
 		(at 78.74 110.49 180)
 		(effects
@@ -2106,7 +2096,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c426d95-e9f1-43be-bb57-3e61aedc80bd")
 		(property "Reference" "#PWR03"
 			(at 133.35 129.54 0)
@@ -2118,12 +2107,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 128.27 0)
+			(at 133.35 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2240,14 +2228,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cdfe480-127f-4541-9d77-aa563d0c341f")
-		(property "Reference" "R14"
-			(at 96.5201 107.95 90)
+		(property "Reference" "R3"
+			(at 93.98 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2295,74 +2282,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b811abc-17c6-4742-91ea-5e7e0484e6c2")
-		(property "Reference" "#PWR067"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "313e1570-de3a-446e-9ecd-cef71749ad72")
-		)
-		(instances
-			(project "UPP_simple"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "#PWR067")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2378,14 +2298,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "534e9c0a-25a8-4332-b1f4-75d585183d7d")
-		(property "Reference" "R9"
-			(at 97.7901 87.63 90)
+		(property "Reference" "R1"
+			(at 95.25 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2433,7 +2352,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2449,14 +2368,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69ea8783-7817-4564-b83a-85bf7e8bfa17")
-		(property "Reference" "R15"
-			(at 97.7901 97.79 90)
+		(property "Reference" "R2"
+			(at 95.25 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2504,7 +2422,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2519,14 +2437,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c2fd4c8-fbab-4d84-9d39-78174ba201f7")
-		(property "Reference" "R13"
-			(at 173.9899 76.2 90)
+		(property "Reference" "R4"
+			(at 176.276 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2574,7 +2491,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2589,14 +2506,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c622b7c-62d0-47aa-8559-d44e4af456c3")
-		(property "Reference" "R11"
-			(at 173.9899 86.36 90)
+		(property "Reference" "R6"
+			(at 176.784 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2644,7 +2560,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2817,6 +2733,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d59abf5-857c-4d9c-9ca4-26ab176dc837")
+		(property "Reference" "#PWR043"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "892d1e03-a587-4253-9a5b-872ebe725ecb")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.26 93.98 90)
 		(unit 1)
@@ -2825,14 +2806,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ced08998-db2e-4cac-bc02-cc7b0f72a854")
-		(property "Reference" "R10"
-			(at 173.9899 91.44 90)
+		(property "Reference" "R7"
+			(at 176.53 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2880,7 +2860,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2895,14 +2875,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef78e6d6-eee4-46cd-9fd8-0b0db826d25d")
-		(property "Reference" "R12"
-			(at 173.9899 81.28 90)
+		(property "Reference" "R5"
+			(at 176.53 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "47R"
@@ -2950,7 +2929,7 @@
 		(instances
 			(project "UPP_simple"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e37d7555-464e-4542-8460-133370bc5076"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
