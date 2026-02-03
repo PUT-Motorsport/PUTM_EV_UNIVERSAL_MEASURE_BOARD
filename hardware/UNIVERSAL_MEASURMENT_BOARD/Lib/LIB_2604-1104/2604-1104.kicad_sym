@@ -7,21 +7,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 3.81 1.27 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Value" "2604-1104"
-			(at 3.81 -1.27 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "26041104"
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
-			(at 0 18.415 0)
+			(at -0.635 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,8 +125,8 @@
 		)
 		(symbol "2604-1104_1_1"
 			(rectangle
-				(start -2.54 7.62)
-				(end 2.54 -8.89)
+				(start 0 1.27)
+				(end 0.0254 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -136,9 +136,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 5.08 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "1.1"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 5.08 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(hide yes)
 				(name "1.2"
@@ -172,10 +172,23 @@
 					)
 				)
 			)
+		)
+		(symbol "2604-1104_2_1"
+			(rectangle
+				(start 0 1.27)
+				(end 0.0254 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -5.08 1.27 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "2.1"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -191,7 +204,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 1.27 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(hide yes)
 				(name "2.2"
@@ -209,10 +222,23 @@
 					)
 				)
 			)
+		)
+		(symbol "2604-1104_3_1"
+			(rectangle
+				(start 0 1.27)
+				(end 0.0254 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -5.08 -2.54 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "3.1"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,7 +254,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(hide yes)
 				(name "3.2"
@@ -246,10 +272,23 @@
 					)
 				)
 			)
+		)
+		(symbol "2604-1104_4_1"
+			(rectangle
+				(start 0 1.27)
+				(end 0.0254 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -5.08 -6.35 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "4.1"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -265,7 +304,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -6.35 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(hide yes)
 				(name "4.2"

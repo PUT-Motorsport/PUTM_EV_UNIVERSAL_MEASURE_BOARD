@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS54202HDDCR
+D 4.5V to 28V Input, 2A Output, Synchronous Step-Down Voltage Converter
+K
+F http://www.ti.com/lit/gpn/tps54202h
+$ENDCMP
+#
+#End Doc Library

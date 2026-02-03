@@ -1,18 +1,11 @@
-26757553905299231
-1042
-KEYSTONE-1042
-keystone-1042
-Undefined or Miscellaneous
-0
-2
-2
-47219-2001
-472192001
-47219-2001
+26733043504517209
+2604-1104
+26041104
+2604-1104-3
 Connector
 0
-12
-12
+8
+8
 ADM3055EBRIZ-RL
 SOIC127P1030X264-20N
 [SOIC_IC]
@@ -41,13 +34,6 @@ audio belton reverb
 0
 7
 7
-BQ25886RGER
-QFN50P400X400X100-25N-D
-RGE0024H
-Integrated Circuit
-0
-25
-25
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -61431,27 +61417,6 @@ Crystal or Oscillator
 0
 4
 4
-EM6M2T2R
-SOTFL50P160X55-6N
-SOT-563 (EMT6)
-Transistor
-0
-6
-6
-EVP-AEDB2A
-EVPAEDB2A
-EVPAEDB2A-2
-Connector
-0
-5
-5
-EVP-AEDB2A
-SW_EVP-AEDB2A
-
-
-0
-5
-5
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -62747,13 +62712,13 @@ heatsink
 0
 0
 0
-ITV4030L1412NR
-ITV4030L1412NR
-ITV4030L1412NR-2
-Fuse
+ICL7662EBA+
+SOIC127P600X175-8N
+8 SO
+Integrated Circuit
 0
-3
-3
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -70671,13 +70636,6 @@ Integrated Circuit
 0
 8
 8
-LTST-E563CEGBW
-LTSTE563CEGBW
-LTST-E563CEGBW-1
-LED
-0
-4
-4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73527,13 +73485,6 @@ threaded screw
 0
 4
 1
-NC7SZ175P6X
-SOT65P210X110-6N
-6L SC70 MAA06A
-Integrated Circuit
-0
-6
-6
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -74829,13 +74780,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PAC1951T-1E_4MX
-QFN50P300X300X90-17N-D
-16-Lead Very Thin Quad Flat, No Lead Package (4MX)
-Integrated Circuit
-0
-17
-17
 PGA280AIPW
 SOP65P640X120-24N
 PW (R-PDSO-G24)
@@ -93771,13 +93715,6 @@ Skyworks
 0
 7
 7
-RF24L01 module
-RF24L01 mini module
-
-
-0
-10
-9
 RF_Antenna
 AVX_M620720
 868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf
@@ -97383,13 +97320,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SML-522MUWT86
-SML522MUWT86
-SML-522MUWT86-1
-LED
-0
-4
-4
 STM32G0C1KCT6N
 QFP80P900X900X160-32N
 LQFP32
@@ -99497,27 +99427,13 @@ Logo WEEE
 0
 0
 0
-T821M108A1S100CEU-B
-T821M108A1S100CEU-B
-
-
-0
-8
-8
-TPS6282533DMQR
-TPS6282533DMQR
-TPS6282533DMQR-1
+TPS54202HDDCR
+SOT95P280X110-6N
+CP80C88-2Z
 Integrated Circuit
 0
 6
 6
-TSOP33338
-TSOP33338
-Minimold_2024
-Integrated Circuit
-0
-3
-3
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -105720,13 +105636,6 @@ igbt diode module
 0
 25
 25
-USBC_2130830005
-MOLEX_2130830005
-
-
-0
-20
-20
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -106511,10 +106420,3 @@ Varistor VF
 0
 2
 2
-bat_ic
-SON65P300X300X100-9N-D
-DRB0008B
-Integrated Circuit
-0
-9
-9

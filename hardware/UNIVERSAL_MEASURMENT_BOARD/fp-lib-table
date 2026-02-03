@@ -9,4 +9,6 @@
   (lib (name "LP358DR")(type "KiCad")(uri "${KIPRJMOD}/Lib/LP358DR")(options "")(descr ""))
   (lib (name "DMN67D7L-7")(type "KiCad")(uri "${KIPRJMOD}/Lib/DMN67D7L-7")(options "")(descr ""))
   (lib (name "2604-1104")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_2604-1104")(options "")(descr ""))
+  (lib (name "TPS54202HDDCR")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS54202HDDCR")(options "")(descr ""))
+  (lib (name "ICL7662EBA+")(type "KiCad")(uri "${KIPRJMOD}/Lib/ICL7662EBA+")(options "")(descr ""))
 )

@@ -187,7 +187,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "STBY"
@@ -223,7 +223,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -15.24 -11.43 0)
 				(length 2.54)
 				(name "AUXIN"
