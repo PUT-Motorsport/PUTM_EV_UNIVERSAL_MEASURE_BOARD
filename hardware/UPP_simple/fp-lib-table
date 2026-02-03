@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints")(options "")(descr ""))
-  (lib (name "adc")(type "KiCad")(uri "${KIPRJMOD}/Footprints/adc.pretty")(options "")(descr ""))
-  (lib (name "difopamp")(type "KiCad")(uri "${KIPRJMOD}/Footprints/difopamp.pretty")(options "")(descr ""))
-)

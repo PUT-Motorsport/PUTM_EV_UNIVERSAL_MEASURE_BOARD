@@ -688,27 +688,27 @@
     ],
     [
       "e37d7555-464e-4542-8460-133370bc5076",
-      "control"
+      "MCU"
     ],
     [
       "27728c5b-995e-4e9b-804c-adae9f98b692",
-      "adc"
+      "ADC"
     ],
     [
       "f86baa9b-d464-4051-a8bf-f0cf2a28b241",
-      "can"
+      "CAN"
     ],
     [
       "d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444",
-      "power"
+      "Power"
     ],
     [
       "e524c447-0b05-4e0a-b5b6-a853f1ffe627",
-      "analog"
+      "Analog"
     ],
     [
       "65a08dc3-a462-4aa7-aaa7-17144caab299",
-      "inputs"
+      "Connectors"
     ]
   ],
   "text_variables": {}
