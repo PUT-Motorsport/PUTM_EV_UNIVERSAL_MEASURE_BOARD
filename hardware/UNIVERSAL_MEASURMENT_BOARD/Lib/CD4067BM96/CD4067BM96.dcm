@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CD4067BM96
-D CMOS single 16-channel analog multiplexer & demultiplexer
-K
-F http://www.ti.com/lit/gpn/cd4067b
-$ENDCMP
-#
-#End Doc Library

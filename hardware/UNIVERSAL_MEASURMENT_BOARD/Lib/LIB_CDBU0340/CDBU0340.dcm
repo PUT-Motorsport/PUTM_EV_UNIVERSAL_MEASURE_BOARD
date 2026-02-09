@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDBU0340
+D SMD Schottky Barrier Diode 0.3A 40V
+K
+F https://www.arrow.com/en/products/cdbu0340/comchip-technology
+$ENDCMP
+#
+#End Doc Library

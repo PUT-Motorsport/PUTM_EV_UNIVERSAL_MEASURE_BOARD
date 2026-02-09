@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV76133KVUR
+D Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252, 1.6V @ 1A, 100 A, 60dB ~ 40dB , -40C ~ 125C (TJ)
+K
+F https://www.ti.com/lit/ds/symlink/tlv761.pdf?ts=1734763440532&ref_url=https%253A%252F%252Fwww.mouser.kr%252F
+$ENDCMP
+#
+#End Doc Library

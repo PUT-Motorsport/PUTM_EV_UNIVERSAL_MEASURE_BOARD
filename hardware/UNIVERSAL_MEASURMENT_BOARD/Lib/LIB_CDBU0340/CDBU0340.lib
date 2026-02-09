@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CDBU0340
+#/1625731/1585334/2.50/2/3/Schottky Diode
+DEF CDBU0340 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "CDBU0340" 500 250 50 H V L CNN
+F2 "DIOM179X85N" 500 150 50 H I L CNN
+F3 "https://www.arrow.com/en/products/cdbu0340/comchip-technology" 500 50 50 H I L CNN
+F4 "SMD Schottky Barrier Diode 0.3A 40V" 500 -50 50 H I L CNN "Description"
+F5 "0.85" 500 -150 50 H I L CNN "Height"
+F6 "750-CDBU0340" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0340?qs=2qJf6qQ4IOJBlNKweYgMfw%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Comchip Technology" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "CDBU0340" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

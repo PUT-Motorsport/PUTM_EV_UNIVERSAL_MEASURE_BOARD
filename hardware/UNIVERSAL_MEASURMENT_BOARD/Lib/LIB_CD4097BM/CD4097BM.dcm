@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD4097BM
+D Texas Instruments CD4097BM, Demultiplexer Dual 8:1, 3  18 V, 24-Pin SOIC
+K
+F http://www.ti.com/lit/gpn/CD4097B
+$ENDCMP
+#
+#End Doc Library

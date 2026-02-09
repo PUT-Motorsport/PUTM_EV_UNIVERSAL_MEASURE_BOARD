@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3471EDD#PBF
+D LT3471EDD#PBF, Dual DC-DC Converter, 2.6A Adjustable, -40 V, 1  40 V, Inverting, Step Up, 1.4 MHz, 10-Pin DFN EP
+K
+F https://componentsearchengine.com/Datasheets/1/LT3471EDD#PBF.pdf
+$ENDCMP
+#
+#End Doc Library

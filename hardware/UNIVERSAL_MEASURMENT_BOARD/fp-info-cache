@@ -1,4 +1,4 @@
-26733043504517209
+26747256613316081
 2604-1104
 26041104
 2604-1104-3
@@ -6,6 +6,13 @@ Connector
 0
 8
 8
+2604-1110
+26041110
+2604-1110-2
+Connector
+0
+20
+20
 ADM3055EBRIZ-RL
 SOIC127P1030X264-20N
 [SOIC_IC]
@@ -2841,6 +2848,13 @@ Integrated Circuit
 0
 24
 24
+CDBU0340
+DIOM179X85N
+0603/SOD-523F9H=0.85mm)
+Schottky Diode
+0
+2
+2
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -69376,6 +69390,20 @@ solder jumper open
 0
 3
 3
+L7805ABD2T-TR
+L7805ABD2TTR
+D²PAK (SMD 2L STD-ST) type A-2025
+Integrated Circuit
+0
+3
+3
+L7812ABD2T-TR
+L7812ABD2TTR
+D²PAK_2025-12
+Integrated Circuit
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -70636,6 +70664,27 @@ Integrated Circuit
 0
 8
 8
+LT3471EDD#PBF
+SON50P300X300X80-11N-D
+LT3471EDD#PBF+
+Integrated Circuit
+0
+11
+11
+MC79M15CDTRKG
+DPAK__SINGLE-GAUGE__TO-252_369C__ISSUE_F
+DPAK (SINGLE GAUGE) TO-252 (369C) ISSUE F
+Integrated Circuit
+0
+3
+3
+MC7815BDTRKG
+NVD5117PLT4GVF01
+DPAK (SINGLE GAUGE) CASE 369C ISSUE F_1
+Integrated Circuit
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -97320,13 +97369,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-STM32G0C1KCT6N
-QFP80P900X900X160-32N
-LQFP32
+STM32G484RET3
+QFP50P1200X1200X160-64N
+LQFP - 64 pin, 10 x 10 mm
 Integrated Circuit
 0
-32
-32
+64
+64
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99427,6 +99476,13 @@ Logo WEEE
 0
 0
 0
+TLV76133KVUR
+TLV76133KVUR
+KVU0003A_2024-3
+Integrated Circuit
+0
+3
+3
 TPS54202HDDCR
 SOT95P280X110-6N
 CP80C88-2Z
