@@ -1,4 +1,4 @@
-26720670165148138
+26731291296981857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59352,6 +59352,13 @@ ceramic
 0
 3
 3
+DDPAK
+KTT0003B
+KTT0003B
+Integrated Circuit
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -97278,6 +97285,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SOIC-14
+SOIC127P600X175-14N
+D
+Integrated Circuit
+0
+14
+14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99378,6 +99392,13 @@ Logo WEEE
 0
 0
 0
+TPS563219ADDFR
+SOT65P280X110-8N
+TPS563219ADDFR-1
+Integrated Circuit
+0
+8
+8
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -106371,3 +106392,24 @@ Integrated Circuit
 0
 32
 32
+difopamp
+SOIC127P1030X265-16N
+DW0016A
+Integrated Circuit
+0
+16
+16
+inductor
+VLS5045EX330M
+VLS5045
+Inductor
+0
+2
+2
+sot-583-8
+TPS62932DRLR
+DRL0008A
+Integrated Circuit
+0
+8
+8

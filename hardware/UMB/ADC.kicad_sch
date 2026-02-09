@@ -2498,7 +2498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17be52cd-153d-4627-a6bc-8fd0e21cc95d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR05"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR016")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2582,7 +2582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -2591,7 +2591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C104M4RACAUTO.pdf"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -2600,7 +2600,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "80-C0603C104M4RAUTO"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -2634,7 +2688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3142abc3-7c38-45ee-8bf0-2e751d96f1f0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -2684,7 +2738,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2793,6 +2847,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2910,7 +3000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5291fd7c-7200-4cf0-87c6-6f2c320bf3dd")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -2960,7 +3050,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2976,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1793ff-df26-43ac-9319-2e00b5bd4f08")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 116.205 78.74 0)
 			(effects
 				(font
@@ -3027,7 +3117,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fb11b8d-96b1-4ad9-9d0a-79efc6be1071")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -3092,7 +3182,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C105K4RACTU.pdf"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -3144,6 +3234,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "80-C0603C105K4R"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -3176,7 +3320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "991c496d-204e-47f2-b0d4-e534dedaa154")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR09"
 			(at 151.13 139.7 0)
 			(effects
 				(font
@@ -3226,7 +3370,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR044")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -3268,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C104M4RACAUTO.pdf"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -3277,7 +3421,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "80-C0603C104M4RAUTO"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -3311,7 +3509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d28b6138-73a3-4a5f-974e-c13fed7dbaed")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -3361,7 +3559,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/27728c5b-995e-4e9b-804c-adae9f98b692"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
