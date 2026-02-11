@@ -2,40 +2,28 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ADS8863IDGS"
+	(symbol "ESDS304DBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 18.796 0)
+			(at 0 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Value" "ADS8863IDGS"
-			(at -10.16 16.256 0)
+		(property "Value" "ESDS304DBVR"
+			(at 0 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at -1.27 -72.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/ADS8863"
-			(at -1.27 -172.06 0)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 24.13 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,17 +32,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-Bit, 680-kSPS, Serial Interface, Micro-Power, Miniature, Differential Input SAR ADC"
-			(at 0.254 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at -1.27 -372.06 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 24.13 -194.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,8 +42,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-ADS8863IDGS"
-			(at -1.27 -472.06 0)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 0.635 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 24.13 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,8 +61,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS8863IDGS"
-			(at -1.27 -572.06 0)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 24.13 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 24.13 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +82,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at -1.27 -672.06 0)
+			(at 24.13 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,8 +91,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ADS8863IDGS"
-			(at -1.27 -772.06 0)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 24.13 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,40 +101,37 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADS8863IDGS_1_1"
-			(rectangle
-				(start -10.16 13.97)
-				(end 10.16 -15.24)
+		(symbol "ESDS304DBVR_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 11.43 0)
-				(length 2.54)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
+		)
+		(symbol "ESDS304DBVR_1_1"
 			(pin passive line
-				(at -12.7 3.81 0)
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "AVDD"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,9 +147,9 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -4.445 0)
+				(at 3.81 0 180)
 				(length 2.54)
-				(name "REF"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,17 +164,19 @@
 					)
 				)
 			)
+		)
+		(symbol "ESDS304DBVR_2_1"
 			(pin passive line
-				(at -12.7 -12.7 0)
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -188,81 +185,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 11.43 180)
+				(at 3.81 0 180)
 				(length 2.54)
-				(name "MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 3.81 180)
-				(length 2.54)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "~{CS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -8.89 180)
-				(length 2.54)
-				(name "AINP"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -277,10 +202,30 @@
 					)
 				)
 			)
+		)
+		(symbol "ESDS304DBVR_3_1"
 			(pin passive line
-				(at 12.7 -12.7 180)
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "AINN"
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -288,6 +233,44 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESDS304DBVR_4_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,20 +1,20 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
-#SamacSys ECAD Model 2604-1110
-#/2083648/1585334/2.50/20/6/Connector
-DEF 2604-1110 J 0 30 Y Y 1 F N
+#SamacSys ECAD Model 2601-1110
+#/17635086/1585334/2.50/20/2/Connector
+DEF 2601-1110 J 0 30 Y Y 1 F N
 F0 "J" 950 300 50 H V L CNN
-F1 "2604-1110" 950 200 50 H V L CNN
-F2 "26041110" 950 100 50 H I L CNN
-F3 "https://www.wago.com/2604-1110" 950 0 50 H I L CNN
-F4 "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 10-pole; Push-in CAGE CLAMP" 950 -100 50 H I L CNN "Description"
-F5 "16.7" 950 -200 50 H I L CNN "Height"
+F1 "2601-1110" 950 200 50 H V L CNN
+F2 "26011110" 950 100 50 H I L CNN
+F3 "https://www.wago.com/2601-1110" 950 0 50 H I L CNN
+F4 "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 10-pole; Push-in CAGE CLAMP; 1,50 mm; gray" 950 -100 50 H I L CNN "Description"
+F5 "12.75" 950 -200 50 H I L CNN "Height"
 F6 "Wago" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "2604-1110" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "2601-1110" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
 F8 "" 950 -500 50 H I L CNN "Mouser Part Number"
 F9 "" 950 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "2604-1110" 950 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/2604-1110/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
 X 1.1 1 0 0 200 R 50 50 0 0 P
 X 1.2 2 1100 0 200 L 50 50 0 0 P

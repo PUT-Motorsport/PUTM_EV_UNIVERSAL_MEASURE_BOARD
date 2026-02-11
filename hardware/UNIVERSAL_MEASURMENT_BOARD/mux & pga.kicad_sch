@@ -7,7 +7,7 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-02-02")
-		(rev "1.6.9")
+		(rev "1.7.14")
 		(company "PUT Motorsport Formula Student team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
@@ -1824,18 +1824,6 @@
 		(uuid "dcef08c3-ea10-4d8d-82c0-d3fd172e8cde")
 	)
 	(junction
-		(at 217.805 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b078b82-6ae7-4130-be05-0ec17becc144")
-	)
-	(junction
-		(at 197.485 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "310950b0-1940-450d-82c6-3ba4f37b20bc")
-	)
-	(junction
 		(at 270.51 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1872,16 +1860,20 @@
 		(uuid "c28bcf40-ba6a-4bc5-b30b-268699402acd")
 	)
 	(junction
-		(at 148.59 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d82208fd-1a89-4240-bcd1-83b51959184f")
-	)
-	(junction
 		(at 254 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd8f250c-f9f7-4cfe-adb7-8ac3268cfa12")
+	)
+	(wire
+		(pts
+			(xy 133.35 163.83) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f37089-fbb4-45ff-ba0f-195d4d4e1d68")
 	)
 	(wire
 		(pts
@@ -1965,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 158.75) (xy 270.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2956e0ec-9d47-4817-93b3-45bf5d0dd326")
+	)
+	(wire
+		(pts
 			(xy 251.46 115.57) (xy 254 115.57)
 		)
 		(stroke
@@ -2022,16 +2024,6 @@
 			(type default)
 		)
 		(uuid "3e5a172a-afb1-419a-9b61-5232e07c4e2b")
-	)
-	(wire
-		(pts
-			(xy 148.59 134.62) (xy 148.59 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9f46a8-d48c-4a54-a588-3360746315ef")
 	)
 	(wire
 		(pts
@@ -2305,23 +2297,13 @@
 	)
 	(wire
 		(pts
-			(xy 197.485 130.81) (xy 197.485 157.48)
+			(xy 197.485 130.81) (xy 197.485 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a74c2ce5-1699-46f6-b39e-ec267ce3970a")
-	)
-	(wire
-		(pts
-			(xy 217.805 157.48) (xy 270.51 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2702250-ccf7-4340-898b-32c930534469")
 	)
 	(wire
 		(pts
@@ -2355,23 +2337,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 163.83) (xy 148.59 162.56)
+			(xy 133.35 162.56) (xy 130.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0269c81-3154-4715-bab9-134f9c5b91b8")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 148.59 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c617004b-0f26-419e-86a0-700dedf6c238")
-	)
-	(wire
-		(pts
-			(xy 197.485 158.75) (xy 197.485 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80f5f90-63e0-4334-bef8-057a98f00b0f")
 	)
 	(wire
 		(pts
@@ -2405,16 +2387,6 @@
 	)
 	(wire
 		(pts
-			(xy 197.485 157.48) (xy 217.805 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc0bd8ce-9f6d-426c-a2de-cedddf10a3d4")
-	)
-	(wire
-		(pts
 			(xy 132.08 112.395) (xy 130.81 112.395)
 		)
 		(stroke
@@ -2432,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "e29c0e0c-1719-41ea-91c9-88278012516c")
-	)
-	(wire
-		(pts
-			(xy 130.81 162.56) (xy 148.59 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65e9290-8516-4a7b-bb70-e1c89d12b529")
 	)
 	(wire
 		(pts
@@ -2505,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 133.985) (xy 217.805 157.48)
+			(xy 217.805 133.985) (xy 217.805 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +2938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15VA"
+		(property "Value" "+15V0A"
 			(at 234.315 115.57 90)
 			(effects
 				(font
@@ -3425,6 +3387,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 217.805 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a24388f-9ab6-4ee5-bf12-19f1d7f759f1")
+		(property "Reference" "#PWR037"
+			(at 217.805 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.805 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.805 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.805 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.805 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "170fa032-77df-46f7-a50a-3ed41e69ab35")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 148.59 163.83 0)
 		(mirror y)
 		(unit 1)
@@ -3507,7 +3534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15VA"
+		(property "Value" "+15V0A"
 			(at 148.59 95.885 0)
 			(effects
 				(font
@@ -3892,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V5REF"
+		(property "Value" "1V5A"
 			(at 326.39 98.425 0)
 			(effects
 				(font
@@ -3958,7 +3985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-15VA"
+		(property "Value" "-15V0A"
 			(at 234.95 147.32 90)
 			(effects
 				(font
@@ -4065,6 +4092,72 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4a225a5-6d48-4a6d-b621-db6bb26f1cac")
+		(property "Reference" "#PWR043"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5137b65f-c950-4d5f-9b7d-328996fc89d7")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4469,6 +4562,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 270.51 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb1298f2-5fad-4d5a-81cc-49fc43a1cb09")
+		(property "Reference" "#PWR038"
+			(at 270.51 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ba7abb-2d64-40b2-9526-88d6f728060f")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 247.65 147.32 90)
 		(unit 1)
@@ -4553,7 +4711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V0A"
 			(at 205.105 102.235 0)
 			(effects
 				(font

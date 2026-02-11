@@ -7,12 +7,12 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-02-02")
-		(rev "1.6.9")
+		(rev "1.7.14")
 		(company "PUT Motorsport Formula Student team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
 	(lib_symbols
-		(symbol "2604-1104:2604-1104"
+		(symbol "2601-1104:2604-1104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1041,34 +1041,48 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZX84Cxx"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
+		(symbol "ESDS304DBVR_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 3.81 0)
+			(property "Reference" "U"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "BZX84Cxx"
-				(at 0 -3.81 0)
+			(property "Value" "ESDS304DBVR"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 0 0)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+				(at 0.635 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1076,46 +1090,60 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "300mW Zener Diode, SOT-23"
-				(at 0 0 0)
+			(property "Mouser Part Number" "595-ESDS304DBVR"
+				(at 24.13 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+				(at 24.13 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "BZX84Cxx_0_1"
+			(property "Manufacturer_Part_Number" "ESDS304DBVR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS304DBVR_1_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1127,19 +1155,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1150,30 +1166,11 @@
 					)
 				)
 			)
-			(symbol "BZX84Cxx_1_1"
+			(symbol "ESDS304DBVR_1_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 1.27 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1191,7 +1188,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,394 +1204,11 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDA5V3SC5_3"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D1"
-				(at -6.35 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "ESDA5V3SC5"
-				(at -6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 7.62 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.pl/datasheet/2/916/PESD4USB5BTTS_Q-3435620.pdf"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PESD4USB5BTTS-QX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-PESD4USB5BTTS-QX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Nexperia/PESD4USB5BTTS-QX?qs=3Rah4i%252BhyCGBzp%2FlR%252BCCbg%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb esd protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESDA5V3SC5_3_0_1"
-				(rectangle
-					(start -4.445 2.54)
-					(end 6.985 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 1.016) (xy 4.318 1.27) (xy 5.715 1.27) (xy 5.842 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 4.445 0) (xy 5.715 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDA5V3SC5_3_1_0"
+			(symbol "ESDS304DBVR_1_2_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDA5V3SC5_3_1_1"
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1610,10 +1224,85 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_1_3_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_1_4_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1628,10 +1317,233 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESDS304DBVR_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U18"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESDS304DBVR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+				(at 0.635 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESDS304DBVR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDS304DBVR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS304DBVR_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_2_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_2_2_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_2_3_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1639,6 +1551,881 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_2_4_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESDS304DBVR_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U18"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESDS304DBVR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+				(at 0.635 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESDS304DBVR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDS304DBVR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS304DBVR_3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_3_2_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_3_3_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_3_4_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESDS304DBVR_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U18"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESDS304DBVR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+				(at 0.635 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESDS304DBVR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDS304DBVR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS304DBVR_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_4_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_4_2_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_4_3_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_4_4_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESDS304DBVR_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U18"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESDS304DBVR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+				(at 0.635 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESDS304DBVR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDS304DBVR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS304DBVR_5_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_5_2_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_5_3_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDS304DBVR_5_4_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2535,8 +3322,8 @@
 		(uuid 044e696a-8cf2-418c-a9a9-c45979506344)
 	)
 	(rectangle
-		(start 118.11 154.94)
-		(end 185.42 198.12)
+		(start 50.165 154.94)
+		(end 128.905 248.285)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2624,8 +3411,8 @@
 		(uuid abd3995b-1f69-4c32-b09c-9c91a8a0b535)
 	)
 	(rectangle
-		(start 124.46 161.29)
-		(end 179.07 191.77)
+		(start 56.515 161.29)
+		(end 122.555 241.935)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2650,8 +3437,8 @@
 		(uuid ae047d63-e002-4b53-ab87-9b2c2b4a6aab)
 	)
 	(rectangle
-		(start 50.165 154.94)
-		(end 111.76 205.105)
+		(start 135.255 154.94)
+		(end 197.485 205.105)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2662,8 +3449,8 @@
 		(uuid de3d8561-9048-4cfd-ae12-f20949ba4bb9)
 	)
 	(rectangle
-		(start 56.515 161.29)
-		(end 105.41 198.755)
+		(start 141.605 161.29)
+		(end 191.135 198.755)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2689,7 +3476,7 @@
 	)
 	(text "MCU SWD PORT"
 		(exclude_from_sim no)
-		(at 125.095 162.56 0)
+		(at 57.15 162.56 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2715,7 +3502,7 @@
 	)
 	(text "Supply and CAN Connector"
 		(exclude_from_sim no)
-		(at 51.435 156.845 0)
+		(at 136.525 156.845 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2794,7 +3581,7 @@
 	)
 	(text "POWER & CAN PORT"
 		(exclude_from_sim no)
-		(at 57.15 162.56 0)
+		(at 142.24 162.56 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2821,7 +3608,7 @@
 	)
 	(text "Programming Port"
 		(exclude_from_sim no)
-		(at 119.38 156.845 0)
+		(at 51.435 156.845 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2860,7 +3647,13 @@
 		(uuid "c87d7f0d-0f45-49df-859b-74413f9a889a")
 	)
 	(junction
-		(at 79.375 180.975)
+		(at 89.535 230.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00863c46-2a08-4617-ac2a-3c4f291b82a1")
+	)
+	(junction
+		(at 164.465 180.975)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07de2d76-a0b2-423d-8e47-82dc71807af3")
@@ -2878,10 +3671,22 @@
 		(uuid "2c4c90c7-e805-4215-9157-ce97c440845b")
 	)
 	(junction
+		(at 61.595 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "310fa3f5-bd1e-4ad5-b5d0-fd25a7c41834")
+	)
+	(junction
 		(at 171.45 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3576564a-19e5-406d-8688-d0d340f47429")
+	)
+	(junction
+		(at 61.595 220.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381baa6c-2dc8-49a1-8273-a756a3ab9859")
 	)
 	(junction
 		(at 171.45 123.19)
@@ -2908,7 +3713,7 @@
 		(uuid "66e5c576-6368-42a0-ab8c-96f12a7cae4d")
 	)
 	(junction
-		(at 66.675 177.165)
+		(at 151.765 177.165)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ceff922-e0f5-4e54-a90e-daf69769da3b")
@@ -2932,13 +3737,25 @@
 		(uuid "85786bc6-beb8-40ae-a674-3b4eecc8138a")
 	)
 	(junction
+		(at 61.595 230.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8581e2d3-be2e-484d-acc3-6ad65f4a358a")
+	)
+	(junction
 		(at 65.405 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91788973-10b0-4b9a-aee7-e2e221a976e0")
 	)
 	(junction
-		(at 142.875 179.705)
+		(at 89.535 220.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9305d747-f2e5-4f45-b6c6-e522ac6afd6d")
+	)
+	(junction
+		(at 79.375 179.705)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "968bed1a-72d3-40d6-929a-8c54331f6177")
@@ -2948,6 +3765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98fae953-2b2d-460c-b7e4-bd8f2d8002aa")
+	)
+	(junction
+		(at 89.535 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f551482-05fb-4213-a8fa-991a679c79b5")
 	)
 	(junction
 		(at 111.125 119.38)
@@ -2968,7 +3791,7 @@
 		(uuid "d9940bdb-db0c-4759-8edf-dd24a23b91c5")
 	)
 	(junction
-		(at 142.875 177.165)
+		(at 79.375 177.165)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95647d0-804e-43e4-863f-0acc8727e34d")
@@ -2980,19 +3803,19 @@
 		(uuid "ff1f1a38-2b25-46a6-ab06-241569056ea0")
 	)
 	(no_connect
-		(at 145.415 182.245)
+		(at 81.915 182.245)
 		(uuid "1c47f091-6a15-464b-945c-2b9f0c272905")
 	)
 	(no_connect
-		(at 145.415 172.085)
+		(at 81.915 172.085)
 		(uuid "273234bf-9ddd-4368-9d6f-61e75a8b1c23")
 	)
 	(no_connect
-		(at 158.115 182.245)
+		(at 94.615 182.245)
 		(uuid "6ba9f06d-43df-43fc-8d41-52ec2148cc58")
 	)
 	(no_connect
-		(at 158.115 172.085)
+		(at 94.615 172.085)
 		(uuid "91c246b0-02b0-4892-b911-403c5f3da6a0")
 	)
 	(wire
@@ -3024,6 +3847,16 @@
 			(type default)
 		)
 		(uuid "01053a6e-6c49-490b-a911-c1f4c0d4df71")
+	)
+	(wire
+		(pts
+			(xy 103.505 230.505) (xy 102.235 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01401871-3306-4ee5-b76a-5b2f0e16f297")
 	)
 	(wire
 		(pts
@@ -3087,6 +3920,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.675 200.66) (xy 61.595 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20080e-2d3d-4a87-a6f7-44341b61b468")
+	)
+	(wire
+		(pts
 			(xy 217.17 78.74) (xy 217.17 81.28)
 		)
 		(stroke
@@ -3107,6 +3950,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 200.66) (xy 89.535 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00c3a2-bee1-49af-bdf1-8a5791e731f8")
+	)
+	(wire
+		(pts
 			(xy 134.62 113.665) (xy 137.16 113.665)
 		)
 		(stroke
@@ -3114,6 +3967,16 @@
 			(type default)
 		)
 		(uuid "0cb71bde-fbbc-409a-ac8d-225b174b7127")
+	)
+	(wire
+		(pts
+			(xy 75.565 220.345) (xy 74.295 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc4ffa9-5e4a-4a1a-895c-2eb65de09121")
 	)
 	(wire
 		(pts
@@ -3157,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 177.165) (xy 142.875 177.165)
+			(xy 81.915 177.165) (xy 79.375 177.165)
 		)
 		(stroke
 			(width 0)
@@ -3167,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 180.975) (xy 79.375 180.975)
+			(xy 163.195 180.975) (xy 164.465 180.975)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 190.5) (xy 66.675 188.595)
+			(xy 151.765 190.5) (xy 151.765 188.595)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 171.45) (xy 93.98 171.45)
+			(xy 176.53 171.45) (xy 179.07 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3227,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.115 184.785) (xy 160.02 184.785)
+			(xy 94.615 184.785) (xy 96.52 184.785)
 		)
 		(stroke
 			(width 0)
@@ -3247,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 177.165) (xy 132.08 178.435)
+			(xy 68.58 177.165) (xy 68.58 178.435)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.115 174.625) (xy 160.02 174.625)
+			(xy 94.615 174.625) (xy 96.52 174.625)
 		)
 		(stroke
 			(width 0)
@@ -3284,6 +4147,16 @@
 			(type default)
 		)
 		(uuid "200447b2-d313-449e-abda-8ae009fcf947")
+	)
+	(wire
+		(pts
+			(xy 89.535 210.82) (xy 94.615 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223abe95-5477-4234-bb9c-8ee3d4a8caf6")
 	)
 	(wire
 		(pts
@@ -3357,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 180.975) (xy 79.375 183.515)
+			(xy 164.465 180.975) (xy 164.465 183.515)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 179.705) (xy 142.875 184.785)
+			(xy 79.375 179.705) (xy 79.375 184.785)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +4270,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 179.705) (xy 145.415 179.705)
+			(xy 61.595 220.345) (xy 66.675 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335de774-0b9a-4af1-9b2f-e5c21fc7b7b0")
+	)
+	(wire
+		(pts
+			(xy 79.375 179.705) (xy 81.915 179.705)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.115 179.705) (xy 160.02 179.705)
+			(xy 94.615 179.705) (xy 96.52 179.705)
 		)
 		(stroke
 			(width 0)
@@ -3457,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 180.975) (xy 93.98 180.975)
+			(xy 164.465 180.975) (xy 179.07 180.975)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +4360,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 177.165) (xy 66.675 183.515)
+			(xy 151.765 177.165) (xy 151.765 183.515)
 		)
 		(stroke
 			(width 0)
@@ -3567,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 230.505) (xy 66.675 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52678f61-a53a-40a9-8bee-7d62c7dee9ad")
+	)
+	(wire
+		(pts
 			(xy 155.575 74.93) (xy 156.845 74.93)
 		)
 		(stroke
@@ -3574,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "52cf9178-f768-443c-8bde-c18168420186")
+	)
+	(wire
+		(pts
+			(xy 75.565 200.66) (xy 74.295 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e798b0-db2e-4632-be19-3549b3dd50ba")
 	)
 	(wire
 		(pts
@@ -3617,23 +4520,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 187.325) (xy 145.415 187.325)
+			(xy 80.01 187.325) (xy 81.915 187.325)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "598ff9d7-2cf0-4ca6-b5b7-0c8ed21b6d69")
-	)
-	(wire
-		(pts
-			(xy 215.9 236.22) (xy 215.9 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fa2062-09c8-4914-af72-4a81d397a319")
 	)
 	(wire
 		(pts
@@ -3647,6 +4540,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.565 210.82) (xy 74.295 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc6bd25-4fdb-494c-ba32-ae749318f328")
+	)
+	(wire
+		(pts
 			(xy 226.06 133.35) (xy 226.06 130.81)
 		)
 		(stroke
@@ -3657,17 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 248.285) (xy 150.495 252.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc530ff-34a3-4204-9345-7aa0e1b78b79")
-	)
-	(wire
-		(pts
-			(xy 158.115 177.165) (xy 160.02 177.165)
+			(xy 94.615 177.165) (xy 96.52 177.165)
 		)
 		(stroke
 			(width 0)
@@ -3687,16 +4580,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 250.19) (xy 213.36 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60dd5099-c35d-479e-bd14-22dbf4b7d50c")
-	)
-	(wire
-		(pts
 			(xy 156.845 119.38) (xy 182.88 119.38)
 		)
 		(stroke
@@ -3704,16 +4587,6 @@
 			(type default)
 		)
 		(uuid "62ddc5c2-b8c9-49ce-bbf0-f36aecf92c55")
-	)
-	(wire
-		(pts
-			(xy 150.495 236.855) (xy 150.495 240.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63ff3f72-e74e-4a23-af30-3adb01f0ba8f")
 	)
 	(wire
 		(pts
@@ -3734,6 +4607,16 @@
 			(type default)
 		)
 		(uuid "65522b91-555e-4a5e-ab73-0f568f1c1101")
+	)
+	(wire
+		(pts
+			(xy 61.595 200.66) (xy 61.595 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d16aa4-7ba1-4a9c-af7d-e05ddf73cdde")
 	)
 	(wire
 		(pts
@@ -3787,16 +4670,6 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 236.22) (xy 244.475 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d055874-3d19-419c-8969-f9a7b7fb1920")
-	)
-	(wire
-		(pts
 			(xy 88.9 133.35) (xy 88.9 130.81)
 		)
 		(stroke
@@ -3827,6 +4700,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.235 200.66) (xy 112.395 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732af666-c43f-4cbd-860f-1ac3eca0e70f")
+	)
+	(wire
+		(pts
 			(xy 88.9 88.9) (xy 88.9 86.36)
 		)
 		(stroke
@@ -3847,16 +4730,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 248.285) (xy 168.275 252.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7614121b-902a-47d1-94b0-b0b49eb84385")
-	)
-	(wire
-		(pts
 			(xy 80.01 78.74) (xy 91.44 78.74)
 		)
 		(stroke
@@ -3867,7 +4740,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 184.785) (xy 145.415 184.785)
+			(xy 79.375 184.785) (xy 81.915 184.785)
 		)
 		(stroke
 			(width 0)
@@ -3894,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "819066ee-5e4e-4975-88f7-2588befaafca")
+	)
+	(wire
+		(pts
+			(xy 75.565 230.505) (xy 74.295 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84082272-6559-4dca-9651-fa5e239a1c7a")
 	)
 	(wire
 		(pts
@@ -3937,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 177.165) (xy 66.675 177.165)
+			(xy 150.495 177.165) (xy 151.765 177.165)
 		)
 		(stroke
 			(width 0)
@@ -3957,7 +4840,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 177.165) (xy 142.875 179.705)
+			(xy 79.375 177.165) (xy 79.375 179.705)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 190.5) (xy 91.44 184.785)
+			(xy 176.53 190.5) (xy 176.53 184.785)
 		)
 		(stroke
 			(width 0)
@@ -4007,6 +4890,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 210.82) (xy 61.595 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f8ecc2-7911-4d92-9671-36c64a87990d")
+	)
+	(wire
+		(pts
 			(xy 226.06 107.95) (xy 228.6 107.95)
 		)
 		(stroke
@@ -4017,13 +4910,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 236.22) (xy 218.44 240.03)
+			(xy 61.595 220.345) (xy 61.595 230.505)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96747114-2dcf-49a1-8544-220db34edef1")
+		(uuid "92c984a0-dfd3-431a-bb95-9706a7504d24")
 	)
 	(wire
 		(pts
@@ -4097,6 +4990,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 220.345) (xy 94.615 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1544e8-a1ff-40dc-8f84-7f32192ed148")
+	)
+	(wire
+		(pts
 			(xy 78.74 78.74) (xy 80.01 78.74)
 		)
 		(stroke
@@ -4107,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 184.785) (xy 93.98 184.785)
+			(xy 176.53 184.785) (xy 179.07 184.785)
 		)
 		(stroke
 			(width 0)
@@ -4127,23 +5030,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 236.22) (xy 241.935 240.03)
+			(xy 89.535 230.505) (xy 89.535 233.045)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d6d878d-9e1b-42fc-8c05-1f5b82ef37f1")
-	)
-	(wire
-		(pts
-			(xy 213.36 236.22) (xy 213.36 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fdd9b6-95f5-4462-b4e7-47d62cf968b7")
+		(uuid "a0329baa-a88a-4478-bd71-3f9ef3b68876")
 	)
 	(wire
 		(pts
@@ -4177,7 +5070,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 168.91) (xy 80.645 171.45)
+			(xy 165.735 168.91) (xy 165.735 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 190.5) (xy 79.375 188.595)
+			(xy 164.465 190.5) (xy 164.465 188.595)
 		)
 		(stroke
 			(width 0)
@@ -4207,13 +5100,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 171.45) (xy 86.36 171.45)
+			(xy 165.735 171.45) (xy 171.45 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae149f5e-f341-4e89-ad2b-bf3cd7fdadb5")
+	)
+	(wire
+		(pts
+			(xy 89.535 230.505) (xy 94.615 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7a35b1-a673-47a4-b637-33c36143100d")
 	)
 	(wire
 		(pts
@@ -4257,23 +5160,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 177.165) (xy 93.98 177.165)
+			(xy 151.765 177.165) (xy 179.07 177.165)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bacc8bf5-5203-4e5e-b928-bf2c84b0fa8e")
-	)
-	(wire
-		(pts
-			(xy 241.935 252.73) (xy 241.935 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbca0814-b554-4950-add8-cfcad65a62a6")
 	)
 	(wire
 		(pts
@@ -4294,6 +5187,16 @@
 			(type default)
 		)
 		(uuid "c1ce7358-184a-46d4-a34f-30a3686d1f5e")
+	)
+	(wire
+		(pts
+			(xy 61.595 210.82) (xy 66.675 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c419085d-788e-4baa-9a14-249b45eb3ad6")
 	)
 	(wire
 		(pts
@@ -4367,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.395 199.39) (xy 112.395 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2533612-6b4d-48f4-a90c-4337cbd43e53")
+	)
+	(wire
+		(pts
 			(xy 134.62 63.5) (xy 137.16 63.5)
 		)
 		(stroke
@@ -4377,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 174.625) (xy 145.415 174.625)
+			(xy 68.58 174.625) (xy 81.915 174.625)
 		)
 		(stroke
 			(width 0)
@@ -4414,16 +5327,6 @@
 			(type default)
 		)
 		(uuid "d761e7a8-3b1e-4b7f-be6c-c159b31a4b95")
-	)
-	(wire
-		(pts
-			(xy 168.275 234.315) (xy 168.275 240.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d963f5c5-9ea8-447f-abf7-e7e9d2b333c3")
 	)
 	(wire
 		(pts
@@ -4467,6 +5370,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 220.345) (xy 89.535 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9e931d-2df6-4ce8-8ea4-e4dcd1a1e97d")
+	)
+	(wire
+		(pts
 			(xy 156.845 119.38) (xy 156.845 124.46)
 		)
 		(stroke
@@ -4487,17 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.015 236.22) (xy 247.015 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15c0b07-0a07-4e01-b9af-01df9f4a21ea")
-	)
-	(wire
-		(pts
-			(xy 158.115 187.325) (xy 160.02 187.325)
+			(xy 94.615 187.325) (xy 96.52 187.325)
 		)
 		(stroke
 			(width 0)
@@ -4517,23 +5420,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 171.45) (xy 132.08 174.625)
+			(xy 68.58 171.45) (xy 68.58 174.625)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e484c848-86fa-45df-a1fe-87cf28b755f4")
-	)
-	(wire
-		(pts
-			(xy 210.82 236.22) (xy 210.82 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e557fa41-6ef8-4373-a1ac-aba3d54ed1b9")
 	)
 	(wire
 		(pts
@@ -4547,16 +5440,6 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 236.22) (xy 239.395 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e739de86-5c1d-40dd-9e17-4496f9216624")
-	)
-	(wire
-		(pts
 			(xy 171.45 107.95) (xy 175.26 107.95)
 		)
 		(stroke
@@ -4567,13 +5450,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 177.165) (xy 142.875 177.165)
+			(xy 68.58 177.165) (xy 79.375 177.165)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec70f47e-422a-4286-86f1-9877869a995d")
+	)
+	(wire
+		(pts
+			(xy 94.615 200.66) (xy 89.535 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed63d17d-005d-44ee-8696-d90429d82923")
 	)
 	(wire
 		(pts
@@ -4584,6 +5477,16 @@
 			(type default)
 		)
 		(uuid "ed74712f-23da-420e-a458-e0fb68057354")
+	)
+	(wire
+		(pts
+			(xy 103.505 220.345) (xy 102.235 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03ae213-8e69-4214-a004-af26549b31d3")
 	)
 	(wire
 		(pts
@@ -4657,6 +5560,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 210.82) (xy 89.535 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc057c79-e411-4922-a6fb-b38bf9ea2220")
+	)
+	(wire
+		(pts
 			(xy 180.34 130.81) (xy 182.88 130.81)
 		)
 		(stroke
@@ -4677,6 +5590,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 230.505) (xy 61.595 233.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd51f075-b1aa-41cf-9e66-a7e04d457ab6")
+	)
+	(wire
+		(pts
 			(xy 201.295 74.93) (xy 202.565 74.93)
 		)
 		(stroke
@@ -4694,96 +5617,6 @@
 			(type default)
 		)
 		(uuid "fe40b883-4218-4835-9ada-e35115445676")
-	)
-	(label "NRST"
-		(at 210.82 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d05cab7-49f2-4fbb-913a-474481377f90")
-	)
-	(label "SWO"
-		(at 213.36 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e56556f-b7c5-4618-8812-565594a6be50")
-	)
-	(label "UART_RX"
-		(at 239.395 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "758729e9-a859-428b-988a-c91920e7071b")
-	)
-	(label "SWCLK"
-		(at 215.9 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80fbb037-a148-454f-a501-f8060fcef191")
-	)
-	(label "SWDIO"
-		(at 218.44 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab351bab-9164-4a42-b0e5-a2d15b3061a7")
-	)
-	(label "UART_RX_PROG"
-		(at 244.475 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4401a69-1af1-4cde-bb3f-51d4a01b7542")
-	)
-	(label "UART_TX"
-		(at 241.935 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd8ca619-f995-4c88-baba-19a54221474c")
-	)
-	(label "5V_EXT"
-		(at 150.495 236.855 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0d7667a-d352-42eb-8030-05a5c62a695e")
-	)
-	(label "UART_TX_PROG"
-		(at 247.015 236.22 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7a3b880-fcba-4e1c-be72-9d4d102b1e7e")
 	)
 	(hierarchical_label "A4P"
 		(shape output)
@@ -4807,6 +5640,17 @@
 		)
 		(uuid "1689d021-adea-4463-8e7e-b3cb9e1e4afa")
 	)
+	(hierarchical_label "SWO"
+		(shape output)
+		(at 75.565 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17031553-ca5d-485a-8a57-fa282d7ef862")
+	)
 	(hierarchical_label "A8N"
 		(shape output)
 		(at 215.9 123.19 180)
@@ -4820,7 +5664,7 @@
 	)
 	(hierarchical_label "UART_RX_PROG"
 		(shape input)
-		(at 143.51 187.325 180)
+		(at 80.01 187.325 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,8 +5729,8 @@
 		(uuid "5abe905a-446a-4cdf-a85f-3818ea293430")
 	)
 	(hierarchical_label "SWDIO"
-		(shape output)
-		(at 160.02 174.625 0)
+		(shape bidirectional)
+		(at 96.52 174.625 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4930,7 +5774,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape input)
-		(at 65.405 177.165 180)
+		(at 150.495 177.165 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4941,7 +5785,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape input)
-		(at 78.105 180.975 180)
+		(at 163.195 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4963,7 +5807,7 @@
 	)
 	(hierarchical_label "UART_TX_PROG"
 		(shape input)
-		(at 160.02 187.325 0)
+		(at 96.52 187.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4985,7 +5829,7 @@
 	)
 	(hierarchical_label "SWO"
 		(shape output)
-		(at 160.02 179.705 0)
+		(at 96.52 179.705 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5016,6 +5860,17 @@
 		)
 		(uuid "b4525301-2653-4e92-8f37-df5509857cff")
 	)
+	(hierarchical_label "UART_TX_PROG"
+		(shape input)
+		(at 103.505 220.345 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b63b7e70-fcce-4a6a-bf71-6103897ab199")
+	)
 	(hierarchical_label "A3N"
 		(shape output)
 		(at 124.46 78.74 180)
@@ -5029,7 +5884,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape output)
-		(at 160.02 184.785 0)
+		(at 96.52 184.785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5039,8 +5894,41 @@
 		(uuid "d00e5992-2fce-4e0f-b11d-e38c8bd2ea67")
 	)
 	(hierarchical_label "SWCLK"
-		(shape output)
-		(at 160.02 177.165 0)
+		(shape bidirectional)
+		(at 75.565 220.345 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d78f88bc-3f71-4404-93e6-7f8f9b0bccdf")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 75.565 230.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9a8941d-1614-45bf-8f58-7ca62379ed3c")
+	)
+	(hierarchical_label "UART_RX_PROG"
+		(shape input)
+		(at 103.505 230.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da87b7c9-3234-4fc9-9a2c-4acc4d7f9534")
+	)
+	(hierarchical_label "SWCLK"
+		(shape bidirectional)
+		(at 96.52 177.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,6 +5936,17 @@
 			(justify left)
 		)
 		(uuid "e7c21a54-6dd3-4acb-a20d-c28524edfcff")
+	)
+	(hierarchical_label "NRST"
+		(shape output)
+		(at 75.565 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f051dde1-4e9a-4a03-970c-4fd939d651b1")
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
@@ -5134,7 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 118.11 57.15 0)
 			(effects
 				(font
@@ -5249,7 +6148,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 66.675 186.055 90)
+		(at 151.765 186.055 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5257,7 +6156,7 @@
 		(dnp no)
 		(uuid "03604c7a-1952-48c0-9870-6a92f93ce4aa")
 		(property "Reference" "D13"
-			(at 68.58 184.785 90)
+			(at 153.67 184.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +6165,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 68.58 187.325 90)
+			(at 153.67 187.325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +6174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.675 186.055 0)
+			(at 151.765 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +6183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.675 186.055 0)
+			(at 151.765 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +6192,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 66.675 186.055 0)
+			(at 151.765 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,45 +6216,34 @@
 		)
 	)
 	(symbol
-		(lib_id "2604-1104:2604-1104")
-		(at 96.52 171.45 0)
-		(unit 1)
+		(lib_name "ESDS304DBVR_5")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 98.425 230.505 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "051d4b94-3d5c-45f2-a570-cb09770d37d6")
-		(property "Reference" "J10"
-			(at 99.06 171.4499 0)
+		(uuid "0cddb1f5-d8ab-4c79-91b2-3e4251c3e675")
+		(property "Reference" "U18"
+			(at 98.425 224.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2604-1104"
-			(at 96.52 160.02 0)
+		(property "Value" "ESDS304DBVR"
+			(at 98.425 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "26041104"
-			(at 118.11 266.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
-			(at 118.11 366.37 0)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 122.555 325.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,17 +6252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
-			(at 95.885 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 566.37 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 122.555 425.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,296 +6262,94 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wago"
-			(at 118.11 666.37 0)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 99.06 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 122.555 625.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2604-1104"
-			(at 118.11 766.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 866.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 966.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "2604-1104"
-			(at 118.11 1066.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
-			(at 118.11 1166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9cc9e48-87ca-47ce-a3a8-13cd4f8d1363")
-		)
-		(pin "3"
-			(uuid "b4db7a0c-637b-480c-81eb-04707ba632ad")
-		)
-		(pin "2"
-			(uuid "8aaa5439-be37-4c32-a201-1389fe3dc491")
-		)
-		(pin "4"
-			(uuid "375eca01-3752-4073-b593-d48af5bd9b6d")
-		)
-		(pin "8"
-			(uuid "213c64fb-f598-48c7-935b-816dbeb6a2d4")
-		)
-		(pin "5"
-			(uuid "82900672-9651-4d85-9c87-fcfa3dfa1fe3")
-		)
-		(pin "6"
-			(uuid "90c2cb6d-e19b-45a4-83f9-830f0d9103e6")
-		)
-		(pin "7"
-			(uuid "eef03ac1-246b-4e63-bbc5-7509f1a0d516")
-		)
-		(instances
-			(project ""
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDA5V3SC5_3")
-		(lib_id "Power_Protection:ESDA5V3SC5")
-		(at 213.36 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bd7fdd0-df8e-41a3-b607-099ab6b1feda")
-		(property "Reference" "D41"
-			(at 208.28 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.6V/400W"
-			(at 208.28 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 220.98 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/gpn/esds302"
-			(at 216.535 241.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes Quad 2.3-pF 3.6-V +/-30-kV ESD protect"
-			(at 213.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 213.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 213.36 245.11 0)
+			(at 122.555 725.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 213.36 245.11 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 122.555 825.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 213.36 245.11 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 122.555 925.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 213.36 245.11 0)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 122.555 1025.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 213.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
-			(uuid "88593891-e4e4-4f04-a87d-c6954e609955")
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d4770")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdef0")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79d")
 		)
 		(pin "3"
-			(uuid "fa244f43-6e02-45ad-a6d8-0d580e4a68c4")
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc103")
 		)
-		(pin "1"
-			(uuid "fa550ba8-9fb9-4195-9b27-aed1f292bbee")
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbeb")
+		)
+		(pin "2"
+			(uuid "7b609bfc-9e97-42c7-aceb-f035f813f341")
 		)
 		(pin "4"
-			(uuid "5855e407-6dcf-44fc-a995-249280c3a854")
+			(uuid "03637012-bea9-4c2b-b281-88d503620756")
 		)
 		(pin "5"
-			(uuid "5b44347f-20b4-4011-a515-c69bb783b64f")
-		)
-		(pin "6"
-			(uuid "932094b0-b94c-4c01-8263-8a9300ac8641")
+			(uuid "32bbede6-8d22-4951-9be0-1b9122568db2")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.935 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0edfb198-a38c-4be8-a4f2-b5fd71a83a8f")
-		(property "Reference" "#PWR045"
-			(at 241.935 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.935 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.935 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.935 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.935 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b6729b6-7dab-44a8-945a-9add7f8b30d7")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR045")
-					(unit 1)
+					(reference "U18")
+					(unit 4)
 				)
 			)
 		)
@@ -6017,6 +6694,165 @@
 		)
 	)
 	(symbol
+		(lib_id "2601-1104:2604-1104")
+		(at 181.61 177.165 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "193bf47f-6e41-451a-84cc-9b5e9e9f1912")
+		(property "Reference" "J5"
+			(at 184.15 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 181.61 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2601-1104:26011104"
+			(at 203.2 272.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 203.2 372.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 180.975 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 572.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 203.2 672.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 203.2 772.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 872.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 972.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 203.2 1072.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 203.2 1172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83c3079a-7b9f-4bb5-88a9-4fc47d155619")
+		)
+		(pin "8"
+			(uuid "04cc34b6-3ff7-484a-8d3e-e6854998ffd7")
+		)
+		(pin "4"
+			(uuid "99ce62d2-6e44-4a73-a226-f7642b5aa951")
+		)
+		(pin "5"
+			(uuid "8288089f-8e63-4873-9325-351bdbdd679c")
+		)
+		(pin "3"
+			(uuid "658cab8e-5d98-44f2-9ed7-bba85719af42")
+		)
+		(pin "1"
+			(uuid "42cefb0f-f00d-47a8-8723-1564a10f8268")
+		)
+		(pin "7"
+			(uuid "e1a4e818-79e7-4441-b88c-5508b4a7feb2")
+		)
+		(pin "6"
+			(uuid "6ad7fdcf-1e3e-4a22-8550-96d488b2150d")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 177.8 113.665 0)
 		(unit 1)
@@ -6079,6 +6915,145 @@
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "F35")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ESDS304DBVR_4")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 98.425 220.345 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2821a598-cbc1-450e-b995-b441af914e80")
+		(property "Reference" "U18"
+			(at 98.425 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 98.425 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 122.555 315.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 122.555 415.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 99.06 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 122.555 615.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 122.555 715.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 122.555 815.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 122.555 915.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 122.555 1015.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
+		)
+		(pin "2"
+			(uuid "f182efb9-08d4-40ff-b79a-772d67b09d42")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb622f")
+		)
+		(pin "4"
+			(uuid "602bb2fd-04e6-47fd-ad16-b8d6b7ab424d")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U18")
+					(unit 3)
 				)
 			)
 		)
@@ -6150,71 +7125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28455eea-f1b5-40eb-b955-f99ce6675cbf")
-		(property "Reference" "#PWR038"
-			(at 213.36 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70078f11-f9b1-4584-b8cb-eccf30708bc8")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 171.45 60.96 0)
 		(unit 1)
@@ -6232,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 171.45 57.15 0)
 			(effects
 				(font
@@ -6432,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 171.45 101.6 0)
 			(effects
 				(font
@@ -6546,6 +7456,230 @@
 		)
 	)
 	(symbol
+		(lib_id "2601-1104:2604-1104")
+		(at 181.61 184.785 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a345746-0012-4fc7-8490-6a40e503574b")
+		(property "Reference" "J5"
+			(at 184.15 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 181.61 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2601-1104:26011104"
+			(at 203.2 279.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 203.2 379.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 180.975 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 579.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 203.2 679.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 203.2 779.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 879.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 979.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 203.2 1079.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 203.2 1179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83c3079a-7b9f-4bb5-88a9-4fc47d15561c")
+		)
+		(pin "8"
+			(uuid "04cc34b6-3ff7-484a-8d3e-e6854998ffda")
+		)
+		(pin "4"
+			(uuid "99ce62d2-6e44-4a73-a226-f7642b5aa954")
+		)
+		(pin "5"
+			(uuid "8288089f-8e63-4873-9325-351bdbdd679f")
+		)
+		(pin "3"
+			(uuid "658cab8e-5d98-44f2-9ed7-bba85719af45")
+		)
+		(pin "1"
+			(uuid "42cefb0f-f00d-47a8-8723-1564a10f826b")
+		)
+		(pin "7"
+			(uuid "e1a4e818-79e7-4441-b88c-5508b4a7feb5")
+		)
+		(pin "6"
+			(uuid "6ad7fdcf-1e3e-4a22-8550-96d488b21510")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 61.595 233.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a5f45d9-6f5e-4fab-b959-024a51b87507")
+		(property "Reference" "#PWR086"
+			(at 61.595 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.595 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.595 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.595 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 61.595 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c35947-d17e-4e6f-abe0-2193b3b04c75")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 177.8 107.95 0)
 		(unit 1)
@@ -6608,6 +7742,145 @@
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "F32")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ESDS304DBVR_1")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 70.485 230.505 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec642d1-fb22-4441-828a-0f430bba7c0c")
+		(property "Reference" "U17"
+			(at 70.485 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 70.485 226.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 94.615 325.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 94.615 425.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 71.12 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 94.615 625.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 94.615 725.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 94.615 825.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 94.615 925.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 94.615 1025.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79a")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb622f")
+		)
+		(pin "4"
+			(uuid "03637012-bea9-4c2b-b281-88d503620753")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
+		)
+		(instances
+			(project ""
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U17")
+					(unit 4)
 				)
 			)
 		)
@@ -6708,7 +7981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 250.19 214.3 0)
 			(effects
 				(font
@@ -6982,168 +8255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "2604-1104:2604-1104")
-		(at 96.52 184.785 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e5f115-7a0f-4a62-98bf-150f8923f8aa")
-		(property "Reference" "J10"
-			(at 99.06 184.7849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2604-1104"
-			(at 96.52 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "26041104"
-			(at 118.11 279.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
-			(at 118.11 379.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
-			(at 95.885 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 579.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wago"
-			(at 118.11 679.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2604-1104"
-			(at 118.11 779.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 879.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 979.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "2604-1104"
-			(at 118.11 1079.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
-			(at 118.11 1179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9cc9e48-87ca-47ce-a3a8-13cd4f8d1377")
-		)
-		(pin "3"
-			(uuid "5693572c-0569-4d93-9deb-27a223aef5ec")
-		)
-		(pin "2"
-			(uuid "8aaa5439-be37-4c32-a201-1389fe3dc4a5")
-		)
-		(pin "4"
-			(uuid "8335b84d-bf8e-4aa0-8fb9-2379623ffaf0")
-		)
-		(pin "8"
-			(uuid "213c64fb-f598-48c7-935b-816dbeb6a2e7")
-		)
-		(pin "5"
-			(uuid "82900672-9651-4d85-9c87-fcfa3dfa1ff8")
-		)
-		(pin "6"
-			(uuid "90c2cb6d-e19b-45a4-83f9-830f0d9103fb")
-		)
-		(pin "7"
-			(uuid "eef03ac1-246b-4e63-bbc5-7509f1a0d529")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 79.375 190.5 0)
+		(at 164.465 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7152,7 +8265,7 @@
 		(fields_autoplaced yes)
 		(uuid "46e65d35-8328-49a2-84da-8adb55ba36c1")
 		(property "Reference" "#PWR0114"
-			(at 79.375 196.85 0)
+			(at 164.465 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +8274,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 79.375 194.945 0)
+			(at 164.465 194.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +8282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 190.5 0)
+			(at 164.465 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +8291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.375 190.5 0)
+			(at 164.465 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +8300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 79.375 190.5 0)
+			(at 164.465 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +8388,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:FTSH-107-01-L-D-K")
-		(at 151.765 179.705 0)
+		(at 88.265 179.705 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7283,7 +8396,7 @@
 		(dnp no)
 		(uuid "4e056676-22ef-4078-8af4-fcc6ff2f966a")
 		(property "Reference" "J28"
-			(at 151.765 165.735 0)
+			(at 88.265 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +8404,7 @@
 			)
 		)
 		(property "Value" "FTSH-107-01-L-D-K"
-			(at 151.765 168.275 0)
+			(at 88.265 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +8412,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:FTSH-107-XX-YYY-D-K"
-			(at 170.815 274.625 0)
+			(at 107.315 274.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +8422,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-d-xxx-xx-mkt.pdf"
-			(at 170.815 374.625 0)
+			(at 107.315 374.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +8432,7 @@
 			)
 		)
 		(property "Description" "14 Position, High Reliability Header Strips, 0.050&quot; pitch"
-			(at 151.765 179.705 0)
+			(at 88.265 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +8441,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 170.815 574.625 0)
+			(at 107.315 574.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +8451,7 @@
 			)
 		)
 		(property "Mouser Part Number" "200-FTSH10701LDK"
-			(at 170.815 674.625 0)
+			(at 107.315 674.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +8461,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-D-K?qs=%252BZP6%2F%252BtExtDf9U3LcTl7MA%3D%3D"
-			(at 170.815 774.625 0)
+			(at 107.315 774.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +8471,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMTEC"
-			(at 170.815 874.625 0)
+			(at 107.315 874.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +8481,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FTSH-107-01-L-D-K"
-			(at 170.815 974.625 0)
+			(at 107.315 974.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +8491,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 151.765 179.705 0)
+			(at 88.265 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +8500,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 151.765 179.705 0)
+			(at 88.265 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +8509,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 151.765 179.705 0)
+			(at 88.265 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,71 +8562,6 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "J28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.275 252.095 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "500ca5af-83ff-41a2-9fb7-21828e7c1b80")
-		(property "Reference" "#PWR044"
-			(at 168.275 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.275 255.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.275 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.275 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.275 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28254c06-2408-4815-9933-f7654d0c796f")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7587,16 +8635,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 132.08 171.45 0)
+		(at 68.58 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55c51d14-953a-46a6-aa33-91a99680885a")
 		(property "Reference" "#PWR034"
-			(at 132.08 175.26 0)
+			(at 68.58 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,8 +8651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 132.08 167.64 0)
+		(property "Value" "+3V3"
+			(at 68.58 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +8660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 171.45 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +8669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 171.45 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +8678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 171.45 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,6 +8762,211 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ESDS304DBVR_3")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 98.425 210.82 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ccfc89-cd9e-45d4-b611-cc5976977f77")
+		(property "Reference" "U18"
+			(at 98.425 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 98.425 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 122.555 305.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 122.555 405.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 99.06 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 122.555 605.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 122.555 705.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 122.555 805.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 122.555 905.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 122.555 1005.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55ec0ad9-8106-4d32-9958-7cc1ebc4ecad")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeee")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79b")
+		)
+		(pin "3"
+			(uuid "a9e9c3e0-946e-483d-ba3d-55ca6fcc251b")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe9")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb6230")
+		)
+		(pin "4"
+			(uuid "03637012-bea9-4c2b-b281-88d503620754")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfc")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 112.395 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5834a8c8-f6b1-4914-88f2-2609177ed87b")
+		(property "Reference" "#PWR088"
+			(at 112.395 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 112.395 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.395 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e428d4c-a143-4301-beeb-fc2e0b9dc369")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7807,7 +9059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 217.17 57.15 0)
 			(effects
 				(font
@@ -7855,6 +9107,145 @@
 		)
 	)
 	(symbol
+		(lib_name "ESDS304DBVR_1")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 70.485 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c9b3fc-1da0-4028-9e49-1fde640d2172")
+		(property "Reference" "U17"
+			(at 70.485 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 70.485 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 94.615 295.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 94.615 395.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 94.615 595.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 94.615 695.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 94.615 795.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 94.615 895.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 94.615 995.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79a")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb622f")
+		)
+		(pin "4"
+			(uuid "03637012-bea9-4c2b-b281-88d503620753")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
+		)
+		(instances
+			(project ""
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2604-1110:2606-1110_010-000")
 		(at 93.98 74.93 0)
 		(unit 1)
@@ -7884,7 +9275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 113.03 169.85 0)
 			(effects
 				(font
@@ -8188,7 +9579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 113.03 214.3 0)
 			(effects
 				(font
@@ -8288,13 +9679,13 @@
 			)
 		)
 		(pin "4"
-			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ec")
+			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ed")
 		)
 		(pin "7"
 			(uuid "61a7328f-36b2-48ab-a43a-c73a026e10bb")
 		)
 		(pin "2"
-			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee1")
+			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee2")
 		)
 		(pin "8"
 			(uuid "d4ce079a-a059-4fe6-afe8-fb7fb8f0b155")
@@ -8306,13 +9697,13 @@
 			(uuid "70349d6d-f2cf-4400-81fb-63111d879fc9")
 		)
 		(pin "3"
-			(uuid "72757a9b-c610-44f8-9978-e290311b1997")
+			(uuid "72757a9b-c610-44f8-9978-e290311b1998")
 		)
 		(pin "1"
-			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e6")
+			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e7")
 		)
 		(pin "5"
-			(uuid "ed0ded55-4079-497e-a571-f2460000abf2")
+			(uuid "ed0ded55-4079-497e-a571-f2460000abf3")
 		)
 		(pin "10"
 			(uuid "73eabb8a-3881-4c18-af30-3e7c99edb8f1")
@@ -8411,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -8453,97 +9844,6 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 150.495 244.475 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7659a14e-a723-488c-86dd-85b2986b8094")
-		(property "Reference" "D43"
-			(at 153.035 243.2049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZX84C5V6"
-			(at 153.035 245.7449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 150.495 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bzx84c2v4.pdf"
-			(at 150.495 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 150.495 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" "https://www.mouser.pl/ProductDetail/Diotec-Semiconductor/BZX84C5V6?qs=OlC7AqGiEDnFbERTexMLXA%3D%3D"
-			(at 150.495 244.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "637-BZX84C5V6"
-			(at 150.495 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad2f22e2-bf40-466b-bdc7-9eb1cda3db29")
-		)
-		(pin "2"
-			(uuid "9c88768b-874b-4e42-8331-4c3ebcb17c82")
-		)
-		(pin "3"
-			(uuid "a2a5c7cb-059b-4552-a992-a00fc179c018")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -8750,6 +10050,145 @@
 		)
 	)
 	(symbol
+		(lib_name "ESDS304DBVR_1")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 70.485 220.345 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b36c4f6-33c8-4388-bcd9-13e67a03346e")
+		(property "Reference" "U17"
+			(at 70.485 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 70.485 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 94.615 315.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 94.615 415.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 71.12 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 94.615 615.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 94.615 715.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 94.615 815.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 94.615 915.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 94.615 1015.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79a")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb622f")
+		)
+		(pin "4"
+			(uuid "03637012-bea9-4c2b-b281-88d503620753")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
+		)
+		(instances
+			(project ""
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U17")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.125 88.9 0)
 		(unit 1)
@@ -8833,7 +10272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 163.83 57.15 0)
 			(effects
 				(font
@@ -9031,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 118.11 101.6 0)
 			(effects
 				(font
@@ -9080,7 +10519,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 88.9 171.45 0)
+		(at 173.99 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9088,7 +10527,7 @@
 		(dnp no)
 		(uuid "86f22c49-9a32-42ee-9990-6efb468ffc9f")
 		(property "Reference" "F13"
-			(at 88.9 167.64 0)
+			(at 173.99 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +10535,7 @@
 			)
 		)
 		(property "Value" "-A"
-			(at 88.9 169.545 0)
+			(at 173.99 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +10543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 171.45 0)
+			(at 173.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +10552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 171.45 0)
+			(at 173.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +10561,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 88.9 171.45 0)
+			(at 173.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +10602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -9211,45 +10650,34 @@
 		)
 	)
 	(symbol
-		(lib_id "2604-1104:2604-1104")
-		(at 96.52 177.165 0)
-		(unit 3)
+		(lib_name "ESDS304DBVR_2")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 98.425 200.66 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88667a29-749e-4646-a069-7409ee723018")
-		(property "Reference" "J10"
-			(at 99.06 177.1649 0)
+		(uuid "8a57d2c5-a57f-4f4c-a2b2-fb8238de3564")
+		(property "Reference" "U18"
+			(at 98.425 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2604-1104"
-			(at 96.52 165.735 0)
+		(property "Value" "ESDS304DBVR"
+			(at 98.425 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "26041104"
-			(at 118.11 272.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
-			(at 118.11 372.085 0)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 122.555 295.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,17 +10686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
-			(at 95.885 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 572.085 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 122.555 395.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,8 +10696,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wago"
-			(at 118.11 672.085 0)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 99.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 122.555 595.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,8 +10715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2604-1104"
-			(at 118.11 772.085 0)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 122.555 695.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,8 +10725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 118.11 872.085 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 122.555 795.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,8 +10735,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 972.085 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 122.555 895.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,8 +10745,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "2604-1104"
-			(at 118.11 1072.085 0)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 122.555 995.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,46 +10754,101 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
-			(at 118.11 1172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9cc9e48-87ca-47ce-a3a8-13cd4f8d138a")
-		)
-		(pin "3"
-			(uuid "b4db7a0c-637b-480c-81eb-04707ba632d6")
 		)
 		(pin "2"
-			(uuid "8aaa5439-be37-4c32-a201-1389fe3dc4b8")
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476f")
+		)
+		(pin "1"
+			(uuid "1a33d4d3-5e57-49ee-a831-409ef9f248d3")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79c")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc102")
+		)
+		(pin "2"
+			(uuid "75785063-a3a9-4076-949c-a56b2093911a")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb6231")
 		)
 		(pin "4"
-			(uuid "375eca01-3752-4073-b593-d48af5bd9b96")
-		)
-		(pin "8"
-			(uuid "213c64fb-f598-48c7-935b-816dbeb6a2f8")
+			(uuid "03637012-bea9-4c2b-b281-88d503620755")
 		)
 		(pin "5"
-			(uuid "04734c3a-9d61-4470-bd92-f46b027838c5")
-		)
-		(pin "6"
-			(uuid "c6c4eb2b-75bb-4728-b12a-9819dce40bb0")
-		)
-		(pin "7"
-			(uuid "eef03ac1-246b-4e63-bbc5-7509f1a0d53a")
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfd")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J10")
-					(unit 3)
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 89.535 233.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9109edd3-b6a8-48db-b35f-5b4f64a4e01f")
+		(property "Reference" "#PWR087"
+			(at 89.535 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.535 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.535 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 89.535 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 89.535 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41954cf6-58b7-40e8-ad9d-6c983182a7d6")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR087")
+					(unit 1)
 				)
 			)
 		)
@@ -9454,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -9502,72 +10985,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 168.275 234.315 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a082fa3-8627-440f-a24d-e11f8442837b")
-		(property "Reference" "#PWR037"
-			(at 168.275 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 168.275 230.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.275 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.275 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.275 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eab028bb-d4b8-40cb-9667-01624cfebfed")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 125.73 105.41 0)
 		(unit 1)
@@ -9585,7 +11002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -9650,7 +11067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -9832,7 +11249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.675 190.5 0)
+		(at 151.765 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9841,7 +11258,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0fc3caa-53c0-4d51-997f-7ae47525e437")
 		(property "Reference" "#PWR0113"
-			(at 66.675 196.85 0)
+			(at 151.765 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,7 +11267,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 66.675 194.945 0)
+			(at 151.765 194.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +11275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.675 190.5 0)
+			(at 151.765 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +11284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.675 190.5 0)
+			(at 151.765 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +11293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.675 190.5 0)
+			(at 151.765 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +11343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "2604-1110:26041110"
+		(property "Footprint" "2601-1110:26011110"
 			(at 158.75 169.85 0)
 			(effects
 				(font
@@ -10029,19 +11446,19 @@
 			(uuid "be16a4bc-49b3-4015-8be5-347fdc6aef66")
 		)
 		(pin "7"
-			(uuid "bb46975e-2328-4788-aec5-708b3b170767")
+			(uuid "bb46975e-2328-4788-aec5-708b3b170768")
 		)
 		(pin "2"
 			(uuid "e8c15b20-9804-4fee-a043-b0a9f16fe1d2")
 		)
 		(pin "8"
-			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f57")
+			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f58")
 		)
 		(pin "6"
-			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a5")
+			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a6")
 		)
 		(pin "9"
-			(uuid "93858819-effe-4d71-9765-042f6a0df756")
+			(uuid "93858819-effe-4d71-9765-042f6a0df757")
 		)
 		(pin "3"
 			(uuid "17b9afa1-3209-4abd-b2f2-bd33ced4a19e")
@@ -10053,7 +11470,7 @@
 			(uuid "086fa077-9d19-4850-af0a-3a4420a8e3d0")
 		)
 		(pin "10"
-			(uuid "383cf554-48ad-401f-b83d-c078b2c02668")
+			(uuid "383cf554-48ad-401f-b83d-c078b2c02669")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
@@ -10149,7 +11566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -10260,71 +11677,6 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 150.495 252.095 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8328363-2af6-484a-99e8-e8ca12d6e0bd")
-		(property "Reference" "#PWR043"
-			(at 150.495 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 150.495 255.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.495 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.495 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 150.495 252.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b48b530d-7798-457b-a603-e533a60038cd")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10534,16 +11886,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 80.645 168.91 0)
+		(at 165.735 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae667cb3-3f00-46d1-8cd1-8af44ca3fba5")
 		(property "Reference" "#PWR0106"
-			(at 80.645 172.72 0)
+			(at 165.735 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,8 +11902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 80.645 164.465 0)
+		(property "Value" "+24V0"
+			(at 165.735 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +11911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.645 168.91 0)
+			(at 165.735 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +11920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 168.91 0)
+			(at 165.735 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +11929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.645 168.91 0)
+			(at 165.735 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +12087,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 79.375 186.055 90)
+		(at 164.465 186.055 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10744,7 +12095,7 @@
 		(dnp no)
 		(uuid "b3a649b8-0206-4a63-8a72-b2ee579ed191")
 		(property "Reference" "D14"
-			(at 81.28 184.785 90)
+			(at 166.37 184.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +12104,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 81.28 187.325 90)
+			(at 166.37 187.325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,7 +12113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 186.055 0)
+			(at 164.465 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +12122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 79.375 186.055 0)
+			(at 164.465 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +12131,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 79.375 186.055 0)
+			(at 164.465 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,166 +12150,6 @@
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "D14")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2604-1104:2604-1104")
-		(at 96.52 180.975 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6f97994-11b8-4098-8ffd-a0422f481609")
-		(property "Reference" "J10"
-			(at 99.06 180.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2604-1104"
-			(at 96.52 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "26041104"
-			(at 118.11 275.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
-			(at 118.11 375.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
-			(at 95.885 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 575.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wago"
-			(at 118.11 675.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2604-1104"
-			(at 118.11 775.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 875.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 975.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "2604-1104"
-			(at 118.11 1075.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
-			(at 118.11 1175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9cc9e48-87ca-47ce-a3a8-13cd4f8d1399")
-		)
-		(pin "3"
-			(uuid "b4db7a0c-637b-480c-81eb-04707ba632e6")
-		)
-		(pin "2"
-			(uuid "8aaa5439-be37-4c32-a201-1389fe3dc4c7")
-		)
-		(pin "4"
-			(uuid "375eca01-3752-4073-b593-d48af5bd9ba6")
-		)
-		(pin "8"
-			(uuid "2cd2af2b-0bd7-49eb-8fc5-eec82da0cd88")
-		)
-		(pin "5"
-			(uuid "82900672-9651-4d85-9c87-fcfa3dfa2017")
-		)
-		(pin "6"
-			(uuid "90c2cb6d-e19b-45a4-83f9-830f0d91041a")
-		)
-		(pin "7"
-			(uuid "27ffa995-152f-4e11-90fb-a10e5f770a2c")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J10")
-					(unit 4)
 				)
 			)
 		)
@@ -11062,7 +12253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "2604-1110:26041110"
+		(property "Footprint" "2601-1110:26011110"
 			(at 158.75 214.3 0)
 			(effects
 				(font
@@ -11162,13 +12353,13 @@
 			)
 		)
 		(pin "4"
-			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ec")
+			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ee")
 		)
 		(pin "7"
 			(uuid "2550f63f-62f1-43ce-8912-525dceddb8b7")
 		)
 		(pin "2"
-			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee1")
+			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee3")
 		)
 		(pin "8"
 			(uuid "bd559fa7-c6da-4183-a8be-dc319feb09c9")
@@ -11180,13 +12371,13 @@
 			(uuid "9893fe33-28b0-4653-9541-1f48928a2d06")
 		)
 		(pin "3"
-			(uuid "72757a9b-c610-44f8-9978-e290311b1997")
+			(uuid "72757a9b-c610-44f8-9978-e290311b1999")
 		)
 		(pin "1"
-			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e6")
+			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e8")
 		)
 		(pin "5"
-			(uuid "ed0ded55-4079-497e-a571-f2460000abf2")
+			(uuid "ed0ded55-4079-497e-a571-f2460000abf4")
 		)
 		(pin "10"
 			(uuid "6ffe3943-0198-4e6e-af56-7c85491995c6")
@@ -11752,7 +12943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 72.39 57.15 0)
 			(effects
 				(font
@@ -11961,7 +13152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 204.47 214.3 0)
 			(effects
 				(font
@@ -12061,13 +13252,13 @@
 			)
 		)
 		(pin "4"
-			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ec")
+			(uuid "f3674bbb-7cdc-440c-9192-b836f81f87ef")
 		)
 		(pin "7"
 			(uuid "029662fe-8386-4d0c-a8f7-7a9ce5e80440")
 		)
 		(pin "2"
-			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee1")
+			(uuid "5bbec611-c097-4a41-83c0-067b4af5cee4")
 		)
 		(pin "8"
 			(uuid "4c85c27b-5b13-41e9-a04a-5c4678c59c87")
@@ -12079,13 +13270,13 @@
 			(uuid "d8ffc737-4509-4257-9e43-b4a855039a61")
 		)
 		(pin "3"
-			(uuid "72757a9b-c610-44f8-9978-e290311b1997")
+			(uuid "72757a9b-c610-44f8-9978-e290311b199a")
 		)
 		(pin "1"
-			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e6")
+			(uuid "f0f11cbe-bba4-4daf-a4c0-efae7e4bc0e9")
 		)
 		(pin "5"
-			(uuid "ed0ded55-4079-497e-a571-f2460000abf2")
+			(uuid "ed0ded55-4079-497e-a571-f2460000abf5")
 		)
 		(pin "10"
 			(uuid "b9c82e99-f95e-4e36-9b24-198e4bf066b2")
@@ -12095,6 +13286,165 @@
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "J3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2601-1104:2604-1104")
+		(at 181.61 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57f3f93-6a7a-4c0c-b14d-3cb809cac038")
+		(property "Reference" "J5"
+			(at 184.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1104"
+			(at 181.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2601-1104:26011104"
+			(at 203.2 266.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 203.2 366.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 180.975 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 566.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 203.2 666.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 203.2 766.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 866.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 966.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 203.2 1066.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 203.2 1166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83c3079a-7b9f-4bb5-88a9-4fc47d15561b")
+		)
+		(pin "8"
+			(uuid "04cc34b6-3ff7-484a-8d3e-e6854998ffd9")
+		)
+		(pin "4"
+			(uuid "99ce62d2-6e44-4a73-a226-f7642b5aa953")
+		)
+		(pin "5"
+			(uuid "8288089f-8e63-4873-9325-351bdbdd679e")
+		)
+		(pin "3"
+			(uuid "658cab8e-5d98-44f2-9ed7-bba85719af44")
+		)
+		(pin "1"
+			(uuid "42cefb0f-f00d-47a8-8723-1564a10f826a")
+		)
+		(pin "7"
+			(uuid "e1a4e818-79e7-4441-b88c-5508b4a7feb4")
+		)
+		(pin "6"
+			(uuid "6ad7fdcf-1e3e-4a22-8550-96d488b2150f")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "J5")
+					(unit 1)
 				)
 			)
 		)
@@ -12129,7 +13479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 204.47 169.85 0)
 			(effects
 				(font
@@ -12232,19 +13582,19 @@
 			(uuid "d8244471-18f3-46b2-9385-334bff4f6729")
 		)
 		(pin "7"
-			(uuid "bb46975e-2328-4788-aec5-708b3b170767")
+			(uuid "bb46975e-2328-4788-aec5-708b3b170769")
 		)
 		(pin "2"
 			(uuid "f3e090fc-ff64-458e-baf0-77a8c0cfd307")
 		)
 		(pin "8"
-			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f57")
+			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f59")
 		)
 		(pin "6"
-			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a5")
+			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a7")
 		)
 		(pin "9"
-			(uuid "93858819-effe-4d71-9765-042f6a0df756")
+			(uuid "93858819-effe-4d71-9765-042f6a0df758")
 		)
 		(pin "3"
 			(uuid "8dd61c22-0eb6-4ecb-956d-385747f82ad7")
@@ -12256,7 +13606,7 @@
 			(uuid "a68e4163-ef9c-483b-a63b-ab7a80058987")
 		)
 		(pin "10"
-			(uuid "383cf554-48ad-401f-b83d-c078b2c02668")
+			(uuid "383cf554-48ad-401f-b83d-c078b2c0266a")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
@@ -12269,7 +13619,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 190.5 0)
+		(at 176.53 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12277,7 +13627,7 @@
 		(dnp no)
 		(uuid "d68cc351-06ea-4459-adcf-0a391bd3de6b")
 		(property "Reference" "#PWR0115"
-			(at 91.44 196.85 0)
+			(at 176.53 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +13636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 194.945 0)
+			(at 176.53 194.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,7 +13644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 190.5 0)
+			(at 176.53 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12303,7 +13653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 190.5 0)
+			(at 176.53 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12312,7 +13662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 190.5 0)
+			(at 176.53 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +13767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 217.17 101.6 0)
 			(effects
 				(font
@@ -12465,142 +13815,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ESDA5V3SC5_3")
-		(lib_id "Power_Protection:ESDA5V3SC5")
-		(at 241.935 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6672560-124c-480e-872e-11ba38d44319")
-		(property "Reference" "D46"
-			(at 236.855 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.6V/400W"
-			(at 236.855 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 249.555 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/gpn/esds302"
-			(at 245.11 241.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes Quad 2.3-pF 3.6-V +/-30-kV ESD protect"
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 241.935 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8d561134-64f6-4821-b6f4-d022bafe64d4")
-		)
-		(pin "3"
-			(uuid "c3fd3ac7-955d-4cfc-a606-e2818370d9db")
-		)
-		(pin "1"
-			(uuid "ea113ecd-4b65-4006-86e1-2c1c240fb5fa")
-		)
-		(pin "4"
-			(uuid "06aa504d-3032-4a00-a311-c49e007e4541")
-		)
-		(pin "5"
-			(uuid "c6b9497d-6e1f-4092-bf55-742bf174ec34")
-		)
-		(pin "6"
-			(uuid "383f0508-33dd-4cae-8a3a-ffeb2f994874")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2604-1110:2606-1110_010-000")
 		(at 231.14 74.93 0)
 		(unit 1)
@@ -12630,7 +13844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "26061110010000"
+		(property "Footprint" "2601-1110:26011110"
 			(at 250.19 169.85 0)
 			(effects
 				(font
@@ -12733,19 +13947,19 @@
 			(uuid "e3cfb26c-de25-4606-8f3d-61a42da0c887")
 		)
 		(pin "7"
-			(uuid "bb46975e-2328-4788-aec5-708b3b170767")
+			(uuid "bb46975e-2328-4788-aec5-708b3b17076a")
 		)
 		(pin "2"
 			(uuid "3ede5d0f-a6c1-4252-9b0c-13d7ec64e7e3")
 		)
 		(pin "8"
-			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f57")
+			(uuid "26d272fd-a851-42b1-b6f9-13e2f91f6f5a")
 		)
 		(pin "6"
-			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a5")
+			(uuid "fee0bfe0-6f21-4bdb-83de-7296960ff5a8")
 		)
 		(pin "9"
-			(uuid "93858819-effe-4d71-9765-042f6a0df756")
+			(uuid "93858819-effe-4d71-9765-042f6a0df759")
 		)
 		(pin "3"
 			(uuid "5c91f88e-d67b-42ac-aec9-798f1b0ffdea")
@@ -12757,7 +13971,7 @@
 			(uuid "26f3deff-23e4-400d-bef5-241cd155fcac")
 		)
 		(pin "10"
-			(uuid "383cf554-48ad-401f-b83d-c078b2c02668")
+			(uuid "383cf554-48ad-401f-b83d-c078b2c0266b")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
@@ -12770,7 +13984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 178.435 0)
+		(at 68.58 178.435 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12778,7 +13992,7 @@
 		(dnp no)
 		(uuid "e9291138-b7e2-4ca3-85bb-34f2cc447036")
 		(property "Reference" "#PWR035"
-			(at 132.08 184.785 0)
+			(at 68.58 184.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +14001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 183.515 0)
+			(at 68.58 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12795,7 +14009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 178.435 0)
+			(at 68.58 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12804,7 +14018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 178.435 0)
+			(at 68.58 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12813,7 +14027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 178.435 0)
+			(at 68.58 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,6 +14043,145 @@
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
 					(reference "#PWR035")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ESDS304DBVR_1")
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 70.485 210.82 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9c0c03-427d-48d5-9312-eb5da06f1867")
+		(property "Reference" "U17"
+			(at 70.485 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 70.485 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 94.615 305.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 94.615 405.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 94.615 605.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 94.615 705.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 94.615 805.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 94.615 905.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 94.615 1005.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
+		)
+		(pin "1"
+			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
+		)
+		(pin "2"
+			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79a")
+		)
+		(pin "3"
+			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
+		)
+		(pin "2"
+			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
+		)
+		(pin "2"
+			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb622f")
+		)
+		(pin "4"
+			(uuid "03637012-bea9-4c2b-b281-88d503620753")
+		)
+		(pin "5"
+			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
+		)
+		(instances
+			(project ""
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "U17")
+					(unit 2)
 				)
 			)
 		)
@@ -12903,17 +14256,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 168.275 244.475 270)
-		(unit 1)
+		(lib_id "2601-1104:2604-1104")
+		(at 181.61 180.975 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f71854e2-8b25-460d-ad9e-0359c7bab6c6")
-		(property "Reference" "D45"
-			(at 170.815 243.2049 90)
+		(uuid "f5564084-9a7c-4c72-b400-778c168d1d61")
+		(property "Reference" "J5"
+			(at 184.15 180.9749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,17 +14274,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZX84C3V6-E3-08"
-			(at 170.815 245.7449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 168.275 244.475 0)
+		(property "Value" "2604-1104"
+			(at 181.61 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,8 +14283,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/86338/bzx84_series.pdf"
-			(at 168.275 244.475 0)
+		(property "Footprint" "2601-1104:26011104"
+			(at 203.2 275.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1104/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+			(at 203.2 375.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 4 mm; Pin spacing 5 mm; 4-pole; Push-in CAGE CLAMP"
+			(at 180.975 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,47 +14312,105 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 168.275 244.475 0)
+		(property "Height" ""
+			(at 203.2 575.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Link:" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/BZX84C3V6-E3-08?qs=S660mHfF5o2IvA56auCMCw%3D%3D"
-			(at 168.275 244.475 90)
+		(property "Manufacturer_Name" "Wago"
+			(at 203.2 675.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-BZX84C3V6-E3-08"
-			(at 168.275 244.475 0)
+		(property "Manufacturer_Part_Number" "2604-1104"
+			(at 203.2 775.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0af3850f-c8d7-4275-9fce-ca1a980151c4")
+		(property "Mouser Part Number" ""
+			(at 203.2 875.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 975.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2604-1104"
+			(at 203.2 1075.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2604-1104/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac"
+			(at 203.2 1175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "023deab0-3aa5-401a-b0eb-3a12be870a75")
+			(uuid "83c3079a-7b9f-4bb5-88a9-4fc47d15561a")
+		)
+		(pin "8"
+			(uuid "04cc34b6-3ff7-484a-8d3e-e6854998ffd8")
+		)
+		(pin "4"
+			(uuid "99ce62d2-6e44-4a73-a226-f7642b5aa952")
+		)
+		(pin "5"
+			(uuid "8288089f-8e63-4873-9325-351bdbdd679d")
 		)
 		(pin "3"
-			(uuid "e7d1f14d-48e1-4295-9c6c-801eab9408e0")
+			(uuid "658cab8e-5d98-44f2-9ed7-bba85719af43")
+		)
+		(pin "1"
+			(uuid "42cefb0f-f00d-47a8-8723-1564a10f8269")
+		)
+		(pin "7"
+			(uuid "e1a4e818-79e7-4441-b88c-5508b4a7feb3")
+		)
+		(pin "6"
+			(uuid "6ad7fdcf-1e3e-4a22-8550-96d488b2150e")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D45")
-					(unit 1)
+					(reference "J5")
+					(unit 4)
 				)
 			)
 		)
@@ -13215,7 +14637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V0"
 			(at 125.73 57.15 0)
 			(effects
 				(font
@@ -13346,7 +14768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V0"
 			(at 209.55 101.6 0)
 			(effects
 				(font

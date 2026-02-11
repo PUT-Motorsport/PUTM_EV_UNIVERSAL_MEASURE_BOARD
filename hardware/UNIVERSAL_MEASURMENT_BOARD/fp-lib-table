@@ -24,4 +24,7 @@
   (lib (name "ISL21010CFH315Z-TK")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_ISL21010CFH315Z-TK")(options "")(descr ""))
   (lib (name "LM4040BIM3-3.0+T")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_LM4040BIM3-3.0+T")(options "")(descr "")(disabled))
   (lib (name "MAX6063AEUR+T")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_MAX6063AEUR+T")(options "")(descr ""))
+  (lib (name "2601-1104")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_2601-1104")(options "")(descr ""))
+  (lib (name "2601-1110")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_2601-1110")(options "")(descr ""))
+  (lib (name "ESDS304DBVR")(type "KiCad")(uri "${KIPRJMOD}/Lib/LIB_ESDS304DBVR")(options "")(descr ""))
 )

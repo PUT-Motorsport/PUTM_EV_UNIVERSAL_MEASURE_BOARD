@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDS304DBVR
+D 3.6V Data-Line Surge and 30kV ESD Protection Diode Array
+K
+F http://www.ti.com/lit/gpn/esds304
+$ENDCMP
+#
+#End Doc Library
