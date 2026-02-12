@@ -2512,7 +2512,7 @@
 		(uuid "12fc1a18-8e41-4bfa-b34c-7fa95982e92a")
 	)
 	(no_connect
-		(at 292.1 35.56)
+		(at 283.21 35.56)
 		(uuid "4ada22d3-9bad-4f58-a3fa-893d368a6160")
 	)
 	(no_connect
@@ -2699,16 +2699,6 @@
 			(type default)
 		)
 		(uuid "03772518-7340-4ffd-8fb6-830e384c0c2e")
-	)
-	(wire
-		(pts
-			(xy 283.21 35.56) (xy 292.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063322f6-8876-43b9-8c7b-fff5f8c13776")
 	)
 	(wire
 		(pts
@@ -3002,16 +2992,6 @@
 	)
 	(bus
 		(pts
-			(xy 52.07 71.12) (xy 52.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee8ba2e-7695-45d4-ab0e-d0a6ca1172da")
-	)
-	(bus
-		(pts
 			(xy 52.07 38.1) (xy 52.07 40.64)
 		)
 		(stroke
@@ -3169,6 +3149,16 @@
 			(type default)
 		)
 		(uuid "4925d893-5fe9-4c13-a6a6-39e97b351823")
+	)
+	(bus
+		(pts
+			(xy 52.07 71.12) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a72579-179f-4a1c-8e97-2e7f1a05ee5c")
 	)
 	(bus
 		(pts
@@ -3389,6 +3379,16 @@
 			(type default)
 		)
 		(uuid "74c8647b-0d23-4326-81f8-2861dd2e63d7")
+	)
+	(bus
+		(pts
+			(xy 52.07 68.58) (xy 52.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75631cc1-fea7-4d0f-8e56-f64613e13e1f")
 	)
 	(wire
 		(pts
@@ -3709,16 +3709,6 @@
 			(type default)
 		)
 		(uuid "9d69d198-c527-436c-8a87-5b076353b6ab")
-	)
-	(bus
-		(pts
-			(xy 52.07 71.12) (xy 52.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26f686d-9c28-4a52-acbc-aae995fef585")
 	)
 	(bus
 		(pts
@@ -4421,7 +4411,7 @@
 		(uuid "3cc01348-5a46-4170-958b-a8a75006c830")
 	)
 	(label "SWO"
-		(at 284.48 35.56 0)
+		(at 283.21 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,7 +5230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -5249,7 +5239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -5258,25 +5248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 142.24 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 142.24 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -5430,7 +5402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
 			(at 302.26 77.47 0)
 			(effects
 				(font
@@ -5439,69 +5411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 302.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "595-ESDS304DBVR"
 			(at 302.26 77.47 0)
 			(effects
 				(font
@@ -5785,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -5794,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -5803,25 +5713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -6005,7 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 24.13 186.69 0)
 			(effects
 				(font
@@ -6014,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 24.13 186.69 0)
 			(effects
 				(font
@@ -6023,44 +5915,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 24.13 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 24.13 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -6121,7 +5977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -6130,43 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -6252,7 +6072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 209.55 69.85 0)
 			(effects
 				(font
@@ -6261,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 209.55 69.85 0)
 			(effects
 				(font
@@ -6270,25 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 209.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 209.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 209.55 69.85 0)
 			(effects
 				(font
@@ -6368,7 +6170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -6377,7 +6179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -6386,25 +6188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -6486,7 +6270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -6495,7 +6279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -6504,25 +6288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 114.3 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -6702,7 +6468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 24.13 161.29 0)
 			(effects
 				(font
@@ -6711,7 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 24.13 161.29 0)
 			(effects
 				(font
@@ -6720,44 +6486,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 24.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 24.13 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 24.13 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 24.13 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 24.13 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -6845,7 +6575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -6854,25 +6584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 208.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 208.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -6990,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -6999,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -7008,43 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -7195,7 +6871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -7204,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -7213,25 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 209.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 209.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -7441,7 +7099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
+		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -7450,7 +7108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -7459,25 +7117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-D5V0L2B3W-7"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -7794,7 +7434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x02:26011102"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -7803,7 +7443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1102/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -7812,43 +7452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "Power input"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -8057,7 +7661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -8066,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -8075,25 +7679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 142.24 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 142.24 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -8300,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD5V0L2BT-QR"
+		(property "Manufacturer_Part_Number" "PESD5V0L2BT-QR"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -8309,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Nexperia/PESD5V0L2BT-QR?qs=vvQtp7zwQdORLHkH1w26Gw%3D%3D"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -8318,25 +7904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 233.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 233.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "771-PESD5V0L2BT-QR"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -8389,7 +7957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 74.93 212.09 0)
 			(effects
 				(font
@@ -8398,7 +7966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 74.93 212.09 0)
 			(effects
 				(font
@@ -8407,44 +7975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 74.93 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 74.93 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 74.93 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD5V0L2BT-QR"
+		(property "Manufacturer_Part_Number" "PESD5V0L2BT-QR"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -8532,7 +8064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Nexperia/PESD5V0L2BT-QR?qs=vvQtp7zwQdORLHkH1w26Gw%3D%3D"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -8541,25 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 264.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 264.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "771-PESD5V0L2BT-QR"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -8677,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -8686,7 +8200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -8695,43 +8209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -8885,7 +8363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -8894,7 +8372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -8903,25 +8381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 114.3 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -9325,7 +8785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -9334,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -9343,25 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 114.3 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -9411,7 +8853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -9420,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -9429,43 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -9813,46 +9219,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 295.91 430.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "200-FTSH10701LDK"
-			(at 295.91 530.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-D-K?qs=%252BZP6%2F%252BtExtDf9U3LcTl7MA%3D%3D"
-			(at 295.91 630.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 295.91 730.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "FTSH-107-01-L-D-K"
 			(at 295.91 830.48 0)
 			(effects
@@ -9863,7 +9229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Samtec/FTSH-107-01-L-D-K?qs=%252BZP6%2F%252BtExtDf9U3LcTl7MA%3D%3D"
 			(at 276.86 35.56 0)
 			(effects
 				(font
@@ -9872,51 +9238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 276.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 276.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 276.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 276.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 276.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "200-FTSH10701LDK"
 			(at 276.86 35.56 0)
 			(effects
 				(font
@@ -10330,7 +9652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x02:26011102"
 			(at 185.42 162.56 0)
 			(effects
 				(font
@@ -10339,7 +9661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1102/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 185.42 162.56 0)
 			(effects
 				(font
@@ -10348,43 +9670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 185.42 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 185.42 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 185.42 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "Power input"
 			(at 185.42 162.56 0)
 			(effects
 				(font
@@ -10629,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 74.93 186.69 0)
 			(effects
 				(font
@@ -10638,7 +9924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 74.93 186.69 0)
 			(effects
 				(font
@@ -10647,44 +9933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 74.93 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 74.93 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 74.93 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 24.13 212.09 0)
 			(effects
 				(font
@@ -10745,7 +9995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 24.13 212.09 0)
 			(effects
 				(font
@@ -10754,44 +10004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 24.13 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 24.13 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 24.13 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 24.13 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 24.13 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10973,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -10982,7 +10196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -10991,43 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -11151,7 +10329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x03:26011103"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -11160,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -11169,44 +10347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SE input"
 			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 74.93 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 74.93 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +10596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wago_01x05:26011105"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -11463,7 +10605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -11472,43 +10614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "DIF input"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -11661,7 +10767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
 			(at 142.24 161.29 90)
 			(effects
 				(font
@@ -11670,7 +10776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
 			(at 142.24 161.29 90)
 			(effects
 				(font
@@ -11679,25 +10785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 142.24 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 142.24 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "863-SZESD9101P2T5G"
 			(at 142.24 161.29 90)
 			(effects
 				(font

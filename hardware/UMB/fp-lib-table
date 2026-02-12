@@ -9,4 +9,7 @@
   (lib (name "SOIC-14")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SOIC-14.pretty")(options "")(descr ""))
   (lib (name "TPS563219ADDFR")(type "KiCad")(uri "${KIPRJMOD}/Footprints/TPS563219ADDFR.pretty")(options "")(descr ""))
   (lib (name "10uFpolarized_cap")(type "KiCad")(uri "${KIPRJMOD}/Footprints/10uFpolarized_cap.pretty")(options "")(descr ""))
+  (lib (name "Wago_01x05")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Wago_01x05.pretty")(options "")(descr ""))
+  (lib (name "Wago_01x03")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Wago_01x03.pretty")(options "")(descr ""))
+  (lib (name "Wago_01x02")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Wago_01x02.pretty")(options "")(descr ""))
 )

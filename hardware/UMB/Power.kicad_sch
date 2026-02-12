@@ -708,168 +708,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SD24_SOD323"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SD24_SOD323"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor thyrector transil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SD24_SOD323_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SD24_SOD323_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM2940SX-12_NOPB_2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2503,6 +2341,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 226.822 47.244)
@@ -2812,7 +2751,7 @@
 		(uuid "f6df8327-efcb-44ab-92d1-8d0391048e43")
 	)
 	(junction
-		(at 102.87 31.75)
+		(at 95.25 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01f9dad9-1c0f-4d19-a843-6cb69e62dcbf")
@@ -2830,10 +2769,16 @@
 		(uuid "11fd63a6-aba3-42b5-867e-a6743e17fdce")
 	)
 	(junction
-		(at 144.78 31.75)
+		(at 137.16 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16100a5c-d022-44aa-a6f0-29359b54a15e")
+	)
+	(junction
+		(at 196.85 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1996cf17-ef0c-4bc8-822b-a4f004e2faf4")
 	)
 	(junction
 		(at 41.91 71.12)
@@ -2848,7 +2793,7 @@
 		(uuid "1b18a6a9-3bb4-4919-8359-60035950ab33")
 	)
 	(junction
-		(at 52.07 31.75)
+		(at 44.45 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e24126f-9a48-485b-9bf5-5510218046cb")
@@ -2866,13 +2811,19 @@
 		(uuid "221d538e-42a4-43db-9774-d5c42a1d407b")
 	)
 	(junction
+		(at 149.86 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2306038a-9ecb-4acb-8dfe-513fd85d1b75")
+	)
+	(junction
 		(at 186.69 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e8107f9-a6cf-4dd7-87c1-0e02d5b90b35")
 	)
 	(junction
-		(at 52.07 41.91)
+		(at 44.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31aaf65d-11bb-4b49-a193-2a8580857b38")
@@ -2884,7 +2835,7 @@
 		(uuid "3785086a-0524-49ef-bcf9-88fc8e82aeba")
 	)
 	(junction
-		(at 154.94 31.75)
+		(at 147.32 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a42bdd2-3329-4cd1-a463-6b665bc26103")
@@ -2902,7 +2853,7 @@
 		(uuid "41b02bb8-4e3c-4ac4-9eb1-003c58f91909")
 	)
 	(junction
-		(at 144.78 45.72)
+		(at 137.16 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "428a9a33-3e4f-460e-8061-9c2c6a106831")
@@ -2932,6 +2883,12 @@
 		(uuid "5cec59ab-c66a-4ebc-bbaf-e768249b2807")
 	)
 	(junction
+		(at 26.67 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa81f28-6bae-4ea2-acc2-a9a4f91a2c16")
+	)
+	(junction
 		(at 31.75 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2944,7 +2901,7 @@
 		(uuid "62e7fbef-4cc1-4a5c-8076-2277e417aba1")
 	)
 	(junction
-		(at 40.64 31.75)
+		(at 33.02 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6448bf5b-5e33-46a6-9ce2-827fa21a6d4c")
@@ -2986,16 +2943,22 @@
 		(uuid "8c945c0e-27c5-49dc-91fb-165c2d7c2d07")
 	)
 	(junction
-		(at 64.77 41.91)
+		(at 57.15 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96405fa2-3cbd-406a-81d2-7043f5a8921d")
 	)
 	(junction
-		(at 134.62 31.75)
+		(at 127 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "979673b1-6ff1-4c6c-b7a1-c38c1419fd29")
+	)
+	(junction
+		(at 149.86 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b584d1-ccfb-4d44-8bf5-e37831cd4b5e")
 	)
 	(junction
 		(at 212.09 134.62)
@@ -3014,18 +2977,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad01dc30-7cf8-4034-9a01-c5278ee674c5")
-	)
-	(junction
-		(at 31.75 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b578a423-1bf6-4a74-b3e6-af4e67b97e2e")
-	)
-	(junction
-		(at 40.64 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be995cd8-b109-47ae-9ef3-4c5f7825d4dd")
 	)
 	(junction
 		(at 118.11 71.12)
@@ -3052,7 +3003,7 @@
 		(uuid "dab01fdc-b444-49b7-a17f-d2d59c5191a5")
 	)
 	(junction
-		(at 123.19 39.37)
+		(at 115.57 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb028dae-a661-49f1-a88e-a5bf5d59806c")
@@ -3070,13 +3021,13 @@
 		(uuid "fa5a2dcb-5ddc-418e-8a47-96240ff72326")
 	)
 	(junction
-		(at 123.19 31.75)
+		(at 115.57 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc9095f7-9939-4f39-9c9f-ea4c2b624f14")
 	)
 	(no_connect
-		(at 64.77 36.83)
+		(at 57.15 36.83)
 		(uuid "03ff0566-e455-43a5-bfff-d58aceae7870")
 	)
 	(no_connect
@@ -3084,11 +3035,11 @@
 		(uuid "0b8aa825-8179-4dab-9d29-737248b157dc")
 	)
 	(no_connect
-		(at 64.77 34.29)
+		(at 57.15 34.29)
 		(uuid "182fe54e-1ead-4d73-a7f1-ff440ee702bb")
 	)
 	(no_connect
-		(at 92.71 34.29)
+		(at 85.09 34.29)
 		(uuid "83fcf538-1c42-429b-a1ab-0659189eb5dc")
 	)
 	(polyline
@@ -3123,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 64.77 31.75)
+			(xy 44.45 31.75) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3143,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 144.78 45.72)
+			(xy 137.16 41.91) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3163,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 46.99) (xy 123.19 45.72)
+			(xy 115.57 46.99) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3173,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 40.64 31.75)
+			(xy 26.67 31.75) (xy 33.02 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3203,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 144.78 45.72)
+			(xy 137.16 46.99) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 31.75) (xy 161.29 26.67)
+			(xy 149.86 31.75) (xy 149.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3353,16 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 31.75) (xy 31.75 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c5421f-c953-45fa-a75b-02d2537ebae0")
-	)
-	(wire
-		(pts
 			(xy 130.81 120.65) (xy 130.81 125.73)
 		)
 		(stroke
@@ -3383,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 52.07 31.75)
+			(xy 33.02 31.75) (xy 44.45 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3443,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 64.77 41.91)
+			(xy 44.45 41.91) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3563,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 39.37) (xy 123.19 38.1)
+			(xy 115.57 39.37) (xy 115.57 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3603,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 102.87 31.75)
+			(xy 85.09 31.75) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3663,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 134.62 41.91)
+			(xy 127 45.72) (xy 127 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3683,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 144.78 45.72)
+			(xy 127 45.72) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 64.77 46.99)
+			(xy 57.15 41.91) (xy 57.15 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3723,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 31.75) (xy 123.19 31.75)
+			(xy 110.49 31.75) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3733,7 +3674,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 31.75) (xy 144.78 31.75)
+			(xy 127 31.75) (xy 137.16 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3753,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 31.75) (xy 25.4 26.67)
+			(xy 26.67 31.75) (xy 26.67 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3763,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 123.19 39.37)
+			(xy 85.09 39.37) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 34.29)
+			(xy 33.02 31.75) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3843,13 +3784,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 31.75) (xy 144.78 36.83)
+			(xy 137.16 31.75) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "685e28be-0457-4833-a94c-f13dce97f6f9")
+	)
+	(wire
+		(pts
+			(xy 196.85 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaf1d63-1832-46a0-9c5c-d1fc4b775b2d")
 	)
 	(wire
 		(pts
@@ -3863,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 154.94 45.72)
+			(xy 137.16 45.72) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 52.07 33.02)
+			(xy 44.45 31.75) (xy 44.45 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3943,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 39.37) (xy 64.77 41.91)
+			(xy 57.15 39.37) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4023,16 +3974,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 31.75 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8521a853-8a55-4fe5-8b88-180464af13f0")
-	)
-	(wire
-		(pts
 			(xy 266.7 124.46) (xy 276.86 124.46)
 		)
 		(stroke
@@ -4103,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 33.02) (xy 123.19 31.75)
+			(xy 115.57 33.02) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4113,23 +4054,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 45.72) (xy 154.94 41.91)
+			(xy 147.32 45.72) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c106461-79aa-491f-909f-d03f8eb32bf8")
-	)
-	(wire
-		(pts
-			(xy 31.75 40.64) (xy 31.75 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c1af45f-a3bd-4ae4-837b-0fed21bd3045")
 	)
 	(wire
 		(pts
@@ -4143,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 110.49 31.75)
+			(xy 95.25 31.75) (xy 102.87 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4214,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 41.91) (xy 52.07 41.91)
+			(xy 33.02 41.91) (xy 44.45 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4363,7 +4294,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 31.75) (xy 154.94 31.75)
+			(xy 149.86 31.75) (xy 147.32 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4413,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 203.2 134.62)
+			(xy 186.69 134.62) (xy 196.85 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4483,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 31.75) (xy 154.94 31.75)
+			(xy 137.16 31.75) (xy 147.32 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4553,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 52.07 41.91)
+			(xy 44.45 38.1) (xy 44.45 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4653,7 +4584,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 36.83) (xy 102.87 36.83)
+			(xy 85.09 36.83) (xy 95.25 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4703,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 36.83) (xy 154.94 31.75)
+			(xy 147.32 36.83) (xy 147.32 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 39.37) (xy 40.64 41.91)
+			(xy 33.02 39.37) (xy 33.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 40.64) (xy 123.19 39.37)
+			(xy 115.57 40.64) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 31.75) (xy 134.62 31.75)
+			(xy 115.57 31.75) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4850,16 +4781,6 @@
 			(type default)
 		)
 		(uuid "f62d3a32-be97-4aea-b993-acb77de3e4b9")
-	)
-	(wire
-		(pts
-			(xy 31.75 41.91) (xy 40.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66b6fb6-f7d4-4537-ad2e-48a15e4b4717")
 	)
 	(wire
 		(pts
@@ -4893,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 31.75) (xy 134.62 36.83)
+			(xy 127 31.75) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4987,43 +4908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 170.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 170.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 170.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "Test point"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -5098,42 +4983,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 276.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 276.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 276.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 276.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
 			(at 276.86 129.54 0)
 			(effects
@@ -5144,6 +4993,15 @@
 			)
 		)
 		(property "Mouser No" "74-TMCP1A475KTRF"
+			(at 276.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
 			(at 276.86 129.54 0)
 			(effects
 				(font
@@ -5185,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 259.08 140.716 0)
 			(effects
 				(font
@@ -5234,7 +5092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 35.56 180)
+		(at 115.57 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5242,7 +5100,7 @@
 		(dnp no)
 		(uuid "0ff4bb00-1ed3-47d0-9e3e-de51eb718a17")
 		(property "Reference" "R9"
-			(at 125.476 34.544 0)
+			(at 117.856 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5108,7 @@
 			)
 		)
 		(property "Value" "174k"
-			(at 126.492 36.576 0)
+			(at 118.872 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5116,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 35.56 0)
+			(at 115.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5125,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
-			(at 123.19 35.56 0)
+			(at 115.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,17 +5133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RT0603FRE07174KL"
-			(at 123.19 35.56 0)
+		(property "Description" "Resistor"
+			(at 115.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5143,25 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE07174KL?qs=sGAEpiMZZMvdGkrng054t98Xz4DA4UW4%252B4kzOBwKa6o%3D"
-			(at 123.19 35.56 0)
+			(at 115.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE07174KL"
+			(at 115.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE07174KL"
+			(at 115.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO"
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -5370,7 +5237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser#" " 926-LM1117IMPX50NOPB "
+		(property "Manufacturer_Part_Number" "LM1117IMP-5.0/NOPB"
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -5379,7 +5246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM1117IMP-5.0-NOPB?qs=X1J7HmVL2ZHO6cZ9lqve%252BA%3D%3D"
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -5388,25 +5255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 96.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 96.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "926-LM1117IMP5.0NOPB "
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -5571,6 +5420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "A767EB106M1VLAE085"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b257c75-e450-4124-8c72-93179a475c3c")
 		)
@@ -5641,42 +5499,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
 			(at 31.75 74.93 0)
 			(effects
@@ -5687,6 +5509,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
+			(at 31.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 31.75 74.93 0)
 			(effects
 				(font
@@ -5712,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 43.18 0)
+		(at 115.57 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5720,7 +5551,7 @@
 		(dnp no)
 		(uuid "1e224571-712c-471a-9c40-3bf37d5c412a")
 		(property "Reference" "R10"
-			(at 126.238 42.164 0)
+			(at 118.618 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5559,7 @@
 			)
 		)
 		(property "Value" "10.2k"
-			(at 127 44.45 0)
+			(at 119.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 43.18 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5576,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
-			(at 123.19 43.18 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,17 +5584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RT0603FRE0710K2L"
-			(at 130.302 39.878 0)
+		(property "Description" "Resistor"
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5594,25 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMvdGkrng054t3k%2FZKBE9r5yII7CVIap%2FZA%3D"
-			(at 123.19 43.18 0)
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE0710K2L"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE0710K2L"
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,42 +5690,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D"
 			(at 170.18 130.81 0)
 			(effects
@@ -5896,6 +5700,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C105K4R"
+			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
 			(at 170.18 130.81 0)
 			(effects
 				(font
@@ -5990,34 +5803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 110.49 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 110.49 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 110.49 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Manufacturer_Part_Number" "104CDMCCDS-150MC"
 			(at 110.49 71.12 90)
 			(effects
 				(font
@@ -6160,42 +5946,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
 			(at 220.98 129.54 0)
 			(effects
@@ -6206,6 +5956,15 @@
 			)
 		)
 		(property "Mouser No" "74-TMCP1A475KTRF"
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
 			(at 220.98 129.54 0)
 			(effects
 				(font
@@ -6231,7 +5990,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 161.29 26.67 0)
+		(at 149.86 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6239,7 +5998,7 @@
 		(dnp no)
 		(uuid "27afd9fc-64bc-4417-ab35-59498ae951c4")
 		(property "Reference" "#PWR018"
-			(at 161.29 30.48 0)
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6007,7 @@
 			)
 		)
 		(property "Value" "+14.5V"
-			(at 161.29 23.114 0)
+			(at 149.86 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 26.67 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 26.67 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 161.29 26.67 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6055,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 39.37 0)
+		(at 137.16 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6305,7 +6064,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b83cbb5-ffe5-4886-a08e-0cadc4b5525a")
 		(property "Reference" "C41"
-			(at 147.32 38.1062 0)
+			(at 139.7 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6073,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 147.32 40.6462 0)
+			(at 139.7 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6082,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 144.78 39.37 0)
+			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6091,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/UPY_GPHC_X7R_6_3V_TO_250V.pdf"
-			(at 144.78 39.37 0)
+			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,43 +6100,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 144.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 144.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 144.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 144.78 39.37 0)
+			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6109,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/CC1210KKX7R8BB226?qs=CQahDLEE%252B2yZGjajjM1h8w%3D%3D"
-			(at 144.78 39.37 0)
+			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6118,16 @@
 			)
 		)
 		(property "Mouser No" "603-CC121KKX7R8BB226"
-			(at 144.78 39.37 0)
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC1210KKX7R8BB226"
+			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,6 +6222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "A767EB106M1VLAE085"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a57e0ea-776c-4d59-adcc-9fcae1389c02")
 		)
@@ -6550,7 +6291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO"
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -6559,7 +6300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "511-LDK320ADU120R"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LDK320ADU120R?qs=1mbolxNpo8dj6BDqSWT9hQ%3D%3D"
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -6568,7 +6309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "LDK320ADU120R"
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -6577,25 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 259.08 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 259.08 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "511-LDK320ADU120R"
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -6624,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 134.62 39.37 0)
+		(at 127 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,7 +6356,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ad20f08-4b12-48b7-a101-fa8e35772fcb")
 		(property "Reference" "C16"
-			(at 137.16 38.1062 0)
+			(at 129.54 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6365,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 137.16 40.6462 0)
+			(at 129.54 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6374,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 134.62 39.37 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6383,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/UPY_GPHC_X7R_6_3V_TO_250V.pdf"
-			(at 134.62 39.37 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,43 +6392,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 134.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 134.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 134.62 39.37 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6401,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/CC1210KKX7R8BB226?qs=CQahDLEE%252B2yZGjajjM1h8w%3D%3D"
-			(at 134.62 39.37 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6410,16 @@
 			)
 		)
 		(property "Mouser No" "603-CC121KKX7R8BB226"
-			(at 134.62 39.37 0)
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC1210KKX7R8BB226"
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,42 +6496,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TL8W9226M010C?qs=g94mH1nyDVlXOuD4bK0MWA%3D%3D"
 			(at 212.09 129.54 0)
 			(effects
@@ -6846,6 +6506,15 @@
 			)
 		)
 		(property "Mouser No" "74-TL8W9226M010C"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL8W9226M010C"
 			(at 212.09 129.54 0)
 			(effects
 				(font
@@ -6912,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 118.11 83.82 0)
 			(effects
 				(font
@@ -6921,8 +6590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE0710K2L"
-			(at 125.222 80.518 0)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMvdGkrng054t3k%2FZKBE9r5yII7CVIap%2FZA%3D"
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6599,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMvdGkrng054t3k%2FZKBE9r5yII7CVIap%2FZA%3D"
+		(property "Manufacturer_Part_Number" "RT0603FRE0710K2L"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE0710K2L"
 			(at 118.11 83.82 0)
 			(effects
 				(font
@@ -7007,42 +6685,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 97.79 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 97.79 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 97.79 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 97.79 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
 			(at 97.79 71.12 90)
 			(effects
@@ -7053,6 +6695,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
+			(at 97.79 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 97.79 71.12 90)
 			(effects
 				(font
@@ -7148,6 +6799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CC1210KKX7R8BB226"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0743a1b1-53d3-4bcd-80ae-837f71e3dccf")
 		)
@@ -7210,52 +6870,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low Dropout Regulator"
+		(property "Description" "LDO"
 			(at 26.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 53.34 520.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "926-LM2940SX-12/NOPB"
-			(at 53.34 620.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940SX-12-NOPB?qs=X1J7HmVL2ZEie6RRCswWNw%3D%3D"
-			(at 53.34 720.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 53.34 820.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -7269,7 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM2940SX-12-NOPB?qs=X1J7HmVL2ZEie6RRCswWNw%3D%3D"
 			(at 26.67 125.73 0)
 			(effects
 				(font
@@ -7278,25 +6898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 26.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 26.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "926-LM2940SX-12/NOPB"
 			(at 26.67 125.73 0)
 			(effects
 				(font
@@ -7521,7 +7123,7 @@
 	(symbol
 		(lib_name "TPS563300DRLR_1")
 		(lib_id "TPS563300DRLR:TPS563300DRLR")
-		(at 64.77 31.75 0)
+		(at 57.15 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7530,7 +7132,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c3b3696-beb1-4175-815e-03d243ff3587")
 		(property "Reference" "U4"
-			(at 78.74 24.13 0)
+			(at 71.12 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7140,7 @@
 			)
 		)
 		(property "Value" "TPS563300DRLR"
-			(at 78.74 26.67 0)
+			(at 71.12 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7148,7 @@
 			)
 		)
 		(property "Footprint" "sot-583-8:TPS62932DRLR"
-			(at 88.9 126.67 0)
+			(at 81.28 126.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps563300.pdf?ts=1666035990155&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS563300"
-			(at 88.9 226.67 0)
+			(at 81.28 226.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,57 +7167,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TPS563300 3.8-V to 28-V, 3-A Synchronous Buck Converter in SOT583 Package"
-			(at 64.77 31.75 0)
+		(property "Description" "dc/dc conv"
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 88.9 426.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS563300DRLR"
-			(at 88.9 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS563300DRLR?qs=vvQtp7zwQdMDxJAw0dSlAg%3D%3D"
-			(at 88.9 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 88.9 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPS563300DRLR"
-			(at 88.9 826.67 0)
+			(at 81.28 826.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,8 +7186,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 64.77 31.75 0)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TPS563300DRLR?qs=vvQtp7zwQdMDxJAw0dSlAg%3D%3D"
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,26 +7195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 31.75 0)
+		(property "Mouser No" "595-TPS563300DRLR"
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 46.99 0)
+		(at 115.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7703,7 +7247,7 @@
 		(dnp no)
 		(uuid "5ebec27f-83c2-4467-acd1-7182b5333668")
 		(property "Reference" "#PWR020"
-			(at 123.19 53.34 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 50.546 0)
+			(at 115.57 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 46.99 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 46.99 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 46.99 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,6 +7433,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62cd7d8d-c86b-4421-8cc4-a7aaf8c168ae")
+		(property "Reference" "#FLG07"
+			(at 56.515 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9972d399-aeca-4c98-b977-906d8e68585e")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 20.32 130.81 0)
 		(mirror y)
@@ -7934,43 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 20.32 130.81 0)
 			(effects
 				(font
@@ -7989,6 +7564,15 @@
 			)
 		)
 		(property "Mouser No" "81-GRT188R61H105KE3D"
+			(at 20.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT188R61H105KE13D"
 			(at 20.32 130.81 0)
 			(effects
 				(font
@@ -8030,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 203.2 140.716 0)
 			(effects
 				(font
@@ -8132,42 +7716,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 242.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 242.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 242.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 242.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
 			(at 242.57 129.54 0)
 			(effects
@@ -8178,6 +7726,15 @@
 			)
 		)
 		(property "Mouser No" "74-TMCP1A475KTRF"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
 			(at 242.57 129.54 0)
 			(effects
 				(font
@@ -8203,7 +7760,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 114.3 31.75 90)
+		(at 106.68 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8212,7 +7769,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bc3c622-6ab0-4b33-a4c2-9526b2c3cdfc")
 		(property "Reference" "L1"
-			(at 114.3 26.67 90)
+			(at 106.68 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +7777,7 @@
 			)
 		)
 		(property "Value" "15uH"
-			(at 114.3 29.21 90)
+			(at 106.68 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +7785,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_APV_APH1040"
-			(at 114.3 31.75 0)
+			(at 106.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +7794,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/265/1/104CDMCCDS.pdf"
-			(at 114.3 31.75 0)
+			(at 106.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +7803,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 114.3 31.75 0)
+			(at 106.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +7812,7 @@
 			)
 		)
 		(property "Mouser No" "851-104CDMCCDS-150MC"
-			(at 114.3 31.75 90)
+			(at 106.68 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +7821,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Sumida/104CDMCCDS-150MC?qs=D3efs7kfDkXi0pUp83tfVw%3D%3D"
-			(at 114.3 31.75 90)
+			(at 106.68 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,35 +7829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 114.3 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 31.75 90)
+		(property "Manufacturer_Part_Number" "104CDMCCDS-150MC"
+			(at 106.68 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,6 +7848,73 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d77cb66-fb42-44de-887f-3da4865f04d8")
+		(property "Reference" "#FLG04"
+			(at 151.765 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbda950c-64af-42b7-8500-86a05c89a7e2")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8366,7 +7963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -8375,8 +7972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE0784K5L"
-			(at 125.222 71.628 0)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0784K5L?qs=sGAEpiMZZMvdGkrng054t98Xz4DA4UW4abUsz0MdkZk%3D"
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +7981,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0784K5L?qs=sGAEpiMZZMvdGkrng054t98Xz4DA4UW4abUsz0MdkZk%3D"
+		(property "Manufacturer_Part_Number" "RT0603FRE0784K5L"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE0784K5L"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -8528,42 +8134,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
 			(at 186.69 129.54 0)
 			(effects
@@ -8582,6 +8152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d1cd448-d63e-415c-8d5a-8be5db023dc9")
 		)
@@ -8592,6 +8171,73 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba6b54d-adfc-406b-a521-e8c7e812f603")
+		(property "Reference" "#FLG06"
+			(at 151.765 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27afa02a-b7c3-42db-aa13-9f67864bf6f4")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8717,42 +8363,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/CC1210KKX7R8BB226?qs=CQahDLEE%252B2yZGjajjM1h8w%3D%3D"
 			(at 130.81 74.93 0)
 			(effects
@@ -8763,6 +8373,15 @@
 			)
 		)
 		(property "Mouser No" "603-CC121KKX7R8BB226"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC1210KKX7R8BB226"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -8832,43 +8451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -8887,6 +8470,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0402C103K1RAUTO7"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0402C103K1RACAUTO7411"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -9042,7 +8634,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 35.56 0)
+		(at 44.45 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9051,7 +8643,7 @@
 		(fields_autoplaced yes)
 		(uuid "96aba218-b2e3-4fde-8262-69ef4a2976cc")
 		(property "Reference" "C15"
-			(at 54.61 34.2962 0)
+			(at 46.99 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +8652,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 54.61 36.8362 0)
+			(at 46.99 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +8661,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 52.07 35.56 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +8670,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C104M4RACAUTO.pdf"
-			(at 52.07 35.56 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,43 +8679,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 52.07 35.56 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +8688,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
-			(at 52.07 35.56 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +8697,16 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
-			(at 52.07 35.56 0)
+			(at 44.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 46.99 0)
+		(at 137.16 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9174,7 +8739,7 @@
 		(dnp no)
 		(uuid "98c4450e-2e71-4619-b472-407b3ea328de")
 		(property "Reference" "#PWR021"
-			(at 144.78 53.34 0)
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +8748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 50.546 0)
+			(at 137.16 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,7 +8756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9200,7 +8765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,7 +8774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,111 +8860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD24_SOD323")
-		(at 31.75 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e51bbb4-a0b0-4160-a06b-d8a004fee9b7")
-		(property "Reference" "D1"
-			(at 24.892 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD24_SOD323"
-			(at 16.51 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 36.83 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 31.75 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 31.75 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 31.75 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 31.75 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18f75393-5954-47cd-be6f-6d438e8df0f4")
-		)
-		(pin "2"
-			(uuid "672f07b7-e5b5-42a2-a3ab-fa3e9f7b1d33")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 130.81 0)
 		(unit 1)
@@ -9453,42 +8913,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D"
 			(at 130.81 130.81 0)
 			(effects
@@ -9499,6 +8923,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C105K4R"
+			(at 130.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
 			(at 130.81 130.81 0)
 			(effects
 				(font
@@ -9577,42 +9010,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TL8W9226M010C?qs=g94mH1nyDVlXOuD4bK0MWA%3D%3D"
 			(at 80.01 130.81 0)
 			(effects
@@ -9623,6 +9020,15 @@
 			)
 		)
 		(property "Mouser No" "74-TL8W9226M010C"
+			(at 80.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL8W9226M010C"
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -9648,7 +9054,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 25.4 26.67 0)
+		(at 26.67 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9656,7 +9062,7 @@
 		(dnp no)
 		(uuid "afad2de0-9924-48c3-a638-9c86f78ca508")
 		(property "Reference" "#PWR017"
-			(at 25.4 30.48 0)
+			(at 26.67 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9071,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 25.4 23.114 0)
+			(at 26.67 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 26.67 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 26.67 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 26.67 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,17 +9160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RT0603FRE0710K2L"
-			(at 53.848 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,6 +9171,24 @@
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMvdGkrng054t3k%2FZKBE9r5yII7CVIap%2FZA%3D"
 			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE0710K2L"
+			(at 57.15 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE0710K2L"
+			(at 57.15 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,8 +9212,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3aa33a8-5687-4090-902e-57895e2036fc")
+		(property "Reference" "#FLG05"
+			(at 24.765 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8716156e-59d0-483f-a4fc-4381a2050f3f")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 40.64 36.83 0)
+		(at 33.02 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9807,7 +9289,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68d6975-4e23-463c-94f3-5eb0302ea7ed")
 		(property "Reference" "C21"
-			(at 43.18 35.0138 0)
+			(at 35.56 35.0138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +9298,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 43.18 37.5538 0)
+			(at 35.56 37.5538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9307,7 @@
 			)
 		)
 		(property "Footprint" "10uFpolarized_cap:CAPAE660X600N"
-			(at 40.64 36.83 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9316,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/A767EB106M1VLAE085.pdf"
-			(at 40.64 36.83 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9325,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 40.64 36.83 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9334,7 @@
 			)
 		)
 		(property "Mouser No" "80-A767EB106M1VLAE85"
-			(at 40.64 36.83 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9343,16 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/A767EB106M1VLAE085?qs=sGAEpiMZZMvwFf0viD3Y3fHxNcSaiftwy%2F2F8KC8Ujt3bi7udgiU3Q%3D%3D"
-			(at 40.64 36.83 0)
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A767EB106M1VLAE085"
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,6 +9370,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 196.85 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb171896-cde2-43de-b1a4-8cbffa6c4c83")
+		(property "Reference" "#FLG08"
+			(at 196.85 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d88d2167-63ce-456a-9aa1-3ae116ad510d")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -9951,7 +9507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 46.99 0)
+		(at 57.15 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9959,7 +9515,7 @@
 		(dnp no)
 		(uuid "bc31b67c-abcb-475e-ae02-d3930112b916")
 		(property "Reference" "#PWR019"
-			(at 64.77 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +9524,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 50.546 0)
+			(at 57.15 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +9532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +9541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +9550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +9680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -10133,7 +9689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "621-AP7375-50SA-7"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/AP7375-50SA-7?qs=t7xnP681wgX8yYKy1Pe5iA%3D%3D"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -10142,7 +9698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "AP7375-50SA-7"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -10151,25 +9707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "621-AP7375-50SA-7"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -10380,42 +9918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/CC1210KKX7R8BB226?qs=CQahDLEE%252B2yZGjajjM1h8w%3D%3D"
 			(at 114.3 130.81 0)
 			(effects
@@ -10426,6 +9928,15 @@
 			)
 		)
 		(property "Mouser No" "603-CC121KKX7R8BB226"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC1210KKX7R8BB226"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -10516,7 +10027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 34.29 0)
+		(at 95.25 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10524,7 +10035,7 @@
 		(dnp no)
 		(uuid "df2bc385-03f5-468d-941b-8973420975ad")
 		(property "Reference" "C14"
-			(at 104.902 33.274 0)
+			(at 97.282 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10044,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 104.902 35.306 0)
+			(at 97.282 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 102.87 34.29 0)
+			(at 95.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C104M4RACAUTO.pdf"
-			(at 102.87 34.29 0)
+			(at 95.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,43 +10071,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 102.87 34.29 0)
+			(at 95.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10080,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
-			(at 102.87 34.29 0)
+			(at 95.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10089,16 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
-			(at 102.87 34.29 0)
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
+			(at 95.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -10756,7 +10240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "595-TLV74333PDBVR"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TLV74333PDBVR?qs=EU6FO9ffTwe08kePOwcQGA%3D%3D"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -10765,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "TLV74333PDBVR"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -10774,25 +10258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 146.05 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 146.05 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "595-TLV74333PDBVR"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -10871,52 +10337,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "17V Input, 3A Synchronous Step-Down Regulator in SOT-23 With Power-good and Soft-start"
+		(property "Description" "dc/dc conv"
 			(at 64.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 88.9 466.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS563219ADDFR"
-			(at 88.9 566.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS563219ADDFR?qs=0C8XhJW8e4oU15kv17z4tw%3D%3D"
-			(at 88.9 666.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 88.9 766.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -10930,7 +10356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TPS563219ADDFR?qs=0C8XhJW8e4oU15kv17z4tw%3D%3D"
 			(at 64.77 71.12 0)
 			(effects
 				(font
@@ -10939,25 +10365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "595-TPS563219ADDFR"
 			(at 64.77 71.12 0)
 			(effects
 				(font
@@ -11001,7 +10409,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 154.94 39.37 0)
+		(at 147.32 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11010,7 +10418,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee46f54f-725b-484b-b9f1-ab03c51b9721")
 		(property "Reference" "C42"
-			(at 157.48 37.5538 0)
+			(at 149.86 37.5538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,7 +10427,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 157.48 40.0938 0)
+			(at 149.86 40.0938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +10436,7 @@
 			)
 		)
 		(property "Footprint" "10uFpolarized_cap:CAPAE660X600N"
-			(at 154.94 39.37 0)
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,7 +10445,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/A767EB106M1VLAE085.pdf"
-			(at 154.94 39.37 0)
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,7 +10454,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 154.94 39.37 0)
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,7 +10463,7 @@
 			)
 		)
 		(property "Mouser No" "80-A767EB106M1VLAE85"
-			(at 154.94 39.37 0)
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +10472,16 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/A767EB106M1VLAE085?qs=sGAEpiMZZMvwFf0viD3Y3fHxNcSaiftwy%2F2F8KC8Ujt3bi7udgiU3Q%3D%3D"
-			(at 154.94 39.37 0)
+			(at 147.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A767EB106M1VLAE085"
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,42 +10559,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 160.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 160.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 160.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 160.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
 			(at 160.02 130.81 0)
 			(effects
@@ -11188,6 +10569,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 160.02 130.81 0)
 			(effects
 				(font

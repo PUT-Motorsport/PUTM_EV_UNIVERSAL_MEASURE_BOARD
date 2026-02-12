@@ -2581,7 +2581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "623-2508052027Y1"
+		(property "Manufacturer_Part_Number" "2508052027Y1"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -2599,25 +2599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "623-2508052027Y1"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -2759,50 +2741,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 114.3063 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 114.3 45.72 90)
 			(effects
@@ -2813,6 +2751,15 @@
 			)
 		)
 		(property "Mouser No" "81-GRM21BR61A476ME5L"
+			(at 114.3 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
 			(at 114.3 45.72 90)
 			(effects
 				(font
@@ -2888,16 +2835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "623-2508052027Y1"
-			(at 71.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "2508052027Y1"
 			(at 71.12 100.33 90)
 			(effects
 				(font
@@ -2906,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 71.12 100.33 90)
 			(effects
 				(font
@@ -2915,16 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 71.12 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "623-2508052027Y1"
 			(at 71.12 100.33 90)
 			(effects
 				(font
@@ -3000,50 +2929,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 146.0563 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 146.05 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 146.05 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
 			(at 146.05 45.72 90)
 			(effects
@@ -3054,6 +2939,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
+			(at 146.05 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 146.05 45.72 90)
 			(effects
 				(font
@@ -3185,7 +3079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -3194,42 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 81.28 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 81.28 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 81.28 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser" "in warsztatowe zapasy i think"
 			(at 81.28 105.41 90)
 			(effects
 				(font
@@ -3438,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "623-2508052027Y1"
+		(property "Manufacturer_Part_Number" "2508052027Y1"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -3447,7 +3306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -3456,25 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "623-2508052027Y1"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -3617,50 +3458,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 62.23 97.79 0)
 			(effects
@@ -3671,6 +3468,15 @@
 			)
 		)
 		(property "Mouser No" "81-GRM21BR61A476ME5L"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -3740,7 +3546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Isolated CAN FD Transceiver, integrated isolated DC-DC converter, 12Mbps, SOIC-20W"
+		(property "Description" "Isolated CAN chip"
 			(at 101.092 124.714 0)
 			(effects
 				(font
@@ -3749,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "584-ADM3057EBRWZ"
+		(property "Manufacturer_Part_Number" "ADM3057EBRWZ"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -3758,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -3767,25 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 105.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 105.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "584-ADM3057EBRWZ"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -3915,50 +3703,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 114.3 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 114.3 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 114.3 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 114.3 57.15 90)
 			(effects
@@ -3969,6 +3713,15 @@
 			)
 		)
 		(property "Mouser No" "81-GRM21BR61A476ME5L"
+			(at 114.3 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
 			(at 114.3 57.15 90)
 			(effects
 				(font
@@ -4178,50 +3931,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
 			(at 48.26 110.49 0)
 			(effects
@@ -4232,6 +3941,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C104M4RAUTO"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -4374,50 +4092,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C103J5RACAUTO?qs=7LShN427%2FM4jm7UAE70%2Fzg%3D%3D"
 			(at 55.88 110.49 0)
 			(effects
@@ -4428,6 +4102,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C103J5RAUTO"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
 			(at 55.88 110.49 0)
 			(effects
 				(font
@@ -4505,46 +4188,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.8"
-			(at 458.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 558.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 658.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 758.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
 			(at 858.42 118.11 0)
 			(effects
@@ -4552,87 +4195,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Url" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4721,50 +4283,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 146.05 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 146.05 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 146.05 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C103J5RACAUTO?qs=7LShN427%2FM4jm7UAE70%2Fzg%3D%3D"
 			(at 146.05 57.15 90)
 			(effects
@@ -4775,6 +4293,15 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C103J5RAUTO"
+			(at 146.05 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
 			(at 146.05 57.15 90)
 			(effects
 				(font
@@ -4919,51 +4446,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 82.55 100.3235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 80.01 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 80.01 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 80.01 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 80.01 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 80.01 97.79 0)
 			(effects
@@ -4974,6 +4456,15 @@
 			)
 		)
 		(property "Mouser No" "81-GRM21BR61A476ME5L"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -5050,16 +4541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "623-2508052027Y1"
-			(at 71.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "2508052027Y1"
 			(at 71.12 95.25 90)
 			(effects
 				(font
@@ -5068,7 +4550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 71.12 95.25 90)
 			(effects
 				(font
@@ -5077,16 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 71.12 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "623-2508052027Y1"
 			(at 71.12 95.25 90)
 			(effects
 				(font

@@ -2397,7 +2397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 96.52 110.49 0)
 			(effects
 				(font
@@ -2415,7 +2415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 96.52 110.49 90)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 96.52 110.49 90)
 			(effects
 				(font
@@ -2433,16 +2433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 96.52 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 96.52 110.49 90)
 			(effects
 				(font
@@ -2530,6 +2521,15 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104M4RACAUTO?qs=sSYV1F9c5cFMyVgVMlPozw%3D%3D"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -2655,7 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 96.52 90.17 90)
 			(effects
 				(font
@@ -2682,7 +2682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 96.52 90.17 90)
 			(effects
 				(font
@@ -2691,16 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 96.52 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 96.52 90.17 90)
 			(effects
 				(font
@@ -2761,7 +2752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -2779,7 +2770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 96.52 100.33 90)
 			(effects
 				(font
@@ -2788,7 +2779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 96.52 100.33 90)
 			(effects
 				(font
@@ -2797,16 +2788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 96.52 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 96.52 100.33 90)
 			(effects
 				(font
@@ -2866,7 +2848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -2884,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 175.26 78.74 90)
 			(effects
 				(font
@@ -2893,7 +2875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 175.26 78.74 90)
 			(effects
 				(font
@@ -2902,16 +2884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 175.26 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 175.26 78.74 90)
 			(effects
 				(font
@@ -2971,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 175.26 88.9 0)
 			(effects
 				(font
@@ -2989,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 175.26 88.9 90)
 			(effects
 				(font
@@ -2998,7 +2971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 175.26 88.9 90)
 			(effects
 				(font
@@ -3007,16 +2980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 175.26 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 175.26 88.9 90)
 			(effects
 				(font
@@ -3086,7 +3050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 29 GPIO, LQFP32"
+		(property "Description" "MCU"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -3095,7 +3059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "STM32G0C1KCT6N"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -3104,7 +3068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/STMicroelectronics/STM32G0C1KCT6N?qs=iLbezkQI%252Bshu4f%252BBp0CpFw%3D%3D"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -3113,16 +3077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 133.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "511-STM32G0C1KCT6N"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -3348,7 +3303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -3366,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 175.26 93.98 90)
 			(effects
 				(font
@@ -3375,7 +3330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 175.26 93.98 90)
 			(effects
 				(font
@@ -3384,16 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 175.26 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 175.26 93.98 90)
 			(effects
 				(font
@@ -3453,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
 			(at 175.26 83.82 0)
 			(effects
 				(font
@@ -3471,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer_Part_Number" "RT0603DRD0747RL"
 			(at 175.26 83.82 90)
 			(effects
 				(font
@@ -3480,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603DRD0747RL?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95bcSQVS5MnP8%3D"
 			(at 175.26 83.82 90)
 			(effects
 				(font
@@ -3489,16 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 175.26 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Mouser No" "603-RT0603DRD0747RL"
 			(at 175.26 83.82 90)
 			(effects
 				(font
