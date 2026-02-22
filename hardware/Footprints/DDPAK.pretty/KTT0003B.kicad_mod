@@ -5,155 +5,148 @@
 	(layer "F.Cu")
 	(descr "KTT0003B")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at 3.448 -0.167 0)
+	(property "Reference" "U6"
+		(at 3.448 -0.167 180)
 		(layer "F.SilkS")
-		(uuid "e425ce10-9667-4775-8586-74a07c5fcda9")
+		(uuid "a395b813-f9c9-416a-8b1d-8d810eb0ce0a")
 		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
+			(font (size 1.27 1.27) (thickness 0.254))
 		)
 	)
-	(property "Value" "KTT0003B"
-		(at 3.448 -0.167 0)
+	(property "Value" "LM2940SX-12_NOPB"
+		(at 3.448 -0.167 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "34baf4d1-354a-40f2-9101-cca05e95a23e")
+		(uuid "9a9e9730-bab9-4f40-b612-1c83a10e7ab8")
 		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
+			(font (size 1.27 1.27) (thickness 0.254))
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/lm2940-n"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db74e7fd-f3ab-4aec-a634-158385e8d815")
+		(uuid "607689f6-1e1f-40f3-afba-c747ce8508fe")
 		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
+			(font (size 1.27 1.27) (thickness 0.15))
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "LDO"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a48bad0-5937-4958-9b35-163c89fdcd24")
+		(uuid "b48e5830-17c6-4580-9466-db613f14d3e2")
 		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Manufacturer_Part_Number" "LM2940SX-12/NOPB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a9f9e1a-7b2b-4b1f-b12e-ca43981ca6bc")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM2940SX-12-NOPB?qs=X1J7HmVL2ZEie6RRCswWNw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "580c9a95-03db-4437-8c05-1934a9dc2fdf")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Mouser No" "926-LM2940SX-12/NOPB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3626ad69-a545-4fd6-be2a-051978b9a3da")
+		(effects
+			(font (size 1 1) (thickness 0.15))
 		)
 	)
 	(attr smd)
 	(fp_line
 		(start 8.64 -5.08)
 		(end 0.94 -5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.SilkS")
-		(uuid "604063c2-863e-4b64-b768-fb940977ad67")
+		(uuid "74c50091-e415-4cd1-94f9-f706e8cd68a1")
 	)
 	(fp_line
 		(start 8.64 -5.08)
 		(end 8.64 5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.SilkS")
-		(uuid "07a53ba4-d5f4-4f6c-b649-3b391f4d5f39")
+		(uuid "3180e92c-73cc-4b50-a323-0dfdc26c801e")
 	)
 	(fp_line
 		(start 8.64 5.08)
 		(end 0.94 5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.SilkS")
-		(uuid "10bfa25c-f96c-4ded-8faf-9ba4c84908ed")
+		(uuid "3bd74edf-2f0e-43d1-afaa-4f51c049798c")
 	)
-	(fp_circle
-		(center 14.497 2.51)
-		(end 14.497 2.575)
-		(stroke
-			(width 0.2)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy -1.89 -5.65) (xy 9.38 -5.65) (xy 9.38 -3.39) (xy 14.73 -3.39) (xy 14.73 3.4) (xy 9.38 3.4) (xy 9.38 5.65)
+			(xy -1.89 5.65)
 		)
+		(stroke (width 0.05) (type solid))
 		(fill no)
-		(layer "F.SilkS")
-		(uuid "af146ad6-5236-4301-aed8-0a3f2273e8c6")
+		(layer "F.CrtYd")
+		(uuid "65b63703-abc8-4ef3-86da-40b9ae133349")
 	)
 	(fp_line
 		(start 0 -5.08)
 		(end 8.64 -5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.Fab")
-		(uuid "75aa4c09-fd6c-4829-99b8-dfc846089c0f")
+		(uuid "31fd8b20-5990-4f02-8100-1641c1fe8e0a")
 	)
 	(fp_line
 		(start 0 5.08)
 		(end 0 -5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.Fab")
-		(uuid "5ae32274-fd64-49e7-9e12-eda9d5a13bc8")
+		(uuid "1143d74c-ba24-405f-98fd-8bc11aae2dee")
 	)
 	(fp_line
 		(start 8.64 -5.08)
 		(end 8.64 5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.Fab")
-		(uuid "13046898-54df-4a36-b7d4-aa681d3fbfe2")
+		(uuid "bd472c51-8826-4c8c-a16a-ae3c9282f6ff")
 	)
 	(fp_line
 		(start 8.64 5.08)
 		(end 0 5.08)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
+		(stroke (width 0.2) (type solid))
 		(layer "F.Fab")
-		(uuid "fdf73640-1772-4e66-a5a0-469c094c033b")
+		(uuid "0b7a0d40-1449-4bdf-9790-1ff629aa278f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.448 -0.167 0)
+		(at 3.448 -0.167 180)
 		(layer "F.Fab")
-		(uuid "501a95d8-751d-4573-a0cb-4ac7591b4b2e")
+		(uuid "d8a4bb6b-440c-4c57-8d1d-25b448b3f079")
 		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
+			(font (size 1.27 1.27) (thickness 0.254))
 		)
 	)
 	(pad "1" smd rect
-		(at 12.67 2.54 90)
-		(size 1.07 2.16)
+		(at 12.79 2.54 90)
+		(size 1.07 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8b99b906-31bd-4700-9efa-5424505410c5")
+		(uuid "74489f76-3580-4efd-9040-0ae24e789de1")
 	)
 	(pad "2" smd custom
-		(at 0.944093 -0.163934 180)
-		(size 1.07 2.16)
+		(at 2.020828 0.000828)
+		(size 7 8.33)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
@@ -162,37 +155,37 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 2.468966 -5.55) (xy 0.518966 -5.55) (xy 0.518966 -4.35) (xy -4.531034 -4.35) (xy -4.531034 4.05)
-					(xy 0.518966 4.05) (xy 0.518966 5.25) (xy 2.468966 5.25)
+					(xy -3.46 -5.400829) (xy -1.55 -5.400829) (xy -1.55 -4.170829) (xy 3.54 -4.170829) (xy 3.54 4.169171)
+					(xy -1.55 4.169171) (xy -1.55 5.399171) (xy -3.46 5.399171)
 				)
 				(width 0.1)
 				(fill yes)
 			)
+			(gr_rect
+				(start -3.660828 -5.400828)
+				(end -3.460828 5.399172)
+				(width 0.1)
+				(fill yes)
+			)
 		)
-		(uuid "e8dd715a-ecc0-4368-adc8-5847fa17eddb")
+		(uuid "1c09c039-729e-4536-8947-8569e541ea6c")
 	)
 	(pad "2" smd rect
-		(at 12.67 0 90)
-		(size 1.07 2.16)
+		(at 12.79 0 90)
+		(size 1.07 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6dbca03d-c1ed-4cdc-b933-a185e2394db7")
+		(uuid "9b2a58e7-1a7c-4c99-b4f6-6985ce8b3e87")
 	)
 	(pad "3" smd rect
-		(at 12.67 -2.54 90)
-		(size 1.07 2.16)
+		(at 12.79 -2.54 90)
+		(size 1.07 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3707fe36-7a7c-4350-b248-12d3c1f5dc93")
+		(uuid "78aa0c04-288c-46f9-8c3d-9daa3048dd3e")
 	)
 	(embedded_fonts no)
 	(model "LM2940SX-12_NOPB.stp"
-		(offset
-			(xyz 4.400000029 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 -90)
-		)
+		(offset (xyz 4.400000029 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 -90))
 	)
 )

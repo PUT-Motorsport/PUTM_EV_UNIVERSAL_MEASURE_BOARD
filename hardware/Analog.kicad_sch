@@ -214,322 +214,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1189,6 +873,303 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PINHEADER_02x04:PinHeader_02x04"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PinHeader_02x04_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -2.54 3.937)
+					(end -1.27 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.397)
+					(end -1.27 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.937)
+					(end 1.27 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.397)
+					(end 1.27 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 3.81 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8270,13 +8251,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 314.96 83.82 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00c33b36-db18-4716-82df-ce92e7f6c95a")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 323.088 81.534 0)
 			(effects
 				(font
@@ -8396,8 +8377,8 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U13")
-					(unit 4)
+					(reference "U15")
+					(unit 1)
 				)
 			)
 		)
@@ -8411,7 +8392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "033ce96a-95dc-4242-89f9-5ebc08947ccd")
-		(property "Reference" "R29"
+		(property "Reference" "R22"
 			(at 120.142 106.172 90)
 			(effects
 				(font
@@ -8492,7 +8473,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R29")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "063bd4af-7c90-4161-8947-c360622084ba")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR070"
 			(at 73.66 232.41 0)
 			(effects
 				(font
@@ -8557,7 +8538,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR064")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8572,7 +8553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06b97ecb-df2a-4fde-80f8-efdabfb586d7")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR066"
 			(at 25.4 217.17 0)
 			(effects
 				(font
@@ -8622,7 +8603,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR059")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8638,7 +8619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0707fed1-c445-4993-b4fb-8b9fe1f28869")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 292.354 198.12 0)
 			(effects
 				(font
@@ -8719,7 +8700,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "081adff0-2946-419b-bf4d-beee5f99d1dd")
-		(property "Reference" "R25"
+		(property "Reference" "R21"
 			(at 121.666 79.756 90)
 			(effects
 				(font
@@ -8815,7 +8796,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R25")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c36e47f-37d1-4b8d-b8f2-3db40e586698")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -8880,7 +8861,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8895,7 +8876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cf09f27-145b-40a8-a816-9bfb63ccfa51")
-		(property "Reference" "R47"
+		(property "Reference" "R33"
 			(at 120.396 199.136 90)
 			(effects
 				(font
@@ -8976,7 +8957,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8991,7 +8972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eeb6203-1ae2-404c-98ef-08d0912f1355")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 244.602 198.12 0)
 			(effects
 				(font
@@ -9112,7 +9093,7 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U13")
+					(reference "U16")
 					(unit 5)
 				)
 			)
@@ -9127,7 +9108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "104f276b-f067-4c3e-90c6-7caabf7a5cb9")
-		(property "Reference" "R36"
+		(property "Reference" "R47"
 			(at 181.864 145.288 90)
 			(effects
 				(font
@@ -9208,7 +9189,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R36")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12d66d58-5344-474e-a8ac-2e7baccd1cde")
-		(property "Reference" "R53"
+		(property "Reference" "R37"
 			(at 121.666 232.156 90)
 			(effects
 				(font
@@ -9304,7 +9285,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R53")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9320,7 +9301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "140a961e-80fb-4344-9039-b41c092ae178")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 319.024 198.12 0)
 			(effects
 				(font
@@ -9401,7 +9382,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9417,7 +9398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17b947bc-4723-449a-bb21-d69852131b21")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 263.144 198.12 0)
 			(effects
 				(font
@@ -9498,7 +9479,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bad4d6b-8382-4654-a4ce-fa98cfdb3d61")
-		(property "Reference" "C42"
+		(property "Reference" "C39"
 			(at 79.756 223.774 0)
 			(effects
 				(font
@@ -9594,7 +9575,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "C42")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -9609,7 +9590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cbd5434-f243-4082-9296-54effac1148c")
-		(property "Reference" "R50"
+		(property "Reference" "R53"
 			(at 181.864 222.758 90)
 			(effects
 				(font
@@ -9690,121 +9671,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 132.08 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e277025-8895-4d03-8bb3-321fab922b77")
-		(property "Reference" "J10"
-			(at 133.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 133.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 132.08 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1d36cb2-9c0b-48e1-8ec8-892c54c15bfa")
-		)
-		(pin "4"
-			(uuid "681424ef-c5f9-48af-84cc-5b84747fa73a")
-		)
-		(pin "2"
-			(uuid "6f67d5db-15ba-4dd8-8d7f-f75b01ae8c37")
-		)
-		(pin "7"
-			(uuid "6855373f-9670-450c-8060-f26c4a1743fa")
-		)
-		(pin "5"
-			(uuid "9500223b-5af5-4b87-9528-a440ae4ded26")
-		)
-		(pin "3"
-			(uuid "8bfe6e10-0409-42be-8b8b-4aa2da168a27")
-		)
-		(pin "6"
-			(uuid "4cbbb76d-9c62-47d0-ba54-ae4e25715128")
-		)
-		(pin "8"
-			(uuid "d92c2f09-936e-41d4-8a80-e33ffeeac110")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J10")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -9819,7 +9686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e820fb6-369c-482f-b82a-0ed7fc1d8170")
-		(property "Reference" "R27"
+		(property "Reference" "R43"
 			(at 190.5 87.376 0)
 			(effects
 				(font
@@ -9882,7 +9749,120 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R27")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 133.35 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f0adb21-32d1-4a02-b0bc-9a7924f45474")
+		(property "Reference" "J5"
+			(at 133.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 133.35 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81a1fbb5-fd70-426f-9943-43a7058dc68c")
+		)
+		(pin "4"
+			(uuid "90b00096-221e-4924-9639-d367d71a1ef3")
+		)
+		(pin "8"
+			(uuid "afda1fb5-c20e-49d0-8ac9-8b11568ea3cb")
+		)
+		(pin "5"
+			(uuid "40203447-17e4-4ad6-8ed1-77676930e90f")
+		)
+		(pin "7"
+			(uuid "e8fc51c4-239a-45bb-b216-680291e58a4e")
+		)
+		(pin "6"
+			(uuid "50834ccf-cae0-4c7c-a5f5-47cafa7dd391")
+		)
+		(pin "3"
+			(uuid "e781f9f5-5b24-4f36-8022-9fd999850144")
+		)
+		(pin "1"
+			(uuid "6abcafd2-e833-4593-8c8d-a7a5a3c2aa45")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9891,13 +9871,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 367.03 44.45 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "23d09268-21e2-45ac-b912-b1466cdebb41")
-		(property "Reference" "U11"
+		(property "Reference" "U15"
 			(at 375.158 42.164 0)
 			(effects
 				(font
@@ -10017,8 +9997,8 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U11")
-					(unit 1)
+					(reference "U15")
+					(unit 2)
 				)
 			)
 		)
@@ -10032,7 +10012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24651fac-68f8-4036-aa89-cec950675784")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR065"
 			(at 189.23 213.36 0)
 			(effects
 				(font
@@ -10082,7 +10062,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR058")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10097,7 +10077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "285b5175-eb2f-4d28-9d59-8f0be0c1b430")
-		(property "Reference" "R22"
+		(property "Reference" "R41"
 			(at 181.864 70.358 90)
 			(effects
 				(font
@@ -10178,7 +10158,120 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R22")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 133.35 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29389c60-6034-43c0-b729-daa1e100f89f")
+		(property "Reference" "J1"
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4c71fdf-11db-4f27-a679-5b4289624f02")
+		)
+		(pin "4"
+			(uuid "ed7d0523-26c8-49ae-aec8-6bae9b63cccf")
+		)
+		(pin "8"
+			(uuid "e6a02fe6-1b5d-4213-96c5-d8c6a3b7b7d9")
+		)
+		(pin "5"
+			(uuid "734b09b7-972c-46bf-84a0-22b1cb7b6c5a")
+		)
+		(pin "7"
+			(uuid "a634c83c-f64c-4576-8163-2113a9b77ff4")
+		)
+		(pin "6"
+			(uuid "f14a3da5-88f1-4ea3-965a-f30d9eff5df7")
+		)
+		(pin "3"
+			(uuid "78f3bec7-5685-4510-9597-706b0a874a1e")
+		)
+		(pin "1"
+			(uuid "a314e82b-0593-4a45-b1ef-955da0dd501c")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10193,7 +10286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bf783a6-e296-4ea4-825f-6217a3bd2226")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -10243,7 +10336,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10258,7 +10351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc93b58-6012-4194-b685-16fff84b264c")
-		(property "Reference" "R31"
+		(property "Reference" "R24"
 			(at 120.396 116.586 90)
 			(effects
 				(font
@@ -10339,7 +10432,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R31")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10354,7 +10447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d526aed-0500-4a3e-9976-e70fdd7c335e")
-		(property "Reference" "R52"
+		(property "Reference" "R36"
 			(at 121.666 227.076 90)
 			(effects
 				(font
@@ -10435,7 +10528,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R52")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10450,7 +10543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e9c3e84-489c-4540-8687-33319c3e95ce")
-		(property "Reference" "R34"
+		(property "Reference" "R46"
 			(at 190.5 125.476 0)
 			(effects
 				(font
@@ -10513,7 +10606,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R34")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10528,7 +10621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30ad014c-1e15-4f6b-98ae-ff6cbc85f781")
-		(property "Reference" "R45"
+		(property "Reference" "R32"
 			(at 120.396 194.056 90)
 			(effects
 				(font
@@ -10609,121 +10702,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 132.08 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "336b90ec-28ce-4068-88ca-10ab0014e4d9")
-		(property "Reference" "J6"
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a7e1a5b-3021-4d04-b396-eb6b4af4f9a0")
-		)
-		(pin "4"
-			(uuid "fa26a934-c1e1-434b-8757-14daa27e6d38")
-		)
-		(pin "2"
-			(uuid "23a5ee12-ce72-4fa2-a617-dbb1f183a7d1")
-		)
-		(pin "7"
-			(uuid "d33734a7-bb34-4920-b696-1bf04d0acb5a")
-		)
-		(pin "5"
-			(uuid "6a68b348-2902-46f6-b483-f1a3aa409538")
-		)
-		(pin "3"
-			(uuid "1c064259-97c9-4952-9de6-47a9ebb6a13b")
-		)
-		(pin "6"
-			(uuid "a92ac197-9fe4-429b-832f-b3cd9a56af1b")
-		)
-		(pin "8"
-			(uuid "39d179cf-ca15-49ca-a935-dd50bd0a8b34")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J6")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10738,7 +10717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3615029c-152d-464f-8b59-bcc336a6b1d4")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -10788,7 +10767,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10804,7 +10783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38310162-dafb-4e86-83a4-8d6532b0421b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR067"
 			(at 90.17 217.17 0)
 			(effects
 				(font
@@ -10854,7 +10833,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR060")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "389571a2-0e7e-4318-b3f0-0e932c4d01a9")
-		(property "Reference" "R32"
+		(property "Reference" "R45"
 			(at 184.404 121.158 90)
 			(effects
 				(font
@@ -10932,7 +10911,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R32")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10947,7 +10926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a5c25d6-819b-4318-b081-2c1f70ed07e1")
-		(property "Reference" "R18"
+		(property "Reference" "R39"
 			(at 184.404 46.228 90)
 			(effects
 				(font
@@ -11010,7 +10989,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R18")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11025,7 +11004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4013692b-2113-4ffd-bdf0-5dadedd77329")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR068"
 			(at 81.28 220.98 0)
 			(effects
 				(font
@@ -11075,7 +11054,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR062")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11090,7 +11069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42b46c49-5040-4d22-9ab8-8965ea992ede")
-		(property "Reference" "R37"
+		(property "Reference" "R27"
 			(at 121.158 144.272 90)
 			(effects
 				(font
@@ -11171,7 +11150,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R37")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11186,7 +11165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49aaf36f-f831-4e5c-92fe-c651a113063d")
-		(property "Reference" "U11"
+		(property "Reference" "U15"
 			(at 199.898 72.644 0)
 			(effects
 				(font
@@ -11306,7 +11285,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U11")
+					(reference "U15")
 					(unit 4)
 				)
 			)
@@ -11315,7 +11294,7 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 191.77 190.5 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11442,7 +11421,120 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "U14")
-					(unit 3)
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 134.62 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c99f44-25b6-4d6c-82e2-67c1b6c702be")
+		(property "Reference" "J4"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1855fef4-fa07-428c-80d4-26d409f2f545")
+		)
+		(pin "4"
+			(uuid "d14eb386-653a-4d2e-91af-4a2b8856f605")
+		)
+		(pin "8"
+			(uuid "c621c885-a67a-45cf-8d2a-60c16309e2be")
+		)
+		(pin "5"
+			(uuid "1d955d16-9fbc-4c52-85ed-fc5819b6c012")
+		)
+		(pin "7"
+			(uuid "b9728070-e403-4952-a512-eb22dcecf452")
+		)
+		(pin "6"
+			(uuid "e276abf1-321d-42d6-8a7e-71ec359c3caf")
+		)
+		(pin "3"
+			(uuid "648c2a14-993b-401b-b079-dd729ac68adf")
+		)
+		(pin "1"
+			(uuid "c96eb86e-9e7c-4941-9431-c8873a6a1e4f")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J4")
+					(unit 1)
 				)
 			)
 		)
@@ -11591,7 +11683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54f0f373-fe4b-4660-acd4-463c244d0fc3")
-		(property "Reference" "U11"
+		(property "Reference" "U15"
 			(at 273.812 198.12 0)
 			(effects
 				(font
@@ -11712,122 +11804,8 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U11")
+					(reference "U15")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 133.35 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a752075-636c-4d4d-aef7-00b25ab74ff5")
-		(property "Reference" "J11"
-			(at 134.62 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 134.62 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 133.35 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac4aa39c-7cca-4d40-9d95-a0d859c0803b")
-		)
-		(pin "4"
-			(uuid "2d151a17-0cea-40cf-b4b7-368d2816bb64")
-		)
-		(pin "2"
-			(uuid "ad49abd9-53cf-4104-aa01-9c1fadcbd732")
-		)
-		(pin "7"
-			(uuid "40bac787-f91d-45ce-91b1-3e088e0154fa")
-		)
-		(pin "5"
-			(uuid "bbc3bd5a-487c-46d2-9c28-203f39befec6")
-		)
-		(pin "3"
-			(uuid "0fbc06d0-9c5b-4e82-908b-b696ffba9122")
-		)
-		(pin "6"
-			(uuid "a0bf987d-73b6-4cbf-92db-251d0c0623cc")
-		)
-		(pin "8"
-			(uuid "06f10f34-a58f-4d74-acc6-4ba2b2585031")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J11")
-					(unit 1)
 				)
 			)
 		)
@@ -11841,7 +11819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abd07c0-cf19-413d-963e-febc59745a29")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 120.396 46.736 90)
 			(effects
 				(font
@@ -11922,7 +11900,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11937,7 +11915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c9ae529-4ea2-49f2-93ee-7261c2acad45")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 81.28 143.51 0)
 			(effects
 				(font
@@ -11987,7 +11965,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR053")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -12003,7 +11981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60166290-5094-46ef-bc89-a96c5aa81793")
-		(property "Reference" "U15"
+		(property "Reference" "U12"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -12127,7 +12105,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U15")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -12142,7 +12120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6324a34a-3d13-4e28-8fa1-5a6e801b1f93")
-		(property "Reference" "R33"
+		(property "Reference" "R25"
 			(at 120.396 121.666 90)
 			(effects
 				(font
@@ -12223,7 +12201,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R33")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12238,7 +12216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63839f7c-012e-45c0-bbd7-0e8619f9ff36")
-		(property "Reference" "R35"
+		(property "Reference" "R26"
 			(at 121.412 139.192 90)
 			(effects
 				(font
@@ -12319,7 +12297,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R35")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12334,7 +12312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b0de92f-2056-486b-ad05-0b2a091ece2c")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 120.142 31.242 90)
 			(effects
 				(font
@@ -12415,7 +12393,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12431,7 +12409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c6e5849-1e80-4188-97b3-c87d7dc87c50")
-		(property "Reference" "J4"
+		(property "Reference" "J8"
 			(at 179.324 74.93 0)
 			(effects
 				(font
@@ -12489,7 +12467,120 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J4")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 133.35 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d7aace7-bf70-49cc-9054-a67925bdf2e1")
+		(property "Reference" "J3"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4249426-7ed5-42fd-9de9-83b5a87452e6")
+		)
+		(pin "4"
+			(uuid "444ce213-9b83-46d8-8b55-dc70ad109832")
+		)
+		(pin "8"
+			(uuid "8413226f-a461-4704-8918-6fe4174607b9")
+		)
+		(pin "5"
+			(uuid "04b9bf25-f423-4ee4-966c-837cf4b161e9")
+		)
+		(pin "7"
+			(uuid "0c11d06c-0cba-40c9-af75-39530e7d719e")
+		)
+		(pin "6"
+			(uuid "16a717b3-4051-4faf-b2ad-1940b3717eb3")
+		)
+		(pin "3"
+			(uuid "15d41788-cb86-4678-8bea-bb4d5ec2e5ae")
+		)
+		(pin "1"
+			(uuid "64f87e25-555f-4694-aee5-9a3247574e45")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12505,7 +12596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ea9bedd-8caf-4012-9539-e9db462f45b8")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 179.324 38.1 0)
 			(effects
 				(font
@@ -12563,7 +12654,7 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12578,7 +12669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b8f3ab-1ed9-4229-8f85-966b696430b6")
-		(property "Reference" "R43"
+		(property "Reference" "R30"
 			(at 120.142 183.642 90)
 			(effects
 				(font
@@ -12659,7 +12750,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R43")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -12674,7 +12765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76832917-1b85-4afd-b1be-aee1a1b5d70c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 90.17 139.7 0)
 			(effects
 				(font
@@ -12724,7 +12815,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12739,7 +12830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79f9df4b-a674-4c5f-9f66-70a48a09fbf3")
-		(property "Reference" "R26"
+		(property "Reference" "R42"
 			(at 184.404 83.058 90)
 			(effects
 				(font
@@ -12802,121 +12893,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 133.35 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c032bea-43f5-49b3-a7c3-743b2dd685bc")
-		(property "Reference" "J7"
-			(at 134.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 134.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41bc191c-8118-4dab-8125-e4217ff2a109")
-		)
-		(pin "4"
-			(uuid "3212e181-3cbf-4a1c-a2e8-96ddb671619e")
-		)
-		(pin "2"
-			(uuid "3c725504-9fee-4977-bae0-3afab5165677")
-		)
-		(pin "7"
-			(uuid "dd2f42c4-e57d-4060-81eb-e8dc17c39b4d")
-		)
-		(pin "5"
-			(uuid "2cce3168-941c-4b65-8ce9-b8a425e72bca")
-		)
-		(pin "3"
-			(uuid "9cee511a-3a6d-42c9-ac89-f52df0917141")
-		)
-		(pin "6"
-			(uuid "ffa01c91-ec2e-4ba9-8380-0b623352d7e6")
-		)
-		(pin "8"
-			(uuid "960d7c13-3c1c-405e-9ea6-d4a726d2d68f")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J7")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -12931,7 +12908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ddbc010-0b2c-45f1-a6fd-6d750b98f896")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR069"
 			(at 40.64 232.41 0)
 			(effects
 				(font
@@ -12981,7 +12958,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR063")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -13125,7 +13102,7 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 191.77 227.33 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13252,7 +13229,7 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "U14")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -13356,13 +13333,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 314.96 44.45 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "80ac05d6-c761-4af3-9bf4-5a4471d604bb")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 323.088 42.164 0)
 			(effects
 				(font
@@ -13482,8 +13459,8 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U13")
-					(unit 3)
+					(reference "U16")
+					(unit 4)
 				)
 			)
 		)
@@ -13575,7 +13552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "818d4f51-219e-4b28-a47a-0e6ef2b74f3b")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 121.666 74.676 90)
 			(effects
 				(font
@@ -13656,7 +13633,120 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R24")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83d66f89-6e56-47a2-b9cd-6a3727ff1195")
+		(property "Reference" "J2"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03b909cb-d5bb-4832-811a-a0903d4c76ea")
+		)
+		(pin "4"
+			(uuid "627374b8-6335-4c70-a73b-dfc18a5b56db")
+		)
+		(pin "8"
+			(uuid "447f47f3-4063-4ae5-a337-8a36321496ec")
+		)
+		(pin "5"
+			(uuid "e7c2a52b-71c2-451c-a829-6b6f04d822e9")
+		)
+		(pin "7"
+			(uuid "8e3db315-ff2e-441c-b06c-49d9a90a2cd3")
+		)
+		(pin "6"
+			(uuid "679087a1-cd07-4e19-8951-32a5f898c0d1")
+		)
+		(pin "3"
+			(uuid "a479d8e9-db86-4cbe-b2c7-a1c67879bf98")
+		)
+		(pin "1"
+			(uuid "18818543-ba3b-4227-ad95-2ec7ab02fe33")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13671,7 +13761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87379a19-1317-4cb0-9605-a9f6e10f6780")
-		(property "Reference" "R39"
+		(property "Reference" "R29"
 			(at 121.666 154.686 90)
 			(effects
 				(font
@@ -13752,7 +13842,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R39")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13767,7 +13857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87ffd2af-cd50-4829-bdf3-4450c785b02e")
-		(property "Reference" "R41"
+		(property "Reference" "R49"
 			(at 190.5 162.306 0)
 			(effects
 				(font
@@ -13830,7 +13920,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R41")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -13845,7 +13935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "885d50f5-438d-4e36-9cd0-7c2eda53587d")
-		(property "Reference" "R38"
+		(property "Reference" "R28"
 			(at 121.666 149.606 90)
 			(effects
 				(font
@@ -13926,7 +14016,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R38")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13941,7 +14031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b7d36c-a34c-42f7-92d8-ca8298237519")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR056"
 			(at 189.23 135.89 0)
 			(effects
 				(font
@@ -13991,121 +14081,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 133.35 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9485da53-b929-4216-a378-a7fd7130e6d2")
-		(property "Reference" "J3"
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43f021cd-17ad-403b-a65c-dcef497bb95d")
-		)
-		(pin "4"
-			(uuid "d1038dc4-2fbd-451a-8b72-521c863a8593")
-		)
-		(pin "2"
-			(uuid "9f829f44-70e5-4ef1-9bdc-941795046f7e")
-		)
-		(pin "7"
-			(uuid "8d454dde-a763-4d1a-8a35-aa8a01800c0b")
-		)
-		(pin "5"
-			(uuid "13367ec8-c0dd-4328-9c8b-5363ea80aeb8")
-		)
-		(pin "3"
-			(uuid "4b882b09-9c2f-441c-a344-98537b644b9a")
-		)
-		(pin "6"
-			(uuid "4d67768a-4693-41a9-ba10-dbbf929b93e9")
-		)
-		(pin "8"
-			(uuid "7238782c-cc72-4ac5-979a-28bb869d0bbe")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J3")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -14251,7 +14227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a774e85-744e-436f-a70b-a61de73e982d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 280.67 219.71 0)
 			(effects
 				(font
@@ -14301,7 +14277,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -14316,7 +14292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a805b99-ed2a-422e-adad-16434771ce04")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 25.4 139.7 0)
 			(effects
 				(font
@@ -14366,7 +14342,120 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR051")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PINHEADER_02x04:PinHeader_02x04")
+		(at 134.62 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c2233e8-6393-42ca-8b2e-366542b03fc0")
+		(property "Reference" "J6"
+			(at 134.62 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader 02x04"
+			(at 134.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Choose OpAmp gain"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH2-04-UA"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH2-04-UA"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9350b8a-a717-4760-840b-36dae0df3b54")
+		)
+		(pin "4"
+			(uuid "8d0d71bf-7d2a-4f08-98b5-c446bbfb60f9")
+		)
+		(pin "8"
+			(uuid "671c6980-431e-4076-9e85-3cf00912b703")
+		)
+		(pin "5"
+			(uuid "5b57cc4a-57e5-4243-b024-621b638f1c9c")
+		)
+		(pin "7"
+			(uuid "5276f8b5-8bc8-468f-b61f-b1770d1950a0")
+		)
+		(pin "6"
+			(uuid "f437a639-f40b-4afa-be07-429c1e572e60")
+		)
+		(pin "3"
+			(uuid "3d804f1f-893a-4d43-9784-998ac022624f")
+		)
+		(pin "1"
+			(uuid "ca9687c7-45d6-4c71-9c87-703baecb62e1")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14381,7 +14470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a351b7dd-d5a1-44c2-9453-ae971147af5c")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 119.888 111.252 90)
 			(effects
 				(font
@@ -14462,7 +14551,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R30")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14477,7 +14566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a361f0a0-2d53-4f0e-bafd-a2db2e7ea42c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 280.67 187.96 0)
 			(effects
 				(font
@@ -14486,7 +14575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VA"
 			(at 280.67 180.594 0)
 			(effects
 				(font
@@ -14527,7 +14616,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14542,7 +14631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3ddc744-20af-4ce7-857d-29ff8ba7e973")
-		(property "Reference" "R48"
+		(property "Reference" "R52"
 			(at 190.5 202.946 0)
 			(effects
 				(font
@@ -14605,7 +14694,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R48")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -14620,7 +14709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9553dd5-c11b-4701-9fbc-a9d010423e3e")
-		(property "Reference" "R46"
+		(property "Reference" "R51"
 			(at 184.404 198.628 90)
 			(effects
 				(font
@@ -14683,7 +14772,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R46")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -14692,13 +14781,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 261.62 83.82 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b985fcd1-f2d0-4066-bcef-afbf8bf41f57")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 269.748 81.534 0)
 			(effects
 				(font
@@ -14818,8 +14907,8 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U13")
-					(unit 2)
+					(reference "U16")
+					(unit 1)
 				)
 			)
 		)
@@ -14833,7 +14922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb6234c6-7a32-46fb-b58c-2b0dc9176b22")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 120.396 41.656 90)
 			(effects
 				(font
@@ -14914,7 +15003,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14929,7 +15018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbbf617f-b99b-4cc9-822b-44d310414ec9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 40.64 154.94 0)
 			(effects
 				(font
@@ -14979,7 +15068,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -14995,7 +15084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbf5e443-9129-4345-bad5-26f9d0f31940")
-		(property "Reference" "U16"
+		(property "Reference" "U13"
 			(at 57.15 189.23 0)
 			(effects
 				(font
@@ -15119,7 +15208,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U16")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -15134,7 +15223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd0ce1a2-218c-43e5-a596-f7bf350d66ae")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 73.66 154.94 0)
 			(effects
 				(font
@@ -15184,7 +15273,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15199,7 +15288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdc1f841-f5cf-4b26-9e35-a1a4743f50f3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 40.64 80.01 0)
 			(effects
 				(font
@@ -15249,7 +15338,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15264,7 +15353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be1196ec-a268-4ac9-970a-d46ba147cc9b")
-		(property "Reference" "R14"
+		(property "Reference" "R38"
 			(at 181.864 33.528 90)
 			(effects
 				(font
@@ -15345,7 +15434,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R14")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -15417,120 +15506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 132.08 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2c89855-c668-4c22-9c27-40d7e8b74ce4")
-		(property "Reference" "J2"
-			(at 133.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader 02x04"
-			(at 133.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph2_xx_ua_data_sheet.pdf"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Choose OpAmp gain"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH2-04-UA"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH2-04-UA?qs=HoCaDK9Nz5cdTt58Kh5pZg%3D%3D"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH2-04-UA"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28993d2a-81e1-4b5a-af2d-7032fea8a4d2")
-		)
-		(pin "4"
-			(uuid "5ea85f6a-9cc8-4d91-90e2-b73f7528f2cc")
-		)
-		(pin "2"
-			(uuid "fe399c15-cd7a-4031-a789-47d4359cd1c3")
-		)
-		(pin "7"
-			(uuid "bc23baa9-a08b-4e08-970a-bcd81c541947")
-		)
-		(pin "5"
-			(uuid "e23c4584-36f7-4233-8f49-673205a5012e")
-		)
-		(pin "3"
-			(uuid "72f64b30-4ec6-4a7e-94f1-9f643ee9966b")
-		)
-		(pin "6"
-			(uuid "1bf3c203-b7b9-4a07-846f-bc8fa7cd1a57")
-		)
-		(pin "8"
-			(uuid "029e0453-d394-4107-a52f-166449def53c")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 191.77 38.1 0)
 		(unit 3)
@@ -15539,7 +15514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c37d3a30-ef0b-43d5-9091-1698a9bc2773")
-		(property "Reference" "U11"
+		(property "Reference" "U16"
 			(at 199.898 35.814 0)
 			(effects
 				(font
@@ -15659,7 +15634,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U11")
+					(reference "U16")
 					(unit 3)
 				)
 			)
@@ -15885,7 +15860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caaf3226-2c95-46be-8580-7992aed9faf3")
-		(property "Reference" "J5"
+		(property "Reference" "J9"
 			(at 179.324 113.03 0)
 			(effects
 				(font
@@ -15943,7 +15918,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J5")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -15959,7 +15934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbb08014-ea5e-436b-9e3d-d7f08dab4410")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 179.324 149.86 0)
 			(effects
 				(font
@@ -16017,7 +15992,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -16032,7 +16007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc017371-cc19-4fc6-bafe-ab654b6dc0e6")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR071"
 			(at 189.23 250.19 0)
 			(effects
 				(font
@@ -16082,7 +16057,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR065")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -16098,7 +16073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc959066-88d4-4032-be98-f69281e613eb")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 179.324 190.5 0)
 			(effects
 				(font
@@ -16156,7 +16131,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -16172,7 +16147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d08de090-6f75-4bc6-93d6-6e8743b1c1d2")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 57.15 36.83 0)
 			(effects
 				(font
@@ -16296,7 +16271,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -16305,13 +16280,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 367.03 83.82 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d0a389bb-6481-4174-8e87-48370a28326b")
-		(property "Reference" "U11"
+		(property "Reference" "U15"
 			(at 375.158 81.534 0)
 			(effects
 				(font
@@ -16431,8 +16406,8 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U11")
-					(unit 2)
+					(reference "U15")
+					(unit 3)
 				)
 			)
 		)
@@ -16446,7 +16421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4d3fa5b-d6a6-44bc-996a-14af1f73735d")
-		(property "Reference" "R42"
+		(property "Reference" "R50"
 			(at 181.864 185.928 90)
 			(effects
 				(font
@@ -16527,7 +16502,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R42")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -16716,7 +16691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc0a58f2-abd1-4d3a-8703-6345c77d39ff")
-		(property "Reference" "R44"
+		(property "Reference" "R31"
 			(at 119.888 188.722 90)
 			(effects
 				(font
@@ -16797,7 +16772,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R44")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -16812,7 +16787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1242dc3-6880-48a0-b1b4-89b6e26cde45")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 189.23 172.72 0)
 			(effects
 				(font
@@ -16862,7 +16837,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -16877,7 +16852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8600b54-e92d-4524-80fa-2ee28762f1e0")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 121.158 69.342 90)
 			(effects
 				(font
@@ -16958,7 +16933,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -16973,7 +16948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec3e233a-c0b0-4c66-9d5b-7a0738ae6a71")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 119.888 36.322 90)
 			(effects
 				(font
@@ -17054,7 +17029,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17063,13 +17038,13 @@
 	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 261.62 44.45 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2766156-6091-47a2-bf36-3b2e74becb4b")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 269.748 42.164 0)
 			(effects
 				(font
@@ -17189,8 +17164,8 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "U13")
-					(unit 1)
+					(reference "U16")
+					(unit 2)
 				)
 			)
 		)
@@ -17204,7 +17179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5821fc0-a37d-4a1a-b0ae-b30efa69e612")
-		(property "Reference" "R28"
+		(property "Reference" "R44"
 			(at 181.864 108.458 90)
 			(effects
 				(font
@@ -17285,7 +17260,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R28")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -17300,7 +17275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9deb1cd-c0a0-4296-a78e-4a53d9de9303")
-		(property "Reference" "R49"
+		(property "Reference" "R34"
 			(at 121.412 216.662 90)
 			(effects
 				(font
@@ -17381,7 +17356,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R49")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -17396,7 +17371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb9ff665-5dec-4113-a181-c64ef11dc29f")
-		(property "Reference" "R51"
+		(property "Reference" "R35"
 			(at 121.158 221.742 90)
 			(effects
 				(font
@@ -17477,7 +17452,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R51")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -17492,7 +17467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc3e9579-d1fb-43cd-9dd1-02f5c0e465d0")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 121.412 64.262 90)
 			(effects
 				(font
@@ -17573,7 +17548,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -17588,7 +17563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe242389-a07b-4002-a49b-f61ecd2bb9f4")
-		(property "Reference" "R40"
+		(property "Reference" "R48"
 			(at 184.404 157.988 90)
 			(effects
 				(font
@@ -17651,7 +17626,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R40")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -17666,7 +17641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffada5b0-6f98-401c-b18c-470bceeb0922")
-		(property "Reference" "R20"
+		(property "Reference" "R40"
 			(at 190.5 50.546 0)
 			(effects
 				(font
@@ -17729,7 +17704,7 @@
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "R20")
+					(reference "R40")
 					(unit 1)
 				)
 			)

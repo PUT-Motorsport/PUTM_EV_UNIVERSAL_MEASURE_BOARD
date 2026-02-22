@@ -10,4 +10,6 @@
   (lib (name "TPS563300DRLR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS563300DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "LM2940SX-12_NOPB")(type "KiCad")(uri "${KIPRJMOD}/symbols/LM2940SX-12_NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "TPS563219ADDFR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS563219ADDFR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDS304DBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESDS304DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "PINHEADER_02x04")(type "KiCad")(uri "${KIPRJMOD}/symbols/PINHEADER_02x04.kicad_sym")(options "")(descr ""))
 )
