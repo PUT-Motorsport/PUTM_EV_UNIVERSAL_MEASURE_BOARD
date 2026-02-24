@@ -7,8 +7,8 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-02-02")
-		(rev "1.7.14")
-		(company "PUT Motorsport Formula Student team")
+		(rev "1.7.15")
+		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
 	(lib_symbols
@@ -2421,7 +2421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.615 88.265 0)
 			(effects
 				(font
@@ -2490,7 +2490,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 146.05 69.215 0)
 			(effects
 				(font
@@ -2556,7 +2556,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 129.54 76.835 0)
 			(effects
 				(font
@@ -2596,73 +2596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 76.2 69.215 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "390843f2-468c-49f7-9e9f-d76016ef78fe")
-		(property "Reference" "FB1"
-			(at 76.2 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2K@100MHz"
-			(at 76.2 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 67.437 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 76.2 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a9a9ccf-7032-4d67-9098-47888be8fb5f")
-		)
-		(pin "1"
-			(uuid "16b86e9c-2fce-42aa-b217-59c5ecbe08d2")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
 		(at 164.465 118.745 180)
 		(unit 1)
@@ -2687,7 +2620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:CAPC5728X280N"
+		(property "Footprint" "S252B222K502CT:CAPC5728X280N"
 			(at 155.575 22.555 0)
 			(effects
 				(font
@@ -2697,7 +2630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/WATC/WATC-S-A0011771687/WATC-S-A0011771687-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
 			(at 155.575 -77.445 0)
 			(effects
 				(font
@@ -2853,7 +2786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 75.565 0)
 			(effects
 				(font
@@ -2896,73 +2829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 211.455 69.215 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "422a91e9-2fab-42c3-bd64-67b9c951379d")
-		(property "Reference" "FB2"
-			(at 211.455 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2K@100MHz"
-			(at 211.455 65.405 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 211.455 70.993 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 211.455 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 211.455 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39221a36-58d5-4bd0-b146-7ee17d3ec3fa")
-		)
-		(pin "1"
-			(uuid "6ebf33cd-f721-4063-a376-cc80b7f07d33")
-		)
-		(instances
-			(project ""
-				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 225.425 75.565 0)
 		(unit 1)
@@ -2989,7 +2855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.425 75.565 0)
 			(effects
 				(font
@@ -3059,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 192.405 95.885 0)
 			(effects
 				(font
@@ -3103,13 +2969,14 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 211.455 81.915 90)
+		(at 211.455 81.915 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64b39f11-a11e-45db-85eb-c26b5721304c")
+		(uuid "5b4bd790-14e4-482c-b14a-5bdb1d246f5c")
 		(property "Reference" "FB4"
 			(at 211.455 76.2 90)
 			(effects
@@ -3126,7 +2993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 211.455 83.693 90)
 			(effects
 				(font
@@ -3135,7 +3002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 211.455 81.915 0)
 			(effects
 				(font
@@ -3154,10 +3021,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "24a93c0e-6d76-4913-ac7b-c231fb13f0a7")
+			(uuid "ed5328fc-0d84-4261-afd9-31a81d3cc8d8")
 		)
 		(pin "1"
-			(uuid "ae4e9e93-5ea4-4b24-adde-8ecd8b4b5632")
+			(uuid "9025244d-a7ac-4bb4-b81e-84a4b42eb09c")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
@@ -3327,7 +3194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.095 92.075 0)
 			(effects
 				(font
@@ -3394,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.055 102.743 90)
 			(effects
 				(font
@@ -3461,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 117.475 75.057 90)
 			(effects
 				(font
@@ -3470,7 +3337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 117.475 76.835 0)
 			(effects
 				(font
@@ -3531,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 206.375 99.06 0)
 			(effects
 				(font
@@ -3907,7 +3774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 88.265 0)
 			(effects
 				(font
@@ -3950,6 +3817,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 211.455 69.215 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8930902-261b-4dec-9b83-69d91c4c1f77")
+		(property "Reference" "FB2"
+			(at 211.455 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K@100MHz"
+			(at 211.455 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 211.455 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
+			(at 211.455 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 211.455 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf68d531-83e4-4c8d-9d72-4450af1a9f6b")
+		)
+		(pin "1"
+			(uuid "25f8bdb9-73de-4314-a1fb-4882c6f39288")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 76.2 69.215 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af5d2918-ed1a-4654-8a6e-dee863e5508c")
+		(property "Reference" "FB1"
+			(at 76.2 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K@100MHz"
+			(at 76.2 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 76.2 67.437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
+			(at 76.2 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 76.2 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d365a5e-51af-4999-9d5c-08fe64df992c")
+		)
+		(pin "1"
+			(uuid "3a7bdd20-1e30-4d7c-8193-a6bf33c31b14")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 192.405 90.805 0)
 		(unit 1)
@@ -3976,7 +3978,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 197.485 90.805 0)
 			(effects
 				(font
@@ -4043,7 +4045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.855 92.075 0)
 			(effects
 				(font
@@ -4243,7 +4245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 88.265 0)
 			(effects
 				(font

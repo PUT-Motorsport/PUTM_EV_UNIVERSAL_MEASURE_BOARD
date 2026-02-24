@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATV02W150-HF
+D 24.4V Clamp 8.2A Ipp Tvs Diode Surface Mount SOD-123F
+K
+F https://www.comchiptech.com/admin/files/product/ATV02W-HF%20series%20RevC.pdf
+$ENDCMP
+#
+#End Doc Library

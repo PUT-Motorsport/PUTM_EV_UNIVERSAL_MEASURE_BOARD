@@ -7,8 +7,8 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-02-02")
-		(rev "1.7.14")
-		(company "PUT Motorsport Formula Student team")
+		(rev "1.7.15")
+		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
 	(lib_symbols
@@ -4580,6 +4580,7 @@
 		)
 		(pin "56"
 			(uuid "134b2d99-9147-4d40-b36f-88e45da31bf4")
+			(alternate "SYS_JTDO-SWO")
 		)
 		(pin "33"
 			(uuid "9ee4e46d-d09d-4b76-b80a-31ecb75a06f6")
@@ -4604,12 +4605,14 @@
 		)
 		(pin "30"
 			(uuid "76f8cebc-3476-4d69-84cb-17e17262c82b")
+			(alternate "LPUART1_RX")
 		)
 		(pin "44"
 			(uuid "b6057098-86de-4c88-9e6e-6929d1d9651d")
 		)
 		(pin "49"
 			(uuid "71a3ab92-321b-4463-9da0-9eba15be6268")
+			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "64"
 			(uuid "9187a2c2-e911-48ff-998d-66b2c9fdf8f5")
@@ -4664,6 +4667,7 @@
 		)
 		(pin "50"
 			(uuid "672a7fc8-17b6-4398-b171-a48dca757dfd")
+			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "51"
 			(uuid "fd348757-f789-4adc-a0d0-573c30e3121c")
@@ -4679,6 +4683,7 @@
 		)
 		(pin "5"
 			(uuid "00f341e7-6179-4480-93b0-4f5155deca00")
+			(alternate "RCC_OSC_IN")
 		)
 		(pin "7"
 			(uuid "4aa45231-11b6-434c-a487-e0ead753b432")
@@ -4688,6 +4693,7 @@
 		)
 		(pin "9"
 			(uuid "f15615a8-1ae6-4341-b31c-7336a697ba2d")
+			(alternate "LPUART1_TX")
 		)
 		(pin "39"
 			(uuid "f253fb4e-5602-4a0f-82af-36fa66a8b847")
@@ -5107,7 +5113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.75 116.84 0)
 			(effects
 				(font
@@ -5307,7 +5313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.645 116.84 0)
 			(effects
 				(font
@@ -5638,7 +5644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -5708,7 +5714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 66.04 0)
 			(effects
 				(font
@@ -5844,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.785 66.04 0)
 			(effects
 				(font
@@ -6175,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.215 69.215 0)
 			(effects
 				(font

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD5V0L2BT,215
+D Low capacitance double bidirectional ESD protection diodes in SOT23 13A 30kV
+K
+F https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf
+$ENDCMP
+#
+#End Doc Library

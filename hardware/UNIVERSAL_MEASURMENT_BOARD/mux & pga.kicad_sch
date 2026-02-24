@@ -7,8 +7,8 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-02-02")
-		(rev "1.7.14")
-		(company "PUT Motorsport Formula Student team")
+		(rev "1.7.15")
+		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
 	(lib_symbols
@@ -1769,6 +1769,18 @@
 		)
 		(uuid fca92ec8-7bac-4e9e-87ea-1f8a68e78e7f)
 	)
+	(text "MQC: 130uA"
+		(exclude_from_sim no)
+		(at 267.335 99.06 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+				(color 105 110 255 0.3490196078)
+			)
+		)
+		(uuid "04d59183-4b06-41cc-a450-80c8b98b1b5f")
+	)
 	(text "Multiplexer"
 		(exclude_from_sim no)
 		(at 76.2 85.725 0)
@@ -1782,6 +1794,18 @@
 			(justify left top)
 		)
 		(uuid "2f4c4a2c-ae12-4dea-9931-538b317a4a56")
+	)
+	(text "MQC: 1mA"
+		(exclude_from_sim no)
+		(at 268.605 106.68 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+				(color 105 110 255 0.3490196078)
+			)
+		)
+		(uuid "3a3f9f2c-4312-4139-a6c7-fecc1a28036a")
 	)
 	(text "PGA"
 		(exclude_from_sim no)
@@ -1809,6 +1833,42 @@
 			(justify left top)
 		)
 		(uuid "7aad92d0-e2d5-40b9-bc29-76b05d2bbab9")
+	)
+	(text "MQC: 600uA"
+		(exclude_from_sim no)
+		(at 136.525 100.33 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+				(color 105 110 255 0.3490196078)
+			)
+		)
+		(uuid "a19cd11d-c0dc-4712-b3e4-5b031a60d5dd")
+	)
+	(text "MQC: 3mA"
+		(exclude_from_sim no)
+		(at 268.605 114.3 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+				(color 105 110 255 0.3490196078)
+			)
+		)
+		(uuid "a851cc83-ae22-4d67-9815-bcc8e76a19ef")
+	)
+	(text "MQC: 3mA"
+		(exclude_from_sim no)
+		(at 267.97 146.05 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+				(color 105 110 255 0.3490196078)
+			)
+		)
+		(uuid "bcf058b1-7ef4-4a70-9a3e-818e38ff6759")
 	)
 	(text "MUX"
 		(exclude_from_sim no)
@@ -3010,7 +3070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 117.348 90)
 			(effects
 				(font
@@ -3080,7 +3140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -3213,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 217.805 131.445 0)
 			(effects
 				(font
@@ -3343,7 +3403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.455 109.728 90)
 			(effects
 				(font
@@ -3609,7 +3669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 123.19 0)
 			(effects
 				(font
@@ -4191,7 +4251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -4321,7 +4381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.135 102.108 90)
 			(effects
 				(font
@@ -4391,7 +4451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.485 128.27 0)
 			(effects
 				(font
@@ -4651,7 +4711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 149.098 90)
 			(effects
 				(font

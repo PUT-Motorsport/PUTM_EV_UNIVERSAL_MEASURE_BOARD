@@ -1,4 +1,4 @@
-26754346365644061
+26759684962024626
 2601-1104
 26011104
 2601-1104-2
@@ -9,20 +9,6 @@ Connector
 2601-1110
 26011110
 2601-1110-2
-Connector
-0
-20
-20
-2604-1104
-26041104
-2604-1104-3
-Connector
-0
-8
-8
-2604-1110
-26041110
-2604-1110-2
 Connector
 0
 20
@@ -41,6 +27,13 @@ Integrated Circuit
 0
 10
 10
+ATV02W150-HF
+SODFL3718X130N
+SOD-123
+TVS Diode (Uni-directional)
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61445,6 +61438,20 @@ Crystal or Oscillator
 0
 4
 4
+ESDS304DBVR
+SOT95P280X145-5N
+ESDS304DBVR-1
+Integrated Circuit
+0
+5
+5
+FTSH-107-01-L-D-K
+FTSH-107-XX-YYY-D-K
+FTSH-107-XX-YYY-D-K
+Connector
+0
+14
+14
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -74857,6 +74864,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PESD5V0L2BT,215
+SOT95P230X110-3N
+-SOT23 (TO-236AB)
+Diode ESD (Bi-directional)
+0
+3
+3
 PGA280AIPW
 SOP65P640X120-24N
 PW (R-PDSO-G24)
@@ -97397,6 +97411,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S252B222K502CT
+CAPC5728X280N
+2211 (5728)
+Capacitor
+0
+2
+2
 STM32G484RET3
 QFP50P1200X1200X160-64N
 LQFP - 64 pin, 10 x 10 mm
