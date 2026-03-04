@@ -2971,6 +2971,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 160.02) (xy 195.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcaa2db-d488-40da-8988-ee26f62b41e1")
+	)
+	(wire
+		(pts
 			(xy 302.26 82.55) (xy 302.26 85.09)
 		)
 		(stroke
@@ -3141,23 +3151,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 160.02) (xy 195.58 160.02)
+			(xy 267.97 161.29) (xy 273.05 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3346b35a-eb58-4fc0-82af-3acc16a45292")
-	)
-	(wire
-		(pts
-			(xy 190.5 162.56) (xy 195.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "360fe50c-7560-4991-ad2b-1db82eeaabaf")
+		(uuid "330e154b-7a9e-4a9b-9619-0d86398b4dd5")
 	)
 	(wire
 		(pts
@@ -3319,16 +3319,6 @@
 		)
 		(uuid "4a681e27-86c1-43fb-8568-f71aefd2d40b")
 	)
-	(wire
-		(pts
-			(xy 267.97 163.83) (xy 270.51 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6700ea-55ef-4a52-afb1-32227b8bec59")
-	)
 	(bus
 		(pts
 			(xy 198.12 156.21) (xy 205.74 156.21)
@@ -3388,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "51aefe42-90ab-4fef-bc69-f68d990ff6f6")
+	)
+	(wire
+		(pts
+			(xy 267.97 163.83) (xy 270.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527de3fb-3db6-467f-8744-12bf22b66025")
 	)
 	(wire
 		(pts
@@ -3788,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "90885605-a1a0-434b-b164-c38f208e72be")
-	)
-	(wire
-		(pts
-			(xy 267.97 161.29) (xy 273.05 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b1b459-890b-4d6b-b467-25c328b93e4e")
 	)
 	(bus
 		(pts
@@ -4451,6 +4441,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 162.56) (xy 195.58 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f462a428-bd03-4789-acad-630e07c45efc")
+	)
+	(wire
+		(pts
 			(xy 101.6 109.22) (xy 105.41 109.22)
 		)
 		(stroke
@@ -4770,7 +4770,7 @@
 		(uuid "9b691d73-8466-442b-a39f-acde7f378ece")
 	)
 	(label "CAN-"
-		(at 190.5 160.02 0)
+		(at 190.5 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4850,7 +4850,7 @@
 		(uuid "bf64c27b-0aad-4ad5-b099-50f09773cb11")
 	)
 	(label "CAN+"
-		(at 190.5 162.56 0)
+		(at 190.5 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6189,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 24.13 186.69 0)
 			(effects
 				(font
@@ -6260,7 +6260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 24.13 161.29 0)
 			(effects
 				(font
@@ -7549,8 +7549,7 @@
 	(symbol
 		(lib_name "Conn_01x02_1")
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 262.89 161.29 0)
-		(mirror y)
+		(at 262.89 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7558,7 +7557,7 @@
 		(dnp no)
 		(uuid "720b0ecb-353d-4d4d-a4cc-0a40638631f1")
 		(property "Reference" "J26"
-			(at 262.89 158.496 0)
+			(at 262.636 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7565,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 262.89 167.64 0)
+			(at 262.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,8 +7573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Wago_01x02:26011102"
-			(at 262.89 161.29 0)
+		(property "Footprint" "StrainRelief:Wire_StrainRelief"
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,8 +7582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1102/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
-			(at 262.89 161.29 0)
+		(property "Datasheet" "-"
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Power input"
-			(at 262.89 161.29 0)
+			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 74.93 212.09 0)
 			(effects
 				(font
@@ -8450,7 +8449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -9112,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -9905,7 +9904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Wago_01x02:26011102"
+		(property "Footprint" "StrainRelief:Wire_StrainRelief"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -9914,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1102/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "-"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -10312,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -10389,7 +10388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 74.93 186.69 0)
 			(effects
 				(font
@@ -10460,7 +10459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 24.13 212.09 0)
 			(effects
 				(font
@@ -10661,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -10803,7 +10802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1103/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1103/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=00012c5e7a2599b3d4b70dcfe3f90a33_1jis4hf1d"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -11070,7 +11069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2604-1105/en/b87bf34972496b0cc9989b5aee7282f1?attempt=1&signature=9e2143c2bdc0f032c541ec220a7d0518_1h3r4vhsf"
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2601-1105/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=731afa92f4ad419acfaed54798e1c80c_1jis4e336"
 			(at 96.52 68.58 0)
 			(effects
 				(font

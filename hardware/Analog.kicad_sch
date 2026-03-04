@@ -1960,7 +1960,7 @@
 		(end 242.57 256.286)
 		(stroke
 			(width 0)
-			(type solid)
+			(type dash_dot)
 		)
 		(fill
 			(type none)
@@ -1969,10 +1969,10 @@
 	)
 	(rectangle
 		(start 242.57 176.784)
-		(end 323.342 221.742)
+		(end 323.342 220.218)
 		(stroke
 			(width 0)
-			(type solid)
+			(type dash_dot)
 		)
 		(fill
 			(type none)
@@ -1980,11 +1980,11 @@
 		(uuid 6c6f69e9-ea94-4a98-bb37-ed4be8c4c723)
 	)
 	(rectangle
-		(start 242.57 19.558)
-		(end 406.4 127.762)
+		(start 242.57 20.32)
+		(end 406.4 126.492)
 		(stroke
 			(width 0)
-			(type solid)
+			(type dash_dot)
 		)
 		(fill
 			(type none)
@@ -7738,7 +7738,7 @@
 		)
 		(uuid "8836ec20-d204-49b6-b761-3b3183214206")
 	)
-	(label "DIF3+"
+	(label "DIF3-"
 		(at 33.02 121.92 0)
 		(effects
 			(font
@@ -7868,7 +7868,7 @@
 		)
 		(uuid "c22928f4-1116-46bc-8ea3-c851d1a08759")
 	)
-	(label "DIF3-"
+	(label "DIF3+"
 		(at 33.02 119.38 0)
 		(effects
 			(font
