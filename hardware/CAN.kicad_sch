@@ -3832,7 +3832,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warsztatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603DR-07100KL?qs=sGAEpiMZZMvdGkrng054t3bQBroXiaAZB5Ggf8YdSs2QmcSO%2FG3V0Q%3D%3D"
+			(at 81.28 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603DR-07100KL"
+			(at 81.28 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603DR-07100KL"
 			(at 81.28 105.41 90)
 			(effects
 				(font
