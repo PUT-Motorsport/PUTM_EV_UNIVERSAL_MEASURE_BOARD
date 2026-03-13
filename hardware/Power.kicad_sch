@@ -843,132 +843,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2749,18 +2623,6 @@
 		(uuid 7763e2c4-213a-4a7d-b3df-08d36cef6f61)
 	)
 	(rectangle
-		(start 181.61 77.47)
-		(end 213.61 97.0323)
-		(stroke
-			(width 0)
-			(type dash_dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8176edd4-cec3-4400-bb17-ce6858448655)
-	)
-	(rectangle
 		(start 16.002 147.828)
 		(end 152.654 191.262)
 		(stroke
@@ -3652,16 +3514,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 83.82) (xy 200.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ea10e0-e660-440b-acfc-64827a268782")
-	)
-	(wire
-		(pts
 			(xy 179.07 130.81) (xy 193.04 130.81)
 		)
 		(stroke
@@ -3759,16 +3611,6 @@
 			(type default)
 		)
 		(uuid "35ea0851-b0a6-4cef-ac69-5126689cbbb1")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 190.5 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a826cf-6186-445c-9fa3-7200ef003fd5")
 	)
 	(wire
 		(pts
@@ -3879,6 +3721,16 @@
 			(type default)
 		)
 		(uuid "47b65824-c269-4656-b6c9-63cf40749c12")
+	)
+	(wire
+		(pts
+			(xy 105.41 176.53) (xy 121.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490af86f-c5a1-439f-9deb-057ba30ee800")
 	)
 	(wire
 		(pts
@@ -4672,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 173.99) (xy 105.41 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab19acb6-6c52-4e68-8bc3-1e87dccb441e")
-	)
-	(wire
-		(pts
 			(xy 43.18 81.28) (xy 43.18 83.82)
 		)
 		(stroke
@@ -4729,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "b0045415-9aca-4ea3-99e1-b1023698012a")
+	)
+	(wire
+		(pts
+			(xy 105.41 173.99) (xy 105.41 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fd45f4-c809-430a-bf2d-87f4589bcdd2")
 	)
 	(wire
 		(pts
@@ -4799,16 +4651,6 @@
 			(type default)
 		)
 		(uuid "c2a2a5f1-60f1-4780-923b-37119fec9db9")
-	)
-	(wire
-		(pts
-			(xy 54.61 176.53) (xy 54.61 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c380403b-b390-4f8d-9975-e311ebea48a6")
 	)
 	(wire
 		(pts
@@ -4929,6 +4771,16 @@
 			(type default)
 		)
 		(uuid "ce2d889e-1bb8-4e93-a3b8-04272cba01ad")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 54.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf31239d-89db-479c-bd8d-043d184558f7")
 	)
 	(polyline
 		(pts
@@ -5102,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 173.99) (xy 38.1 179.07)
+			(xy 38.1 173.99) (xy 38.1 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5129,16 +4981,6 @@
 			(type default)
 		)
 		(uuid "eb9f608f-0b9b-4231-85a7-c7d2bff4f3aa")
-	)
-	(wire
-		(pts
-			(xy 198.12 83.82) (xy 200.66 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba08cf0-263d-41dc-a208-241e24802b3a")
 	)
 	(wire
 		(pts
@@ -5202,6 +5044,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 176.53) (xy 38.1 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e14a53-8b49-4062-8b40-a30f9345af00")
+	)
+	(wire
+		(pts
 			(xy 105.41 166.37) (xy 105.41 168.91)
 		)
 		(stroke
@@ -5239,16 +5091,6 @@
 			(type default)
 		)
 		(uuid "fab81816-106e-40a9-b0f9-8adcc8e64f2a")
-	)
-	(wire
-		(pts
-			(xy 190.5 83.82) (xy 193.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae5d327-a0fe-4ea6-9779-90f4c33fc0ea")
 	)
 	(wire
 		(pts
@@ -5361,71 +5203,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e2c87bc-e5a7-4e87-ba6c-007d0b360fe6")
-		(property "Reference" "#PWR039"
-			(at 121.92 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 121.92 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a99bd58-20e3-495c-bd45-a75efa7e95dc")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5572,33 +5349,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 72.39 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 72.39 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 72.39 166.37 0)
 			(effects
 				(font
@@ -6835,33 +6585,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 203.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 203.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 203.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "816ab789-d1ef-4dbf-bccd-34a85b2d0c0f")
 		)
@@ -6869,71 +6592,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41be0547-68dc-4036-b7de-d70d95c32fef")
-		(property "Reference" "#PWR055"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00fc8d46-4bc9-49c6-b817-0da8f45f5009")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7736,6 +7394,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d4b7f67-897a-4d99-8324-8449c14d460b")
+		(property "Reference" "#PWR039"
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74dca95-5db5-49fb-9aef-0da535fcf963")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8161,71 +7884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67a43ce8-368b-49b7-b256-40dd5f4e8ec8")
-		(property "Reference" "#PWR038"
-			(at 54.61 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 54.61 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0227d018-208b-4c39-a696-2a7090ca4839")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 171.45 0)
 		(mirror y)
@@ -8539,33 +8197,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 158.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 158.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 158.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "270f4562-49ab-48a0-b6b1-f86bfa6f7396")
 		)
@@ -8719,33 +8350,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -9497,33 +9101,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 139.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 139.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 139.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0e14657c-dacd-4317-942a-006e8049d930")
 		)
@@ -9991,7 +9568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 179.07 0)
+		(at 54.61 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9999,7 +9576,7 @@
 		(dnp no)
 		(uuid "a0ea8ba9-e857-42e3-b9d9-c69725a1b3e1")
 		(property "Reference" "#PWR047"
-			(at 38.1 185.42 0)
+			(at 54.61 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +9585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 182.626 0)
+			(at 54.61 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +9593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 179.07 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +9602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 179.07 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +9611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 179.07 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,71 +10504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cadf8a61-5a2d-4f08-9906-011bb8633306")
-		(property "Reference" "#PWR076"
-			(at 200.66 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 200.66 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96c8e521-8ab8-4d62-8571-ce06138c46c1")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 124.46 0)
 		(unit 1)
@@ -11293,33 +10805,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -12011,75 +11496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 195.58 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff7708e-1caa-4760-a4f6-2c183026566c")
-		(property "Reference" "NT1"
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie"
-			(at 195.58 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-4_THT_Pad1.0mm"
-			(at 195.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 195.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "505437bb-fe2e-4b27-b38c-6fc512438922")
-		)
-		(pin "1"
-			(uuid "dd3e22a7-5c5c-48cc-900c-6e520accb05f")
-		)
-		(instances
-			(project ""
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 100.33 166.37 0)
 		(unit 1)
@@ -12168,71 +11584,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
 					(reference "F7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f228cea2-b3e0-4f28-a987-63cec2e942a8")
-		(property "Reference" "#PWR048"
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2a3474a-3b7e-4786-852e-538382f776c6")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12510,33 +11861,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 63.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 63.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 63.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 63.5 119.38 0)
 			(effects
 				(font

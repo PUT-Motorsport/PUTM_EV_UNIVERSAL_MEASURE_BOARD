@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.0,
+          "height": 1.2,
+          "width": 0.45
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -597,7 +597,7 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -621,7 +621,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -645,7 +645,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -664,6 +664,12 @@
           "label": "Mouser No",
           "name": "Mouser No",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Nuber",
+          "name": "Manufacturer_Part_Nuber",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -671,7 +677,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

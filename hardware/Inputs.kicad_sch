@@ -5634,33 +5634,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 50.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "169b1754-e2b4-46a0-a4f7-14b68deb36fd")
 		)
@@ -5947,33 +5920,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 50.8 35.56 0)
 			(effects
 				(font
@@ -6343,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FTSH-107-01-L-D-K"
+		(property "Manufacturer_Part_Nuber" "FTSH-107-01-L-D-K"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -6361,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "200-FTSH10701LDK "
+		(property "Mouser No" "200-FTSH10701LDK"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -6541,33 +6487,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 87.63 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 87.63 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 87.63 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a1faf283-e0b7-48b8-b87b-c4ba98be1855")
 		)
@@ -6701,33 +6620,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a642a4c2-d36d-4bd6-914c-57db5be4aa43")
 		)
@@ -6787,33 +6679,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 36.83 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 36.83 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 36.83 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 36.83 212.09 0)
 			(effects
 				(font
@@ -6952,33 +6817,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 24.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "798e312b-f968-4d17-b8fe-b36ce9566ed2")
 		)
@@ -7042,33 +6880,6 @@
 			)
 		)
 		(property "Description" "DIF input"
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 96.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -7577,33 +7388,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a251e9b7-dbaa-4166-98f5-638e4c891905")
 		)
@@ -7662,33 +7446,6 @@
 		)
 		(property "Description" "SE input"
 			(at 24.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 24.13 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 24.13 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 24.13 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,33 +8079,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "82ca11e4-dd1d-4562-9e11-cebd66179f68")
 		)
@@ -8593,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "---"
+		(property "Datasheet" "-"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -8603,24 +8333,6 @@
 			)
 		)
 		(property "Description" "Power input"
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "strain relief"
-			(at 262.89 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -8691,33 +8403,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -9358,33 +9043,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "92190331-53ca-4459-8205-b21def0aa125")
 		)
@@ -9443,33 +9101,6 @@
 		)
 		(property "Description" "SE input"
 			(at 74.93 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 74.93 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 74.93 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 74.93 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,33 +9334,6 @@
 			)
 		)
 		(property "Description" "DIF input"
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -10110,33 +9714,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "feff53de-792f-4f49-a127-e3c921ca285f")
 		)
@@ -10261,33 +9838,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -10590,33 +10140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "22556d34-12ab-4f6f-b0a2-ce2334d82df0")
 		)
@@ -10674,33 +10197,6 @@
 			)
 		)
 		(property "Description" "DIF input"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -11044,33 +10540,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -11587,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "---"
+		(property "Datasheet" "-"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -11597,24 +11066,6 @@
 			)
 		)
 		(property "Description" "Power input"
-			(at 185.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "strain relief"
-			(at 185.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -11958,33 +11409,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c1a7c32e-57b3-4442-8a3d-177b7e85dfdd")
 		)
@@ -12115,33 +11539,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "619ff2fb-f4db-4225-9f04-baac7f98d7c2")
 		)
@@ -12221,33 +11618,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 87.63 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 87.63 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 87.63 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a0ec1f9-fc56-4d17-be6e-4d36c73ad8c3")
 		)
@@ -12306,33 +11676,6 @@
 		)
 		(property "Description" "SE input"
 			(at 74.93 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 74.93 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 74.93 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 74.93 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,33 +11756,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 36.83 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 36.83 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 36.83 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9d0e0249-d624-416b-be0c-2db79b70d8eb")
 		)
@@ -12498,33 +11814,6 @@
 		)
 		(property "Description" "SE input"
 			(at 24.13 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 24.13 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 24.13 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 24.13 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,33 +12022,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "67cd2f2c-453c-4f41-881d-8b9cb5707108")
 		)
@@ -12895,33 +12157,6 @@
 		)
 		(property "Description" "SE input"
 			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1103"
-			(at 74.93 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/pl/złączki-do-płytek-drukowanych/złącze-do%C2%A0pcb/p/2601-1103"
-			(at 74.93 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 74.93 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,33 +12303,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 36.83 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 36.83 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 36.83 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "625da2b5-16c8-4914-b60a-77b151313ac4")
 		)
@@ -13227,33 +12435,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0c13aad5-34b7-443e-8152-475bde7c9328")
 		)
@@ -13376,33 +12557,6 @@
 			)
 		)
 		(property "Description" "DIF input"
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2601-1105"
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2601-1105"
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 96.52 68.58 0)
 			(effects
 				(font

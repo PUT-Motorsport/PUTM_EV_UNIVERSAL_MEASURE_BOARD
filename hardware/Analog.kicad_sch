@@ -8659,136 +8659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "063bd4af-7c90-4161-8947-c360622084ba")
-		(property "Reference" "#PWR070"
-			(at 73.66 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 73.66 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e32d364c-afb0-4864-87ac-6d9e950e4607")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06b97ecb-df2a-4fde-80f8-efdabfb586d7")
-		(property "Reference" "#PWR066"
-			(at 25.4 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 25.4 214.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30eaa26f-a40f-4016-918c-bed4512f8cad")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 287.02 199.39 0)
 		(mirror y)
@@ -8983,15 +8853,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 73.66 0)
+		(at 73.66 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c36e47f-37d1-4b8d-b8f2-3db40e586698")
-		(property "Reference" "#PWR051"
-			(at 73.66 80.01 0)
+		(uuid "0ca12a26-3bc3-4c80-9d53-20c81b914638")
+		(property "Reference" "#PWR062"
+			(at 73.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,8 +8869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 73.66 77.216 0)
+		(property "Value" "GND"
+			(at 73.66 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +8878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 73.66 0)
+			(at 73.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +8887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 73.66 0)
+			(at 73.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +8896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 73.66 0)
+			(at 73.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,12 +8905,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "55688a6e-8057-4afd-94c4-c1322f4659a7")
+			(uuid "2c5fc097-735d-47e8-8ad2-1d3c57cd5348")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR051")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9429,33 +9299,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 283.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 283.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 283.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1ba95029-9ba6-4538-b36e-749685dc6a7e")
 		)
@@ -9759,6 +9602,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a01e497-d5c4-4396-b47e-51e61121ca69")
+		(property "Reference" "#PWR050"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de36030-0b56-4c49-baeb-c6cc764c0fc5")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 222.25 180)
 		(unit 1)
@@ -9986,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10004,25 +9912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10214,8 +10104,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 115.57 0)
+		(pin "1"
+			(uuid "a76f1055-6978-4a43-a1fb-e7acaab31533")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21dcda34-35ce-4a2e-9dff-c83d7e9948c4")
+		(property "Reference" "#PWR063"
+			(at 189.23 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,8 +10134,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "---"
-			(at 213.36 115.57 0)
+		(property "Value" "GND"
+			(at 189.23 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,8 +10151,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "---"
-			(at 213.36 115.57 0)
+		(property "Datasheet" ""
+			(at 189.23 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,12 +10170,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a76f1055-6978-4a43-a1fb-e7acaab31533")
+			(uuid "02e75469-6a9a-4667-9c77-50a9b6f5a1f9")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "TP10")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10384,71 +10312,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "U15")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24651fac-68f8-4036-aa89-cec950675784")
-		(property "Reference" "#PWR065"
-			(at 189.23 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 189.23 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93f929b5-cd83-4972-a402-b008a0074fc0")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR065")
-					(unit 1)
 				)
 			)
 		)
@@ -10664,15 +10527,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 91.44 0)
+		(at 90.17 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2bf783a6-e296-4ea4-825f-6217a3bd2226")
-		(property "Reference" "#PWR052"
-			(at 189.23 97.79 0)
+		(uuid "2bb55304-27cd-4d68-a486-227b62746b43")
+		(property "Reference" "#PWR066"
+			(at 90.17 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,8 +10543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 189.23 94.996 0)
+		(property "Value" "GND"
+			(at 90.17 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 91.44 0)
+			(at 90.17 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 91.44 0)
+			(at 90.17 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 91.44 0)
+			(at 90.17 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,12 +10579,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90cc56e9-3670-4f38-9861-9156fd6b021f")
+			(uuid "b9aff891-87d2-40ab-994f-ca66f7cbcce1")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR052")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10955,7 +10818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -10973,25 +10836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -11112,6 +10957,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3504a2f3-b78b-4dbb-afa9-eac2f313ed1d")
+		(property "Reference" "#PWR067"
+			(at 40.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 229.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d55024e-7ac3-4812-b6d0-87713ad5576c")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 81.28 64.77 0)
 		(unit 1)
@@ -11177,72 +11087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 210.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38310162-dafb-4e86-83a4-8d6532b0421b")
-		(property "Reference" "#PWR067"
-			(at 90.17 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 90.17 214.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2b0a517-782d-42cb-af8d-72ff1deca992")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 119.38 90)
 		(unit 1)
@@ -11278,7 +11122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -11296,25 +11140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 119.38 90)
 			(effects
 				(font
@@ -11374,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 44.45 0)
 			(effects
 				(font
@@ -11392,25 +11218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 44.45 90)
 			(effects
 				(font
@@ -11429,6 +11237,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3edb9439-b4c2-4c7c-84f5-8daafa791105")
+		(property "Reference" "#PWR057"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b582718d-d308-471f-b91d-f0c6609b1719")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11726,6 +11599,71 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "U15")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a675a54-5a47-4731-9eb8-c62064847e08")
+		(property "Reference" "#PWR058"
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e27271-a592-459b-9bda-e07d294bb54b")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR058")
+					(unit 1)
 				)
 			)
 		)
@@ -12304,33 +12242,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 213.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 213.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "007eeaca-7c49-413a-86e5-bb9005749907")
 		)
@@ -12390,33 +12301,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 213.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 213.36 229.87 0)
 			(effects
 				(font
@@ -13027,6 +12911,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c4f3de6-7e46-4bf5-93bd-e9f5b34cb1f4")
+		(property "Reference" "#PWR044"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb8c42c-6ccf-4916-98e6-661278036a24")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 179.07 74.93 0)
 		(mirror y)
@@ -13064,7 +13013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -13074,33 +13023,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -13241,6 +13163,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e4d3804-ec22-4a37-afc1-4552da262aeb")
+		(property "Reference" "#PWR061"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89f5d8bf-2875-40b9-9d73-c186e8f9c58f")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 179.07 38.1 0)
 		(mirror y)
@@ -13278,7 +13265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -13288,33 +13275,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -13438,71 +13398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76832917-1b85-4afd-b1be-aee1a1b5d70c")
-		(property "Reference" "#PWR058"
-			(at 90.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 90.17 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eba83bf5-ee50-4822-941b-c896d4dcb14c")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 81.28 90)
 		(unit 1)
@@ -13538,7 +13433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 81.28 0)
 			(effects
 				(font
@@ -13556,25 +13451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 81.28 90)
 			(effects
 				(font
@@ -13593,71 +13470,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ddbc010-0b2c-45f1-a6fd-6d750b98f896")
-		(property "Reference" "#PWR069"
-			(at 40.64 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 40.64 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80d6264e-761a-4941-ac50-dca1212e26bf")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -14200,7 +14012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14218,25 +14030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14351,6 +14145,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82e7a2d4-06f0-4562-872d-b89c2e8ab9f6")
+		(property "Reference" "#PWR064"
+			(at 280.67 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557a1d34-47f5-4306-896c-99e7d49f9a9f")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -14524,33 +14383,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 336.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 336.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 336.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3712129d-930f-431f-aaa5-8b7e6ad7ba79")
 		)
@@ -14695,7 +14527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -14713,25 +14545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -14906,33 +14720,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 213.36 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 213.36 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0cec46ee-50cd-4b16-8d5e-de6aa08fde80")
 		)
@@ -14940,332 +14727,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92b7d36c-a34c-42f7-92d8-ca8298237519")
-		(property "Reference" "#PWR056"
-			(at 189.23 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 189.23 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1b83467-efdf-43be-ab0c-6879893bea09")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94f3929a-d9b0-4d64-b1b6-537430bbc75c")
-		(property "Reference" "#PWR044"
-			(at 25.4 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 25.4 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a185bc-68a0-4fe5-9795-7c33899b4c16")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9677efe3-59bd-4845-bf5e-d56e6ed1e0b2")
-		(property "Reference" "#PWR045"
-			(at 90.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 90.17 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "531db868-7337-4687-b310-d9d9c00540c0")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 280.67 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a774e85-744e-436f-a70b-a61de73e982d")
-		(property "Reference" "#PWR064"
-			(at 280.67 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 280.67 216.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fa4fd72-51d6-4baa-a0f2-0137e5dc861c")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a805b99-ed2a-422e-adad-16434771ce04")
-		(property "Reference" "#PWR057"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 25.4 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa5d540f-3c5c-4de4-ae97-e31633ba6237")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15546,6 +15007,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a378628e-d7ef-4955-8128-d3dc9d5dcaae")
+		(property "Reference" "#PWR06"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1735b479-abf5-452c-b189-91fc15706d6b")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3c74c3f-fee2-4b37-a3d7-60c3ad3ab795")
+		(property "Reference" "#PWR043"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c73e5fbe-e0bc-4fd5-9965-f7b73f9ed0fc")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 336.55 86.36 0)
 		(unit 1)
@@ -15600,8 +15191,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 336.55 86.36 0)
+		(pin "1"
+			(uuid "d17c794b-5d0d-44bc-8c00-4e3eded54612")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af26bcd4-9a69-4d1d-9c4c-15b28d555b29")
+		(property "Reference" "#PWR056"
+			(at 189.23 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,8 +15221,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "---"
-			(at 336.55 86.36 0)
+		(property "Value" "GND"
+			(at 189.23 247.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15618,8 +15238,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "---"
-			(at 336.55 86.36 0)
+		(property "Datasheet" ""
+			(at 189.23 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15628,12 +15257,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d17c794b-5d0d-44bc-8c00-4e3eded54612")
+			(uuid "cdb66ae5-d6a7-4015-bd52-1666ce46eb1f")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "TP17")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15675,7 +15304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -15693,25 +15322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -15771,7 +15382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 196.85 0)
 			(effects
 				(font
@@ -15789,25 +15400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 196.85 90)
 			(effects
 				(font
@@ -16021,33 +15614,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 388.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 388.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 388.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3d32c01c-4663-4535-ba1a-bd1c5f532eab")
 		)
@@ -16151,71 +15717,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbbf617f-b99b-4cc9-822b-44d310414ec9")
-		(property "Reference" "#PWR061"
-			(at 40.64 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 40.64 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6dc0ea0-0fa4-4ebc-a393-53c95911700e")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16363,15 +15864,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 148.59 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd0ce1a2-218c-43e5-a596-f7bf350d66ae")
-		(property "Reference" "#PWR062"
-			(at 73.66 154.94 0)
+		(uuid "bdc1b2f2-b4bc-461c-bf2c-1b1eaaaeebe0")
+		(property "Reference" "#PWR051"
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16379,8 +15880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 73.66 152.146 0)
+		(property "Value" "GND"
+			(at 90.17 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16388,7 +15889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 148.59 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16397,7 +15898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 148.59 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16406,7 +15907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 148.59 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16415,77 +15916,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "450c7df6-6dfd-4740-8c2d-63ccdecacf10")
+			(uuid "335d2098-7f54-4725-a570-bb19aea1ee77")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdc1f841-f5cf-4b26-9e35-a1a4743f50f3")
-		(property "Reference" "#PWR050"
-			(at 40.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 40.64 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04382702-ac8e-4626-84f8-816ea4bfdf98")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16582,71 +16018,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1d7c064-8b77-4ddf-8dc3-c674bcb632dd")
-		(property "Reference" "#PWR043"
-			(at 189.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 189.23 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbc28834-b5a2-4e40-971b-bd3fdb4545ee")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16961,7 +16332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 227.33 0)
 			(effects
 				(font
@@ -16971,33 +16342,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 227.33 0)
 			(effects
 				(font
@@ -17062,7 +16406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -17072,33 +16416,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -17163,7 +16480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -17173,33 +16490,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -17221,71 +16511,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc017371-cc19-4fc6-bafe-ab654b6dc0e6")
-		(property "Reference" "#PWR071"
-			(at 189.23 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 189.23 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf30a85-48b8-4199-bd6d-3527b2034f81")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -17329,7 +16554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 190.5 0)
 			(effects
 				(font
@@ -17339,33 +16564,6 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
-			(at 179.07 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PH1-03-UA"
-			(at 179.07 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr4DamSOmvdfSi_n12DpYthBOvZxjFUe8YntxM2DsnYRHnp1GV9w6IkaAiAEEALw_wcB"
-			(at 179.07 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 190.5 0)
 			(effects
 				(font
@@ -17439,33 +16637,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -17912,33 +17083,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 388.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 388.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 388.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9e318c3e-8c6d-4f94-92c8-11733a3e7745")
 		)
@@ -18083,7 +17227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 233.68 0)
 			(effects
 				(font
@@ -18101,25 +17245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 233.68 90)
 			(effects
 				(font
@@ -18247,8 +17373,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1242dc3-6880-48a0-b1b4-89b6e26cde45")
-		(property "Reference" "#PWR063"
+		(uuid "dc8c0aae-56ac-4a9d-87ac-d27c82c2e566")
+		(property "Reference" "#PWR052"
 			(at 189.23 172.72 0)
 			(effects
 				(font
@@ -18257,7 +17383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 189.23 169.926 0)
 			(effects
 				(font
@@ -18293,12 +17419,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7d39e5c-bea0-4949-ba18-4f2ca16c2ee3")
+			(uuid "1fbbf98c-4fa1-4004-afa8-49bd919eb209")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR063")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7cc2c08-e9f3-480d-8534-1d9e59626525")
+		(property "Reference" "#PWR045"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b06edf-b274-4af1-8830-a9b99910ddef")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18686,33 +17877,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 213.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "---"
-			(at 213.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "---"
-			(at 213.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dbb76e43-c330-4c49-b2dc-2ef34c549f53")
 		)
@@ -18972,8 +18136,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "---"
-			(at 283.21 86.36 0)
+		(pin "1"
+			(uuid "9b765fb7-2bc5-4c59-88c1-61fb6c00d5f2")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa8fbb1b-d0ca-4529-8ebb-45a9009d1b40")
+		(property "Reference" "#PWR038"
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18981,8 +18166,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "---"
-			(at 283.21 86.36 0)
+		(property "Value" "GND"
+			(at 189.23 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18990,8 +18183,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "---"
-			(at 283.21 86.36 0)
+		(property "Datasheet" ""
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,12 +18202,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b765fb7-2bc5-4c59-88c1-61fb6c00d5f2")
+			(uuid "610b5a95-5273-4816-ba27-ba807ee53c47")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "TP15")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb40e441-91da-489e-b692-ae2a14d9ceaa")
+		(property "Reference" "#PWR065"
+			(at 25.4 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0c56be5-ab42-45bd-9c1e-e56df7154872")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -19204,6 +18471,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc810806-130e-45c8-a2b7-96ed1e2c8c52")
+		(property "Reference" "#PWR069"
+			(at 73.66 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 229.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b795bc9f-5cae-4bbf-9846-c9231dba845a")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 156.21 90)
 		(unit 1)
@@ -19239,7 +18571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -19257,25 +18589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=sGAEpiMZZMvdGkrng054t9qc4ucOrQBxaoXr8lQCeUs%3D"
-			(at 182.88 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
-			(at 182.88 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "71-CRCW06030000Z0EAH"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 182.88 156.21 90)
 			(effects
 				(font
@@ -19335,7 +18649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -19353,25 +18667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=sGAEpiMZZMvdGkrng054t9uxMNZRT1JdEACgN9vlJJc%3D"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser" "in warszatowe zapasy i think"
 			(at 189.23 49.53 0)
 			(effects
 				(font
