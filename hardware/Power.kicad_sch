@@ -5333,7 +5333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 77.47 166.37 0)
 			(effects
 				(font
@@ -6561,7 +6561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 208.28 119.38 0)
 			(effects
 				(font
@@ -6999,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KTT0003B"
+		(property "Footprint" "DDPAK:KTT0003B"
 			(at 66.04 214.3 0)
 			(effects
 				(font
@@ -8106,7 +8106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -9010,7 +9010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 144.78 166.37 0)
 			(effects
 				(font
@@ -10722,7 +10722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -10882,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_fuse_466_datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/sf0603f.pdf"
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -11138,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P280X110-8N"
+		(property "Footprint" "TPS563219ADDFR:SOT65P280X110-8N"
 			(at 95.25 168.58 0)
 			(effects
 				(font
@@ -11778,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 68.58 119.38 0)
 			(effects
 				(font

@@ -5616,7 +5616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 106.68 0)
 			(effects
 				(font
@@ -5910,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 38.1 0)
 			(effects
 				(font
@@ -6289,15 +6289,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Nuber" "FTSH-107-01-L-D-K"
-			(at 275.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Samtec/FTSH-107-01-L-D-K?qs=%252BZP6%2F%252BtExtDf9U3LcTl7MA%3D%3D"
 			(at 275.59 35.56 0)
 			(effects
@@ -6308,6 +6299,15 @@
 			)
 		)
 		(property "Mouser No" "200-FTSH10701LDK"
+			(at 275.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTSH-107-01-L-D-K"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 92.71 212.09 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 92.71 161.29 0)
 			(effects
 				(font
@@ -6669,7 +6669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 41.91 212.09 0)
 			(effects
 				(font
@@ -6817,6 +6817,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 24.13 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 24.13 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 24.13 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "798e312b-f968-4d17-b8fe-b36ce9566ed2")
 		)
@@ -6880,6 +6907,33 @@
 			)
 		)
 		(property "Description" "DIF input"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -7370,7 +7424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -7446,6 +7500,33 @@
 		)
 		(property "Description" "SE input"
 			(at 24.13 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 24.13 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 24.13 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 24.13 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -8323,7 +8404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "---"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -8333,6 +8414,33 @@
 			)
 		)
 		(property "Description" "Power input"
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "strain relief"
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "---"
+			(at 262.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -8393,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 38.1 0)
 			(effects
 				(font
@@ -9025,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 106.68 0)
 			(effects
 				(font
@@ -9101,6 +9209,33 @@
 		)
 		(property "Description" "SE input"
 			(at 74.93 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 74.93 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 74.93 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 74.93 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,6 +9469,33 @@
 			)
 		)
 		(property "Description" "DIF input"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -9696,7 +9858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -9828,7 +9990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 68.58 0)
 			(effects
 				(font
@@ -10122,7 +10284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -10197,6 +10359,33 @@
 			)
 		)
 		(property "Description" "DIF input"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -10530,7 +10719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -11056,7 +11245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "---"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -11066,6 +11255,33 @@
 			)
 		)
 		(property "Description" "Power input"
+			(at 185.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "strain relief"
+			(at 185.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "---"
+			(at 185.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 185.42 160.02 0)
 			(effects
 				(font
@@ -11391,7 +11607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -11539,6 +11755,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "619ff2fb-f4db-4225-9f04-baac7f98d7c2")
 		)
@@ -11600,7 +11843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 92.71 186.69 0)
 			(effects
 				(font
@@ -11683,6 +11926,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 74.93 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 74.93 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 74.93 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44332ac1-b2b1-4ba2-b582-d13202aff866")
 		)
@@ -11738,7 +12008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -11814,6 +12084,33 @@
 		)
 		(property "Description" "SE input"
 			(at 24.13 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 24.13 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 24.13 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 24.13 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12022,6 +12319,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 96.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 96.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 96.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67cd2f2c-453c-4f41-881d-8b9cb5707108")
 		)
@@ -12164,6 +12488,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 74.93 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 74.93 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 74.93 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c4aa4d4-41d8-40f1-9147-1bcb3fce8c34")
 		)
@@ -12285,7 +12636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 41.91 186.69 0)
 			(effects
 				(font
@@ -12417,7 +12768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 116.84 71.12 0)
 			(effects
 				(font
@@ -12557,6 +12908,33 @@
 			)
 		)
 		(property "Description" "DIF input"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 96.52 68.58 0)
 			(effects
 				(font

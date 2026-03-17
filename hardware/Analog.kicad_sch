@@ -1287,6 +1287,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Reference_Voltage:TL431DBZ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL431DBZ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 1.778 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL431DBZ_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL431DBZ_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TLC274AIDR:TLC274AIDR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2075,6 +2244,18 @@
 		(uuid 2c237ca6-af83-4806-87ba-7ea89ac796fa)
 	)
 	(rectangle
+		(start 323.342 176.784)
+		(end 369.062 220.218)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b0f95e8-0061-4c2e-9983-ac2281efe90f)
+	)
+	(rectangle
 		(start 242.57 176.784)
 		(end 323.342 220.218)
 		(stroke
@@ -2502,6 +2683,12 @@
 		(uuid "83f50f4c-d42d-446c-b197-73c762e7b171")
 	)
 	(junction
+		(at 355.6 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85d45c40-f43b-467d-a3bf-03fb7b21df6c")
+	)
+	(junction
 		(at 280.67 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2628,6 +2815,18 @@
 		(uuid "d1907c3c-dc3f-4cd1-acdb-c41be545c852")
 	)
 	(junction
+		(at 345.44 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d236f74c-4057-4667-a6cf-c326bf1dd05d")
+	)
+	(junction
+		(at 345.44 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d41fbfa8-f8a8-4af1-8c15-4bda25fed78b")
+	)
+	(junction
 		(at 251.46 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2650,6 +2849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eae77d09-fbd0-4f90-afc7-2716a85aabfa")
+	)
+	(junction
+		(at 355.6 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9976dc-4fa0-45de-8769-afcc253e16c1")
 	)
 	(junction
 		(at 38.1 209.55)
@@ -3099,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 187.96) (xy 355.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c32f18-6845-49c9-b1f6-a25a9d03fb85")
+	)
+	(wire
+		(pts
 			(xy 185.42 220.98) (xy 189.23 220.98)
 		)
 		(stroke
@@ -3197,6 +3412,16 @@
 		)
 		(uuid "0ca566ce-6c78-490b-a302-a65fb55f7fe4")
 	)
+	(wire
+		(pts
+			(xy 347.98 195.58) (xy 355.6 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd88aa4-96a3-4604-81f6-8091deeff237")
+	)
 	(bus
 		(pts
 			(xy 85.09 199.39) (xy 85.09 196.85)
@@ -3276,16 +3501,6 @@
 			(type default)
 		)
 		(uuid "10847f9d-b820-4158-8bce-e07aeb967a49")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 90.17 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e6def8-b1e9-47ca-b1be-165e494b24ca")
 	)
 	(wire
 		(pts
@@ -3819,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 187.96) (xy 345.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2065d2-e747-4b5e-bbc5-43fc4d7ce0f8")
+	)
+	(wire
+		(pts
 			(xy 189.23 127) (xy 189.23 129.54)
 		)
 		(stroke
@@ -4009,16 +4234,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 210.82) (xy 90.17 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3586f3d8-ffe1-4bbe-8979-750a7526394e")
-	)
-	(wire
-		(pts
 			(xy 31.75 46.99) (xy 40.64 46.99)
 		)
 		(stroke
@@ -4096,16 +4311,6 @@
 			(type default)
 		)
 		(uuid "39174761-d305-4dea-81eb-fb08af1974c2")
-	)
-	(wire
-		(pts
-			(xy 90.17 133.35) (xy 90.17 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392d7e6f-3051-4669-bdc7-57529a6e1a4c")
 	)
 	(wire
 		(pts
@@ -4216,6 +4421,16 @@
 			(type default)
 		)
 		(uuid "4133ad2d-3eed-4e44-91a0-c48e2268e9e7")
+	)
+	(wire
+		(pts
+			(xy 355.6 203.2) (xy 355.6 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ffff48-26a5-433c-9757-e4633f1b2877")
 	)
 	(wire
 		(pts
@@ -5449,16 +5664,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 133.35) (xy 25.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8429bd57-7a54-4dee-a56f-d78906105678")
-	)
-	(wire
-		(pts
 			(xy 73.66 134.62) (xy 76.2 134.62)
 		)
 		(stroke
@@ -5669,6 +5874,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 195.58) (xy 355.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d22458a-d054-4fc9-aaa1-a4c20d23cad6")
+	)
+	(wire
+		(pts
 			(xy 124.46 191.77) (xy 127 191.77)
 		)
 		(stroke
@@ -5719,16 +5934,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 210.82) (xy 25.4 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e7d2ae-796b-4378-bc94-3b1857185a76")
-	)
-	(wire
-		(pts
 			(xy 125.73 151.13) (xy 125.73 149.86)
 		)
 		(stroke
@@ -5756,6 +5961,16 @@
 			(type default)
 		)
 		(uuid "92cf57a8-0182-434f-a65e-c7459fcccc60")
+	)
+	(wire
+		(pts
+			(xy 355.6 189.23) (xy 355.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a471b8-18bd-40b2-9b11-37b129737a74")
 	)
 	(wire
 		(pts
@@ -6519,6 +6734,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 198.12) (xy 345.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18cff76-0060-4daf-b94b-e1883b9595d4")
+	)
+	(wire
+		(pts
 			(xy 260.35 77.47) (xy 278.13 77.47)
 		)
 		(stroke
@@ -6786,6 +7011,16 @@
 			(type default)
 		)
 		(uuid "d22010a7-1529-457b-9b8b-a1cb0fa5df93")
+	)
+	(wire
+		(pts
+			(xy 355.6 195.58) (xy 355.6 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e42e02-655a-4937-8efe-f6022907d39a")
 	)
 	(wire
 		(pts
@@ -7117,6 +7352,16 @@
 		)
 		(uuid "df9c07ea-9523-46f7-a4f9-0ebdcaf088ba")
 	)
+	(wire
+		(pts
+			(xy 345.44 203.2) (xy 345.44 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfed095b-5e1e-4f06-9d30-4c66995d4622")
+	)
 	(bus
 		(pts
 			(xy 391.16 83.82) (xy 391.16 114.3)
@@ -7126,6 +7371,16 @@
 			(type default)
 		)
 		(uuid "e09d4071-52b0-4d85-a38a-19f64df50968")
+	)
+	(wire
+		(pts
+			(xy 340.36 187.96) (xy 345.44 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dc0e31-7d4d-4e5c-81a4-f08eed382fd6")
 	)
 	(wire
 		(pts
@@ -7146,6 +7401,16 @@
 			(type default)
 		)
 		(uuid "e1f65729-7109-4e5d-bc64-2be5bc10a831")
+	)
+	(wire
+		(pts
+			(xy 330.2 187.96) (xy 335.28 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27a4294-1252-40c5-9a42-a95647843be7")
 	)
 	(wire
 		(pts
@@ -7239,6 +7504,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 203.2) (xy 355.6 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e306c7-851e-414d-81a3-d270a272d515")
+	)
+	(wire
+		(pts
 			(xy 142.24 229.87) (xy 140.97 229.87)
 		)
 		(stroke
@@ -7296,16 +7571,6 @@
 			(type default)
 		)
 		(uuid "ecd9c016-cb80-4e52-bb82-3eb6935dec81")
-	)
-	(wire
-		(pts
-			(xy 25.4 58.42) (xy 25.4 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efcfc496-2ae8-449c-9bcf-6fdf18e0d780")
 	)
 	(wire
 		(pts
@@ -7406,6 +7671,16 @@
 			(type default)
 		)
 		(uuid "f459c512-9708-4ee9-b006-7d58802b9b5f")
+	)
+	(wire
+		(pts
+			(xy 355.6 187.96) (xy 363.22 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a745e-166d-4070-8020-96166b8cd0fa")
 	)
 	(wire
 		(pts
@@ -8563,6 +8838,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 330.2 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c5e8b9-eef6-448d-ad4b-31e4a539e7d0")
+		(property "Reference" "#PWR055"
+			(at 330.2 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 329.946 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 330.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae14ae32-beaf-4fc5-aff8-7ace1165f20c")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 119.38 107.95 270)
 		(unit 1)
@@ -8846,6 +9186,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 90.17 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c12971f-801d-45ad-9a1e-16be1e7e96cd")
+		(property "Reference" "#PWR057"
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 89.916 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37021f4-4cbb-41b0-b79d-c8018ee3b2e4")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9281,7 +9686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 288.29 46.99 0)
 			(effects
 				(font
@@ -9499,6 +9904,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16da5231-f1f7-4060-8543-731010d1ffb7")
+		(property "Reference" "#PWR058"
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 25.146 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4719211-eb77-44fb-83d3-85d59ee5304b")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9894,7 +10364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -9912,7 +10382,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10086,7 +10574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 115.57 0)
 			(effects
 				(font
@@ -10527,15 +11015,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 210.82 0)
+		(at 345.44 204.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2bb55304-27cd-4d68-a486-227b62746b43")
-		(property "Reference" "#PWR066"
-			(at 90.17 217.17 0)
+		(uuid "29f6dc6a-cdf0-450f-9d7f-e934af57506c")
+		(property "Reference" "#PWR070"
+			(at 345.44 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +11033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 214.376 0)
+			(at 345.44 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +11041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 210.82 0)
+			(at 345.44 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,7 +11050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 210.82 0)
+			(at 345.44 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +11059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 210.82 0)
+			(at 345.44 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,12 +11068,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9aff891-87d2-40ab-994f-ca66f7cbcce1")
+			(uuid "1937a25d-722a-4f8d-a8c6-1eb9ed7bfc83")
 		)
 		(instances
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR066")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 337.82 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a668f8e-db6d-49dc-9aab-d10aff14756f")
+		(property "Reference" "R56"
+			(at 338.328 186.182 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.1k"
+			(at 333.502 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 337.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 337.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD072K1L"
+			(at 337.82 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603BRD072K1L?qs=sGAEpiMZZMvdGkrng054t%252BSYh%252B1gqt95JPXwgx2ahOk%3D"
+			(at 337.82 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603BRD072K1L"
+			(at 337.82 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7185f52e-d541-4d03-84d8-e7e45f1cf50f")
+		)
+		(pin "1"
+			(uuid "00cb0a50-90bf-4f7d-9ba7-f521c7230c3e")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -10818,7 +11403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -10836,7 +11421,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -11122,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -11140,7 +11743,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 119.38 90)
 			(effects
 				(font
@@ -11200,7 +11821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 44.45 0)
 			(effects
 				(font
@@ -11218,7 +11839,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 44.45 90)
 			(effects
 				(font
@@ -11237,71 +11876,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3edb9439-b4c2-4c7c-84f5-8daafa791105")
-		(property "Reference" "#PWR057"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b582718d-d308-471f-b91d-f0c6609b1719")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11469,6 +12043,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4882bac6-3c50-4556-926e-409aa24f6bb9")
+		(property "Reference" "#PWR044"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 25.146 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a73ee0f9-7115-445a-b8bc-eaea36d6d4fc")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 191.77 74.93 0)
 		(unit 4)
@@ -11599,71 +12238,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "U15")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a675a54-5a47-4731-9eb8-c62064847e08")
-		(property "Reference" "#PWR058"
-			(at 90.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6e27271-a592-459b-9bda-e07d294bb54b")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR058")
-					(unit 1)
 				)
 			)
 		)
@@ -12188,6 +12762,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55bae27e-5da1-4510-a9e0-fefcc4d3611e")
+		(property "Reference" "#PWR065"
+			(at 25.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 25.146 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d187e0-03e0-4cfa-88f4-192a17ce5323")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 213.36 152.4 0)
 		(unit 1)
@@ -12224,7 +12863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 152.4 0)
 			(effects
 				(font
@@ -12291,7 +12930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 229.87 0)
 			(effects
 				(font
@@ -12508,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "difopamp:SOIC127P1030X265-16N"
 			(at 69.85 214.3 0)
 			(effects
 				(font
@@ -12911,71 +13550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c4f3de6-7e46-4bf5-93bd-e9f5b34cb1f4")
-		(property "Reference" "#PWR044"
-			(at 25.4 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddb8c42c-6ccf-4916-98e6-661278036a24")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 179.07 74.93 0)
 		(mirror y)
@@ -13013,7 +13587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -13023,6 +13597,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -13265,7 +13866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -13275,6 +13876,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -13398,6 +14026,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 90.17 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b11fff-fde0-467a-aff0-e96a17608598")
+		(property "Reference" "#PWR051"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 89.916 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a415dcc1-cb71-4f7a-93a1-53a23a023d03")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 363.22 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78d5253b-2e7b-48ac-a585-dd9714d16237")
+		(property "Reference" "#PWR071"
+			(at 363.22 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 362.966 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 363.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c21569-4a42-42ba-8b05-836c70c87526")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 81.28 90)
 		(unit 1)
@@ -13433,7 +14191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 81.28 0)
 			(effects
 				(font
@@ -13451,7 +14209,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 81.28 90)
 			(effects
 				(font
@@ -14012,7 +14788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14030,7 +14806,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14365,7 +15159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 341.63 46.99 0)
 			(effects
 				(font
@@ -14527,7 +15321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -14545,7 +15339,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -14702,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 193.04 0)
 			(effects
 				(font
@@ -15173,7 +15985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -15198,6 +16010,100 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 355.6 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae3cd46d-57cc-4136-be50-a834429e233b")
+		(property "Reference" "R58"
+			(at 358.648 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 359.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcr0201at-mca1206at.pdf"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT0603MG1002BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8iZRtTSmMrLrPwCtwKU%2F2taw%3D%3D"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "594-MCT0603MG1002BP5"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT0603MG1002BP500"
+			(at 355.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154ed98a-bc83-4f97-bb17-b04eaff16769")
+		)
+		(pin "2"
+			(uuid "b7df4620-1fa4-40ab-ba0c-f2c1055a4fb9")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -15304,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -15322,7 +16228,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -15382,7 +16306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 196.85 0)
 			(effects
 				(font
@@ -15400,7 +16324,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 196.85 90)
 			(effects
 				(font
@@ -15596,7 +16538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 393.7 46.99 0)
 			(effects
 				(font
@@ -15748,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "difopamp:SOIC127P1030X265-16N"
 			(at 69.85 291.77 0)
 			(effects
 				(font
@@ -15863,71 +16805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdc1b2f2-b4bc-461c-bf2c-1b1eaaaeebe0")
-		(property "Reference" "#PWR051"
-			(at 90.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "335d2098-7f54-4725-a570-bb19aea1ee77")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 31.75 270)
 		(unit 1)
@@ -16018,6 +16895,71 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 90.17 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf24348d-c587-4fd2-9d67-e6b1de58d3bc")
+		(property "Reference" "#PWR066"
+			(at 90.17 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6VA"
+			(at 89.916 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 90.17 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "500b87a0-eec2-4641-a9a5-659620d17b07")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -16332,7 +17274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 227.33 0)
 			(effects
 				(font
@@ -16342,6 +17284,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 227.33 0)
 			(effects
 				(font
@@ -16406,7 +17375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -16416,6 +17385,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -16480,7 +17476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -16490,6 +17486,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -16554,7 +17577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 179.07 190.5 0)
 			(effects
 				(font
@@ -16564,6 +17587,33 @@
 			)
 		)
 		(property "Description" "Header for selecting 12V or 5V input"
+			(at 179.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 179.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 179.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
 			(at 179.07 190.5 0)
 			(effects
 				(font
@@ -16627,7 +17677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 77.47 0)
 			(effects
 				(font
@@ -16683,7 +17733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "difopamp:SOIC127P1030X265-16N"
 			(at 69.85 139.37 0)
 			(effects
 				(font
@@ -17065,7 +18115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 393.7 86.36 0)
 			(effects
 				(font
@@ -17227,7 +18277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 233.68 0)
 			(effects
 				(font
@@ -17245,7 +18295,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 233.68 90)
 			(effects
 				(font
@@ -17688,6 +18756,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 355.6 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecf217d4-ac6c-420c-996d-016e7661cb27")
+		(property "Reference" "R57"
+			(at 358.648 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 359.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcr0201at-mca1206at.pdf"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT0603MG1002BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8iZRtTSmMrLrPwCtwKU%2F2taw%3D%3D"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "594-MCT0603MG1002BP5"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT0603MG1002BP500"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a3d88d-416c-4c45-8f66-9ea38253bfcb")
+		)
+		(pin "2"
+			(uuid "e3f85cc3-02c7-413a-ba43-1d80043cd9c4")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLC274AIDR:TLC274AIDR")
 		(at 261.62 44.45 0)
 		(unit 2)
@@ -17859,7 +19021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 218.44 40.64 0)
 			(effects
 				(font
@@ -18118,7 +19280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 288.29 86.36 0)
 			(effects
 				(font
@@ -18208,71 +19370,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb40e441-91da-489e-b692-ae2a14d9ceaa")
-		(property "Reference" "#PWR065"
-			(at 25.4 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 214.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0c56be5-ab42-45bd-9c1e-e56df7154872")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -18536,6 +19633,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Reference_Voltage:TL431DBZ")
+		(at 345.44 195.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fca4d7d9-59c8-475b-89da-6fb58d90bc89")
+		(property "Reference" "U17"
+			(at 342.9 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL431LIBQDBZRQ1"
+			(at 342.9 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 340.614 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/atl432li-q1.pdf?ts=1773698588449&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 336.296 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage reference IC"
+			(at 338.328 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TL431LIBQDBZRQ1?qs=Cb2nCFKsA8oPEaDr86Wp%2FQ%3D%3D"
+			(at 345.44 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "595-TL431LIBQDBZRQ1"
+			(at 345.44 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL431LIBQDBZRQ1"
+			(at 345.44 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26409fa8-7c2d-4704-9557-b62ed881b7f5")
+		)
+		(pin "2"
+			(uuid "894dfdae-6e1f-4989-9923-4953c8555262")
+		)
+		(pin "1"
+			(uuid "229684e0-f150-4423-99ea-1c06da66dff2")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e524c447-0b05-4e0a-b5b6-a853f1ffe627"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 156.21 90)
 		(unit 1)
@@ -18571,7 +19771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -18589,7 +19789,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
+			(at 182.88 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 182.88 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
 			(at 182.88 156.21 90)
 			(effects
 				(font
@@ -18649,7 +19867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -18667,7 +19885,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+			(at 189.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 189.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL603-AC0603JR-0710KL"
 			(at 189.23 49.53 0)
 			(effects
 				(font

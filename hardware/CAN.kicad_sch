@@ -3832,7 +3832,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "in warsztatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE07174KL?qs=4CyHz7GXqShAjm8rgsX%2FeQ%3D%3D"
+			(at 81.28 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE07174KL"
+			(at 81.28 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE07174KL"
 			(at 81.28 105.41 90)
 			(effects
 				(font
