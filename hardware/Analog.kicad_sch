@@ -18772,7 +18772,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "14k"
 			(at 359.41 193.04 0)
 			(effects
 				(font
@@ -18789,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcr0201at-mca1206at.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 355.6 191.77 0)
 			(effects
 				(font
@@ -18807,7 +18807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT0603MG1002BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8iZRtTSmMrLrPwCtwKU%2F2taw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT06030E1402BP500?qs=sGAEpiMZZMvdGkrng054t1rYBQGPYet6PJmZ5%252BgnwgY%3D"
 			(at 355.6 191.77 0)
 			(effects
 				(font
@@ -18816,7 +18816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "594-MCT0603MG1002BP5"
+		(property "Mouser No" "594-MCT06030E1402BP5"
 			(at 355.6 191.77 0)
 			(effects
 				(font
@@ -18825,7 +18825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MCT0603MG1002BP500"
+		(property "Manufacturer_Part_Number" "MCT06030E1402BP500"
 			(at 355.6 191.77 0)
 			(effects
 				(font

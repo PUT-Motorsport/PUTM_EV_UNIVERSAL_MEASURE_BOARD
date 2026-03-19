@@ -928,7 +928,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "14k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d62dc7b3-550c-4d71-9dcf-5060b67e6129")
@@ -939,7 +939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcr0201at-mca1206at.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -963,7 +963,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT0603MG1002BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8iZRtTSmMrLrPwCtwKU%2F2taw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT06030E1402BP500?qs=sGAEpiMZZMvdGkrng054t1rYBQGPYet6PJmZ5%252BgnwgY%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -989,12 +989,25 @@
 				)
 			)
 		)
-		(property "Mouser No" "594-MCT0603MG1002BP5"
+		(property "Mouser No" "594-MCT06030E1402BP5"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd4141dd-1f9b-42d8-94dd-88438b60dee5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT06030E1402BP500"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52e946b4-9ba1-4d0c-95ed-2089bb3b6166")
 			(effects
 				(font
 					(size 1 1)
@@ -1415,7 +1428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3043,7 +3056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3386,7 +3399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3406,6 +3419,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90c8c813-a97a-426f-a126-3e1bb890cce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06dfc035-f4a8-453f-ba6b-9dd0f34c73d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66090e19-cf79-4208-bfdf-f8ee69d9ec27")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3737,12 +3789,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warsztatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE07174KL?qs=4CyHz7GXqShAjm8rgsX%2FeQ%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "543bec6a-1ede-413b-9fe4-8f14835023cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE07174KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22419444-4dbb-44fe-a631-53b2d99eb311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-RT0603FRE07174KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70de7527-9c5e-4353-ba71-61d921f634b4")
 			(effects
 				(font
 					(size 1 1)
@@ -4869,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5030,6 +5108,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3451153-d7ad-4b96-b5d2-1a5786465c6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT0603MG1002BP500"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16bd7b2a-f8c1-44ac-a281-1f24e781c4b7")
 			(effects
 				(font
 					(size 1 1)
@@ -5212,7 +5303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5793,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6614,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "---"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6633,6 +6724,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0953db4-9ebb-4571-ba31-d0df8b2dfce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "strain relief"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e620abe4-803a-444e-b253-8e3d74d1b6d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba627828-e8e6-41f7-aadd-617201c4c51c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25ea3d3d-dedf-477a-9305-7c3313ddf4da")
 			(effects
 				(font
 					(size 1 1)
@@ -8212,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8232,6 +8362,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5df44c2-8336-4f05-8ea9-f317a958791e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86cb1a7-873f-4043-b7e4-3a86bec12d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d0664e8-2106-4e85-b827-5132b19dfd7f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8901,6 +9070,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2909169-1b0d-4d28-ae8c-4700a2a50eb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb36354b-09b2-43cd-bbfa-ec1f718b12dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3602cb7c-77c8-4bfa-9a09-dcfb3cf79d0c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10341,7 +10549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10365,12 +10573,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffd0a75a-2fc4-4a0d-970f-a3760e723e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5318c235-3ca9-4d04-a16d-6799c4e3b09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "584a09d6-b19d-460c-81cf-2ce4de2f37f9")
 			(effects
 				(font
 					(size 1 1)
@@ -10553,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12214,7 +12448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12238,12 +12472,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8ff2168-5b85-4a24-9417-15f54a7d47f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5b7472-9543-4726-9b84-9b0019251931")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a25a3c-2c35-4147-8fe1-2b584e38bae9")
 			(effects
 				(font
 					(size 1 1)
@@ -12733,7 +12993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "---"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12752,6 +13012,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "932723d7-e49a-427e-b76e-fc94f855210b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "strain relief"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c0966b5-2ae8-4d05-981d-059718b85726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3eefd1e-a5e5-4640-b465-8d731b96a139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0c97b90-1d9c-45cb-9ca1-bc9360b8089d")
 			(effects
 				(font
 					(size 1 1)
@@ -14580,6 +14879,19 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "FTSH-107-01-L-D-K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a143629a-3f18-4510-aa2d-bd02e72d4823")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/1c529630-6c44-4879-a469-0bea4c588435")
 		(sheetname "/Connectors/")
@@ -15742,7 +16054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15905,6 +16217,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6275a09c-dd02-4e2d-bdb4-2dd4558d7b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL431LIBQDBZRQ1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4bb946d-a5d9-4451-8172-0a4f5d917ec1")
 			(effects
 				(font
 					(size 1 1)
@@ -16141,7 +16466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17020,7 +17345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17125,7 +17450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17468,7 +17793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17574,7 +17899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17701,6 +18026,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b56c491-bdb5-4f26-8335-1bb7cc3973fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c7db53-5b07-4382-9133-8af8f5866d7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae5c72fa-0eef-4963-b9a8-bb4315f1871c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18654,7 +19018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19757,7 +20121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19777,6 +20141,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71e19841-136b-43c7-9adb-9632ff8d7efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1620e52f-0a70-470f-a1b3-fc85e9f0e2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdc0ce41-a9c9-4a14-9232-7e769122bdf2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20735,7 +21138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20840,7 +21243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21684,6 +22087,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "974609bb-63bc-46ca-bbd1-b6d729333bfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65205610-b34f-48dc-97a7-7d78508dbcba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30701fa4-2352-4db8-a3f3-0a5f52b77132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/90fa1ebb-2c9a-40ac-9afb-0b62c4faa87d")
 		(sheetname "/Connectors/")
@@ -22043,7 +22485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22918,7 +23360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_fuse_466_datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/sf0603f.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24261,6 +24703,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e848be6d-4af2-4677-9097-dc276557434f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df43d14c-c886-4f68-b8f7-18ba6f7a5fb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c964306-2101-4e1d-b0e5-53880b6b5af9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25795,6 +26276,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "495f2057-9984-4abc-8dd9-f9063fe113db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c674b6e-56e7-453e-b30e-7a2312b50afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcae780b-3b4c-4249-8109-00727113dc93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/de2bd509-457d-4c9a-93f5-47b429c6c7fe")
 		(sheetname "/Connectors/")
@@ -26154,7 +26674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26174,6 +26694,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56ee0d7d-8655-488d-945c-458b0f7e0a5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3027c41d-1889-440a-aa7f-49058f6d1eb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35eb0517-293a-4bcb-96bb-ddbceade3368")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27033,7 +27592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27057,12 +27616,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7deaa80-73a8-48f8-81ff-e9e18b315207")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84659d29-2f30-4e52-8b9b-b9dd29aa0ec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25222e76-93fc-4cc7-a175-15fe38aebee7")
 			(effects
 				(font
 					(size 1 1)
@@ -28806,6 +29391,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f75f9a-a750-49d0-a793-813b481aeafe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7cfb363-025f-44a4-90f2-b9cdc2791497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edcaa992-13f9-4d1d-b76b-2b5856cfe454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/e5a28a06-84fb-473e-a09e-2e03759d5bf9")
 		(sheetname "/Connectors/")
@@ -29751,7 +30375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30736,7 +31360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31858,7 +32482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31963,7 +32587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32068,7 +32692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32793,7 +33417,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33916,7 +34540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34042,6 +34666,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fbfb99e-5035-4a79-b44e-246143a39d62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ca48841-cc69-4c25-a8e9-1fb32630f36a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a53161a2-c753-4556-aa3f-5d31f325d200")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34405,7 +35068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34510,7 +35173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35329,7 +35992,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35353,12 +36016,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89f7962f-eee7-4d96-b110-90bc09b689a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28bbbfa2-84eb-43a0-be49-6e5d56c2ec27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfc22197-4c8f-4efe-b8fd-3094c2a0409a")
 			(effects
 				(font
 					(size 1 1)
@@ -35779,7 +36468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35799,6 +36488,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d7bf548-f69e-4809-a8fd-cd18c5504271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f981391c-f385-482b-b444-62ab59a801ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33c251cc-3df1-4954-9f9b-5ce9bb6bb5ed")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36043,7 +36771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37259,6 +37987,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d625d1-83a1-4502-bf77-3e00a0ad28ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60ce13fb-d7f6-4553-a6c5-0745933b4e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac64b0d9-8654-4fdf-8727-0123669894b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/d3a1997e-c8a3-44a3-93a0-177e32517c92")
 		(sheetname "/Connectors/")
@@ -38159,7 +38926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6015/1/ph1_xx_ua_data_sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38179,6 +38946,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51112ad7-ca5d-4482-9351-601193b30c46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Adam-Tech/PH1-03-UA?qs=HoCaDK9Nz5cktq3WKneQTQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b4cfdc7-1ec9-4c96-bacd-1e5a2f3ad222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "737-PH1-03-UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11a83f7-fecc-4d5b-b6d6-a9ca8e77787e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -38548,7 +39354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38674,6 +39480,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4de5859-5398-4f09-8755-aa15beafac38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd170aa-cf49-4467-ac15-5ad552ab95c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af23cce-9134-41fa-bb1a-192ce05774de")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39402,6 +40247,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e68b3cc2-8f74-4a8b-9710-a001b982ea6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdbc4d63-1c95-47c4-9efd-f6410a0cb380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b8a237-db9f-4f94-8e59-fd6dd2732f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/4a486085-a598-4c78-b276-d34e3d448d60")
 		(sheetname "/Connectors/")
@@ -39955,7 +40839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40267,7 +41151,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "307ac279-e049-40ce-bfb3-d7bbc7e24c84")
+			(uuid "47dd2323-e299-479e-a595-bc693c203045")
 		)
 		(pad "3" smd rect
 			(at 12.79 -2.54 270)
@@ -40557,7 +41441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41900,7 +42784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42005,7 +42889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42110,7 +42994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42134,12 +43018,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "793bd823-ea43-4b8c-bffb-2ca7a0da04f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a39df2df-372e-4d33-b9b6-ac46e9834aed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01e4d964-6b7f-44ad-9911-e246e86f14bc")
 			(effects
 				(font
 					(size 1 1)
@@ -42560,7 +43470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42584,12 +43494,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95c47101-d8f8-409b-9c89-18cd2e9979a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dd75725-f972-4182-82fb-80c65f42b2d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8803604-a521-439a-9276-4f72f89d4a76")
 			(effects
 				(font
 					(size 1 1)
@@ -43124,7 +44060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43148,12 +44084,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21744ea9-118f-4b21-915b-05a5ace43549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad493752-62d9-4902-86f1-1895f5d590a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e02a515-aada-4494-a24f-280075056cbb")
 			(effects
 				(font
 					(size 1 1)
@@ -44223,7 +45185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44247,12 +45209,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ef37a65-b06f-4553-92bf-61b7f61752b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dac0080-db51-4432-a48d-654329d5c0c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aad7b36-1652-4e08-ac44-51414f649ace")
 			(effects
 				(font
 					(size 1 1)
@@ -44911,7 +45899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44935,12 +45923,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8df9ec71-96ba-4beb-9577-f62628f4e932")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9110ce4-a1a1-48cf-9d94-27891ac02fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d569ba2c-6dac-4d80-8f6f-43f64fc90e22")
 			(effects
 				(font
 					(size 1 1)
@@ -45123,7 +46137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45704,7 +46718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46761,7 +47775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46785,12 +47799,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06030000Z0EAHP?qs=pTGEtN%252BMLlBR2wfI1qu2Ng%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a830e8f4-4163-4d34-80f7-5f470d90b656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EAHP"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b2d342-fc71-4a17-8d2d-da07a9702a97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "71-CRCW06030000Z0EAH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c7761c0-6eaf-4861-a7de-090065c10921")
 			(effects
 				(font
 					(size 1 1)
@@ -47475,6 +48515,45 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a5f8305-3d63-478e-a539-c6b5aaa87741")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "703c6850-77dd-4e61-9417-bec8dd16d88d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bbe2be9-0f1f-4a33-b195-23ee5250f0bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65a08dc3-a462-4aa7-aaa7-17144caab299/f305c886-cba7-4403-817f-20b2f541cf26")
 		(sheetname "/Connectors/")
@@ -48072,7 +49151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48415,7 +49494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48439,12 +49518,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba7b49cb-1958-470b-a201-127ead0324c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca285beb-a9c9-453d-af05-0f309f5c069d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e58f9d8-3ba2-4cea-8fd7-44d2bcb57a9e")
 			(effects
 				(font
 					(size 1 1)
@@ -48627,7 +49732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48651,12 +49756,38 @@
 				)
 			)
 		)
-		(property "Mouser" "in warszatowe zapasy i think"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "231f93c0-2d4f-466e-84bb-f5b493feb787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ea05d75-f169-4074-a842-20380b077ea9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "603-AC0603JR-0710KL603-AC0603JR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98d769e8-a6d7-45dd-80f3-f3f36889d0a3")
 			(effects
 				(font
 					(size 1 1)
@@ -48860,6 +49991,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "443831d1-0dd1-4546-818b-93fe8ef0a63c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "https://www.wago.com/pl/z%C5%82%C4%85czki-do-p%C5%82ytek-drukowanych/z%C5%82%C4%85cze-do%C2%A0pcb/p/2601-1103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaff1da7-f920-412b-9402-2065aec1af4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c639ec2-41c0-4554-96fa-2a985a0dbf22")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -49179,7 +50349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49284,7 +50454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50656,7 +51826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "---"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
