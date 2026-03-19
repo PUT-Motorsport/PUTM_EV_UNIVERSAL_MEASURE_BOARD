@@ -3814,7 +3814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/CRT.pdf"
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -3832,7 +3832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE07174KL?qs=4CyHz7GXqShAjm8rgsX%2FeQ%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603-FZ-1003ELF?qs=fgHA1UgJI8BbszSkndSeLg%3D%3D"
 			(at 81.28 105.41 90)
 			(effects
 				(font
@@ -3841,7 +3841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RT0603FRE07174KL"
+		(property "Manufacturer_Part_Number" "CRT0603-FZ-1003ELF"
 			(at 81.28 105.41 90)
 			(effects
 				(font
@@ -3850,7 +3850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-RT0603FRE07174KL"
+		(property "Mouser No" "652-CRT0603FZ1003ELF"
 			(at 81.28 105.41 90)
 			(effects
 				(font

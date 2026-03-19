@@ -9131,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -9149,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 120.65 81.28 90)
 			(effects
 				(font
@@ -9158,7 +9158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 120.65 81.28 90)
 			(effects
 				(font
@@ -9167,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 120.65 81.28 90)
 			(effects
 				(font
@@ -9357,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 119.38 200.66 0)
 			(effects
 				(font
@@ -9375,7 +9375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 119.38 200.66 90)
 			(effects
 				(font
@@ -9384,7 +9384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 119.38 200.66 90)
 			(effects
 				(font
@@ -9393,7 +9393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 119.38 200.66 90)
 			(effects
 				(font
@@ -9752,7 +9752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 120.65 233.68 0)
 			(effects
 				(font
@@ -9770,7 +9770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 120.65 233.68 90)
 			(effects
 				(font
@@ -9779,7 +9779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 120.65 233.68 90)
 			(effects
 				(font
@@ -9788,7 +9788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 120.65 233.68 90)
 			(effects
 				(font
@@ -10364,7 +10364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10391,7 +10391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 133.35 185.42 0)
 			(effects
 				(font
@@ -10917,7 +10917,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 133.35 33.02 0)
 			(effects
 				(font
@@ -11403,7 +11403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -11421,7 +11421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -11430,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -11439,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -12394,7 +12394,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 134.62 140.97 0)
 			(effects
 				(font
@@ -12996,7 +12996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 119.38 48.26 0)
 			(effects
 				(font
@@ -13014,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 119.38 48.26 90)
 			(effects
 				(font
@@ -13023,7 +13023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 119.38 48.26 90)
 			(effects
 				(font
@@ -13032,7 +13032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 119.38 48.26 90)
 			(effects
 				(font
@@ -13297,7 +13297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -13315,7 +13315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 119.38 123.19 90)
 			(effects
 				(font
@@ -13324,7 +13324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 119.38 123.19 90)
 			(effects
 				(font
@@ -13333,7 +13333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 119.38 123.19 90)
 			(effects
 				(font
@@ -13667,7 +13667,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -14788,7 +14788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14806,7 +14806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14815,7 +14815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -14824,7 +14824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -15026,7 +15026,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08052024_CRT-A_Datasheet.pdf"
 			(at 120.65 156.21 0)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-3AEB49R9V"
+		(property "Manufacturer_Part_Number" "CRT0603ABY-49R9ELF"
 			(at 120.65 156.21 90)
 			(effects
 				(font
@@ -15252,7 +15252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3AEB49R9V?qs=sGAEpiMZZMvdGkrng054txAO1F77ZlZQj%252B1X1PMRv6I%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603ABY-49R9ELF?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8ir5JuZqcC3pTdIlatY3Dw1Q%3D%3D"
 			(at 120.65 156.21 90)
 			(effects
 				(font
@@ -15261,7 +15261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "667-ERA-3AEB49R9V"
+		(property "Mouser No" "652-CRT0603ABY-49R9E"
 			(at 120.65 156.21 90)
 			(effects
 				(font
@@ -15321,7 +15321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -15339,7 +15339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -15348,7 +15348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -15357,7 +15357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 161.29 0)
 			(effects
 				(font
@@ -15561,7 +15561,7 @@
 				)
 			)
 		)
-		(property "Value" "PinHeader 02x04"
+		(property "Value" "PH2-04-UA"
 			(at 134.62 218.44 0)
 			(effects
 				(font
@@ -16049,7 +16049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcr0201at-mca1206at.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 355.6 199.39 0)
 			(effects
 				(font
@@ -16067,7 +16067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT0603MG1002BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8iZRtTSmMrLrPwCtwKU%2F2taw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Panasonic/ERA-3APB103V?qs=sGAEpiMZZMvdGkrng054t7Q%2FBjLwFmgifm8Li%2FdYq%2FE%3D"
 			(at 355.6 199.39 0)
 			(effects
 				(font
@@ -16076,7 +16076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "594-MCT0603MG1002BP5"
+		(property "Mouser No" "667-ERA-3APB103V"
 			(at 355.6 199.39 0)
 			(effects
 				(font
@@ -16085,7 +16085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MCT0603MG1002BP500"
+		(property "Manufacturer_Part_Number" " ERA-3APB103V"
 			(at 355.6 199.39 0)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -16228,7 +16228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -16237,7 +16237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -16246,7 +16246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 201.93 0)
 			(effects
 				(font
@@ -19867,7 +19867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -19885,7 +19885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/RE0603FRE0710KL?qs=HEu%2FF%2FCqxzI%2FIkNbzZ%2FMUQ%3D%3D"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -19894,7 +19894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AC0603JR-0710KL"
+		(property "Manufacturer_Part_Number" "RE0603FRE0710KL"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -19903,7 +19903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "603-AC0603JR-0710KL603-AC0603JR-0710KL"
+		(property "Mouser No" "603-RE0603FRE0710KL"
 			(at 189.23 49.53 0)
 			(effects
 				(font

@@ -5142,7 +5142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61H225KE11-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -5160,7 +5160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D"
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "74-TMCP1A475KTRF"
+		(property "Mouser No" "81-GRM188R61H225KE1D"
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -6107,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61H225KE11-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6125,7 +6125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "74-TMCP1A475KTRF"
+		(property "Mouser No" "81-GRM188R61H225KE1D"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6991,7 +6991,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2940SX-12_NOPB"
+		(property "Value" "LM2940CS-12/NOPB"
 			(at 49.53 114.3 0)
 			(effects
 				(font
@@ -7009,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/lm2940-n"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2940c.pdf?ts=1773909097676&ref_url=https%253A%252F%252Fro.mouser.com%252F"
 			(at 66.04 314.3 0)
 			(effects
 				(font
@@ -7028,7 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LM2940SX-12/NOPB"
+		(property "Manufacturer_Part_Number" "LM2940CS-12/NOPB"
 			(at 66.04 914.3 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM2940SX-12-NOPB?qs=X1J7HmVL2ZEie6RRCswWNw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM2940CS-12-NOPB?qs=X1J7HmVL2ZHJ746w5J93Ow%3D%3D"
 			(at 39.37 119.38 0)
 			(effects
 				(font
@@ -7047,7 +7047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "926-LM2940SX-12/NOPB"
+		(property "Mouser No" "926-LM2940CS-12/NOPB"
 			(at 39.37 119.38 0)
 			(effects
 				(font
@@ -7750,7 +7750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT188R61H105KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61H474KA12-04A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7768,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRT188R61H105KE13D?qs=drgMNd%252BkGPNIxxtJByMGCg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R61H474KA12D?qs=4W3PNmGdEWHPXU2UiOr6Bg%3D%3D"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7777,7 +7777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "81-GRT188R61H105KE3D"
+		(property "Mouser No" "81-GRM188R61H474KA2D"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7786,7 +7786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188R61H105KE13D"
+		(property "Manufacturer_Part_Number" "GRM188R61H474KA12D"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7847,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61H225KE11-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7874,7 +7874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "74-TMCP1A475KTRF"
+		(property "Mouser No" "81-GRM188R61H225KE1D"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -8399,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61H225KE11-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -8417,7 +8417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Sprague/TMCP1A475KTRF?qs=WatphXlIDnx98Nc1%252Bo65LQ%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -8426,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "74-TMCP1A475KTRF"
+		(property "Mouser No" "81-GRM188R61H225KE1D"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -8435,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMCP1A475KTRF"
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/45230/ga31gautomlccsold.pdf"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -8837,7 +8837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0402C103K1RACAUTO7411?qs=ulEaXIWI0c8Eh%252BkW3Sqcaw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Vitramon/GA0603Y822KXBAC31G?qs=uwxL4vQweFMqjEqq6rLJiA%3D%3D"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -8846,7 +8846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "80-C0402C103K1RAUTO7"
+		(property "Mouser No" "77-GA603Y822KXBAC31G"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -8855,7 +8855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0402C103K1RACAUTO7411"
+		(property "Manufacturer_Part_Number" "GA0603Y822KXBAC31G"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -11025,7 +11025,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV743P"
+		(property "Value" "TPS7B92033DBVR"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv743p.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b92.pdf"
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -11061,7 +11061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TLV74333PDBVR?qs=EU6FO9ffTwe08kePOwcQGA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TPS7B92033DBVR?qs=i8QVZAFTkqTn75tUVrN19A%3D%3D"
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -11070,7 +11070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TLV74333PDBVR"
+		(property "Manufacturer_Part_Number" "TPS7B92033DBVR"
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -11079,7 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "595-TLV74333PDBVR"
+		(property "Mouser No" "595-TPS7B92033DBVR"
 			(at 179.07 121.92 0)
 			(effects
 				(font

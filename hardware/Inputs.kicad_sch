@@ -5683,7 +5683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 142.24 185.42 0)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -5719,7 +5719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 170.18 66.04 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -6200,7 +6200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -6983,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -7000,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 204.47 69.85 0)
 			(effects
 				(font
@@ -7018,7 +7018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 208.28 69.85 0)
 			(effects
 				(font
@@ -7027,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 208.28 69.85 0)
 			(effects
 				(font
@@ -7036,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 208.28 69.85 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 170.18 30.48 0)
 			(effects
 				(font
@@ -7097,7 +7097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 166.37 34.29 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -7124,7 +7124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -7133,7 +7133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -7197,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -7215,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -7587,7 +7587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 212.09 34.29 0)
 			(effects
 				(font
@@ -7605,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -7614,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -7623,7 +7623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -7798,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -7815,7 +7815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -7833,7 +7833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 208.28 102.87 0)
 			(effects
 				(font
@@ -7842,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 208.28 102.87 0)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 208.28 102.87 0)
 			(effects
 				(font
@@ -8025,7 +8025,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD12VL2BT,215"
+		(property "Value" "CPDT-12V"
 			(at 170.18 99.06 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/819/1/CPDT_12V_RevB364124.pdf"
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -8060,7 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0L2B3W-7"
+		(property "Manufacturer_Part_Number" "CPDT-12V"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/D5V0L2B3W-7?qs=gfe7vQ8txpVrbfzrBYBzaA%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Comchip-Technology/CPDT-12V?qs=tw%252BuQ%2FB6PO0KPAaKlo8Fww%3D%3D"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -8078,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "621-D5V0L2B3W-7"
+		(property "Mouser No" "750-CPDT-12V"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -8698,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 142.24 210.82 0)
 			(effects
 				(font
@@ -8716,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -8734,7 +8734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 142.24 212.09 90)
 			(effects
 				(font
@@ -9016,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD5V0L2BT"
+		(property "Value" "STS232050B751"
 			(at 233.68 156.21 0)
 			(effects
 				(font
@@ -9033,7 +9033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L2BT.pdf"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts232xxxbxxx-tvs-diode-array-esd-suppressor-data-sheet.pdf"
 			(at 229.87 160.02 0)
 			(effects
 				(font
@@ -9051,7 +9051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD5V0L2BT-QR"
+		(property "Manufacturer_Part_Number" "STS232050B751"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Nexperia/PESD5V0L2BT-QR?qs=vvQtp7zwQdORLHkH1w26Gw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/STS232050B751?qs=DPoM0jnrROVbK6VFMCz3dg%3D%3D"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -9069,7 +9069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "771-PESD5V0L2BT-QR"
+		(property "Mouser No" "504-STS232050B751"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -9279,7 +9279,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD5V0L2BT"
+		(property "Value" "STS232050B751"
 			(at 264.16 72.39 0)
 			(effects
 				(font
@@ -9296,7 +9296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L2BT.pdf"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts232xxxbxxx-tvs-diode-array-esd-suppressor-data-sheet.pdf"
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD5V0L2BT-QR"
+		(property "Manufacturer_Part_Number" "STS232050B751"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -9323,7 +9323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Nexperia/PESD5V0L2BT-QR?qs=vvQtp7zwQdORLHkH1w26Gw%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/STS232050B751?qs=DPoM0jnrROVbK6VFMCz3dg%3D%3D"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "771-PESD5V0L2BT-QR"
+		(property "Mouser No" "504-STS232050B751"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -9631,7 +9631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 114.3 210.82 0)
 			(effects
 				(font
@@ -9649,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -9658,7 +9658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -9667,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 114.3 212.09 90)
 			(effects
 				(font
@@ -10187,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -10205,7 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -10214,7 +10214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -10223,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 114.3 161.29 90)
 			(effects
 				(font
@@ -13069,7 +13069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd9l-d.pdf"
 			(at 142.24 160.02 0)
 			(effects
 				(font
@@ -13087,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SZESD9101P2T5G"
+		(property "Manufacturer_Part_Number" "SESD9L5.0ST5G"
 			(at 142.24 161.29 90)
 			(effects
 				(font
@@ -13096,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SZESD9101P2T5G?qs=5aG0NVq1C4yTUV3vL3eSQg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/onsemi/SESD9L5.0ST5G?qs=Nxq7uuo%252ByTnL7r1LmzloLA%3D%3D"
 			(at 142.24 161.29 90)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "863-SZESD9101P2T5G"
+		(property "Mouser No" "863-SESD9L5.0ST5G"
 			(at 142.24 161.29 90)
 			(effects
 				(font
