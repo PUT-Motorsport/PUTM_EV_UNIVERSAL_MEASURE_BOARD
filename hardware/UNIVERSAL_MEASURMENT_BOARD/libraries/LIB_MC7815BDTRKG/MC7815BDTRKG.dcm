@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MC7815BDTRKG
-D Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available
-K
-F https://www.onsemi.com/pub/Collateral/MC7800-D.PDF
-$ENDCMP
-#
-#End Doc Library

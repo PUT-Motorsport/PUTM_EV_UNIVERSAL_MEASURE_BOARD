@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74408943100
+D WE-SPC SMT Shielded Power Inductor Size 4838; L=10H +/-20%; IR=1.65A; Isat=2.10A; RDC=0.094
+K
+F https://www.we-online.com/catalog/datasheet/74408943100.pdf
+$ENDCMP
+#
+#End Doc Library

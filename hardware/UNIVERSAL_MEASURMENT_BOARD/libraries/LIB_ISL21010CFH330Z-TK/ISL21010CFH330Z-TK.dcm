@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISL21010CFH330Z-TK
+D The ISL21010 is a precision, low dropout micropower bandgap voltage reference in a space-saving SOT-23 package. It operates from a single 2. 2V to 5. 5V supply (minimum voltage is dependent on voltage option) and provides a +/-0. 2% accurate reference. The ISL21010 provides up to 25mA output current sourcing with low 150mV dropout voltage. Output voltage options include 1. 024V, 1. 2V, 1. 5V, 2. 048V, 2. 5V, 3. 0V, 3. 3V, and 4. 096V. The low supply current and low dropout voltage combined with high accuracy 
+K
+F https://www.renesas.com/en-us/www/doc/datasheet/isl21010.pdf
+$ENDCMP
+#
+#End Doc Library

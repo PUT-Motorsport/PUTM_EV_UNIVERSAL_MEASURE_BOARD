@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "92c00310-4384-4ef3-9368-efad75526047")
 	(paper "A3")
 	(title_block
@@ -22,7 +22,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0a4c8736-407f-4bed-bf77-00c8bb820b39)
+		(uuid "0a4c8736-407f-4bed-bf77-00c8bb820b39")
 	)
 	(rectangle
 		(start 290.83 174.625)
@@ -35,7 +35,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f97b3db9-e88d-4203-a88a-18519af63278)
+		(uuid "f97b3db9-e88d-4203-a88a-18519af63278")
 	)
 	(text "CAN\n\n"
 		(exclude_from_sim no)
@@ -499,11 +499,13 @@
 			(color 81 70 180 1)
 		)
 		(fill
-			(color 81 70 180 0.1000)
+			(color 81 70 180 0.1)
 		)
 		(uuid "007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b")
 		(property "Sheetname" "can"
 			(at 263.525 82.4734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,6 +515,8 @@
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
 			(at 263.525 185.3696 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,11 +596,13 @@
 			(color 81 70 180 1)
 		)
 		(fill
-			(color 81 70 180 0.1000)
+			(color 81 70 180 0.1)
 		)
 		(uuid "2f9d6be2-539e-4cd2-829d-3839cc14b053")
 		(property "Sheetname" "mux & pga"
 			(at 120.015 82.4734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,6 +612,8 @@
 		)
 		(property "Sheetfile" "mux & pga.kicad_sch"
 			(at 120.015 185.3696 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,11 +903,13 @@
 			(color 210 100 32 1)
 		)
 		(fill
-			(color 210 100 32 0.1000)
+			(color 210 100 32 0.1)
 		)
 		(uuid "652484a1-eb31-4499-abec-2bf6b123f7cf")
 		(property "Sheetname" "mcu & adc"
 			(at 212.725 82.4734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,6 +919,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 212.725 161.2396 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,11 +1140,13 @@
 			(color 81 70 180 1)
 		)
 		(fill
-			(color 81 70 180 0.1000)
+			(color 81 70 180 0.1)
 		)
 		(uuid "9548c2c3-041e-4949-891b-f079b7d050b0")
 		(property "Sheetname" "power section"
 			(at 120.015 45.6434 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,6 +1156,8 @@
 		)
 		(property "Sheetfile" "Conv.kicad_sch"
 			(at 120.015 69.7996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,11 +1186,13 @@
 			(color 81 70 180 1)
 		)
 		(fill
-			(color 81 70 180 0.1000)
+			(color 81 70 180 0.1)
 		)
 		(uuid "f846abeb-f6bc-4fba-a683-51f7fcd3188d")
 		(property "Sheetname" "connectors"
 			(at 120.015 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,6 +1202,8 @@
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
 			(at 120.015 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

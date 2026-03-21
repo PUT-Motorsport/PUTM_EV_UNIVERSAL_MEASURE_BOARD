@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASPIAIG-S8050-221M-T
+D Inductor Power Shielded Wirewound 220uH 20% 100KHz Ferrite 750mA 708mOhm DCR 3131 Automotive T/R
+K
+F https://abracon.com/Magnetics/inductors/AIG/ASPIAIG-S-series.pdf
+$ENDCMP
+#
+#End Doc Library

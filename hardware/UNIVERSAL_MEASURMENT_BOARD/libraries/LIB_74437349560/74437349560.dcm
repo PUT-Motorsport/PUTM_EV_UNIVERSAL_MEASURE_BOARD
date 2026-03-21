@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74437349560
+D WE-LHMI SMT Power Inductor Size 7050; L = 56 H ; IR = 1,4 A; Isat = 2,7 A; RDC = 396.0 m
+K
+F https://www.we-online.com/catalog/datasheet/74437349560.pdf
+$ENDCMP
+#
+#End Doc Library

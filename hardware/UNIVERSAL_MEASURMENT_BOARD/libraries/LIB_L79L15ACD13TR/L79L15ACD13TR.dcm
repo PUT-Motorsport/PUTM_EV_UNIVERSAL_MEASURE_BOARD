@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L79L15ACD13TR
+D L79L15ACD13TR, Voltage Regulator, Negative 0.1A -15 V, +/-5%, 8-Pin, SOIC
+K
+F https://www.st.com/resource/en/datasheet/l79l.pdf
+$ENDCMP
+#
+#End Doc Library

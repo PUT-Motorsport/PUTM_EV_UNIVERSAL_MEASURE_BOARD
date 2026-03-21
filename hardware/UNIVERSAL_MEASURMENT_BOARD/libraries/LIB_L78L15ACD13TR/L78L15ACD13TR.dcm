@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78L15ACD13TR
+D Positive voltage regulators
+K
+F https://www.st.com/resource/en/datasheet/l78l.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MC79M15CDTRKG
-D No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Also Available in Surface Mount DPAK (DT) Package DEVICE TYPE/NOMINAL OUTPUT VOLTAGE MC79M05 -5.0 V MC79M12 -12 V MC79M08 -8.0 V MC79M15 -15 V; Pb-Free Package May be Available. The G-Suffix Denotes a
-K
-F https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
-$ENDCMP
-#
-#End Doc Library
