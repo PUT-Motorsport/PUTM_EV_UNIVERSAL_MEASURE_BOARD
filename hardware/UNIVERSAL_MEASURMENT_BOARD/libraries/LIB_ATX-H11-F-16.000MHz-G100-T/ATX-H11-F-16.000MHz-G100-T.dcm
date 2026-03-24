@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATX-H11-F-16.000MHz-G100-T
+D TCXO Oscillators XTAL OSC TCXO 16.0000MHZ CMOS +/-10ppm 3.2 x 2.5 x 1.2mm
+K
+F https://abracon.com/datasheets/ATX-H11.pdf
+$ENDCMP
+#
+#End Doc Library

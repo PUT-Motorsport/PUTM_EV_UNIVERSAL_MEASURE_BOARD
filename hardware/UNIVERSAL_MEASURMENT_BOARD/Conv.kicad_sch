@@ -10731,6 +10731,7 @@
 	(symbol
 		(lib_id "PM3604-5-RC:PM3604-5-RC")
 		(at 110.49 142.875 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10738,10 +10739,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15de5530-538a-43fb-a263-f4b00597438a")
 		(property "Reference" "L1"
-			(at 110.3812 137.795 0)
+			(at 110.5988 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10751,7 +10751,7 @@
 			)
 		)
 		(property "Value" "PM3604-5-RC"
-			(at 110.3812 140.335 0)
+			(at 110.5988 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10761,7 +10761,7 @@
 			)
 		)
 		(property "Footprint" "PM3604-5-RC:PM3604-5-RC"
-			(at 127 239.065 0)
+			(at 93.98 239.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10773,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74408943100.pdf"
-			(at 127 339.065 0)
+			(at 93.98 339.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10796,7 @@
 			)
 		)
 		(property "Height" "3.3"
-			(at 127 539.065 0)
+			(at 93.98 539.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,7 +10808,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-74408943100"
-			(at 127 639.065 0)
+			(at 93.98 639.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +10820,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74408943100?qs=iRra8H4EogoDYOxdhQi%252BEA%3D%3D"
-			(at 127 739.065 0)
+			(at 93.98 739.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10832,7 +10832,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 127 839.065 0)
+			(at 93.98 839.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10844,7 +10844,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74408943100"
-			(at 127 939.065 0)
+			(at 93.98 939.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

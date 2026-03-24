@@ -12,48 +12,34 @@
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
 	(lib_symbols
-		(symbol "ADM3055EBRIZ-RL:ADM3055EBRIZ-RL"
+		(symbol "ADM3057EBRWZ_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.446 26.416 0)
+			(property "Reference" "U18"
+				(at 0 26.035 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "ADM3055EBRIZ-RL"
-				(at -12.446 23.876 0)
+			(property "Value" "ADM3057EBRWZ"
+				(at 0 23.495 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P1030X264-20N"
-				(at 31.75 -87.3 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf"
-				(at 31.75 -187.3 0)
+			(property "Footprint" "SOIC127P1032X265-20N"
+				(at 31.75 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -64,19 +50,8 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "CAN Interface IC 5kV isoPower Isolated CAN-FD Transceiver"
-				(at 0 39.878 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "2.64"
-				(at 31.75 -387.3 0)
+			(property "Datasheet" "https://www.analog.com/ADM3057E/datasheet"
+				(at 31.75 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -87,8 +62,19 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "584-ADM3055EBRIZ-RL"
-				(at 31.75 -487.3 0)
+			(property "Description" "3 kV rms, Signal and Power Isolated, CAN Transceiver for CAN FD"
+				(at 0 65.532 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.65"
+				(at 31.75 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -99,8 +85,20 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3055EBRIZ-RL?qs=qSfuJ%252Bfl%2Fd7r0f9T4vdNWQ%3D%3D"
-				(at 31.75 -587.3 0)
+			(property "Mouser Part Number" "584-ADM3057EBRWZ"
+				(at 31.75 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
+				(at 31.75 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -112,7 +110,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Analog Devices"
-				(at 31.75 -687.3 0)
+				(at 31.75 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -123,8 +121,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ADM3055EBRIZ-RL"
-				(at 31.75 -787.3 0)
+			(property "Manufacturer_Part_Number" "ADM3057EBRWZ"
+				(at 31.75 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -135,7 +133,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "ADM3055EBRIZ-RL_1_1"
+			(symbol "ADM3057EBRWZ_2_1_1"
 				(rectangle
 					(start -12.7 21.59)
 					(end 12.7 -21.59)
@@ -3573,6 +3571,203 @@
 		)
 	)
 	(symbol
+		(lib_name "ADM3057EBRWZ_2")
+		(lib_id "ADM3057EBRWZ:ADM3057EBRWZ")
+		(at 164.465 88.265 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92645837-7c46-4b2c-a214-d4ed18c57aba")
+		(property "Reference" "U18"
+			(at 164.465 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM3057EBRWZ"
+			(at 164.465 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1032X265-20N"
+			(at 196.215 183.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/ADM3057E/datasheet"
+			(at 196.215 283.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3 kV rms, Signal and Power Isolated, CAN Transceiver for CAN FD"
+			(at 164.465 22.733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.65"
+			(at 196.215 483.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "584-ADM3057EBRWZ"
+			(at 196.215 583.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
+			(at 196.215 683.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 196.215 783.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADM3057EBRWZ"
+			(at 196.215 883.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "8f7ddcd9-5787-459c-8c80-f3988fd740c8")
+		)
+		(pin "3"
+			(uuid "8b9fc8a7-bd41-423f-8a3b-66b00009c4c2")
+		)
+		(pin "1"
+			(uuid "7da46a8e-2d1b-447f-b588-e9e7d6e04e8a")
+		)
+		(pin "2"
+			(uuid "2099f017-77d6-43c2-9a36-e78003cad5ca")
+		)
+		(pin "4"
+			(uuid "aec6bb10-7cad-4ed5-a88b-bfa3407431c7")
+		)
+		(pin "8"
+			(uuid "05d0b52a-306c-47a9-939c-439e12246200")
+		)
+		(pin "9"
+			(uuid "607bd790-7108-4331-889e-5ab80c7c562d")
+		)
+		(pin "6"
+			(uuid "72f3cf27-e315-4a55-8731-5b9ecfc421c6")
+		)
+		(pin "15"
+			(uuid "dc647940-a859-47fc-b085-e325d8bde3a7")
+		)
+		(pin "17"
+			(uuid "e6c6fad3-d19f-44c7-8278-8aaf866f9906")
+		)
+		(pin "18"
+			(uuid "b324985f-cc7b-44a8-a993-2a1869a620ad")
+		)
+		(pin "14"
+			(uuid "ecfbbff8-62a3-494b-ab1c-f1160f86033b")
+		)
+		(pin "11"
+			(uuid "2eb10347-bb95-4de1-aae4-238e9ff45803")
+		)
+		(pin "13"
+			(uuid "42d9e00c-4ee5-4f0b-8009-f054491f03fa")
+		)
+		(pin "10"
+			(uuid "66f063a9-a997-420d-822a-73e0b74cfc71")
+		)
+		(pin "12"
+			(uuid "2f3d0070-29cb-46ef-942a-8e51bb6eb89d")
+		)
+		(pin "19"
+			(uuid "0ebceffb-0dc2-4e53-a25e-1b4c8b5a14fa")
+		)
+		(pin "16"
+			(uuid "2032d115-b462-4780-9c39-b58653de9a45")
+		)
+		(pin "20"
+			(uuid "4a949a52-838b-42d5-b12e-cd6fc018a6de")
+		)
+		(pin "7"
+			(uuid "48d79b29-19c8-4caa-bbb3-11102d6bfca3")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 206.375 99.06 0)
 		(unit 1)
@@ -3726,202 +3921,6 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
 					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ADM3055EBRIZ-RL:ADM3055EBRIZ-RL")
-		(at 164.465 88.265 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a7c457e-2684-43b5-99c4-e4345442c5fd")
-		(property "Reference" "U18"
-			(at 164.465 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADM3055EBRIZ-RL"
-			(at 164.465 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P1030X264-20N"
-			(at 196.215 175.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf"
-			(at 196.215 275.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "CAN Interface IC 5kV isoPower Isolated CAN-FD Transceiver"
-			(at 164.465 48.387 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "2.64"
-			(at 196.215 475.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "584-ADM3055EBRIZ-RL"
-			(at 196.215 575.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3055EBRIZ-RL?qs=qSfuJ%252Bfl%2Fd7r0f9T4vdNWQ%3D%3D"
-			(at 196.215 675.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 196.215 775.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ADM3055EBRIZ-RL"
-			(at 196.215 875.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "16"
-			(uuid "14e3a8fd-c4d6-4056-bcdd-53b439314f91")
-		)
-		(pin "2"
-			(uuid "af1c5a6b-47f1-4efc-b8c1-76ff2908d1b3")
-		)
-		(pin "5"
-			(uuid "ee7e89c4-98c2-46ed-a700-92857a965c52")
-		)
-		(pin "14"
-			(uuid "ebaddb57-5d35-4bff-8d4e-2a96cc7d00ad")
-		)
-		(pin "20"
-			(uuid "6f49e9fe-23c0-4095-9e74-09c0b3798da5")
-		)
-		(pin "3"
-			(uuid "6941c996-a217-4fb5-a4ca-87bcb2adc219")
-		)
-		(pin "7"
-			(uuid "b0857846-970d-42c8-893b-069e3711e4f6")
-		)
-		(pin "19"
-			(uuid "cd686160-2457-4c4b-bf18-5da769b34b2b")
-		)
-		(pin "8"
-			(uuid "4a8a3c20-599d-4688-8080-90c9aff4b5b2")
-		)
-		(pin "10"
-			(uuid "f558ef5f-c6d1-42b3-91d9-719e9837bc46")
-		)
-		(pin "9"
-			(uuid "cfb9df66-639c-4037-ba8e-500de9466efd")
-		)
-		(pin "13"
-			(uuid "3c50065c-d67e-4644-9806-08797b8c6671")
-		)
-		(pin "1"
-			(uuid "aee3d106-7604-4c83-abd3-fdff5900388b")
-		)
-		(pin "4"
-			(uuid "1a73d18c-7772-448a-a11a-50b717a6a698")
-		)
-		(pin "18"
-			(uuid "5d07b1d3-f7e7-4230-8e47-a929e36a0d66")
-		)
-		(pin "6"
-			(uuid "21475f83-b5d9-447d-a230-90deaf9541dc")
-		)
-		(pin "12"
-			(uuid "2529c342-6aeb-4818-a3cd-ade9df223354")
-		)
-		(pin "11"
-			(uuid "c42561df-9dc9-4125-91f2-e2f811fcd59d")
-		)
-		(pin "17"
-			(uuid "1c5327b6-a3b2-4c9d-aada-0d51d4d1468f")
-		)
-		(pin "15"
-			(uuid "366974ad-2c7d-409b-b601-3a21b63c4549")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/007c1dd5-a7d9-42e3-b7c2-f5a2b9d94f0b"
-					(reference "U18")
 					(unit 1)
 				)
 			)

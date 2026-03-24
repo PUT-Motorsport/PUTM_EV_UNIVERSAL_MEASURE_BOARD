@@ -330,6 +330,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ATX-H11-F-16.000MHz-G100-T:ATX-H11-F-16.000MHz-G100-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ATX-H11-F-16.000MHz-G100-T"
+				(at 0 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ATXH11F16000MHzG100T"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/datasheets/ATX-H11.pdf"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TCXO Oscillators XTAL OSC TCXO 16.0000MHZ CMOS +/-10ppm 3.2 x 2.5 x 1.2mm"
+				(at 0 17.272 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.2"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "815-ATXH11F1600G100T"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ATX-H11-F-16.000MHz-G100-T?qs=HoCaDK9Nz5c7AwMq0%252BjsKg%3D%3D"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ATX-H11-F-16.000MHz-G100-T"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ATX-H11-F-16.000MHz-G100-T_1_1"
+				(rectangle
+					(start -8.89 5.08)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "~{INH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -486,242 +694,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECS-1612MV-080-CN-TR:ECS-1612MV-080-CN-TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -8.636 8.636 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ECS-1612MV-080-CN-TR"
-				(at -8.636 6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ECS1612MV080CNTR"
-				(at 31.75 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.arrow.com/en/products/ecs-1612mv-080-cn-tr/ecs-international"
-				(at 31.75 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Standard Clock Oscillators 8MHz CMOS 1.6-3.6V"
-				(at 0 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.7"
-				(at 31.75 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "520-1612MV-080-CNT"
-				(at 31.75 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-1612MV-080-CN-TR?qs=MLItCLRbWswg5aTynjLSEQ%3D%3D"
-				(at 31.75 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "ECS"
-				(at 31.75 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ECS-1612MV-080-CN-TR"
-				(at 31.75 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ECS-1612MV-080-CN-TR_1_1"
-				(rectangle
-					(start -8.89 3.81)
-					(end 8.89 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -11.43 -2.54 0)
-					(length 2.54)
-					(name "~{EN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "STM32G484RET3_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 15.875 49.53 0)
+			(property "Reference" "U1"
+				(at -26.035 50.8 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "STM32G484RET3"
-				(at 15.875 46.99 0)
+				(at -26.035 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "QFP50P1200X1200X160-64N"
@@ -919,7 +917,7 @@
 					)
 					(alternate "RCC_OSC32_IN" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at -19.05 -24.13 0)
 					(length 2.54)
 					(name "PC15"
@@ -964,7 +962,7 @@
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at -19.05 24.13 0)
 					(length 2.54)
 					(name "PF1"
@@ -3501,6 +3499,12 @@
 		(uuid "6f2b1400-6dd4-438c-bedb-092960b9b9a6")
 	)
 	(junction
+		(at 172.085 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6042d58-3707-407b-b916-db93c523bd25")
+	)
+	(junction
 		(at 95.885 149.225)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3553,6 +3557,16 @@
 			(type default)
 		)
 		(uuid "061d3ed3-e9b7-43cb-8c78-73c647a5f717")
+	)
+	(wire
+		(pts
+			(xy 172.085 111.76) (xy 174.625 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b2cf78-d6cf-4c6d-bf8e-cd8e9533c666")
 	)
 	(wire
 		(pts
@@ -3616,6 +3630,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.935 133.985) (xy 113.665 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e398a2-fe29-4dff-9382-ec1cf322e83a")
+	)
+	(wire
+		(pts
 			(xy 100.965 48.26) (xy 100.965 50.165)
 		)
 		(stroke
@@ -3663,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "2729c196-1ac3-4576-aa6b-276c70b370c6")
+	)
+	(wire
+		(pts
+			(xy 114.935 131.445) (xy 113.665 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27642e56-d381-4e7e-8268-3dafad0df3a0")
 	)
 	(wire
 		(pts
@@ -3716,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.935 67.945) (xy 113.665 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7e6c10-a654-4f32-befe-461dec1d8c58")
+	)
+	(wire
+		(pts
 			(xy 90.805 46.99) (xy 90.805 48.26)
 		)
 		(stroke
@@ -3743,16 +3787,6 @@
 			(type default)
 		)
 		(uuid "40ddebdd-4778-4bf4-85a5-7291b27502e5")
-	)
-	(wire
-		(pts
-			(xy 114.935 62.865) (xy 113.665 62.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423ca3cd-63c6-4030-89ce-33c08df86ae9")
 	)
 	(wire
 		(pts
@@ -3806,6 +3840,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.085 111.76) (xy 172.085 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548c4803-f12b-4fe9-be15-1bb5b1a6360d")
+	)
+	(wire
+		(pts
 			(xy 114.935 126.365) (xy 113.665 126.365)
 		)
 		(stroke
@@ -3853,16 +3897,6 @@
 			(type default)
 		)
 		(uuid "683fb842-af68-4024-8b16-a681220ffe5f")
-	)
-	(wire
-		(pts
-			(xy 76.835 90.805) (xy 78.105 90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685c82b0-2762-4ac9-b8de-99315c73fda4")
 	)
 	(wire
 		(pts
@@ -3926,6 +3960,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.935 128.905) (xy 113.665 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798922bd-f20a-4289-a012-b52e90943884")
+	)
+	(wire
+		(pts
 			(xy 158.75 114.3) (xy 158.75 111.76)
 		)
 		(stroke
@@ -3986,16 +4030,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 88.265) (xy 78.105 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2c3443-b0a3-4980-9f2d-37b180052734")
-	)
-	(wire
-		(pts
 			(xy -87.63 57.785) (xy -87.63 62.23)
 		)
 		(stroke
@@ -4023,6 +4057,16 @@
 			(type default)
 		)
 		(uuid "9a2c2678-48e5-4a9c-a428-86b63e062551")
+	)
+	(wire
+		(pts
+			(xy 114.935 136.525) (xy 113.665 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9b1fb1-7a87-425c-9483-deac1104cf00")
 	)
 	(wire
 		(pts
@@ -4146,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 111.76) (xy 174.625 111.76)
+			(xy 158.75 111.76) (xy 172.085 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4246,16 +4290,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 60.325) (xy 113.665 60.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1528f18-3ebd-44e6-9e03-7a79e7e7428e")
-	)
-	(wire
-		(pts
 			(xy -70.485 58.42) (xy -70.485 62.865)
 		)
 		(stroke
@@ -4306,26 +4340,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 121.285) (xy 172.085 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efa92dcc-b0bd-437e-b65d-3e040d10e33b")
-	)
-	(wire
-		(pts
-			(xy 114.935 57.785) (xy 113.665 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5cc6ab3-26fb-4384-9e02-4052d019f754")
-	)
-	(wire
-		(pts
 			(xy 98.425 149.225) (xy 95.885 149.225)
 		)
 		(stroke
@@ -4344,28 +4358,6 @@
 			(justify left)
 		)
 		(uuid "0dac1a60-1e26-4d71-84b0-6fd3a022d05b")
-	)
-	(hierarchical_label "MUXEN"
-		(shape output)
-		(at 114.935 60.325 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13d3f0f0-4d6b-4cb4-9f93-bc9fbdc2d779")
-	)
-	(hierarchical_label "ADCCS"
-		(shape output)
-		(at 76.835 90.805 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "177790f6-40d8-4e8b-bd67-396a6c5d41cd")
 	)
 	(hierarchical_label "PGACS"
 		(shape output)
@@ -4455,6 +4447,17 @@
 		)
 		(uuid "450f538a-7df0-4a43-baa8-3fc5116312a0")
 	)
+	(hierarchical_label "ADDR1"
+		(shape output)
+		(at 114.935 128.905 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48c27b0a-6f72-4833-8a9d-a32e1ee60dc8")
+	)
 	(hierarchical_label "CAN_STB"
 		(shape output)
 		(at 114.935 95.885 0)
@@ -4465,17 +4468,6 @@
 			(justify left)
 		)
 		(uuid "5c205026-c09a-4876-a666-6fc29b467577")
-	)
-	(hierarchical_label "ADDR1"
-		(shape output)
-		(at 114.935 57.785 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c57be45-c6b0-4bbd-8b04-bc079bca1bd3")
 	)
 	(hierarchical_label "HSE"
 		(shape input)
@@ -4498,17 +4490,6 @@
 			(justify right)
 		)
 		(uuid "67c2845b-a715-43d7-84b8-0876d7e02a8e")
-	)
-	(hierarchical_label "ADDR2"
-		(shape output)
-		(at 76.835 88.265 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f32dae9-92aa-4bed-9b87-ea5f156920c7")
 	)
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
@@ -4543,6 +4524,17 @@
 		)
 		(uuid "7f040579-312f-4aa3-9804-04da09822a5f")
 	)
+	(hierarchical_label "MUXEN"
+		(shape output)
+		(at 114.935 133.985 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80e905c7-6a80-41d8-b611-9e4f2101eae8")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
 		(at 76.835 106.045 180)
@@ -4565,16 +4557,27 @@
 		)
 		(uuid "8b7a2fc5-14d4-4302-86cc-424d3ee54b09")
 	)
-	(hierarchical_label "ADDR3"
+	(hierarchical_label "ADCCS"
 		(shape output)
-		(at 114.935 62.865 0)
+		(at 114.935 67.945 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8e152cc2-9497-4bcc-880c-3ca937f582c9")
+		(uuid "94158e59-b01a-40d6-8d60-ded44a18c368")
+	)
+	(hierarchical_label "ADDR3"
+		(shape output)
+		(at 114.935 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "973b3cc4-4f53-4e39-bb2d-c1b9570e1a1e")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
@@ -4586,6 +4589,17 @@
 			(justify right)
 		)
 		(uuid "eb040074-aaae-4d7b-9da6-1b9c7f426ce1")
+	)
+	(hierarchical_label "ADDR2"
+		(shape output)
+		(at 114.935 131.445 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef84d702-8b0f-4af2-a0cf-f4e0829bf885")
 	)
 	(hierarchical_label "AINN"
 		(shape input)
@@ -4770,6 +4784,154 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATX-H11-F-16.000MHz-G100-T:ATX-H11-F-16.000MHz-G100-T")
+		(at 186.055 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05fbc886-e426-4baf-a424-12d718422ca4")
+		(property "Reference" "Y1"
+			(at 186.055 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATX-H11-F-16.000MHz-G100-T"
+			(at 186.055 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATXH11F16000MHzG100T"
+			(at 212.725 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/ATX-H11.pdf"
+			(at 212.725 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TCXO Oscillators XTAL OSC TCXO 16.0000MHZ CMOS +/-10ppm 3.2 x 2.5 x 1.2mm"
+			(at 186.055 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.2"
+			(at 212.725 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "815-ATXH11F1600G100T"
+			(at 212.725 609.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ATX-H11-F-16.000MHz-G100-T?qs=HoCaDK9Nz5c7AwMq0%252BjsKg%3D%3D"
+			(at 212.725 709.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 212.725 809.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ATX-H11-F-16.000MHz-G100-T"
+			(at 212.725 909.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "7860ad4c-328d-4a83-ba83-682fc500ae32")
+		)
+		(pin "1"
+			(uuid "b59a4f14-c2e4-4483-ad75-20c09219db9d")
+		)
+		(pin "3"
+			(uuid "096bed81-2418-44e1-9e3b-caae0ef426f4")
+		)
+		(pin "4"
+			(uuid "64ec7891-323a-4430-8c9c-012adfd8fa7f")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5379,83 +5541,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.085 121.285 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27d8f80a-d62c-4e8c-b3f4-650227ee64d7")
-		(property "Reference" "#PWR011"
-			(at 172.085 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.085 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.085 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.085 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.085 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2344a9a6-88ed-4051-a6a6-72e5ccce2f62")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at -70.485 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -5690,154 +5775,6 @@
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECS-1612MV-080-CN-TR:ECS-1612MV-080-CN-TR")
-		(at 186.055 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3eb59e67-8ba4-47cd-9e04-d0af1020d830")
-		(property "Reference" "Y1"
-			(at 186.055 104.775 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-1612MV"
-			(at 186.055 107.315 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECS1612MV080CNTR"
-			(at 217.805 209.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/ecs-1612mv-080-cn-tr/ecs-international"
-			(at 217.805 309.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Standard Clock Oscillators 8MHz CMOS 1.6-3.6V"
-			(at 186.055 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.7"
-			(at 217.805 509.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "520-1612MV-080-CNT"
-			(at 217.805 609.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-1612MV-080-CN-TR?qs=MLItCLRbWswg5aTynjLSEQ%3D%3D"
-			(at 217.805 709.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 217.805 809.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-1612MV-080-CN-TR"
-			(at 217.805 909.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "feb1bfb4-b2d3-4fe1-9813-dd6c5ec92de7")
-		)
-		(pin "1"
-			(uuid "4a7ab700-06a1-4b69-86f0-b6e72ed45738")
-		)
-		(pin "4"
-			(uuid "99e11794-cca5-41a8-a755-770719c188ab")
-		)
-		(pin "3"
-			(uuid "25afe3ba-9dd6-498f-9daa-b9c1292beb0f")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf"
-					(reference "Y1")
 					(unit 1)
 				)
 			)

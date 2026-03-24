@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM3057EBRWZ
+D 3 kV rms, Signal and Power Isolated, CAN Transceiver for CAN FD
+K
+F https://www.analog.com/ADM3057E/datasheet
+$ENDCMP
+#
+#End Doc Library
