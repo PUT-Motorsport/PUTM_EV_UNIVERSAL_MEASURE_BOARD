@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering"
+		(property "Footprint" "LDO_12V:SOT-89-3_Handsoldering"
 			(at 121.92 161.29 0)
 			(effects
 				(font
@@ -10227,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
+		(property "Footprint" "LDO_5V:TSOT-23_HandSoldering"
 			(at 54.61 160.655 0)
 			(effects
 				(font
