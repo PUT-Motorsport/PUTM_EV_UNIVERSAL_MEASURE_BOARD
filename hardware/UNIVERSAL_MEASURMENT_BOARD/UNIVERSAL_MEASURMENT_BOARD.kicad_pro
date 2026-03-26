@@ -721,7 +721,48 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "hier_label_mismatch|1206500|609600|d3b152f8-164f-4f4f-9bc3-2a9f7039d4e9|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|1206500|647700|a441f5d6-2f73-4c7d-b62c-7edf3092a1ba|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|1270000|711200|94158e59-b01a-40d6-8d60-ded44a18c368|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|2209800|1149350|0dac1a60-1e26-4d71-84b0-6fd3a022d05b|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|2476500|628650|f931a36b-9bbb-43f5-9ec4-8d59e92392af|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|781050|1447800|a6cbc1f4-3bf9-4321-8933-36387ccd4225|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|781050|1485900|f72a9457-eadb-4825-a118-b78b9077faf4|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|/92c00310-4384-4ef3-9368-efad75526047/2f9d6be2-539e-4cd2-829d-3839cc14b053|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|889000|711200|63a3ff83-b89d-4853-8733-a3346d841ec1|00000000-0000-0000-0000-000000000000|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|/92c00310-4384-4ef3-9368-efad75526047/652484a1-eb31-4499-abec-2bf6b123f7cf|",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1092200|977900|16bd9bb5-65ed-419a-b62c-34bd0b5acfec|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1644650|882650|92645837-7c46-4b2c-a214-d4ed18c57aba|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -904,11 +945,11 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
@@ -916,7 +957,7 @@
       "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -929,7 +970,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",

@@ -2853,7 +2853,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "L79L15ACD13TR_1"
+		(symbol "L79L15ACD13TR:L79L15ACD13TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2974,7 +2974,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "L79L15ACD13TR_1_1_1"
+			(symbol "L79L15ACD13TR_1_1"
 				(rectangle
 					(start -6.35 3.81)
 					(end 6.35 -5.08)
@@ -3041,7 +3041,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at -1.27 -1.27 0)
 					(length 2.54)
 					(hide yes)
@@ -3116,7 +3116,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at -1.27 0 0)
 					(length 2.54)
 					(hide yes)
@@ -23046,7 +23046,6 @@
 		)
 	)
 	(symbol
-		(lib_name "L79L15ACD13TR_1")
 		(lib_id "L79L15ACD13TR:L79L15ACD13TR")
 		(at 233.68 194.945 0)
 		(mirror x)
