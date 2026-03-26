@@ -13,8 +13,8 @@
 		(rev "1.8.16")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
-		(comment 3 "Piotr Lesicki, Piotr Witt")
-		(comment 4 "Reviewed by:")
+		(comment 3 "Reviewed by Piotr Witt")
+		(comment 4 "Reviewed by Piotr Lesicki")
 	)
 	(layers
 		(0 "F.Cu" signal)

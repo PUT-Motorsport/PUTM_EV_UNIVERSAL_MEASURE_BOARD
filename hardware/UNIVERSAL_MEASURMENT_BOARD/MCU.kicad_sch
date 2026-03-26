@@ -10,6 +10,8 @@
 		(rev "1.9.21")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
+		(comment 3 "Reviewed by Piotr Witt")
+		(comment 4 "Reviewed by Piotr Lesicki")
 	)
 	(lib_symbols
 		(symbol "ADS8863IDGS:ADS8863IDGS"
