@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Universal Measurment Board")
-		(date "2026-02-02")
-		(rev "1.7.15")
+		(date "2026-03-26")
+		(rev "1.9.21")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)

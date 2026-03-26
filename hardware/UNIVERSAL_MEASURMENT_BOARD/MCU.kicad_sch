@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Universal Measurment Board")
-		(date "2026-02-02")
-		(rev "1.7.15")
+		(date "2026-03-26")
+		(rev "1.9.21")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 	)
@@ -3327,19 +3327,6 @@
 		(uuid "37095753-6d26-4e2a-a3ab-537bbca37474")
 	)
 	(rectangle
-		(start 55.88 171.45)
-		(end 133.985 187.96)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3ab527aa-877b-47ef-9c2d-c7c8df09f222")
-	)
-	(rectangle
 		(start 153.035 38.735)
 		(end 246.38 81.915)
 		(stroke
@@ -3417,17 +3404,6 @@
 			(justify left top)
 		)
 		(uuid "9cb6481d-39c1-4c45-b652-c600d7ef342d")
-	)
-	(text "To connect to mcu:"
-		(exclude_from_sim no)
-		(at 67.31 174.625 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 0.53)
-			)
-		)
-		(uuid "b5a1f65e-094e-42d7-a597-fd96ae5d0d49")
 	)
 	(text "MCU Clock"
 		(exclude_from_sim no)
@@ -5484,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Value" "3V0A"
+		(property "Value" "+3V0A"
 			(at 75.565 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
