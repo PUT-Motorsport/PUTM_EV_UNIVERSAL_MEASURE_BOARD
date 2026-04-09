@@ -14,6 +14,7 @@
 /hardware/*.kicad_prl
 /hardware/fp-info-cache
 /hardware/\#auto_saved_files\#
+/hardware/*.lck
 
 # Interactive HTML BOM
 /hardware/bom/
