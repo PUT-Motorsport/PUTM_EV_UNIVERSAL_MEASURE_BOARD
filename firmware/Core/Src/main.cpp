@@ -25,12 +25,19 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "ADS114S08.h"
 #include "PUTM_EV_CAN_LIBRARY/include/can_driver.hpp"
+#include <array>
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
+class Adc_reading {
+    uint16_t raw;
+    float value;
+};
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -46,7 +53,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+std::array<Adc_reading, 16> adc_readings{{}};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
