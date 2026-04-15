@@ -1,5 +1,6 @@
 #pragma once
 
+#include "stm32g0xx_hal.h"
 #include <cstdint>
 
 namespace ADS114S08 {
@@ -364,27 +365,26 @@ enum class SYS_CONTROL_STATUS : uint8_t {
 };
 
 int init();
-int put_to_sleep();
-int start_by_command();
-int stop_by_command();
-int wake_up_the_device();
-int reset_device_to_default_settings();
-int self_offset_calibration();
-void print_all_regs();
-int system_gain_calibration();
-int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
-int read_link1_back_power_from_antenna(float* power);
-int read_link1_transmitting_power(float* power);
-int read_anlg1_in1(float* power);
-int read_anlg1_in2(float* power);
-int read_link2_back_power_from_antenna(float* power);
-int read_link2_transmitting_power(float* power);
-int read_12v_input_voltage(float* power);
-int read_5v_output_of_5v_dc_dc(float* power);
-int read_3_7v_dc_dc(float* power);
-int read_gbe_switch1_1v_core_voltage(float* power);
-int read_adc_internal_temperature(float* temperature);
-int read_adc_internal_power_supply(float* power);
+HAL_StatusTypeDef put_to_sleep();
+HAL_StatusTypeDef start_by_command();
+HAL_StatusTypeDef stop_by_command();
+HAL_StatusTypeDef wake_up_the_device();
+HAL_StatusTypeDef reset_device_to_default_settings();
+HAL_StatusTypeDef self_offset_calibration();
+HAL_StatusTypeDef system_gain_calibration();
+// int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
+// int read_link1_back_power_from_antenna(float* power);
+// int read_link1_transmitting_power(float* power);
+// int read_anlg1_in1(float* power);
+// int read_anlg1_in2(float* power);
+// int read_link2_back_power_from_antenna(float* power);
+// int read_link2_transmitting_power(float* power);
+// int read_12v_input_voltage(float* power);
+// int read_5v_output_of_5v_dc_dc(float* power);
+// int read_3_7v_dc_dc(float* power);
+// int read_gbe_switch1_1v_core_voltage(float* power);
+// int read_adc_internal_temperature(float* temperature);
+// int read_adc_internal_power_supply(float* power);
 
 extern ID id;
 extern STATUS status;
