@@ -9,7 +9,8 @@ add_library(ADS114S08)
 
 target_sources(ADS114S08
     PUBLIC
-        ADS114S08.cpp
+        ADS114S08_driver.cpp
+        ADS114S08_utils.cpp
 )
 
 target_include_directories(ADS114S08

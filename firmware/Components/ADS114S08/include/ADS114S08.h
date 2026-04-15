@@ -5,6 +5,8 @@
 
 namespace ADS114S08 {
 
+const auto SPI = reinterpret_cast<SPI_HandleTypeDef*>(SPI1);
+const auto TIM = reinterpret_cast<TIM_HandleTypeDef*>(TIM4);
 constexpr uint8_t NUM_REGISTERS = 18;
 
 // Register addresses
@@ -364,7 +366,10 @@ enum class SYS_CONTROL_STATUS : uint8_t {
     ENABLE = 1
 };
 
-int init();
+HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
+HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
+HAL_StatusTypeDef data_read(uint16_t* data);
+
 HAL_StatusTypeDef put_to_sleep();
 HAL_StatusTypeDef start_by_command();
 HAL_StatusTypeDef stop_by_command();
@@ -372,6 +377,8 @@ HAL_StatusTypeDef wake_up_the_device();
 HAL_StatusTypeDef reset_device_to_default_settings();
 HAL_StatusTypeDef self_offset_calibration();
 HAL_StatusTypeDef system_gain_calibration();
+
+// int init();
 // int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
 // int read_link1_back_power_from_antenna(float* power);
 // int read_link1_transmitting_power(float* power);
