@@ -1,7 +1,5 @@
 #include "ADS114S08.h"
-#include "main.h"
-#include "stm32g0xx_hal_gpio.h"
-#include "stm32g0xx_hal_tim.h"
+#include "config.h"
 
 namespace ADS114S08 {
 
@@ -88,11 +86,11 @@ void select_channel(uint8_t muxp, uint8_t muxn) {
 }
 
 void start_conversions() {
-    HAL_GPIO_WritePin(ADC_START_GPIO_Port, ADC_START_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(START_PORT, START_PIN, GPIO_PIN_SET);
     HAL_TIM_Base_Start(TIM);
     while(__HAL_TIM_GET_COUNTER(TIM) < 4) {
     }
-    HAL_GPIO_WritePin(ADC_START_GPIO_Port, ADC_START_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(START_PORT, START_PIN, GPIO_PIN_RESET);
 }
 
 } // namespace ADS114S08

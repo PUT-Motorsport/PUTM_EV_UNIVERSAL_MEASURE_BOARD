@@ -1,4 +1,5 @@
 #include "ADS114S08.h"
+#include "config.h"
 #include "gpio.h"
 #include "spi.h"
 #include "tim.h"

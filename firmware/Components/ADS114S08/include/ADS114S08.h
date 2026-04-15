@@ -5,8 +5,6 @@
 
 namespace ADS114S08 {
 
-const auto SPI = reinterpret_cast<SPI_HandleTypeDef*>(SPI1);
-const auto TIM = reinterpret_cast<TIM_HandleTypeDef*>(TIM4);
 constexpr uint8_t NUM_REGISTERS = 18;
 
 // Register addresses
