@@ -21,6 +21,7 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "tim.h"
 #include "usart.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -100,6 +101,7 @@ int main(void) {
     MX_SPI1_Init();
     MX_USART1_UART_Init();
     MX_FDCAN1_Init();
+    MX_TIM4_Init();
     /* USER CODE BEGIN 2 */
     putm_ev_can::CanDriver can_m;
     /* USER CODE END 2 */

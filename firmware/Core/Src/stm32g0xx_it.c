@@ -56,6 +56,7 @@
 
 /* External variables --------------------------------------------------------*/
 extern FDCAN_HandleTypeDef hfdcan1;
+extern TIM_HandleTypeDef htim4;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -139,6 +140,20 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32g0xx.s).                    */
 /******************************************************************************/
+
+/**
+  * @brief This function handles TIM3, TIM4 global Interrupt.
+  */
+void TIM3_TIM4_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM3_TIM4_IRQn 0 */
+
+  /* USER CODE END TIM3_TIM4_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim4);
+  /* USER CODE BEGIN TIM3_TIM4_IRQn 1 */
+
+  /* USER CODE END TIM3_TIM4_IRQn 1 */
+}
 
 /**
   * @brief This function handles TIM16, FDCAN1_IT0 and FDCAN2_IT0 Interrupt.

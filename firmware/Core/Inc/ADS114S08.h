@@ -46,17 +46,17 @@ constexpr uint8_t REG_GPIOCON_DEFAULT = 0x00;
 
 // Control Commands
 constexpr uint8_t NOP_CMD = 0x00;
-constexpr uint8_t WAKE_CMD = 0x02;
-constexpr uint8_t SLEEP_CMD = 0x04;
+constexpr uint8_t WAKEUP_CMD = 0x02;
+constexpr uint8_t POWERDOWN_CMD = 0x04;
 constexpr uint8_t RESET_CMD = 0x06;
 constexpr uint8_t START_CMD = 0x08;
 constexpr uint8_t STOP_CMD = 0x0A;
-constexpr uint8_t SFOCAL_CMD = 0x19;
 constexpr uint8_t SYOCAL_CMD = 0x16;
 constexpr uint8_t SYGCAL_CMD = 0x17;
+constexpr uint8_t SFOCAL_CMD = 0x19;
 constexpr uint8_t RDATA_CMD = 0x12;
-constexpr uint8_t REGRD_CMD = 0x20;
-constexpr uint8_t REGWR_CMD = 0x40;
+constexpr uint8_t RREG_CMD = 0x20;
+constexpr uint8_t WREG_CMD = 0x40;
 
 // 00h ID xxh RESERVED DEV_ID[2:0]
 union ID {
@@ -363,28 +363,28 @@ enum class SYS_CONTROL_STATUS : uint8_t {
     ENABLE = 1
 };
 
-// int ADC114S08_Init();
-// int ADC114S08_PutToSleep();
-// int ADC114S08_StartByCommand();
-// int ADC114S08_StartByCommand();
-// int ADC114S08_WakeUpTheDevice();
-// int ADC114S08_ResetDeviceToDefaultSettings();
-// int ADC114S08_SelfOffsetCalibration();
-// void AADC114S08_PrintAllRegs();
-// int ADC114S08_SystemGainCalibration();
-// int ADC114S08_ReadChannelData(uint32_t* dStatus, uint32_t* dCRC, int* iData);
-// int ADC114S08_ReadLink1BackPowerFromAntenna(float* power);
-// int ADC114S08_ReadLink1TransmittingPower(float* power);
-// int ADC114S08_ReadANLG1_IN1(float* power);
-// int ADC114S08_ReadANLG1_IN2(float* power);
-// int ADC114S08_ReadLink2BackPowerFromAntenna(float* power);
-// int ADC114S08_ReadLink2TransmittingPower(float* power);
-// int ADC114S08_Read12VInputVoltage(float* power);
-// int ADC114S08_Read5VOutputOf5VDC_DC(float* power);
-// int ADC114S08_Read3_7VDC_DC(float* power);
-// int ADC114S08_ReadGBESwitch1_1VCoreVoltage(float* power);
-// int ADC114S08_ReadADCInternalTemperature(float* temperature);
-// int ADC114S08_ReadADCInternalPowerSupply(float* power);
+int init();
+int put_to_sleep();
+int start_by_command();
+int stop_by_command();
+int wake_up_the_device();
+int reset_device_to_default_settings();
+int self_offset_calibration();
+void print_all_regs();
+int system_gain_calibration();
+int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
+int read_link1_back_power_from_antenna(float* power);
+int read_link1_transmitting_power(float* power);
+int read_anlg1_in1(float* power);
+int read_anlg1_in2(float* power);
+int read_link2_back_power_from_antenna(float* power);
+int read_link2_transmitting_power(float* power);
+int read_12v_input_voltage(float* power);
+int read_5v_output_of_5v_dc_dc(float* power);
+int read_3_7v_dc_dc(float* power);
+int read_gbe_switch1_1v_core_voltage(float* power);
+int read_adc_internal_temperature(float* temperature);
+int read_adc_internal_power_supply(float* power);
 
 extern ID id;
 extern STATUS status;
