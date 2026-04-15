@@ -59,6 +59,20 @@ HAL_StatusTypeDef data_read(uint16_t* data) {
     return status;
 }
 
+HAL_StatusTypeDef data_read_IT(uint16_t* data) {
+    uint8_t txrx[3];
+    txrx[0] = RDATA_CMD;
+    txrx[1] = 0x00;
+    txrx[2] = 0x00;
+
+    HAL_StatusTypeDef status =
+        HAL_SPI_TransmitReceive_IT(SPI, txrx, txrx, sizeof(txrx));
+    if(status == HAL_OK) {
+        *data = (txrx[0] << 8) | txrx[1];
+    }
+    return status;
+}
+
 HAL_StatusTypeDef start_by_command() {
     uint8_t tx[1];
     tx[0] = START_CMD;

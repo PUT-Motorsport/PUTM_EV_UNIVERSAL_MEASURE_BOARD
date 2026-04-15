@@ -75,11 +75,7 @@ union STATUS {
     uint8_t Value;
     struct {
         uint8_t FL_REF_L0 : 1;
-        uint8_t FL_REF_L1 : 1;
-        uint8_t FL_N_RAILN : 1;
-        uint8_t FL_N_RAILP : 1;
-        uint8_t FL_P_RAILN : 1;
-        uint8_t FL_P_RAILP : 1;
+        uint8_t RESERVED : 5;
         uint8_t RDY : 1;
         uint8_t FL_POR : 1;
     } u;
@@ -100,7 +96,7 @@ union PGA {
     struct {
         uint8_t GAIN : 3;
         uint8_t PGA_EN : 2;
-        uint8_t DELAY : 3;
+        uint8_t RESERVED : 3;
     } u;
 };
 
@@ -109,10 +105,10 @@ union DATARATE {
     uint8_t Value;
     struct {
         uint8_t DR : 4;
-        uint8_t FILTER : 1;
+        uint8_t RESERVED0 : 1;
         uint8_t MODE : 1;
         uint8_t CLK : 1;
-        uint8_t G_CHOP : 1;
+        uint8_t RESERVED1 : 1;
     } u;
 };
 
@@ -124,7 +120,8 @@ union REF {
         uint8_t REFSEL : 2;
         uint8_t REFN_BUF : 1;
         uint8_t REFP_BUF : 1;
-        uint8_t FL_REF_EN : 2;
+        uint8_t FL_REF_EN : 1;
+        uint8_t RESERVED : 1;
     } u;
 };
 
@@ -133,10 +130,7 @@ union IDACMAG {
     uint8_t Value;
     struct {
         uint8_t IMAG : 4;
-        uint8_t ZERO1 : 1;
-        uint8_t ZERO2 : 1;
-        uint8_t PSW : 1;
-        uint8_t FL_RAIL_EN : 1;
+        uint8_t RESERVED : 4;
     } u;
 };
 
@@ -153,14 +147,14 @@ union IDACMUX {
 union VBIAS {
     uint8_t Value;
     struct {
-        uint8_t VB_LEVEL : 1;
-        uint8_t VB_AINC : 1;
-        uint8_t VB_AIN5 : 1;
-        uint8_t VB_AIN4 : 1;
-        uint8_t VB_AIN3 : 1;
-        uint8_t VB_AIN2 : 1;
-        uint8_t VB_AIN1 : 1;
         uint8_t VB_AIN0 : 1;
+        uint8_t VB_AIN1 : 1;
+        uint8_t VB_AIN2 : 1;
+        uint8_t VB_AIN3 : 1;
+        uint8_t VB_AIN4 : 1;
+        uint8_t VB_AIN5 : 1;
+        uint8_t VB_AINC : 1;
+        uint8_t RESERVED : 1;
     } u;
 };
 
@@ -168,8 +162,7 @@ union VBIAS {
 union SYS {
     uint8_t Value;
     struct {
-        uint8_t SENDSTAT : 1;
-        uint8_t CRC_ : 1;
+        uint8_t RESERVED : 2;
         uint8_t TIMEOUT : 1;
         uint8_t CAL_SAMP : 2;
         uint8_t SYS_MON : 3;
@@ -222,153 +215,143 @@ union GPIOCON {
     uint8_t Value;
     struct {
         uint8_t CON : 4;
-        uint8_t ReservedZero : 4;
+        uint8_t RESERVED : 4;
     } u;
 };
 
 // Input Multiplexer(INPMUX) Register Field Descriptions
 // Selects the ADC positive input channel.
-enum class INPMUX_Field : uint8_t {
-    AIN0 = 0,
-    AIN1 = 1,
-    AIN2 = 2,
-    AIN3 = 3,
-    AIN4 = 4,
-    AIN5 = 5,
-    AIN6 = 6,
-    AIN7 = 7,
-    AIN8 = 8,
-    AIN9 = 9,
-    AIN10 = 10,
-    AIN11 = 11,
-    AINCOM = 12
-};
+namespace INPMUX_Field {
+constexpr uint8_t AIN0 = 0;
+constexpr uint8_t AIN1 = 1;
+constexpr uint8_t AIN2 = 2;
+constexpr uint8_t AIN3 = 3;
+constexpr uint8_t AIN4 = 4;
+constexpr uint8_t AIN5 = 5;
+constexpr uint8_t AIN6 = 6;
+constexpr uint8_t AIN7 = 7;
+constexpr uint8_t AIN8 = 8;
+constexpr uint8_t AIN9 = 9;
+constexpr uint8_t AIN10 = 10;
+constexpr uint8_t AIN11 = 11;
+constexpr uint8_t AINCOM = 12;
+} // namespace INPMUX_Field
 
 // Programmable conversion delay selection
-// Sets the programmable conversion delay time for the first conversion after a
-// WREG when a configuration change resets of the digital filter and triggers a
-// new conversion(1)
-enum class PGA_DELAY_Field : uint8_t {
-    DELAY_14 = 0,
-    DELAY_25 = 1,
-    DELAY_64 = 2,
-    DELAY_256 = 3,
-    DELAY_1024 = 4,
-    DELAY_2048 = 5,
-    DELAY_4096 = 6,
-    DELAY_1 = 7
-};
+namespace PGA_DELAY_Field {
+constexpr uint8_t DELAY_14 = 0;
+constexpr uint8_t DELAY_25 = 1;
+constexpr uint8_t DELAY_64 = 2;
+constexpr uint8_t DELAY_256 = 3;
+constexpr uint8_t DELAY_1024 = 4;
+constexpr uint8_t DELAY_2048 = 5;
+constexpr uint8_t DELAY_4096 = 6;
+constexpr uint8_t DELAY_1 = 7;
+} // namespace PGA_DELAY_Field
 
 // Enables or bypasses the PGA.
-enum class PGA_ENABLE_Field : uint8_t {
-    POWERED_DOWN_AND_BYPASSED = 0,
-    ENABLED = 1
-};
+namespace PGA_ENABLE_Field {
+constexpr uint8_t POWERED_DOWN_AND_BYPASSED = 0;
+constexpr uint8_t ENABLED = 1;
+} // namespace PGA_ENABLE_Field
 
 // Configures the PGA gain
-enum class PGA_PAGE_SELECTION : uint8_t {
-    GAIN_1 = 0,
-    GAIN_2 = 1,
-    GAIN_4 = 2,
-    GAIN_8 = 3,
-    GAIN_16 = 4,
-    GAIN_32 = 5,
-    GAIN_64 = 6,
-    GAIN_128 = 7
-};
+namespace PGA_PAGE_SELECTION {
+constexpr uint8_t GAIN_1 = 0;
+constexpr uint8_t GAIN_2 = 1;
+constexpr uint8_t GAIN_4 = 2;
+constexpr uint8_t GAIN_8 = 3;
+constexpr uint8_t GAIN_16 = 4;
+constexpr uint8_t GAIN_32 = 5;
+constexpr uint8_t GAIN_64 = 6;
+constexpr uint8_t GAIN_128 = 7;
+} // namespace PGA_PAGE_SELECTION
 
-// Enables the global chop function.When enabled, the device automatically
-// swaps the inputs and takes the average of two consecutive readings to
-// cancel the offset voltage.
-enum class DATARATE_SELECTION_G_CHOP : uint8_t { DISABLE = 0, ENABLE = 1 };
+// Enables the global chop function.
+namespace DATARATE_SELECTION_G_CHOP {
+constexpr uint8_t DISABLE = 0;
+constexpr uint8_t ENABLE = 1;
+} // namespace DATARATE_SELECTION_G_CHOP
 
-// Configures the clock source to use either the internal oscillator or an
-// external clock
-enum class DATARATE_SELECTION_CLK : uint8_t {
-    INTERNAL_4_096MHZ = 0,
-    EXTERNAL_CLOCK = 1
-};
+// Configures the clock source
+namespace DATARATE_SELECTION_CLK {
+constexpr uint8_t INTERNAL_4_096MHZ = 0;
+constexpr uint8_t EXTERNAL_CLOCK = 1;
+} // namespace DATARATE_SELECTION_CLK
 
-// Configures the ADC for either continuous conversion or single - shot
-// conversion mode
-enum class DATARATE_SELECTION_MOD : uint8_t {
-    CONTINUOUS_CONVERSION_MODE = 0,
-    SINGLE_SHOT_CONVERSION_MODE = 1
-};
+// Configures the ADC for conversion mode
+namespace DATARATE_SELECTION_MOD {
+constexpr uint8_t CONTINUOUS_CONVERSION_MODE = 0;
+constexpr uint8_t SINGLE_SHOT_CONVERSION_MODE = 1;
+} // namespace DATARATE_SELECTION_MOD
 
-// Configures the ADC to use either the sinc3 or the low-latency filter
-enum class DATARATE_SELECTION_FILTER : uint8_t {
-    SINC3 = 0,
-    LOW_LATENCY_FILTER = 1
-};
+// Configures the ADC filter type
+namespace DATARATE_SELECTION_FILTER {
+constexpr uint8_t SINC3 = 0;
+constexpr uint8_t LOW_LATENCY_FILTER = 1;
+} // namespace DATARATE_SELECTION_FILTER
 
 // Data rate selection
-// Configures the output data rate
-enum class DATARATE_SELECTION_DR : uint8_t {
-    SEL_2_5_SPS = 0,
-    SEL_5_SPS = 1,
-    SEL_10_SPS = 2,
-    SEL_16_6_SPS = 3,
-    SEL_20_SPS = 4,
-    SEL_50_SPS = 5,
-    SEL_60_SPS = 6,
-    SEL_100_SPS = 7,
-    SEL_200_SPS = 8,
-    SEL_400_SPS = 9,
-    SEL_800_SPS = 10,
-    SEL_1000_SPS = 11,
-    SEL_2000_SPS = 12,
-    SEL_4000_SPS = 13,
-    SEL_4000_SPS_2 = 14
-};
+namespace DATARATE_SELECTION_DR {
+constexpr uint8_t SEL_2_5_SPS = 0;
+constexpr uint8_t SEL_5_SPS = 1;
+constexpr uint8_t SEL_10_SPS = 2;
+constexpr uint8_t SEL_16_6_SPS = 3;
+constexpr uint8_t SEL_20_SPS = 4;
+constexpr uint8_t SEL_50_SPS = 5;
+constexpr uint8_t SEL_60_SPS = 6;
+constexpr uint8_t SEL_100_SPS = 7;
+constexpr uint8_t SEL_200_SPS = 8;
+constexpr uint8_t SEL_400_SPS = 9;
+constexpr uint8_t SEL_800_SPS = 10;
+constexpr uint8_t SEL_1000_SPS = 11;
+constexpr uint8_t SEL_2000_SPS = 12;
+constexpr uint8_t SEL_4000_SPS = 13;
+constexpr uint8_t SEL_4000_SPS_2 = 14;
+} // namespace DATARATE_SELECTION_DR
 
-// System Control(SYS) Register Field Descriptions
-// Enables a set of system monitor measurements using the ADC.
-enum class SYS_CONTROL_SYSMON : uint8_t {
-    DISABLE = 0,
-    NORMAL = 1,
-    INTERNAL_TEMP = 2,
-    AVDD_AVSS_4_MEASUREMENT_GAIN_SET_TO_1 = 3,
-    DVDD_4_MEASUREMENT_GAIN_SET_TO_1 = 4,
-    BURNOUT_CURRENT_SOURCES_ENABLED_0_2_MA = 5,
-    BURNOUT_CURRENT_SOURCES_ENABLED_1_MA = 6,
-    BURNOUT_CURRENT_SOURCES_ENABLED_10_MA = 7
-};
+// System monitor configuration
+namespace SYS_CONTROL_SYSMON {
+constexpr uint8_t DISABLE = 0;
+constexpr uint8_t NORMAL = 1;
+constexpr uint8_t INTERNAL_TEMP = 2;
+constexpr uint8_t AVDD_AVSS_4_MEASUREMENT_GAIN_SET_TO_1 = 3;
+constexpr uint8_t DVDD_4_MEASUREMENT_GAIN_SET_TO_1 = 4;
+constexpr uint8_t BURNOUT_CURRENT_SOURCES_ENABLED_0_2_MA = 5;
+constexpr uint8_t BURNOUT_CURRENT_SOURCES_ENABLED_1_MA = 6;
+constexpr uint8_t BURNOUT_CURRENT_SOURCES_ENABLED_10_MA = 7;
+} // namespace SYS_CONTROL_SYSMON
 
 // Calibration sample size selection
-// Configures the number of samples averaged for self and system offset and
-// system gain calibration.
-enum class SYS_CONTROL_SAMP : uint8_t {
-    CAL_SAMP_1_SAMPLE = 0,
-    CAL_SAMP_4_SAMPLE = 1,
-    CAL_SAMP_8_SAMPLE = 2,
-    CAL_SAMP_16_SAMPLE = 3
-};
+namespace SYS_CONTROL_SAMP {
+constexpr uint8_t CAL_SAMP_1_SAMPLE = 0;
+constexpr uint8_t CAL_SAMP_4_SAMPLE = 1;
+constexpr uint8_t CAL_SAMP_8_SAMPLE = 2;
+constexpr uint8_t CAL_SAMP_16_SAMPLE = 3;
+} // namespace SYS_CONTROL_SAMP
 
 // SPI timeout enable
-// Enables the SPI timeout function.
-enum class SYS_CONTROL_TIMEOUT : uint8_t {
-    DISABLE = 0, // default
-    ENABLE = 1
-};
+namespace SYS_CONTROL_TIMEOUT {
+constexpr uint8_t DISABLE = 0;
+constexpr uint8_t ENABLE = 1;
+} // namespace SYS_CONTROL_TIMEOUT
 
 // CRC enable
-// Enables the CRC byte appended to the conversion result.When enabled,
-// CRC is calculate
-enum class SYS_CONTROL_CRC : uint8_t {
-    DISABLE = 0, // default
-    ENABLE = 1
-};
+namespace SYS_CONTROL_CRC {
+constexpr uint8_t DISABLE = 0;
+constexpr uint8_t ENABLE = 1;
+} // namespace SYS_CONTROL_CRC
 
-// Enables the STATUS byte prepended to the conversion result.
-enum class SYS_CONTROL_STATUS : uint8_t {
-    DISABLE = 0, // default
-    ENABLE = 1
-};
+// STATUS byte control
+namespace SYS_CONTROL_STATUS {
+constexpr uint8_t DISABLE = 0;
+constexpr uint8_t ENABLE = 1;
+} // namespace SYS_CONTROL_STATUS
 
 HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
 HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
 HAL_StatusTypeDef data_read(uint16_t* data);
+HAL_StatusTypeDef data_read_IT(uint16_t* data);
 
 HAL_StatusTypeDef put_to_sleep();
 HAL_StatusTypeDef start_by_command();
@@ -378,7 +361,10 @@ HAL_StatusTypeDef reset_device_to_default_settings();
 HAL_StatusTypeDef self_offset_calibration();
 HAL_StatusTypeDef system_gain_calibration();
 
-// int init();
+int init();
+void select_channel(uint8_t muxp, uint8_t muxn);
+void start_conversions();
+
 // int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
 // int read_link1_back_power_from_antenna(float* power);
 // int read_link1_transmitting_power(float* power);

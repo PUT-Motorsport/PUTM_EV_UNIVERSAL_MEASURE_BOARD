@@ -21,6 +21,7 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "stm32g0xx_hal_spi.h"
 #include "tim.h"
 #include "usart.h"
 
@@ -38,6 +39,13 @@
 class Adc_reading {
     uint16_t raw;
     float value;
+};
+
+enum Adc_state {
+    STANDBY_MODE = 0,
+    SINGLE_CONVERSION_MODE = 1,
+    CONTINUOUS_CONVERSION_MODE = 2,
+    POWER_DOWN_MODE = 3,
 };
 /* USER CODE END PTD */
 
@@ -104,6 +112,12 @@ int main(void) {
     MX_TIM4_Init();
     /* USER CODE BEGIN 2 */
     putm_ev_can::CanDriver can_m;
+    Adc_state adc_state = POWER_DOWN_MODE;
+    if(!ADS114S08::init())
+        adc_state = STANDBY_MODE;
+
+    
+
     /* USER CODE END 2 */
 
     /* Infinite loop */

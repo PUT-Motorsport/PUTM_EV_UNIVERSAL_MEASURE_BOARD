@@ -1,4 +1,7 @@
 #include "ADS114S08.h"
+#include "main.h"
+#include "stm32g0xx_hal_gpio.h"
+#include "stm32g0xx_hal_tim.h"
 
 namespace ADS114S08 {
 
@@ -78,17 +81,18 @@ int init() {
     return 1;
 }
 
-// int start_conversion() {
-//     GPIO_Write(GPIO_ADC_STRT);
-//     usleep(2);
+void select_channel(uint8_t muxp, uint8_t muxn) {
+    inpmux.u.MUXP = muxp;
+    inpmux.u.MUXN = muxn;
+    reg_write(INPMUX_ADDR, inpmux.Value);
+}
 
-//     /* wait for nDRDY_REG to deassert as a known valid data */
-//     while(GPIO_Read(GPIO_ADC_RDYn) == 1) {
-//         usleep(2000);
-//     }
-
-//     /* Now read out the results as conversion is completed */
-//     return data_read(d_status, d_crc, d_data);
-// }
+void start_conversions() {
+    HAL_GPIO_WritePin(ADC_START_GPIO_Port, ADC_START_Pin, GPIO_PIN_SET);
+    HAL_TIM_Base_Start(TIM);
+    while(__HAL_TIM_GET_COUNTER(TIM) < 4) {
+    }
+    HAL_GPIO_WritePin(ADC_START_GPIO_Port, ADC_START_Pin, GPIO_PIN_RESET);
+}
 
 } // namespace ADS114S08
