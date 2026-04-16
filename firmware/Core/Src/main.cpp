@@ -111,12 +111,27 @@ int main(void) {
     MX_FDCAN1_Init();
     MX_TIM4_Init();
     /* USER CODE BEGIN 2 */
-    putm_ev_can::CanDriver can_m;
-    Adc_state adc_state = POWER_DOWN_MODE;
-    if(!ADS114S08::init())
+    // Initialize CAN
+    putm_ev_can::CanDriver can_m{};
+
+    // Initialize ADC
+    Adc_state adc_state{POWER_DOWN_MODE};
+    ADS114S08::Instance ads114s08{};
+    if(!ads114s08.init())
         adc_state = STANDBY_MODE;
 
-    
+    // Bypass PGA
+    ads114s08.config_pga(ADS114S08::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
+                         ADS114S08::PGA_GAIN_Field::GAIN_1);
+
+    // Configure continuous conversion, 200 samples per second datarate and adc
+    // internal clock
+    ads114s08.config_datarate(
+        ADS114S08::DR_SEL_Field::SEL_200_SPS,
+        ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
+        ADS114S08::DR_CLK_Field::INTERNAL_4_096MHZ);
+
+    adc_state = CONTINUOUS_CONVERSION_MODE;
 
     /* USER CODE END 2 */
 
