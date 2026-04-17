@@ -1,11 +1,9 @@
 #pragma once
 
-#include "ADS114S08_config.h"
 #include <cstdint>
 
-extern "C" {
-
-#include "stm32g0xx_hal.h"
+#include "gpio.h"
+#include "spi.h"
 
 namespace ADS114S08 {
 
@@ -320,21 +318,41 @@ enum class SYS_TIMEOUT : uint8_t {
     ENABLE = 1,
 };
 
-HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
-HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
-HAL_StatusTypeDef data_read(uint16_t* data);
-HAL_StatusTypeDef data_read_IT(uint16_t* data);
-
-HAL_StatusTypeDef put_to_sleep();
-HAL_StatusTypeDef start_by_command();
-HAL_StatusTypeDef stop_by_command();
-HAL_StatusTypeDef wake_up_the_device();
-HAL_StatusTypeDef reset_device_to_default_settings();
-HAL_StatusTypeDef self_offset_calibration();
-HAL_StatusTypeDef system_gain_calibration();
-
-class Instance {
+class Driver {
   public:
+    Driver() = default;
+    int init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
+             uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
+             GPIO_TypeDef* rst_port, uint16_t rst_pin);
+    void select_channel(INPMUX_Field muxp, INPMUX_Field muxn);
+    void config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
+    void config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
+    void start_conversions();
+    uint16_t decode_data();
+
+    HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
+    HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
+    HAL_StatusTypeDef data_read(uint16_t* data);
+    HAL_StatusTypeDef data_read_IT();
+    HAL_StatusTypeDef put_to_sleep();
+    HAL_StatusTypeDef start_by_command();
+    HAL_StatusTypeDef stop_by_command();
+    HAL_StatusTypeDef wake_up_the_device();
+    HAL_StatusTypeDef reset_device_to_default_settings();
+    HAL_StatusTypeDef self_offset_calibration();
+    HAL_StatusTypeDef system_gain_calibration();
+
+  private:
+    SPI_HandleTypeDef* spi_handle = nullptr;
+    GPIO_TypeDef* start_port = nullptr;
+    uint16_t start_pin = 0;
+    GPIO_TypeDef* drdy_port = nullptr;
+    uint16_t drdy_pin = 0;
+    GPIO_TypeDef* rst_port = nullptr;
+    uint16_t rst_pin = 0;
+
+    uint8_t rx_buffer[3]{0};
+
     ID id;
     STATUS status;
     INPMUX inpmux;
@@ -351,14 +369,7 @@ class Instance {
     FSCAL1 fscal1;
     GPIODAT gpiodat;
     GPIOCON gpiocon;
-
-    int init();
-    void select_channel(INPMUX_Field muxp, INPMUX_Field muxn);
-    void config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
-    void config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
 };
-
-void start_conversions();
 
 // int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
 // int read_link1_back_power_from_antenna(float* power);
@@ -375,4 +386,3 @@ void start_conversions();
 // int read_adc_internal_power_supply(float* power);
 
 } // namespace ADS114S08
-}

@@ -21,6 +21,7 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "stm32g0xx_hal_gpio.h"
 #include "stm32g0xx_hal_spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -42,11 +43,18 @@ class Adc_reading {
 };
 
 enum Adc_state {
-    STANDBY_MODE = 0,
-    SINGLE_CONVERSION_MODE = 1,
-    CONTINUOUS_CONVERSION_MODE = 2,
-    POWER_DOWN_MODE = 3,
+    STANDBY_MODE,
+    SINGLE_CONVERSION_MODE,
+    CONTINUOUS_CONVERSION_MODE,
+    POWER_DOWN_MODE,
 };
+
+enum Adc_data_status {
+    IDLE,
+    READY_TO_READ,
+    DECODE,
+};
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -63,6 +71,8 @@ enum Adc_state {
 
 /* USER CODE BEGIN PV */
 std::array<Adc_reading, 16> adc_readings{{}};
+
+volatile Adc_data_status adc_data_status = IDLE;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -111,13 +121,16 @@ int main(void) {
     MX_FDCAN1_Init();
     MX_TIM4_Init();
     /* USER CODE BEGIN 2 */
+
     // Initialize CAN
     putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
     Adc_state adc_state{POWER_DOWN_MODE};
-    ADS114S08::Instance ads114s08{};
-    if(!ads114s08.init())
+    ADS114S08::Driver ads114s08;
+    if(!ads114s08.init(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
+                       ADC_DRDY_GPIO_Port, ADC_DRDY_Pin, ADC_RST_GPIO_Port,
+                       ADC_RST_Pin))
         adc_state = STANDBY_MODE;
 
     // Bypass PGA
@@ -131,13 +144,37 @@ int main(void) {
         ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
         ADS114S08::DR_CLK_Field::INTERNAL_4_096MHZ);
 
+    ads114s08.start_conversions();
     adc_state = CONTINUOUS_CONVERSION_MODE;
+    uint16_t adc_raw_data{};
 
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while(1) {
+        switch(adc_state) {
+        case CONTINUOUS_CONVERSION_MODE: {
+            switch(adc_data_status) {
+            case IDLE: {
+                break;
+            }
+            case READY_TO_READ: {
+                adc_data_status = IDLE;
+                if(ads114s08.data_read_IT() != HAL_OK) {
+                    // Obiekt nie gotowy do IT (spi locked)
+                }
+                break;
+            }
+            case DECODE: {
+                adc_raw_data = ads114s08.decode_data();
+                adc_data_status = IDLE;
+                break;
+            }
+            }
+        };
+        };
+
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -190,6 +227,19 @@ void SystemClock_Config(void) {
 
 /* USER CODE BEGIN 4 */
 
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
+    if(hspi == &hspi1) {
+        adc_data_status = DECODE;
+    }
+}
+
+void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
+    if(GPIO_Pin == ADC_DRDY_Pin) {
+        if(adc_data_status == IDLE) {
+            adc_data_status = READY_TO_READ;
+        };
+    }
+}
 /* USER CODE END 4 */
 
 /**

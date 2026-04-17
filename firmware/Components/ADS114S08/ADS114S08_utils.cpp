@@ -1,11 +1,27 @@
 #include "ADS114S08.h"
-#include <cstdint>
 
 namespace ADS114S08 {
 
-int Instance::init() {
+int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
+                 uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
+                 GPIO_TypeDef* rst_port, uint16_t rst_pin) {
+    if(spi_handle == nullptr || start_port == nullptr || drdy_port == nullptr ||
+       rst_port == nullptr || start_pin == 0 || drdy_pin == 0 || rst_pin == 0) {
+        return 1;
+    }
+
+    this->spi_handle = spi_handle;
+    this->start_port = start_port;
+    this->start_pin = start_pin;
+    this->drdy_port = drdy_port;
+    this->drdy_pin = drdy_pin;
+    this->rst_port = rst_port;
+    this->rst_pin = rst_pin;
+
     // Check if ADC connected
-    reg_read(ID_ADDR, &this->id.value);
+    if(reg_read(ID_ADDR, &this->id.value) != HAL_OK) {
+        return 1;
+    }
     if(this->id.u.DEV_ID != 0x4) {
         return 1;
     }
@@ -14,13 +30,12 @@ int Instance::init() {
     if(reset_device_to_default_settings() == HAL_ERROR)
         return 1;
 
-    HAL_TIM_Base_Start(TIM);
-    while(__HAL_TIM_GET_COUNTER(TIM) < 4096) {
-        // Reset command delay
-    }
+    HAL_Delay(4);
 
     // Check if ADC reset ok
-    reg_read(STATUS_ADDR, &this->status.value);
+    if(reg_read(STATUS_ADDR, &this->status.value) != HAL_OK) {
+        return 1;
+    }
     if(this->status.value != REG_STATUS_DEFAULT) {
         return 1;
     }
@@ -44,35 +59,38 @@ int Instance::init() {
     reg_read(GPIODAT_ADDR, &this->gpiodat.value);
     reg_read(GPIOCON_ADDR, &this->gpiocon.value);
 
-    return 1;
+    return 0;
 }
 
-void Instance::select_channel(INPMUX_Field muxp, INPMUX_Field muxn) {
+void Driver::select_channel(INPMUX_Field muxp, INPMUX_Field muxn) {
     this->inpmux.u.MUXN = static_cast<uint8_t>(muxn);
     this->inpmux.u.MUXP = static_cast<uint8_t>(muxp);
     reg_write(INPMUX_ADDR, this->inpmux.value);
 }
 
-void start_conversions() {
-    HAL_GPIO_WritePin(START_PORT, START_PIN, GPIO_PIN_SET);
-    HAL_TIM_Base_Start(TIM);
-    while(__HAL_TIM_GET_COUNTER(TIM) < 4) {
-    }
-    HAL_GPIO_WritePin(START_PORT, START_PIN, GPIO_PIN_RESET);
+void Driver::start_conversions() {
+    HAL_GPIO_WritePin(this->start_port, this->start_pin, GPIO_PIN_SET);
+    HAL_Delay(1);
+    HAL_GPIO_WritePin(this->start_port, this->start_pin, GPIO_PIN_RESET);
 }
 
-void Instance::config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain) {
+void Driver::config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain) {
     this->pga.u.GAIN = static_cast<uint8_t>(gain);
     this->pga.u.PGA_EN = static_cast<uint8_t>(pga_en);
     reg_write(PGA_ADDR, pga.value);
 }
 
-void Instance::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
-                               DR_CLK_Field clk) {
+void Driver::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
+                             DR_CLK_Field clk) {
     datarate.u.DR = static_cast<uint8_t>(dr);
     datarate.u.MODE = static_cast<uint8_t>(mode);
     datarate.u.CLK = static_cast<uint8_t>(clk);
     reg_write(DATARATE_ADDR, datarate.value);
+}
+
+uint16_t Driver::decode_data() {
+    uint16_t data = (this->rx_buffer[1] << 8) | this->rx_buffer[2];
+    return data;
 }
 
 } // namespace ADS114S08
