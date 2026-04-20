@@ -123,7 +123,7 @@ int main(void) {
     /* USER CODE BEGIN 2 */
 
     // Initialize CAN
-    putm_ev_can::CanDriver can_m{};
+    // putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
     Adc_state adc_state{POWER_DOWN_MODE};
@@ -160,10 +160,8 @@ int main(void) {
                 break;
             }
             case READY_TO_READ: {
+                ads114s08.data_read_IT();
                 adc_data_status = IDLE;
-                if(ads114s08.data_read_IT() != HAL_OK) {
-                    // Obiekt nie gotowy do IT (spi locked)
-                }
                 break;
             }
             case DECODE: {

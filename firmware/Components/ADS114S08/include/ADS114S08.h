@@ -324,7 +324,8 @@ class Driver {
     int init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
              uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
              GPIO_TypeDef* rst_port, uint16_t rst_pin);
-    void select_channel(INPMUX_Field muxp, INPMUX_Field muxn);
+    void select_differential(INPMUX_Field muxp, INPMUX_Field muxn);
+    void select_single_ended(INPMUX_Field muxp);
     void config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
     void config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
     void start_conversions();

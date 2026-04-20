@@ -5,6 +5,7 @@ namespace ADS114S08 {
 int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
                  uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
                  GPIO_TypeDef* rst_port, uint16_t rst_pin) {
+
     if(spi_handle == nullptr || start_port == nullptr || drdy_port == nullptr ||
        rst_port == nullptr || start_pin == 0 || drdy_pin == 0 || rst_pin == 0) {
         return 1;
@@ -19,7 +20,7 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
     this->rst_pin = rst_pin;
 
     // Check if ADC connected
-    if(reg_read(ID_ADDR, &this->id.value) != HAL_OK) {
+    if(this->reg_read(ID_ADDR, &this->id.value) != HAL_OK) {
         return 1;
     }
     if(this->id.u.DEV_ID != 0x4) {
@@ -27,13 +28,13 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
     }
 
     // Reset ADC to default settings
-    if(reset_device_to_default_settings() == HAL_ERROR)
+    if(this->reset_device_to_default_settings() == HAL_ERROR)
         return 1;
 
     HAL_Delay(4);
 
     // Check if ADC reset ok
-    if(reg_read(STATUS_ADDR, &this->status.value) != HAL_OK) {
+    if(this->reg_read(STATUS_ADDR, &this->status.value) != HAL_OK) {
         return 1;
     }
     if(this->status.value != REG_STATUS_DEFAULT) {
@@ -41,31 +42,35 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
     }
 
     // Clear power-on-reset flag
-    reg_write(STATUS_ADDR, 0x00);
+    this->reg_write(STATUS_ADDR, 0x00);
 
     // Read all registers for verification
-    reg_read(INPMUX_ADDR, &this->inpmux.value);
-    reg_read(PGA_ADDR, &this->pga.value);
-    reg_read(DATARATE_ADDR, &this->datarate.value);
-    reg_read(REF_ADDR, &this->ref.value);
-    reg_read(IDACMAG_ADDR, &this->idacmag.value);
-    reg_read(IDACMUX_ADDR, &this->idacmux.value);
-    reg_read(VBIAS_ADDR, &this->vbias.value);
-    reg_read(SYS_ADDR, &this->sys.value);
-    reg_read(OFCAL0_ADDR, &this->ofcal0.value);
-    reg_read(OFCAL1_ADDR, &this->ofcal1.value);
-    reg_read(FSCAL0_ADDR, &this->fscal0.value);
-    reg_read(FSCAL1_ADDR, &this->fscal1.value);
-    reg_read(GPIODAT_ADDR, &this->gpiodat.value);
-    reg_read(GPIOCON_ADDR, &this->gpiocon.value);
+    this->reg_read(INPMUX_ADDR, &this->inpmux.value);
+    this->reg_read(PGA_ADDR, &this->pga.value);
+    this->reg_read(DATARATE_ADDR, &this->datarate.value);
+    this->reg_read(REF_ADDR, &this->ref.value);
+    this->reg_read(IDACMAG_ADDR, &this->idacmag.value);
+    this->reg_read(IDACMUX_ADDR, &this->idacmux.value);
+    this->reg_read(VBIAS_ADDR, &this->vbias.value);
+    this->reg_read(SYS_ADDR, &this->sys.value);
+    this->reg_read(OFCAL0_ADDR, &this->ofcal0.value);
+    this->reg_read(OFCAL1_ADDR, &this->ofcal1.value);
+    this->reg_read(FSCAL0_ADDR, &this->fscal0.value);
+    this->reg_read(FSCAL1_ADDR, &this->fscal1.value);
+    this->reg_read(GPIODAT_ADDR, &this->gpiodat.value);
+    this->reg_read(GPIOCON_ADDR, &this->gpiocon.value);
 
     return 0;
 }
 
-void Driver::select_channel(INPMUX_Field muxp, INPMUX_Field muxn) {
+void Driver::select_differential(INPMUX_Field muxp, INPMUX_Field muxn) {
     this->inpmux.u.MUXN = static_cast<uint8_t>(muxn);
     this->inpmux.u.MUXP = static_cast<uint8_t>(muxp);
-    reg_write(INPMUX_ADDR, this->inpmux.value);
+    this->reg_write(INPMUX_ADDR, this->inpmux.value);
+}
+
+void Driver::select_single_ended(INPMUX_Field muxp) {
+    this->select_differential(muxp, INPMUX_Field::AINCOM);
 }
 
 void Driver::start_conversions() {
