@@ -55,6 +55,7 @@ void EXTI2_3_IRQHandler(void);
 void TIM3_TIM4_IRQHandler(void);
 void TIM16_FDCAN_IT0_IRQHandler(void);
 void TIM17_FDCAN_IT1_IRQHandler(void);
+void SPI1_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */

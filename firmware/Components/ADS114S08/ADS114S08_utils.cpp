@@ -19,70 +19,79 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
     this->rst_port = rst_port;
     this->rst_pin = rst_pin;
 
+    // Bring ADC out of reset
+    HAL_GPIO_WritePin(rst_port, rst_pin, GPIO_PIN_RESET);
+    HAL_Delay(5); // Wait for ADC to power up and initialize
+    HAL_GPIO_WritePin(rst_port, rst_pin, GPIO_PIN_SET);
+    HAL_Delay(10); // td(RSSC) after reset
+
     // Check if ADC connected
-    if(this->reg_read(ID_ADDR, &this->id.value) != HAL_OK) {
+    if(reg_read(ID_ADDR, &id.value) != HAL_OK) {
         return 1;
     }
-    if(this->id.u.DEV_ID != 0x4) {
+    if(id.u.DEV_ID != 0x4) {
         return 1;
     }
 
     // Reset ADC to default settings
-    if(this->reset_device_to_default_settings() == HAL_ERROR)
+    if(reset_device_to_default_settings() == HAL_ERROR)
         return 1;
 
     HAL_Delay(4);
 
     // Check if ADC reset ok
-    if(this->reg_read(STATUS_ADDR, &this->status.value) != HAL_OK) {
+    if(reg_read(STATUS_ADDR, &status.value) != HAL_OK) {
         return 1;
     }
-    if(this->status.value != REG_STATUS_DEFAULT) {
+    if(status.value != REG_STATUS_DEFAULT) {
         return 1;
     }
 
     // Clear power-on-reset flag
-    this->reg_write(STATUS_ADDR, 0x00);
+    reg_write(STATUS_ADDR, 0x00);
 
     // Read all registers for verification
-    this->reg_read(INPMUX_ADDR, &this->inpmux.value);
-    this->reg_read(PGA_ADDR, &this->pga.value);
-    this->reg_read(DATARATE_ADDR, &this->datarate.value);
-    this->reg_read(REF_ADDR, &this->ref.value);
-    this->reg_read(IDACMAG_ADDR, &this->idacmag.value);
-    this->reg_read(IDACMUX_ADDR, &this->idacmux.value);
-    this->reg_read(VBIAS_ADDR, &this->vbias.value);
-    this->reg_read(SYS_ADDR, &this->sys.value);
-    this->reg_read(OFCAL0_ADDR, &this->ofcal0.value);
-    this->reg_read(OFCAL1_ADDR, &this->ofcal1.value);
-    this->reg_read(FSCAL0_ADDR, &this->fscal0.value);
-    this->reg_read(FSCAL1_ADDR, &this->fscal1.value);
-    this->reg_read(GPIODAT_ADDR, &this->gpiodat.value);
-    this->reg_read(GPIOCON_ADDR, &this->gpiocon.value);
+    reg_read(STATUS_ADDR, &status.value);
+    reg_read(INPMUX_ADDR, &inpmux.value);
+    reg_read(PGA_ADDR, &pga.value);
+    reg_read(DATARATE_ADDR, &datarate.value);
+    reg_read(REF_ADDR, &ref.value);
+    reg_read(IDACMAG_ADDR, &idacmag.value);
+    reg_read(IDACMUX_ADDR, &idacmux.value);
+    reg_read(VBIAS_ADDR, &vbias.value);
+    reg_read(SYS_ADDR, &sys.value);
+    reg_read(OFCAL0_ADDR, &ofcal0.value);
+    reg_read(OFCAL1_ADDR, &ofcal1.value);
+    reg_read(FSCAL0_ADDR, &fscal0.value);
+    reg_read(FSCAL1_ADDR, &fscal1.value);
+    reg_read(GPIODAT_ADDR, &gpiodat.value);
+    reg_read(GPIOCON_ADDR, &gpiocon.value);
 
+    state = STANDBY_MODE;
     return 0;
 }
 
 void Driver::select_differential(INPMUX_Field muxp, INPMUX_Field muxn) {
-    this->inpmux.u.MUXN = static_cast<uint8_t>(muxn);
-    this->inpmux.u.MUXP = static_cast<uint8_t>(muxp);
-    this->reg_write(INPMUX_ADDR, this->inpmux.value);
+    inpmux.u.MUXN = static_cast<uint8_t>(muxn);
+    inpmux.u.MUXP = static_cast<uint8_t>(muxp);
+    reg_write(INPMUX_ADDR, inpmux.value);
+    reg_read(INPMUX_ADDR, &inpmux.value);
 }
 
 void Driver::select_single_ended(INPMUX_Field muxp) {
-    this->select_differential(muxp, INPMUX_Field::AINCOM);
+    select_differential(muxp, INPMUX_Field::AINCOM);
 }
 
 void Driver::start_conversions() {
-    HAL_GPIO_WritePin(this->start_port, this->start_pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(start_port, start_pin, GPIO_PIN_SET);
     HAL_Delay(1);
-    HAL_GPIO_WritePin(this->start_port, this->start_pin, GPIO_PIN_RESET);
 }
 
 void Driver::config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain) {
-    this->pga.u.GAIN = static_cast<uint8_t>(gain);
-    this->pga.u.PGA_EN = static_cast<uint8_t>(pga_en);
+    pga.u.GAIN = static_cast<uint8_t>(gain);
+    pga.u.PGA_EN = static_cast<uint8_t>(pga_en);
     reg_write(PGA_ADDR, pga.value);
+    reg_read(PGA_ADDR, &pga.value);
 }
 
 void Driver::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
@@ -91,10 +100,11 @@ void Driver::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
     datarate.u.MODE = static_cast<uint8_t>(mode);
     datarate.u.CLK = static_cast<uint8_t>(clk);
     reg_write(DATARATE_ADDR, datarate.value);
+    reg_read(DATARATE_ADDR, &datarate.value);
 }
 
-uint16_t Driver::decode_data() {
-    uint16_t data = (this->rx_buffer[1] << 8) | this->rx_buffer[2];
+uint16_t Driver::data_decode_IT() {
+    uint16_t data = (rx_buffer[1] << 8) | rx_buffer[2];
     return data;
 }
 

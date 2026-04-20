@@ -21,8 +21,6 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
-#include "stm32g0xx_hal_gpio.h"
-#include "stm32g0xx_hal_spi.h"
 #include "tim.h"
 #include "usart.h"
 
@@ -42,16 +40,10 @@ class Adc_reading {
     float value;
 };
 
-enum Adc_state {
-    STANDBY_MODE,
-    SINGLE_CONVERSION_MODE,
-    CONTINUOUS_CONVERSION_MODE,
-    POWER_DOWN_MODE,
-};
-
 enum Adc_data_status {
     IDLE,
     READY_TO_READ,
+    READING,
     DECODE,
 };
 
@@ -72,7 +64,7 @@ enum Adc_data_status {
 /* USER CODE BEGIN PV */
 std::array<Adc_reading, 16> adc_readings{{}};
 
-volatile Adc_data_status adc_data_status = IDLE;
+volatile Adc_data_status adc_data_status{IDLE};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -120,18 +112,19 @@ int main(void) {
     MX_USART1_UART_Init();
     MX_FDCAN1_Init();
     MX_TIM4_Init();
+    MX_SPI1_Init();
+
     /* USER CODE BEGIN 2 */
 
     // Initialize CAN
     // putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
-    Adc_state adc_state{POWER_DOWN_MODE};
     ADS114S08::Driver ads114s08;
-    if(!ads114s08.init(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
-                       ADC_DRDY_GPIO_Port, ADC_DRDY_Pin, ADC_RST_GPIO_Port,
-                       ADC_RST_Pin))
-        adc_state = STANDBY_MODE;
+
+    ads114s08.init(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
+                   ADC_DRDY_GPIO_Port, ADC_DRDY_Pin, ADC_RST_GPIO_Port,
+                   ADC_RST_Pin);
 
     // Bypass PGA
     ads114s08.config_pga(ADS114S08::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
@@ -144,8 +137,9 @@ int main(void) {
         ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
         ADS114S08::DR_CLK_Field::INTERNAL_4_096MHZ);
 
+    ads114s08.select_single_ended(ADS114S08::INPMUX_Field::AIN0);
     ads114s08.start_conversions();
-    adc_state = CONTINUOUS_CONVERSION_MODE;
+
     uint16_t adc_raw_data{};
 
     /* USER CODE END 2 */
@@ -153,29 +147,35 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while(1) {
-        switch(adc_state) {
-        case CONTINUOUS_CONVERSION_MODE: {
+        /* USER CODE END WHILE */
+
+        /* USER CODE BEGIN 3 */
+        switch(ads114s08.state) {
+        case ADS114S08::Driver::CONTINUOUS_CONVERSION_MODE: {
             switch(adc_data_status) {
             case IDLE: {
                 break;
             }
             case READY_TO_READ: {
-                ads114s08.data_read_IT();
-                adc_data_status = IDLE;
+                if(ads114s08.data_read_IT() == HAL_OK) {
+                    adc_data_status = READING;
+                }
+                break;
+            }
+            case READING: {
                 break;
             }
             case DECODE: {
-                adc_raw_data = ads114s08.decode_data();
+                adc_raw_data = ads114s08.data_decode_IT();
                 adc_data_status = IDLE;
                 break;
             }
             }
-        };
-        };
-
-        /* USER CODE END WHILE */
-
-        /* USER CODE BEGIN 3 */
+            break;
+        }
+        default:
+            break;
+        }
     }
     /* USER CODE END 3 */
 }

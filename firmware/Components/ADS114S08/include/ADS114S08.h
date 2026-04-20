@@ -329,7 +329,7 @@ class Driver {
     void config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
     void config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
     void start_conversions();
-    uint16_t decode_data();
+    uint16_t data_decode_IT();
 
     HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
     HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
@@ -343,14 +343,25 @@ class Driver {
     HAL_StatusTypeDef self_offset_calibration();
     HAL_StatusTypeDef system_gain_calibration();
 
+    enum State {
+        POWER_DOWN_MODE,
+        STANDBY_MODE,
+        SINGLE_CONVERSION_MODE,
+        CONTINUOUS_CONVERSION_MODE,
+    };
+
+    State state{POWER_DOWN_MODE};
+
   private:
-    SPI_HandleTypeDef* spi_handle = nullptr;
-    GPIO_TypeDef* start_port = nullptr;
-    uint16_t start_pin = 0;
-    GPIO_TypeDef* drdy_port = nullptr;
-    uint16_t drdy_pin = 0;
-    GPIO_TypeDef* rst_port = nullptr;
-    uint16_t rst_pin = 0;
+    static constexpr uint32_t SPI_TIMEOUT{100};
+
+    SPI_HandleTypeDef* spi_handle{nullptr};
+    GPIO_TypeDef* start_port{nullptr};
+    uint16_t start_pin{0};
+    GPIO_TypeDef* drdy_port{nullptr};
+    uint16_t drdy_pin{0};
+    GPIO_TypeDef* rst_port{nullptr};
+    uint16_t rst_pin{0};
 
     uint8_t rx_buffer[3]{0};
 
@@ -372,18 +383,5 @@ class Driver {
     GPIOCON gpiocon;
 };
 
-// int read_channel_data(uint32_t* d_status, uint32_t* d_crc, int* i_data);
-// int read_link1_back_power_from_antenna(float* power);
-// int read_link1_transmitting_power(float* power);
-// int read_anlg1_in1(float* power);
-// int read_anlg1_in2(float* power);
-// int read_link2_back_power_from_antenna(float* power);
-// int read_link2_transmitting_power(float* power);
-// int read_12v_input_voltage(float* power);
-// int read_5v_output_of_5v_dc_dc(float* power);
-// int read_3_7v_dc_dc(float* power);
-// int read_gbe_switch1_1v_core_voltage(float* power);
-// int read_adc_internal_temperature(float* temperature);
-// int read_adc_internal_power_supply(float* power);
 
 } // namespace ADS114S08

@@ -57,19 +57,19 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define ADC_SPI_SCK_Pin GPIO_PIN_1
-#define ADC_SPI_SCK_GPIO_Port GPIOA
 #define ADC_RST_Pin GPIO_PIN_2
 #define ADC_RST_GPIO_Port GPIOA
 #define ADC_DRDY_Pin GPIO_PIN_3
 #define ADC_DRDY_GPIO_Port GPIOA
 #define ADC_DRDY_EXTI_IRQn EXTI2_3_IRQn
-#define ADC_SPI_NSS_Pin GPIO_PIN_4
-#define ADC_SPI_NSS_GPIO_Port GPIOA
+#define ADC_SPI_SCK_Pin GPIO_PIN_5
+#define ADC_SPI_SCK_GPIO_Port GPIOA
 #define ADC_SPI_MISO_Pin GPIO_PIN_6
 #define ADC_SPI_MISO_GPIO_Port GPIOA
 #define ADC_SPI_MOSI_Pin GPIO_PIN_7
 #define ADC_SPI_MOSI_GPIO_Port GPIOA
+#define ADC_SPI_CS_Pin GPIO_PIN_0
+#define ADC_SPI_CS_GPIO_Port GPIOB
 #define ADC_START_Pin GPIO_PIN_1
 #define ADC_START_GPIO_Port GPIOB
 #define CAN_RX_Pin GPIO_PIN_11
