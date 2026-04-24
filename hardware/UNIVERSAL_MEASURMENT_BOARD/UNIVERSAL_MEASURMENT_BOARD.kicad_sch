@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "92c00310-4384-4ef3-9368-efad75526047")
@@ -7,7 +7,7 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-03-26")
-		(rev "1.9.21")
+		(rev "1.11.22")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 		(comment 3 "Reviewed by Piotr Witt")

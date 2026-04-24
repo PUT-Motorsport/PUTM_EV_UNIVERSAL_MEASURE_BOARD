@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "8540949f-db8f-4276-a8ca-5852f73e7222")
@@ -7,7 +7,7 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-03-26")
-		(rev "1.9.21")
+		(rev "1.11.22")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 		(comment 3 "Reviewed by Piotr Witt")
@@ -6122,7 +6122,7 @@
 		)
 		(uuid "98cadeee-a844-4037-8137-34636531722f")
 	)
-	(text "R6 EV: 671.9kR"
+	(text "R6 EV: 812.5kR"
 		(exclude_from_sim no)
 		(at 85.725 172.72 0)
 		(effects
@@ -6283,7 +6283,7 @@
 		)
 		(uuid "d11aebca-a614-49c6-9679-d5dca6f439a6")
 	)
-	(text "R8 EV: 73.6kR"
+	(text "R8 EV: 183.1kR"
 		(exclude_from_sim no)
 		(at 94.615 193.04 0)
 		(effects
@@ -12650,7 +12650,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "73.2kR"
+		(property "Value" "182kR"
 			(at 96.52 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16612,7 +16612,7 @@
 				)
 			)
 		)
-		(property "Value" "681kR"
+		(property "Value" "806kR"
 			(at 85.725 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)

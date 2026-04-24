@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f3f7600e-cb9b-44e6-85a5-15c80e17a6dc")
@@ -7,7 +7,7 @@
 	(title_block
 		(title "Universal Measurment Board")
 		(date "2026-03-26")
-		(rev "1.9.21")
+		(rev "1.11.22")
 		(company "PUT Motorsport Formula Student Team")
 		(comment 1 "Designed by Marcin Trzmiel under")
 		(comment 3 "Reviewed by Piotr Witt")
@@ -2061,7 +2061,7 @@
 					(alternate "UCPD1_DBCC2" bidirectional line)
 					(alternate "USART1_RX" bidirectional line)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 16.51 8.89 180)
 					(length 2.54)
 					(name "PA11"
@@ -2093,7 +2093,7 @@
 					(alternate "USART1_NSS" bidirectional line)
 					(alternate "USB_DM" bidirectional line)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 16.51 6.35 180)
 					(length 2.54)
 					(name "PA12"
@@ -2246,7 +2246,7 @@
 					(alternate "UART4_RTS" bidirectional line)
 					(alternate "USART2_RX" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at -19.05 -11.43 0)
 					(length 2.54)
 					(name "PC10"
@@ -2274,7 +2274,7 @@
 					(alternate "UART4_TX" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at -19.05 -13.97 0)
 					(length 2.54)
 					(name "PC11"
@@ -4505,6 +4505,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fdebf7-06b4-4853-b577-04c25ea7832a")
+	)
+	(wire
+		(pts
 			(xy 107.95 51.435) (xy 107.95 53.34)
 		)
 		(stroke
@@ -4915,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5278d2c-e254-4b13-8d5b-e4d50994b6e2")
+	)
+	(wire
+		(pts
 			(xy 208.28 67.31) (xy 220.98 67.31)
 		)
 		(stroke
@@ -4952,16 +4972,6 @@
 			(type default)
 		)
 		(uuid "d3015aa4-7d7e-44f2-9e9c-b22887b7a6e1")
-	)
-	(wire
-		(pts
-			(xy 88.9 109.22) (xy 90.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a91c17-e8b9-4a1f-81e5-e15b6e33b436")
 	)
 	(wire
 		(pts
@@ -5035,16 +5045,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 90.17 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7949a2-3465-486d-b02f-5056187f9736")
-	)
-	(wire
-		(pts
 			(xy 88.9 66.04) (xy 90.17 66.04)
 		)
 		(stroke
@@ -5073,6 +5073,17 @@
 			(justify left)
 		)
 		(uuid "0dac1a60-1e26-4d71-84b0-6fd3a022d05b")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15e67d11-5337-4169-966b-3f311183f7d2")
 	)
 	(hierarchical_label "PGACS"
 		(shape output)
@@ -5250,17 +5261,6 @@
 		)
 		(uuid "80e905c7-6a80-41d8-b611-9e4f2101eae8")
 	)
-	(hierarchical_label "CAN_TX"
-		(shape output)
-		(at 88.9 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "883c1bd3-6732-4920-b690-5c19838a7645")
-	)
 	(hierarchical_label "SWDIO"
 		(shape output)
 		(at 127 93.98 0)
@@ -5296,14 +5296,14 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 88.9 111.76 180)
+		(at 127 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "eb040074-aaae-4d7b-9da6-1b9c7f426ce1")
+		(uuid "bf469279-64a3-4847-ba64-bc57dbe1aacd")
 	)
 	(hierarchical_label "ADDR2"
 		(shape output)

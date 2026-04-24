@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -211,6 +211,22 @@
         ],
         [
           "silk_overlap|97965270|107553583|b2838540-6e6b-44f5-b978-60b9fd10919d|b3f88437-839d-46f4-9774-375f971e716f",
+          ""
+        ],
+        [
+          "starved_thermal|74807270|91553583|7bf004f7-780b-407b-8c5c-633a6efc4bc0|f5830e7c-b4e6-4609-b69d-264f1b463976|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|77295270|82565583|7bf004f7-780b-407b-8c5c-633a6efc4bc0|db1feedd-0a42-4311-a76d-4f8f1f96bcf5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|83795270|94041583|7bf004f7-780b-407b-8c5c-633a6efc4bc0|9d256d4b-4fd8-4ef2-a6b2-1245e5f2638a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|86283270|85053583|7bf004f7-780b-407b-8c5c-633a6efc4bc0|b76ccc9b-6d9d-4c8f-beed-8fb0d561e970|F.Cu",
           ""
         ],
         [
@@ -574,6 +590,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -697,11 +714,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "1.11.22"
     },
     "layer_pairs": [],
     "layer_presets": [],
