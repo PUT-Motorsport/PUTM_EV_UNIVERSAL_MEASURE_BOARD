@@ -948,8 +948,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U17"
-				(at 0 6.35 0)
+			(property "Reference" "D"
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -959,7 +959,7 @@
 				)
 			)
 			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1090,7 +1090,7 @@
 				)
 			)
 			(symbol "ESDS304DBVR_1_1"
-				(pin no_connect line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
@@ -1223,2113 +1223,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_1_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_1_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_1_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_1_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_2_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_2_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_2_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_2_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U16"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_3_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_3_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_3_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_3_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U17"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_4_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_4_1_1"
-				(pin no_connect line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_4_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_4_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_4_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U17"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_5_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_5_1_1"
-				(pin no_connect line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_5_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_5_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_5_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U16"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_6_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_6_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_6_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_6_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_6_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDS304DBVR_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U16"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESDS304DBVR"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-				(at 0.635 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-ESDS304DBVR"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDS304DBVR"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ESDS304DBVR_7_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_7_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_7_2_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_7_3_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESDS304DBVR_7_4_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
@@ -7909,7 +5802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "012d883e-d100-4c3c-97b3-69b702d493d9")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0151"
 			(at 126.365 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +5862,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0105")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -7986,7 +5879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0204e5df-5cad-4322-a668-4f2dcffd66e7")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0111"
 			(at 320.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8046,8 +5939,168 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0161")
+					(reference "#PWR0111")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 86.995 210.82 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "080e01d6-417a-40d5-87a6-1aed2a0dc575")
+		(property "Reference" "D21"
+			(at 86.995 205.105 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 86.995 207.645 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 111.125 305.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 111.125 405.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 87.63 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 111.125 605.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 111.125 705.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 111.125 805.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 111.125 905.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 111.125 1005.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "4918ad4a-b971-4df4-bd68-083dc26ec0b9")
+		)
+		(pin "1"
+			(uuid "8408950f-63a7-4758-ac46-01631dc8c4b4")
+		)
+		(pin "2"
+			(uuid "de3cdf9b-c172-423c-a9b9-5dbd515b8a5c")
+		)
+		(pin "3"
+			(uuid "a312ec16-12c9-4b59-9fd6-c8dd18d1d858")
+		)
+		(pin "2"
+			(uuid "60c02951-d5e5-44d2-a27a-a91242811c9b")
+		)
+		(pin "2"
+			(uuid "9e1b3af2-b017-49cc-bfcd-8bee9290b002")
+		)
+		(pin "5"
+			(uuid "2b0f8fa1-6730-40ce-a55e-6bb1d20cd914")
+		)
+		(pin "4"
+			(uuid "80b5402c-c380-4ba3-bd5a-296d4e8279fe")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D21")
+					(unit 4)
 				)
 			)
 		)
@@ -8073,7 +6126,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 123.825 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8143,7 +6196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f8cb50a-e1fb-4b2a-83f8-9c754e7a9f15")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 313.055 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,7 +6322,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8286,7 +6339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15f386a7-11de-4ff1-a0f8-4909c302bdec")
-		(property "Reference" "F5"
+		(property "Reference" "F8"
 			(at 123.825 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 123.825 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,7 +6401,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F5")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -8366,7 +6419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f7ea33-abc2-4cfc-a7ba-1fb9395b69af")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 224.79 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,7 +6480,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8445,7 +6498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16e2e02a-a997-420f-80e5-a44a2382b10c")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0115"
 			(at 150.495 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +6558,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0110")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -8522,7 +6575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2001743e-1731-495d-80fd-c7601c1487d0")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0128"
 			(at 241.935 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8582,7 +6635,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0136")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -8600,7 +6653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2151819b-d42d-4b5a-8cc5-0c59678d620e")
-		(property "Reference" "D16"
+		(property "Reference" "D6"
 			(at 289.56 76.8349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8726,7 +6779,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D16")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8744,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22bac5ca-9e0e-45b5-ae43-e8a098c8be8c")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0122"
 			(at 309.88 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8804,7 +6857,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0137")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -8821,7 +6874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2658ccf0-2c2b-43d1-8331-bdb0528ca811")
-		(property "Reference" "F8"
+		(property "Reference" "F5"
 			(at 191.77 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,7 +6884,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 191.77 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +6936,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F8")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -8901,7 +6954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2827f886-99dc-455f-90e8-ea4c2cd4a2a0")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0133"
 			(at 106.045 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8961,7 +7014,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0103")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -8979,7 +7032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b12a8ac-c435-4ff0-bab0-09804aea20bd")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0141"
 			(at 286.385 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9039,7 +7092,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0135")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -9057,7 +7110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5fbfa2-99f4-4f80-a708-4551ff8c54b6")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0116"
 			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9117,8 +7170,168 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0113")
+					(reference "#PWR0116")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 114.935 220.345 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa25991-d574-4d5d-a68c-8709c4fa6f41")
+		(property "Reference" "D20"
+			(at 114.935 213.995 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 114.935 216.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 139.065 315.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 139.065 415.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 115.57 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.065 615.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 139.065 715.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 139.065 815.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.065 915.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 139.065 1015.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ec4aec25-2017-42a1-8178-e0830c83b1af")
+		)
+		(pin "4"
+			(uuid "9a98fbc9-7591-4330-80a9-f0471ca057c7")
+		)
+		(pin "1"
+			(uuid "e0d67151-7ec9-40ae-8fb5-65c83152a7cd")
+		)
+		(pin "2"
+			(uuid "e1c3d75f-23cd-46c7-b7f4-6a2e9224662c")
+		)
+		(pin "2"
+			(uuid "6b0de871-32ed-42a2-a6e3-f7b34f7bade2")
+		)
+		(pin "3"
+			(uuid "cb5e38af-cf65-440a-8867-3bace5613b0c")
+		)
+		(pin "2"
+			(uuid "45432235-ba71-4caa-92f0-de21f88d3502")
+		)
+		(pin "5"
+			(uuid "68c805c8-ac23-4768-98d8-f4e85c4111f2")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D20")
+					(unit 2)
 				)
 			)
 		)
@@ -9144,7 +7357,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 327.66 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363f71a1-3fa6-4df4-8fa0-338c64fe2e62")
-		(property "Reference" "D6"
+		(property "Reference" "D15"
 			(at 109.22 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +7553,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D6")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9358,7 +7571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b8b466-1419-4880-b96f-6652e4cf6cf4")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0132"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +7631,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR097")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -9435,7 +7648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3975250e-50f7-4032-908c-5a0c12ecbe3c")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0126"
 			(at 173.99 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9495,7 +7708,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0128")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -9512,7 +7725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a156e73-7912-4630-b0b9-15ce1b7ee8ee")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0131"
 			(at 320.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9572,7 +7785,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0141")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -9589,7 +7802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a5f45d9-6f5e-4fab-b959-024a51b87507")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0152"
 			(at 78.105 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -9649,7 +7862,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR095")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -9811,7 +8024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3abde63b-3bd9-40e6-81d7-3a657096bd69")
-		(property "Reference" "D4"
+		(property "Reference" "D11"
 			(at 85.725 123.8249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,7 +8150,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D4")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9954,7 +8167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d705635-ea33-4e8f-9756-0daed8c57616")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0110"
 			(at 309.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10014,8 +8227,168 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0158")
+					(reference "#PWR0110")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 114.935 200.66 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff2e976-87f1-422c-b80a-a6f0deed5042")
+		(property "Reference" "D20"
+			(at 114.935 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 114.935 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 139.065 295.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 139.065 395.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 115.57 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.065 595.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 139.065 695.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 139.065 795.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.065 895.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 139.065 995.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ec4aec25-2017-42a1-8178-e0830c83b1b0")
+		)
+		(pin "4"
+			(uuid "9a98fbc9-7591-4330-80a9-f0471ca057c8")
+		)
+		(pin "1"
+			(uuid "e0d67151-7ec9-40ae-8fb5-65c83152a7ce")
+		)
+		(pin "2"
+			(uuid "e1c3d75f-23cd-46c7-b7f4-6a2e9224662d")
+		)
+		(pin "2"
+			(uuid "6b0de871-32ed-42a2-a6e3-f7b34f7bade3")
+		)
+		(pin "3"
+			(uuid "cb5e38af-cf65-440a-8867-3bace5613b0d")
+		)
+		(pin "2"
+			(uuid "45432235-ba71-4caa-92f0-de21f88d3503")
+		)
+		(pin "5"
+			(uuid "68c805c8-ac23-4768-98d8-f4e85c4111f3")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D20")
+					(unit 4)
 				)
 			)
 		)
@@ -10032,7 +8405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "414dea61-8be4-44b5-a0c8-64b18920aa3e")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 336.55 100.965 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10207,17 +8580,16 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J9")
+					(reference "J4")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ESDS304DBVR_2")
 		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 86.995 220.345 0)
-		(unit 1)
+		(at 114.935 210.82 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10225,9 +8597,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "425c74a7-97fd-47be-a8d7-48742a716951")
-		(property "Reference" "U17"
-			(at 86.995 213.995 0)
+		(uuid "440eee64-c058-439a-acbd-391e18fb2244")
+		(property "Reference" "D21"
+			(at 114.935 205.105 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10237,7 +8609,7 @@
 			)
 		)
 		(property "Value" "ESDS304DBVR"
-			(at 86.995 216.535 0)
+			(at 114.935 207.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10247,7 +8619,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 111.125 315.265 0)
+			(at 139.065 305.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10259,7 +8631,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 111.125 415.265 0)
+			(at 139.065 405.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,7 +8643,7 @@
 			)
 		)
 		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 87.63 201.295 0)
+			(at 115.57 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10282,7 +8654,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 111.125 615.265 0)
+			(at 139.065 605.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,7 +8666,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 111.125 715.265 0)
+			(at 139.065 705.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10306,7 +8678,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 111.125 815.265 0)
+			(at 139.065 805.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10318,7 +8690,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 111.125 915.265 0)
+			(at 139.065 905.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10330,7 +8702,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 111.125 1015.265 0)
+			(at 139.065 1005.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10342,34 +8714,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d4772")
+			(uuid "4918ad4a-b971-4df4-bd68-083dc26ec0ba")
 		)
 		(pin "1"
-			(uuid "fe0802d5-802f-490f-9cf3-4e0627ede9be")
+			(uuid "8408950f-63a7-4758-ac46-01631dc8c4b5")
 		)
 		(pin "2"
-			(uuid "ed234394-3c89-44eb-9f14-e651a1489f75")
+			(uuid "de3cdf9b-c172-423c-a9b9-5dbd515b8a5d")
 		)
 		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc105")
+			(uuid "a312ec16-12c9-4b59-9fd6-c8dd18d1d859")
 		)
 		(pin "2"
-			(uuid "917b9553-1fa4-4ec7-9c1d-cb889109a0c8")
+			(uuid "60c02951-d5e5-44d2-a27a-a91242811c9c")
 		)
 		(pin "2"
-			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb6234")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620758")
+			(uuid "9e1b3af2-b017-49cc-bfcd-8bee9290b003")
 		)
 		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4c00")
+			(uuid "2b0f8fa1-6730-40ce-a55e-6bb1d20cd915")
+		)
+		(pin "4"
+			(uuid "80b5402c-c380-4ba3-bd5a-296d4e8279ff")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U17")
-					(unit 1)
+					(reference "D21")
+					(unit 3)
 				)
 			)
 		)
@@ -10385,7 +8757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "464ba961-22c5-4d0b-abe8-9adf9d43ff81")
-		(property "Reference" "F15"
+		(property "Reference" "F18"
 			(at 259.715 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10395,7 +8767,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 259.715 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10447,7 +8819,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F15")
+					(reference "F18")
 					(unit 1)
 				)
 			)
@@ -10465,7 +8837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e65d35-8328-49a2-84da-8adb55ba36c1")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0148"
 			(at 194.31 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10525,7 +8897,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0123")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -10552,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 259.715 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +8993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e056676-22ef-4078-8af4-fcc6ff2f966a")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 104.775 165.735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10813,7 +9185,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10831,7 +9203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fec5985-8751-4d65-bdaa-abbd6a106e99")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0140"
 			(at 263.525 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10891,7 +9263,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0133")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -10908,7 +9280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "518539ba-fbef-444e-acda-72e61c90b42c")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 224.79 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10969,7 +9341,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10987,7 +9359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a83408-b141-469d-9249-82c1dd330def")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0134"
 			(at 127.635 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11047,7 +9419,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0108")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -11064,7 +9436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55c51d14-953a-46a6-aa33-91a99680885a")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0145"
 			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11124,7 +9496,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR098")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -11141,7 +9513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55d63dde-a3ea-414d-8ada-e81a00d0b84c")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0104"
 			(at 106.045 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11201,7 +9573,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0114")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -11219,7 +9591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "595942a6-848d-44b6-9ff0-32703f40b478")
-		(property "Reference" "D14"
+		(property "Reference" "D9"
 			(at 245.11 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +9717,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D14")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11363,7 +9735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3092c1-59cb-4d10-9f1e-fcd9ad0b67ac")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 153.67 76.8349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11489,7 +9861,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11507,7 +9879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb3caf8-18b2-4316-9ca8-8da8a6abcaed")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 132.715 53.975 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11682,7 +10054,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11699,7 +10071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dbbe02b-af62-49a5-b481-367469dab384")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0125"
 			(at 116.205 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11759,169 +10131,8 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0126")
+					(reference "#PWR0125")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_4")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 114.935 210.82 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "600896f8-bdd0-400f-b657-43a63415f809")
-		(property "Reference" "U17"
-			(at 114.935 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 114.935 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 139.065 305.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 139.065 405.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 115.57 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 139.065 605.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 139.065 705.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 139.065 805.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.065 905.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 139.065 1005.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d476d")
-		)
-		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeed")
-		)
-		(pin "2"
-			(uuid "e5323107-4801-414a-9c86-5fd0b229f6e1")
-		)
-		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc100")
-		)
-		(pin "2"
-			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe8")
-		)
-		(pin "2"
-			(uuid "619de096-4406-497c-b0d2-6826ca2f3b11")
-		)
-		(pin "4"
-			(uuid "cb414d32-a0c7-4a1f-b68f-b0cc48cf4869")
-		)
-		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfb")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U17")
-					(unit 3)
 				)
 			)
 		)
@@ -11937,7 +10148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6529dac4-34ad-47a1-942b-75eccc931cea")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0107"
 			(at 184.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11997,7 +10208,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0116")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -12015,7 +10226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67071471-2a56-401c-a67b-14a8e9fe0b1a")
-		(property "Reference" "D8"
+		(property "Reference" "D12"
 			(at 153.67 123.8249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12141,7 +10352,167 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D8")
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 86.995 220.345 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6799620b-5f1b-4716-acf6-4c23cbb93db0")
+		(property "Reference" "D21"
+			(at 86.995 213.995 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 86.995 216.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 111.125 315.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 111.125 415.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 87.63 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 111.125 615.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 111.125 715.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 111.125 815.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 111.125 915.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 111.125 1015.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "4918ad4a-b971-4df4-bd68-083dc26ec0bb")
+		)
+		(pin "1"
+			(uuid "8408950f-63a7-4758-ac46-01631dc8c4b6")
+		)
+		(pin "2"
+			(uuid "de3cdf9b-c172-423c-a9b9-5dbd515b8a5e")
+		)
+		(pin "3"
+			(uuid "a312ec16-12c9-4b59-9fd6-c8dd18d1d85a")
+		)
+		(pin "2"
+			(uuid "60c02951-d5e5-44d2-a27a-a91242811c9d")
+		)
+		(pin "2"
+			(uuid "9e1b3af2-b017-49cc-bfcd-8bee9290b004")
+		)
+		(pin "5"
+			(uuid "2b0f8fa1-6730-40ce-a55e-6bb1d20cd916")
+		)
+		(pin "4"
+			(uuid "80b5402c-c380-4ba3-bd5a-296d4e827a00")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -12159,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683117d8-10ba-4e17-9021-3f84f49833ae")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 132.715 100.965 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12334,7 +10705,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J2")
+					(reference "J1")
 					(unit 2)
 				)
 			)
@@ -12351,7 +10722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fab0e81-a3e6-4a38-b210-5edf03eebc3d")
-		(property "Reference" "F16"
+		(property "Reference" "F7"
 			(at 327.66 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +10732,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 327.66 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +10784,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F16")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -12508,7 +10879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76025241-a2af-4644-b354-faf7f82d9d1d")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0138"
 			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12568,7 +10939,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0122")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -12585,7 +10956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7670914b-2c9f-4730-b209-855d2e0c6c81")
-		(property "Reference" "F12"
+		(property "Reference" "F6"
 			(at 259.715 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12595,7 +10966,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 259.715 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12647,7 +11018,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F12")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -12665,7 +11036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ccfd7b-7923-4a60-b9ec-1b5c7288fa8d")
-		(property "Reference" "D11"
+		(property "Reference" "D19"
 			(at 171.45 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12797,7 +11168,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D11")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12814,7 +11185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77057705-bafe-4303-8eb0-0b5316032b8b")
-		(property "Reference" "F13"
+		(property "Reference" "F10"
 			(at 259.715 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12824,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 259.715 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +11247,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F13")
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -13037,7 +11408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b0b745a-a43b-4cab-8b51-64b4b7ddb467")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 224.79 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13098,7 +11469,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -13115,7 +11486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cb30a29-39fc-4c1f-845b-1909d294a290")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0129"
 			(at 252.095 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13175,7 +11546,167 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0138")
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 86.995 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e26162f-c62b-4491-838a-3cae1c10e01c")
+		(property "Reference" "D20"
+			(at 86.995 194.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 86.995 197.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 111.125 295.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 111.125 395.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 87.63 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 111.125 595.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 111.125 695.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 111.125 795.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 111.125 895.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 111.125 995.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ec4aec25-2017-42a1-8178-e0830c83b1b1")
+		)
+		(pin "4"
+			(uuid "9a98fbc9-7591-4330-80a9-f0471ca057c9")
+		)
+		(pin "1"
+			(uuid "e0d67151-7ec9-40ae-8fb5-65c83152a7cf")
+		)
+		(pin "2"
+			(uuid "e1c3d75f-23cd-46c7-b7f4-6a2e9224662e")
+		)
+		(pin "2"
+			(uuid "6b0de871-32ed-42a2-a6e3-f7b34f7bade4")
+		)
+		(pin "3"
+			(uuid "cb5e38af-cf65-440a-8867-3bace5613b0e")
+		)
+		(pin "2"
+			(uuid "45432235-ba71-4caa-92f0-de21f88d3504")
+		)
+		(pin "5"
+			(uuid "68c805c8-ac23-4768-98d8-f4e85c4111f4")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -13193,7 +11724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8948e450-8d3c-486d-aed6-ff12a71283eb")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0119"
 			(at 241.935 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13253,7 +11784,84 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0125")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.045 233.045 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9109edd3-b6a8-48db-b35f-5b4f64a4e01f")
+		(property "Reference" "#PWR0153"
+			(at 106.045 239.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.045 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.045 233.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.045 233.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.045 233.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41954cf6-58b7-40e8-ad9d-6c983182a7d6")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -13270,9 +11878,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8be61cbb-775c-4432-88bf-9bb9c71b1ef4")
-		(property "Reference" "U17"
-			(at 86.995 224.155 0)
+		(uuid "92c2ef96-d217-4c49-a71e-7110eeca4fbf")
+		(property "Reference" "D21"
+			(at 86.995 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13282,7 +11890,7 @@
 			)
 		)
 		(property "Value" "ESDS304DBVR"
-			(at 86.995 226.695 0)
+			(at 86.995 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13387,111 +11995,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "11dfb250-1acd-4e27-8f1f-78fd0cc71feb")
+			(uuid "4918ad4a-b971-4df4-bd68-083dc26ec0bc")
 		)
 		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeef")
+			(uuid "8408950f-63a7-4758-ac46-01631dc8c4b7")
 		)
 		(pin "2"
-			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79b")
+			(uuid "de3cdf9b-c172-423c-a9b9-5dbd515b8a5f")
 		)
 		(pin "3"
-			(uuid "96ccf5ba-e6b3-4459-88b2-f8b280567d7d")
+			(uuid "a312ec16-12c9-4b59-9fd6-c8dd18d1d85b")
 		)
 		(pin "2"
-			(uuid "07503c49-5cc8-434e-b60e-2a7395d707f5")
+			(uuid "60c02951-d5e5-44d2-a27a-a91242811c9e")
 		)
 		(pin "2"
-			(uuid "24a03ab6-79cd-407e-9c97-1bc53b920ef0")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620754")
+			(uuid "9e1b3af2-b017-49cc-bfcd-8bee9290b005")
 		)
 		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfd")
+			(uuid "2b0f8fa1-6730-40ce-a55e-6bb1d20cd917")
+		)
+		(pin "4"
+			(uuid "80b5402c-c380-4ba3-bd5a-296d4e827a01")
 		)
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U17")
+					(reference "D21")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.045 233.045 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9109edd3-b6a8-48db-b35f-5b4f64a4e01f")
-		(property "Reference" "#PWR0104"
-			(at 106.045 239.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.045 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 233.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 233.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.045 233.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41954cf6-58b7-40e8-ad9d-6c983182a7d6")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0104")
-					(unit 1)
 				)
 			)
 		)
@@ -13508,7 +12039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b0f941-5207-4356-9d63-b0e307e5f5f1")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0118"
 			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13568,7 +12099,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0121")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13586,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9707f704-7e18-434f-95f8-4df536f28a36")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 109.22 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13712,7 +12243,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13730,7 +12261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98abe0c2-6fcb-467a-9059-9f3f779c1b6d")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0137"
 			(at 195.58 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13790,168 +12321,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_7")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 86.995 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dbd5049-34bd-4892-b3ba-e44d6a170a85")
-		(property "Reference" "U16"
-			(at 86.995 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 86.995 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 111.125 295.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 111.125 395.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 87.63 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 111.125 595.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 111.125 695.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 111.125 795.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 111.125 895.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 111.125 995.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d476f")
-		)
-		(pin "1"
-			(uuid "ef3042a2-8bea-47b4-8a3a-871886b12d6a")
-		)
-		(pin "2"
-			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79c")
-		)
-		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc102")
-		)
-		(pin "2"
-			(uuid "5ddbd4d9-986b-4088-b9de-bfd5e62db1d8")
-		)
-		(pin "2"
-			(uuid "cd269c49-8d94-4b06-b500-45c9dbbb6232")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620755")
-		)
-		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bfe")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U16")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -13969,7 +12339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f402864-b7e9-4420-8ba3-c9c6d49c7b88")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0113"
 			(at 106.045 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14029,7 +12399,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0101")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -14047,7 +12417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0fc3caa-53c0-4d51-997f-7ae47525e437")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0147"
 			(at 169.545 200.025 0)
 			(hide yes)
 			(show_name no)
@@ -14107,7 +12477,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0120")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -14125,7 +12495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13f224b-7bf4-4512-9843-f3eb8baffce8")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0123"
 			(at 331.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14185,7 +12555,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0142")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -14203,7 +12573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14e4bcd-7666-4809-8a9f-ffa34b6b035a")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0114"
 			(at 127.635 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14263,7 +12633,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0107")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -14281,7 +12651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1f3e4ff-6598-4145-82a3-908eb56e19ea")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0117"
 			(at 195.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14341,7 +12711,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0118")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -14359,7 +12729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a00df7-f1d6-4659-a746-42add6b2245e")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 200.66 53.975 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14534,7 +12904,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14552,7 +12922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4130718-a2a6-41b6-b96b-0c6d107d2d03")
-		(property "Reference" "D11"
+		(property "Reference" "D19"
 			(at 196.215 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14684,7 +13054,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D11")
+					(reference "D19")
 					(unit 2)
 				)
 			)
@@ -14701,7 +13071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a592bd64-a267-4d5d-abda-730370d42a55")
-		(property "Reference" "F6"
+		(property "Reference" "F12"
 			(at 123.825 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +13081,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 123.825 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14763,7 +13133,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F6")
+					(reference "F12")
 					(unit 1)
 				)
 			)
@@ -14858,7 +13228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae667cb3-3f00-46d1-8cd1-8af44ca3fba5")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0144"
 			(at 215.9 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14918,7 +13288,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0130")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -14935,7 +13305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aebd8d2f-4c7c-417b-9094-83c3b43c6f00")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0130"
 			(at 309.88 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14995,7 +13365,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0140")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -15013,7 +13383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f45696-0651-4937-9a5a-e1a003fcb6b8")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0135"
 			(at 150.495 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15073,7 +13443,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0111")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -15090,7 +13460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b579195d-8c82-4dd1-a203-3ccf2b8f8a8b")
-		(property "Reference" "F11"
+		(property "Reference" "F17"
 			(at 191.77 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15100,7 +13470,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 191.77 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +13522,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F11")
+					(reference "F17")
 					(unit 1)
 				)
 			)
@@ -15170,7 +13540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e9c2d4-c49c-453d-9805-96017e4cf156")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 177.165 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +13666,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15314,7 +13684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b87a564d-8c47-462f-8e71-2b5d72d10a1a")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 200.66 100.965 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15489,7 +13859,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J3")
+					(reference "J2")
 					(unit 2)
 				)
 			)
@@ -15507,7 +13877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e57208-5336-4d3e-b3f4-1c9b4100146b")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0139"
 			(at 241.935 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15567,7 +13937,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0127")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -15585,7 +13955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd5b8bc4-625b-4c07-8ae3-ca3d0fc9beb4")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0120"
 			(at 263.525 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15645,7 +14015,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0132")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -15663,7 +14033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c12a0b02-b51d-4068-a86d-5f3172068a72")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0112"
 			(at 82.55 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15723,7 +14093,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR096")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -15741,7 +14111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1dceb92-6974-4456-8a8a-e1df3523cf96")
-		(property "Reference" "D10"
+		(property "Reference" "D16"
 			(at 177.165 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15867,7 +14237,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D10")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -15885,7 +14255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41f7e17-ea20-4c8c-9872-4edb621fa62f")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0121"
 			(at 286.385 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15945,7 +14315,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0134")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -15962,7 +14332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4f479e2-7904-414a-824b-2f9c8d3297f4")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0106"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16022,169 +14392,8 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0112")
+					(reference "#PWR0106")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_5")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 86.995 210.82 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c949daa7-a85a-4c2b-8048-e640b5e3c6e0")
-		(property "Reference" "U17"
-			(at 86.995 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 86.995 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 111.125 305.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 111.125 405.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 87.63 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 111.125 605.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 111.125 705.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 111.125 805.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 111.125 905.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 111.125 1005.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "aa822f8f-71f4-44d5-895e-9cc292eb4428")
-		)
-		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdef0")
-		)
-		(pin "2"
-			(uuid "f13963db-0ca4-49ee-8f8c-eb70122a5b21")
-		)
-		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc103")
-		)
-		(pin "2"
-			(uuid "da0ebc03-0578-4888-9db5-ccf4c2b760f7")
-		)
-		(pin "2"
-			(uuid "7b609bfc-9e97-42c7-aceb-f035f813f341")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620756")
-		)
-		(pin "5"
-			(uuid "263fb6d7-30e3-43ec-b832-b0a25064236b")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U17")
-					(unit 4)
 				)
 			)
 		)
@@ -16201,7 +14410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35f5cbe-71bc-4b78-ad89-717dd37b2575")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 268.605 100.965 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16376,7 +14585,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J8")
+					(reference "J3")
 					(unit 2)
 				)
 			)
@@ -16394,7 +14603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6009fe1-31bd-40ff-9479-67e245ce52b1")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 268.605 53.975 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16569,7 +14778,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16586,7 +14795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d68cc351-06ea-4459-adcf-0a391bd3de6b")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0149"
 			(at 215.9 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -16646,7 +14855,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0131")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -16663,7 +14872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6d33420-a736-40d2-a3c3-058922dadb66")
-		(property "Reference" "F7"
+		(property "Reference" "F16"
 			(at 123.825 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16673,7 +14882,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 123.825 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16725,7 +14934,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F7")
+					(reference "F16")
 					(unit 1)
 				)
 			)
@@ -16742,7 +14951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7d0affb-9ba6-4011-91be-dae68b9332fa")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0150"
 			(at 126.365 201.295 0)
 			(hide yes)
 			(show_name no)
@@ -16802,8 +15011,168 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0100")
+					(reference "#PWR0150")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESDS304DBVR:ESDS304DBVR")
+		(at 114.935 230.505 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d831a4b9-c885-42c8-aeee-ff76a6abba77")
+		(property "Reference" "D20"
+			(at 114.935 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDS304DBVR"
+			(at 114.935 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 139.065 325.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+			(at 139.065 425.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 115.57 211.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.065 625.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS304DBVR"
+			(at 139.065 725.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+			(at 139.065 825.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.065 925.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS304DBVR"
+			(at 139.065 1025.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ec4aec25-2017-42a1-8178-e0830c83b1b2")
+		)
+		(pin "4"
+			(uuid "9a98fbc9-7591-4330-80a9-f0471ca057ca")
+		)
+		(pin "1"
+			(uuid "e0d67151-7ec9-40ae-8fb5-65c83152a7d0")
+		)
+		(pin "2"
+			(uuid "e1c3d75f-23cd-46c7-b7f4-6a2e9224662f")
+		)
+		(pin "2"
+			(uuid "6b0de871-32ed-42a2-a6e3-f7b34f7bade5")
+		)
+		(pin "3"
+			(uuid "cb5e38af-cf65-440a-8867-3bace5613b0f")
+		)
+		(pin "2"
+			(uuid "45432235-ba71-4caa-92f0-de21f88d3505")
+		)
+		(pin "5"
+			(uuid "68c805c8-ac23-4768-98d8-f4e85c4111f5")
+		)
+		(instances
+			(project "UNIVERSAL_MEASURMENT_BOARD"
+				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
+					(reference "D20")
+					(unit 3)
 				)
 			)
 		)
@@ -16820,7 +15189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d855ea99-9d70-449e-8d39-261888db26fa")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 224.79 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16881,330 +15250,8 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_1")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 114.935 200.66 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db3a7b69-2c04-4e69-8f8c-d02ecfc0a162")
-		(property "Reference" "U16"
-			(at 114.935 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 114.935 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 139.065 295.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 139.065 395.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 115.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 139.065 595.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 139.065 695.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 139.065 795.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.065 895.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 139.065 995.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d476e")
-		)
-		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdeee")
-		)
-		(pin "2"
-			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79a")
-		)
-		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc101")
-		)
-		(pin "2"
-			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbe9")
-		)
-		(pin "2"
-			(uuid "a1292842-925a-4a85-a0cd-c3dff8fbe307")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620753")
-		)
-		(pin "5"
-			(uuid "54c4f4d9-65c7-473b-b823-b8cfdc30d12a")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U16")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_3")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 114.935 220.345 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd1cf80f-53c7-4223-9470-834ad194294c")
-		(property "Reference" "U16"
-			(at 114.935 213.995 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 114.935 216.535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 139.065 315.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 139.065 415.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 115.57 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 139.065 615.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 139.065 715.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 139.065 815.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.065 915.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 139.065 1015.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d4773")
-		)
-		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdef3")
-		)
-		(pin "2"
-			(uuid "a7acb0d7-31fd-44cd-b91a-583380ddbdcf")
-		)
-		(pin "3"
-			(uuid "4b87df09-de52-46f6-8000-77118f13f446")
-		)
-		(pin "2"
-			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbee")
-		)
-		(pin "2"
-			(uuid "5b215901-a395-4305-a0c2-ce8de90d1ea0")
-		)
-		(pin "4"
-			(uuid "03637012-bea9-4c2b-b281-88d503620759")
-		)
-		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4c01")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U16")
-					(unit 2)
 				)
 			)
 		)
@@ -17220,7 +15267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dff9a61b-ff04-4176-a273-e04714ff4dd9")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0109"
 			(at 252.095 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17280,7 +15327,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0163")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -17297,7 +15344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1e7aac6-b2f0-4b69-8eae-a69be6038de0")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0108"
 			(at 241.935 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17357,7 +15404,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0162")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -17374,7 +15421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8847f11-1e17-4cfe-aad4-fffdc89c5a07")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0127"
 			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17434,7 +15481,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0129")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -17452,7 +15499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89d15f0-2610-4edf-a84e-f3addfd95838")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 336.55 53.975 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -17627,7 +15674,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "J9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17644,7 +15691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8bc3b39-1c01-4b77-8672-da00b0bc59bf")
-		(property "Reference" "F18"
+		(property "Reference" "F15"
 			(at 327.66 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17654,7 +15701,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 327.66 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17706,7 +15753,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F18")
+					(reference "F15")
 					(unit 1)
 				)
 			)
@@ -17723,7 +15770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9291138-b7e2-4ca3-85bb-34f2cc447036")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0146"
 			(at 85.09 184.785 0)
 			(hide yes)
 			(show_name no)
@@ -17783,7 +15830,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR099")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -17800,7 +15847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed3c9434-28fa-4c5c-b32a-db0892f79892")
-		(property "Reference" "F17"
+		(property "Reference" "F11"
 			(at 327.66 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17810,7 +15857,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 327.66 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17862,7 +15909,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F17")
+					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -17889,7 +15936,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 191.77 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17958,7 +16005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efefa560-bfcd-40e4-a7ae-c602b903347f")
-		(property "Reference" "F10"
+		(property "Reference" "F13"
 			(at 191.77 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17968,7 +16015,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "125mA"
 			(at 191.77 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18020,7 +16067,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "F10")
+					(reference "F13")
 					(unit 1)
 				)
 			)
@@ -18038,7 +16085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0d94017-b48e-4105-ae46-16eddaed18cb")
-		(property "Reference" "D18"
+		(property "Reference" "D10"
 			(at 313.055 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18164,7 +16211,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D18")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -18181,7 +16228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f33d4400-c516-4633-97d6-9e262e657542")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0105"
 			(at 116.205 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18241,169 +16288,8 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0117")
+					(reference "#PWR0105")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ESDS304DBVR_6")
-		(lib_id "ESDS304DBVR:ESDS304DBVR")
-		(at 114.935 230.505 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4d02951-485e-4e9e-8c72-9ba6560680b6")
-		(property "Reference" "U16"
-			(at 114.935 224.155 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDS304DBVR"
-			(at 114.935 226.695 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 139.065 325.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
-			(at 139.065 425.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
-			(at 115.57 211.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 139.065 625.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ESDS304DBVR"
-			(at 139.065 725.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
-			(at 139.065 825.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.065 925.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDS304DBVR"
-			(at 139.065 1025.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a7d93337-c67a-4b6d-8478-f736152d4771")
-		)
-		(pin "1"
-			(uuid "06d4686c-c8f9-4921-81da-683a3d2cdef2")
-		)
-		(pin "2"
-			(uuid "af571c73-b8e4-462b-9ac2-b5b7fa2ab79e")
-		)
-		(pin "3"
-			(uuid "05f5ec99-7455-4f4b-922c-2a901d8fc104")
-		)
-		(pin "2"
-			(uuid "b5e4d1d7-3e96-4a51-b0c2-37e9aecbbbed")
-		)
-		(pin "2"
-			(uuid "841876dc-901f-4d78-b3c6-3877615ed792")
-		)
-		(pin "4"
-			(uuid "1bda6eb6-83cd-4b3a-9f75-598d9419d8dd")
-		)
-		(pin "5"
-			(uuid "224795fa-8ae0-4538-98b4-605c9b7f4bff")
-		)
-		(instances
-			(project "UNIVERSAL_MEASURMENT_BOARD"
-				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "U16")
-					(unit 3)
 				)
 			)
 		)
@@ -18420,7 +16306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f3797a-3cce-49ab-b229-9a26b65a4c37")
-		(property "Reference" "D12"
+		(property "Reference" "D5"
 			(at 221.615 76.8349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18546,7 +16432,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D12")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18564,7 +16450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9055b32-afee-4806-bdf4-25659da18951")
-		(property "Reference" "D15"
+		(property "Reference" "D17"
 			(at 245.11 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18690,7 +16576,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D15")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -18708,7 +16594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f48973-1b50-48f5-ab5c-83a79ef4cfad")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0136"
 			(at 173.99 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18768,7 +16654,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0115")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -18786,7 +16672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb590aed-1a2e-440d-803e-424b71cda769")
-		(property "Reference" "D17"
+		(property "Reference" "D14"
 			(at 289.56 123.8249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18912,7 +16798,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "D17")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -18930,7 +16816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbdabf4d-8d93-44f5-be7d-af0883e9aa96")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0142"
 			(at 309.88 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18990,7 +16876,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/f846abeb-f6bc-4fba-a683-51f7fcd3188d"
-					(reference "#PWR0139")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
