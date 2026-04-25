@@ -6295,7 +6295,7 @@
 		)
 		(uuid "d19934a9-841e-4372-b0ba-aaaba6e7c027")
 	)
-	(text "700mA ~30ms"
+	(text "1A ~100ms"
 		(exclude_from_sim no)
 		(at 33.655 98.425 90)
 		(effects
@@ -10304,7 +10304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00082e38-00d0-4468-a051-fde98113dee2")
-		(property "Reference" "C36"
+		(property "Reference" "C28"
 			(at 207.01 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10445,7 +10445,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C36")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10462,7 +10462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00738b7b-f281-4911-a512-9bb413f6bbfe")
-		(property "Reference" "C47"
+		(property "Reference" "C20"
 			(at 254 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10603,7 +10603,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C47")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10620,7 +10620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0145636e-d023-4897-be67-5217eabb72ff")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR072"
 			(at 143.51 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10680,7 +10680,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR041")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -10698,7 +10698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "041c5ad1-4cf1-4675-b4d8-b3433cc7c3ce")
-		(property "Reference" "C21"
+		(property "Reference" "C44"
 			(at 100.33 124.0536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10839,7 +10839,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C21")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -10856,7 +10856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0487b8f0-f181-4c5b-8129-deceda3ef5cb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0103"
 			(at 161.925 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -10916,7 +10916,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR045")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -10933,7 +10933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e7b8a9-416e-482b-9267-33b1df332747")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR051"
 			(at 262.89 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10993,7 +10993,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR075")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11010,7 +11010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0646f28f-941f-4644-aaec-3286c974f6a6")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR090"
 			(at 156.21 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11070,7 +11070,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR042")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06e11d98-e384-4898-98ef-bad21032a575")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR054"
 			(at 233.68 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -11147,7 +11147,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR065")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11164,7 +11164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08d68f42-9cc1-41b0-857c-45cc3c07b4d3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR097"
 			(at 35.56 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11224,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR033")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -11241,7 +11241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "128340a6-8b0f-4f0c-a4d1-b453a96d3514")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 40.64 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +11303,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11320,7 +11320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1376b965-5907-49e5-a26d-29a96e9c3829")
-		(property "Reference" "C32"
+		(property "Reference" "C68"
 			(at 164.2618 187.4266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11461,7 +11461,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C32")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15de5530-538a-43fb-a263-f4b00597438a")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 110.5988 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11609,7 +11609,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -11627,7 +11627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1722a971-fa7f-4c67-9bac-fb0b0ba183a5")
-		(property "Reference" "C14"
+		(property "Reference" "C38"
 			(at 49.53 115.1636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11768,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C14")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11785,7 +11785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1860fd29-3f71-43fd-aa67-0917ff3eafb5")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR082"
 			(at 299.085 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -11845,7 +11845,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR085")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -11863,7 +11863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a28d504-5453-429d-823f-579f12b1cb79")
-		(property "Reference" "C16"
+		(property "Reference" "C23"
 			(at 59.69 47.2186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12004,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C16")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12168,7 +12168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1db3ea3f-80e6-45d3-8a1d-5c2e3f535428")
-		(property "Reference" "C30"
+		(property "Reference" "C51"
 			(at 158.75 147.5486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,7 +12309,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C30")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e8e600f-ab3c-4b00-8bd3-b5363b9f0cf8")
-		(property "Reference" "TP2"
+		(property "Reference" "TP8"
 			(at 145.415 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12387,7 +12387,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP2")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12404,7 +12404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fb219f9-3580-4356-bce9-7395996b39b7")
-		(property "Reference" "C37"
+		(property "Reference" "C33"
 			(at 207.01 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,7 +12545,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C37")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12562,7 +12562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "202b7c7e-c1d4-42e1-90a0-a8f86aa07fcd")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR087"
 			(at 251.46 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -12622,7 +12622,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR072")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -12639,7 +12639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "206d2d21-0ca4-4f71-81cc-6c99c2684497")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 96.52 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,7 +12703,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12720,7 +12720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "225a9e75-df71-4601-a81b-51ca013c0468")
-		(property "Reference" "C46"
+		(property "Reference" "C64"
 			(at 218.44 186.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12861,7 +12861,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C46")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -12878,7 +12878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23454b98-8579-42ce-a47a-acb4fbaf671e")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 80.645 46.355 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +12940,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12957,7 +12957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "264b62e6-b217-40af-8b36-7d11222b2e8e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR057"
 			(at 99.695 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -13017,7 +13017,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR039")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13035,7 +13035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26dae540-7c50-444c-ad28-5517d6c70bfe")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0101"
 			(at 204.47 193.675 0)
 			(hide yes)
 			(show_name no)
@@ -13095,7 +13095,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR059")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13114,7 +13114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2abea5a6-7ac8-403f-844d-f7906cbf7a69")
-		(property "Reference" "U6"
+		(property "Reference" "U14"
 			(at 112.395 167.005 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13250,7 +13250,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U6")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -13267,7 +13267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32bd63fa-5c62-4157-8f72-fb588ada1f09")
-		(property "Reference" "C64"
+		(property "Reference" "C54"
 			(at 348.615 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +13408,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C64")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -13425,7 +13425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "335221d7-7b00-4f36-a77b-5b188b5d8aa4")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 254 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +13566,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -13583,7 +13583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37c250f8-d066-44c5-8a72-ec345bd05e0f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR063"
 			(at 161.925 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13643,7 +13643,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR043")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -13802,7 +13802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a75d01-ee92-4bce-b13a-e632da4d46e0")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 109.22 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +13953,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -13970,7 +13970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a04216e-c317-4dee-a776-7c383d72fab8")
-		(property "Reference" "TP11"
+		(property "Reference" "TP6"
 			(at 334.645 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14031,7 +14031,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP11")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14049,7 +14049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b77c40c-821f-4bd5-b2df-a8361d8ecbfa")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 164.465 94.8436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14190,7 +14190,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -14207,7 +14207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c88309f-acf7-47f2-8c65-7cd314172ea1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR099"
 			(at 243.205 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +14267,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR068")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -14284,7 +14284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cda84da-48b0-4ff2-9a2d-9cdf0bdc40cd")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR040"
 			(at 167.005 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14344,7 +14344,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR048")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14361,7 +14361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d1891ef-3251-4ced-8b33-99c2d3f25ab3")
-		(property "Reference" "C29"
+		(property "Reference" "C26"
 			(at 157.2768 53.4416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14502,7 +14502,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C29")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -14520,7 +14520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fe37324-4755-485a-9e59-5ab7cb1ed2f8")
-		(property "Reference" "C23"
+		(property "Reference" "C59"
 			(at 127.635 178.6636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,7 +14661,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C23")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -14678,7 +14678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40e6bc49-be27-46ea-9b88-1ceb52639c15")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0100"
 			(at 49.53 197.485 0)
 			(hide yes)
 			(show_name no)
@@ -14738,7 +14738,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR035")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -14755,7 +14755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41fbedf1-024c-44fc-a549-15d7b92dcf5c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR077"
 			(at 35.56 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -14815,7 +14815,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR032")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -14832,7 +14832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43859f45-157e-4820-8249-6c36c76b58d7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR098"
 			(at 161.925 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -14892,7 +14892,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR044")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -14909,7 +14909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43ee61e5-449a-4f16-81e6-0512f80e499c")
-		(property "Reference" "C45"
+		(property "Reference" "C56"
 			(at 218.44 172.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +15050,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C45")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "466d2503-6283-449b-9881-36dde981b44d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR046"
 			(at 251.46 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -15127,7 +15127,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR069")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15144,7 +15144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "479b9099-7f77-4be8-abeb-96c4b48b2ff1")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR086"
 			(at 233.68 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -15204,7 +15204,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR067")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -15299,7 +15299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "485dbda8-ac48-40d1-880b-e4c1f6098119")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR075"
 			(at 334.645 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15359,7 +15359,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR089")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488ea75c-b095-4b33-95e3-6628aafc94d9")
-		(property "Reference" "U14"
+		(property "Reference" "U9"
 			(at 316.865 104.775 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15505,7 +15505,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U14")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -15680,7 +15680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490af3c6-dd62-4743-8a0d-fef85baef943")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 133.985 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15744,7 +15744,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15763,7 +15763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aa06ea4-6d83-484b-a001-1548a21f416c")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 233.68 97.155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15890,7 +15890,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U10")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15907,7 +15907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bcb3bd6-e291-48bf-9f19-46b31c2fcedf")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 251.46 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15968,7 +15968,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15985,7 +15985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4be365db-c576-41e8-9577-c5b60d6b74f5")
-		(property "Reference" "C35"
+		(property "Reference" "C18"
 			(at 207.01 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16126,7 +16126,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C35")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16143,7 +16143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd679f3-230f-45bd-9e7d-98daac8055cd")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 204.47 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -16203,7 +16203,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16220,7 +16220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cdab232-cde3-40ef-97ec-7703b3079b6b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 251.46 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16281,7 +16281,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -16377,7 +16377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57cb9f14-a0b2-427f-80f8-c49144d6b281")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 233.68 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -16437,7 +16437,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -16455,7 +16455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c5b3d6-53ff-4a0a-9b19-96e9b6399908")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 233.68 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16585,7 +16585,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16602,7 +16602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cb87635-960a-4973-b4be-290df400361c")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 85.725 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +16664,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d8017b3-5540-45b9-ae3c-00b4f0e03a7c")
-		(property "Reference" "C27"
+		(property "Reference" "C45"
 			(at 147.955 135.4836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16823,7 +16823,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C27")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -16841,7 +16841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "600080f6-6cb2-4c13-9b54-b4640a5cf574")
-		(property "Reference" "C12"
+		(property "Reference" "C37"
 			(at 38.1 115.1636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16982,7 +16982,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C12")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -16999,7 +16999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60e3ad7f-25d4-40ca-bec9-72a97aa4f418")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 158.115 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17063,7 +17063,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6167af10-7ea2-49fa-8038-6a51340758a9")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 233.68 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17223,7 +17223,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -17240,7 +17240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61f34b58-3eb0-4d76-8f64-a066deabf56a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR084"
 			(at 204.47 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -17300,7 +17300,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR057")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -17318,7 +17318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62674017-753b-40c1-b07d-21855169fd12")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 70.485 49.1236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17459,7 +17459,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17476,7 +17476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62a9b6c9-ceb5-4890-9ffb-ca3653c08de3")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 62.865 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17538,7 +17538,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17556,7 +17556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b48dd60-4ff4-47b1-b357-43fd3f865ef4")
-		(property "Reference" "C24"
+		(property "Reference" "C50"
 			(at 125.73 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17695,7 +17695,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C24")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -17712,7 +17712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b5a23a3-c22c-49dd-b092-45668bc2d222")
-		(property "Reference" "C52"
+		(property "Reference" "C65"
 			(at 254 186.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17853,7 +17853,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C52")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -17870,7 +17870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f721239-5f64-477c-9390-343883886f69")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 140.97 194.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +17934,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -17951,7 +17951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7181756d-6a35-4c8c-96d1-09b17c546e8d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR078"
 			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18011,7 +18011,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR056")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -18028,7 +18028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "728e665f-8c31-43e9-9f9d-4f972a500b48")
-		(property "Reference" "TP3"
+		(property "Reference" "TP11"
 			(at 150.495 168.275 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18089,7 +18089,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP3")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -18106,7 +18106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76524f8a-99f9-4855-8bbe-e1452af7b325")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR041"
 			(at 204.47 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18166,7 +18166,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR050")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18183,7 +18183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "778bc58b-3436-45b3-8c68-f5456f1c7f18")
-		(property "Reference" "C53"
+		(property "Reference" "C21"
 			(at 265.43 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18324,7 +18324,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C53")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -18342,7 +18342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a02d491-ddd7-4fcd-affc-f1f40bc861b0")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0102"
 			(at 264.16 193.675 0)
 			(hide yes)
 			(show_name no)
@@ -18402,7 +18402,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR082")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -18419,7 +18419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a8918e9-b2f9-4e32-9827-b51258b1d8ac")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 133.985 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18483,7 +18483,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18500,7 +18500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cc309d9-f15f-467c-8e70-5f2055a54e4d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR060"
 			(at 54.61 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -18560,7 +18560,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR036")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -18577,7 +18577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d2c8184-9b61-4ea4-9a6b-19fe51fbbe18")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 89.535 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18641,7 +18641,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18659,7 +18659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "823f15af-aba6-4839-92cd-878a6f2af587")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 48.895 47.2186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18800,7 +18800,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18817,7 +18817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "827a24b7-e849-4834-8c16-f6616d987e03")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR083"
 			(at 346.075 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -18877,7 +18877,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR093")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -18894,7 +18894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84dde931-287f-452f-b818-2f4196300c45")
-		(property "Reference" "TP7"
+		(property "Reference" "TP5"
 			(at 251.46 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18955,7 +18955,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP7")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -18972,7 +18972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84e49e47-6fed-4ed0-9758-25d73b7b2122")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR092"
 			(at 316.865 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -19032,7 +19032,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR088")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -19049,7 +19049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8557cb3c-2006-4465-a6f5-bd4e6b4c4e0d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR053"
 			(at 215.9 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -19109,7 +19109,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR061")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19126,7 +19126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85cadf89-57fe-401d-a7a3-70b756615b46")
-		(property "Reference" "C44"
+		(property "Reference" "C47"
 			(at 218.44 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19267,7 +19267,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C44")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -19284,7 +19284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8782d70d-1981-492c-8b9d-9a1a9b86c1e0")
-		(property "Reference" "C61"
+		(property "Reference" "C41"
 			(at 337.185 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19425,7 +19425,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C61")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -19442,7 +19442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88fcc11e-6508-4ab8-b14c-a8af193c8233")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR042"
 			(at 262.89 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19502,7 +19502,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR073")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -19519,7 +19519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8960af67-b3eb-4085-ac20-0591ea9e4637")
-		(property "Reference" "C58"
+		(property "Reference" "C66"
 			(at 267.335 186.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19583,7 +19583,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C58")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -19600,7 +19600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d15628e-761c-4dc3-888d-bbbab058f9b6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR066"
 			(at 204.47 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -19660,7 +19660,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR055")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19677,7 +19677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93150466-4f51-4b94-9573-dea5c37fcbfe")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR062"
 			(at 262.89 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -19737,7 +19737,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR077")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -19755,7 +19755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95d9a2dd-0fcf-4e0b-a614-f2104938f6bc")
-		(property "Reference" "C26"
+		(property "Reference" "C39"
 			(at 146.05 115.1636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19896,7 +19896,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C26")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -19913,7 +19913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96216b47-f1a1-4550-bb68-259b26af7b88")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR074"
 			(at 316.865 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19973,7 +19973,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR087")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -19990,7 +19990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ac31a72-65f8-4f93-b60b-1014118fdaa0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR048"
 			(at 46.355 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -20050,7 +20050,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR034")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -20067,7 +20067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c179397-5411-4ce5-a305-57a9c4d143de")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR065"
 			(at 346.075 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -20127,7 +20127,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR091")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -20144,7 +20144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ccced63-1570-4cbd-914f-4bf6d6011733")
-		(property "Reference" "C28"
+		(property "Reference" "C67"
 			(at 152.8318 187.4266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20285,7 +20285,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C28")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -20302,7 +20302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cf33dca-d978-4885-9862-4bad8c61fc74")
-		(property "Reference" "C56"
+		(property "Reference" "C49"
 			(at 266.065 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20366,7 +20366,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C56")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -20383,7 +20383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d171bbe-3d21-498d-8c9c-24bf9e379859")
-		(property "Reference" "C42"
+		(property "Reference" "C29"
 			(at 218.44 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20524,7 +20524,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C42")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -20542,7 +20542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d2580b8-106e-4f9a-8db9-37f151db5ed6")
-		(property "Reference" "C19"
+		(property "Reference" "C43"
 			(at 72.39 120.2436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20683,7 +20683,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C19")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -20700,7 +20700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a256f4b9-8750-41c3-ae8e-39cc6c869aee")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 90.805 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20762,7 +20762,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20779,7 +20779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a445d7d6-8958-4791-b775-9b58bb7b33b7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR039"
 			(at 34.925 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20839,7 +20839,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR030")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -21001,7 +21001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f6f6ff-e444-4d54-b505-2f52256f87c1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR096"
 			(at 264.16 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -21061,7 +21061,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR081")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -21078,7 +21078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a773324d-e43c-45a8-9838-351ada0216a8")
-		(property "Reference" "C60"
+		(property "Reference" "C52"
 			(at 301.625 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21219,7 +21219,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C60")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -21236,7 +21236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a969a523-803b-4653-aeee-df33e7145eab")
-		(property "Reference" "R16"
+		(property "Reference" "R10"
 			(at 151.13 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21298,7 +21298,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -21315,7 +21315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aad8df3b-268f-491e-ae9e-8de63db4de03")
-		(property "Reference" "C49"
+		(property "Reference" "C35"
 			(at 254 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21456,7 +21456,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C49")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -21474,7 +21474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad5b975c-359c-40b5-a699-35fcfc0f858e")
-		(property "Reference" "C22"
+		(property "Reference" "C17"
 			(at 120.65 44.6786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21615,7 +21615,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C22")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -21634,7 +21634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "addf58dd-f52e-46f4-8fe1-7d84cee547a8")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 105.41 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21770,7 +21770,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -21787,7 +21787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0601a71-8761-4385-b178-2310ee77bfd0")
-		(property "Reference" "C63"
+		(property "Reference" "C42"
 			(at 348.615 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21928,7 +21928,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C63")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -21945,7 +21945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c003e2-ace2-4ed2-8401-7b46ba74f1d6")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 251.46 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22006,7 +22006,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -22023,7 +22023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2938a90-bece-48c0-b386-c9f354ec758e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR089"
 			(at 130.81 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -22083,7 +22083,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR040")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -22100,7 +22100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31d567e-98ae-4382-9a5c-71fbeed572b4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 204.47 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -22160,7 +22160,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -22177,7 +22177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3a64e88-6144-422a-83f5-b5d50ae97aed")
-		(property "Reference" "C40"
+		(property "Reference" "C63"
 			(at 207.01 186.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22318,7 +22318,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C40")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -22335,7 +22335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3b24549-e0ec-41df-8d28-a48e5050e221")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR047"
 			(at 262.89 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -22395,7 +22395,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR074")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22413,7 +22413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3e2fdc7-2655-4e50-a025-acb0dc2ffd06")
-		(property "Reference" "L6"
+		(property "Reference" "L4"
 			(at 132.08 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22537,7 +22537,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "L6")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -22554,7 +22554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b47916f8-55b2-4c47-9d7d-7236984c1bd5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR081"
 			(at 162.56 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -22614,7 +22614,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR047")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -22631,7 +22631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5ac1c1b-0fa8-4353-8da8-9804679b4108")
-		(property "Reference" "C51"
+		(property "Reference" "C57"
 			(at 254 172.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22772,7 +22772,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C51")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -22789,7 +22789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5ba2542-3f3d-4fe2-bbe0-e3df821bb551")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR064"
 			(at 299.085 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -22849,7 +22849,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR083")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -22866,7 +22866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b60260b8-ecec-43bf-93a1-36668318b937")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR085"
 			(at 215.9 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -22926,7 +22926,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR063")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -22943,7 +22943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b604e152-6659-44e8-8bfc-763e72943e93")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 267.335 172.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23007,7 +23007,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -23024,7 +23024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6703a92-ab15-4890-8801-44a774abc0f8")
-		(property "Reference" "C41"
+		(property "Reference" "C19"
 			(at 218.44 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23165,7 +23165,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C41")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -23182,7 +23182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6ff992e-f3fc-4eb9-8f68-9f04f05fa98f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR043"
 			(at 204.47 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -23242,7 +23242,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR051")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -23259,7 +23259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8db3db9-e4d1-462e-ab1c-67871de69f3f")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 158.115 135.255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23323,7 +23323,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -23340,7 +23340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9954fe9-ffbb-46a0-878d-003ac4799303")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR044"
 			(at 215.9 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -23400,7 +23400,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR060")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23417,7 +23417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb361bba-9d55-473b-8e97-e08ef2ddcfd5")
-		(property "Reference" "C54"
+		(property "Reference" "C31"
 			(at 266.065 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23481,7 +23481,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C54")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -23498,7 +23498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc230f96-3d49-4b16-9339-57e70e3d818f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR071"
 			(at 81.915 122.555 0)
 			(hide yes)
 			(show_name no)
@@ -23558,7 +23558,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR037")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -23577,7 +23577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdee850d-9041-4dc1-83f4-e3009153acd6")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 123.825 34.925 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23701,7 +23701,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -23718,7 +23718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bea2ee8a-9e3a-40fb-865f-4c2b6ac1a721")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR093"
 			(at 334.645 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -23778,7 +23778,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR090")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -23796,7 +23796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfdca8b6-55d3-44ef-9b4c-175db1d45a43")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 233.68 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23938,7 +23938,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U13")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -23955,7 +23955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c057b371-7f30-45b3-8dfe-4c2d0d450272")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR055"
 			(at 251.46 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -24015,7 +24015,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR070")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -24032,7 +24032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2ccdc3f-8915-4dbf-8e26-ad8009fdce66")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR095"
 			(at 204.47 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -24092,7 +24092,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR058")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -24109,7 +24109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3b993f3-8298-4012-b338-c8db75764826")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR045"
 			(at 233.68 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -24169,7 +24169,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR064")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -24341,7 +24341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca3244c4-2d83-4829-a9fe-294960a5431c")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR076"
 			(at 346.075 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -24401,7 +24401,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR092")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -24418,7 +24418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb10e0aa-c45f-45ad-923b-f4a2f2af7145")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR059"
 			(at 35.56 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -24478,7 +24478,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR031")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -24495,7 +24495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbb5e173-df08-4e98-a2d7-6e7bee1b9542")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR080"
 			(at 99.06 145.415 0)
 			(hide yes)
 			(show_name no)
@@ -24555,7 +24555,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR038")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -24572,7 +24572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cca6527b-3d68-4808-8b6d-5b26fb21cc01")
-		(property "Reference" "C39"
+		(property "Reference" "C55"
 			(at 207.01 172.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24713,7 +24713,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C39")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -24731,7 +24731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cce9e89f-013d-420c-a925-79fe9fc88a2e")
-		(property "Reference" "C15"
+		(property "Reference" "C60"
 			(at 52.07 181.2036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24872,7 +24872,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C15")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -24889,7 +24889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0f8231a-723c-4ef8-a9d0-2762d664fc08")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 140.97 180.975 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24953,7 +24953,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -24971,7 +24971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d125e730-b484-47ed-a34f-7001986d0e42")
-		(property "Reference" "U15"
+		(property "Reference" "U12"
 			(at 316.865 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25098,7 +25098,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U15")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -25116,7 +25116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d29431b5-f31e-4816-9259-39054ef74171")
-		(property "Reference" "C20"
+		(property "Reference" "C62"
 			(at 73.66 183.1086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25257,7 +25257,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C20")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -25351,7 +25351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7497f7e-13a9-4125-b42b-9b48ac1c2482")
-		(property "Reference" "C55"
+		(property "Reference" "C36"
 			(at 266.065 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25415,7 +25415,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C55")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -25432,7 +25432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7760e4a-d8c2-4923-99be-c5ce41a65ee5")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR056"
 			(at 262.89 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -25492,7 +25492,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR076")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -25509,7 +25509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8257d7f-e6a4-4c33-9339-fa503d268b4b")
-		(property "Reference" "C59"
+		(property "Reference" "C40"
 			(at 301.625 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,7 +25650,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C59")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -25668,7 +25668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0e655f2-a60f-4b76-a07a-1b8709ffb0f0")
-		(property "Reference" "C17"
+		(property "Reference" "C61"
 			(at 62.865 181.2036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25809,7 +25809,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C17")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -25826,7 +25826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e323a947-810e-4ca2-9b47-1765628630ef")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR070"
 			(at 262.89 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -25886,7 +25886,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR078")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -25903,7 +25903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4377510-b67a-467d-826f-4f88044cb565")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR088"
 			(at 262.89 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -25963,7 +25963,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR080")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -25980,7 +25980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e567d2e4-8531-49d7-a1fc-73faaa5ca426")
-		(property "Reference" "TP12"
+		(property "Reference" "TP9"
 			(at 334.645 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26041,7 +26041,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP12")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -26058,7 +26058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5db3508-0936-4ec0-b02b-1965307cb8b4")
-		(property "Reference" "C38"
+		(property "Reference" "C46"
 			(at 207.01 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26199,7 +26199,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C38")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -26435,7 +26435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecd961d7-bc47-4cdf-bdec-d129dd1ee9f1")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 251.46 202.565 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26496,7 +26496,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP10")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -26514,7 +26514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef97c72e-e009-45b2-a78a-52cf2e7629bb")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 233.68 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26644,7 +26644,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -26661,7 +26661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efa1d415-ae69-4b8c-8c06-bfe643b079df")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 139.065 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26725,7 +26725,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -26742,7 +26742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f015894a-339e-410e-84bd-c591a2ddf35b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 215.9 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -26802,7 +26802,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -26820,7 +26820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f06b82b8-6749-4320-8cf1-e3fb58888c83")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 137.6862 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26950,7 +26950,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "L1")
+					(reference "L3")
 					(unit 2)
 				)
 			)
@@ -26967,7 +26967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1a0b8e6-cc89-4fc5-b309-dd23748b024a")
-		(property "Reference" "C34"
+		(property "Reference" "C69"
 			(at 175.0568 187.4266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27108,7 +27108,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C34")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -27125,7 +27125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f493add9-d6be-4b6d-8463-af25cf418849")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR073"
 			(at 299.085 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -27185,7 +27185,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR084")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -27202,7 +27202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f69619de-7d2c-4a0f-9cfb-c497fad07e26")
-		(property "Reference" "C33"
+		(property "Reference" "C27"
 			(at 170.18 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27266,7 +27266,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C33")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -27283,7 +27283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f87c902e-bcff-435e-b9a5-8e54b08ed1cc")
-		(property "Reference" "C43"
+		(property "Reference" "C34"
 			(at 218.44 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27424,7 +27424,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C43")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -27441,7 +27441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8858df7-857d-472f-b898-71fbba6581de")
-		(property "Reference" "TP6"
+		(property "Reference" "TP3"
 			(at 251.46 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27502,7 +27502,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -27519,7 +27519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f97b4101-1501-4897-ae40-dcea98fc11cc")
-		(property "Reference" "C48"
+		(property "Reference" "C30"
 			(at 254 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27660,7 +27660,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C48")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -27677,7 +27677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa880cc4-7590-4406-a756-c41704b1d788")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 204.47 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -27737,7 +27737,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -27754,7 +27754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faa8dcec-7bca-4319-a631-36a998f05d42")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR058"
 			(at 162.56 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -27814,7 +27814,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR046")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -27831,7 +27831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb92b260-5fa9-4764-a41d-e9be890cf3f2")
-		(property "Reference" "F1"
+		(property "Reference" "F2"
 			(at 37.465 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27842,7 +27842,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "300mA"
+		(property "Value" "500mA"
 			(at 37.465 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27895,7 +27895,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -27912,7 +27912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fba9bba0-8279-4167-8496-563b776d421b")
-		(property "Reference" "C62"
+		(property "Reference" "C53"
 			(at 337.185 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28053,7 +28053,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "C62")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -28070,7 +28070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcdf73f8-0937-4630-bad2-7b60cf642624")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR069"
 			(at 251.46 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -28130,7 +28130,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR071")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -28147,7 +28147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd842099-ae00-40bb-8f71-79b8c013ac4a")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR091"
 			(at 299.085 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -28207,7 +28207,7 @@
 		(instances
 			(project "UNIVERSAL_MEASURMENT_BOARD"
 				(path "/92c00310-4384-4ef3-9368-efad75526047/9548c2c3-041e-4949-891b-f079b7d050b0"
-					(reference "#PWR086")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
