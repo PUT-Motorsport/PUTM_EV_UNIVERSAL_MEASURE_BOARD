@@ -3486,12 +3486,6 @@
 		(uuid "00863c46-2a08-4617-ac2a-3c4f291b82a1")
 	)
 	(junction
-		(at 194.31 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07de2d76-a0b2-423d-8e47-82dc71807af3")
-	)
-	(junction
 		(at 241.935 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3502,6 +3496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c226430-8793-45b7-bfe4-21c0f30d9065")
+	)
+	(junction
+		(at 169.545 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d3e8390-910e-467c-99b8-b372bcf469f2")
 	)
 	(junction
 		(at 78.105 210.82)
@@ -3570,6 +3570,12 @@
 		(uuid "968bed1a-72d3-40d6-929a-8c54331f6177")
 	)
 	(junction
+		(at 194.31 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f68fbf-c95e-4f85-a7fc-c8ddbb4295fa")
+	)
+	(junction
 		(at 106.045 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3580,12 +3586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c02e01dc-5671-43f9-b4a2-33cbc225442d")
-	)
-	(junction
-		(at 169.545 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0c83bab-769c-4897-89c7-bdcbdd71c43a")
 	)
 	(junction
 		(at 106.045 120.65)
@@ -3753,16 +3753,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 189.23) (xy 169.545 193.675)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed10508-5676-43ec-8ceb-72f61557a30f")
-	)
-	(wire
-		(pts
 			(xy 116.205 58.42) (xy 121.285 58.42)
 		)
 		(stroke
@@ -3813,16 +3803,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 181.61) (xy 194.31 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1232357b-a134-4532-a35e-59d287256c88")
-	)
-	(wire
-		(pts
 			(xy 241.935 123.19) (xy 241.935 120.65)
 		)
 		(stroke
@@ -3830,6 +3810,16 @@
 			(type default)
 		)
 		(uuid "12916a1c-2d78-465d-b9b3-5845b04b4527")
+	)
+	(wire
+		(pts
+			(xy 169.545 188.595) (xy 169.545 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1410b9c6-8794-47ac-9a32-66e21dab1ba1")
 	)
 	(wire
 		(pts
@@ -3900,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "1da69169-eb12-489f-ba79-b3fbc146ca88")
+	)
+	(wire
+		(pts
+			(xy 169.545 176.53) (xy 169.545 180.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d8b6ad-0bb6-4188-bdfe-d2393aaf4c25")
 	)
 	(wire
 		(pts
@@ -4083,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 181.61) (xy 218.44 181.61)
+			(xy 193.04 181.61) (xy 194.31 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4113,16 +4113,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 176.53) (xy 169.545 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466922d4-b201-43d3-8858-05560c7389cb")
-	)
-	(wire
-		(pts
 			(xy 173.99 102.87) (xy 173.99 111.125)
 		)
 		(stroke
@@ -4133,13 +4123,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 191.77) (xy 194.31 194.31)
+			(xy 194.31 181.61) (xy 218.44 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ad95cfe-1729-4acc-94ae-748dab9acf05")
+		(uuid "4b8ecd01-e7a0-44ae-809a-19b5aa138024")
 	)
 	(wire
 		(pts
@@ -4563,6 +4553,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 191.77) (xy 194.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a94c257-c99e-4545-8ae8-0b1d7983765e")
+	)
+	(wire
+		(pts
 			(xy 168.275 176.53) (xy 169.545 176.53)
 		)
 		(stroke
@@ -4933,16 +4933,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 176.53) (xy 218.44 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bacc8bf5-5203-4e5e-b928-bf2c84b0fa8e")
-	)
-	(wire
-		(pts
 			(xy 330.2 58.42) (xy 334.01 58.42)
 		)
 		(stroke
@@ -5073,16 +5063,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 181.61) (xy 194.31 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0daf6d1-a03a-4393-a7f8-7f3b21134936")
-	)
-	(wire
-		(pts
 			(xy 106.045 55.88) (xy 106.045 64.135)
 		)
 		(stroke
@@ -5100,6 +5080,16 @@
 			(type default)
 		)
 		(uuid "d44d24de-3df4-40f5-af5e-53c183cf68c9")
+	)
+	(wire
+		(pts
+			(xy 194.31 181.61) (xy 194.31 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93b5b7e-0702-4715-9c65-1feebc061f39")
 	)
 	(wire
 		(pts
@@ -5430,6 +5420,16 @@
 			(type default)
 		)
 		(uuid "fd51f075-b1aa-41cf-9e66-a7e04d457ab6")
+	)
+	(wire
+		(pts
+			(xy 169.545 176.53) (xy 218.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8a9f5f-6d7b-4d7f-9d58-8e7ef292f13e")
 	)
 	(wire
 		(pts
@@ -11026,7 +11026,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0L2BT,215:PESD5V0L2BT,215")
-		(at 169.545 185.42 270)
+		(at 194.31 187.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11037,7 +11037,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ccfd7b-7923-4a60-b9ec-1b5c7288fa8d")
 		(property "Reference" "D19"
-			(at 171.45 184.1499 90)
+			(at 196.215 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,7 +11048,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L2BT,215"
-			(at 171.45 186.6899 90)
+			(at 196.215 189.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11059,7 +11059,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P230X110-3N"
-			(at 89.865 212.09 0)
+			(at 114.63 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11071,7 +11071,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
-			(at -10.135 212.09 0)
+			(at 14.63 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11083,7 @@
 			)
 		)
 		(property "Description" "Low capacitance double bidirectional ESD protection diodes in SOT23 13A 30kV"
-			(at 193.675 185.42 0)
+			(at 218.44 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11094,7 +11094,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at -210.135 212.09 0)
+			(at -185.37 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +11106,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-PESD5V0L2BT-T/R"
-			(at -310.135 212.09 0)
+			(at -285.37 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11118,7 +11118,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0L2BT215?qs=LOCUfHb8d9sw%252B%2FcZzpNtzw%3D%3D"
-			(at -410.135 212.09 0)
+			(at -385.37 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11130,7 +11130,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia"
-			(at -510.135 212.09 0)
+			(at -485.37 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11142,7 +11142,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PESD5V0L2BT,215"
-			(at -610.135 212.09 0)
+			(at -585.37 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +12912,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0L2BT,215:PESD5V0L2BT,215")
-		(at 194.31 187.96 270)
+		(at 169.545 184.785 270)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12923,7 +12923,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4130718-a2a6-41b6-b96b-0c6d107d2d03")
 		(property "Reference" "D19"
-			(at 196.215 186.6899 90)
+			(at 171.45 183.5149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12934,7 +12934,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L2BT,215"
-			(at 196.215 189.2299 90)
+			(at 171.45 186.0549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12945,7 +12945,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P230X110-3N"
-			(at 114.63 214.63 0)
+			(at 89.865 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12957,7 +12957,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf"
-			(at 14.63 214.63 0)
+			(at -10.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12969,7 +12969,7 @@
 			)
 		)
 		(property "Description" "Low capacitance double bidirectional ESD protection diodes in SOT23 13A 30kV"
-			(at 218.44 187.96 0)
+			(at 193.675 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12980,7 +12980,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at -185.37 214.63 0)
+			(at -210.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12992,7 +12992,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-PESD5V0L2BT-T/R"
-			(at -285.37 214.63 0)
+			(at -310.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13004,7 +13004,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0L2BT215?qs=LOCUfHb8d9sw%252B%2FcZzpNtzw%3D%3D"
-			(at -385.37 214.63 0)
+			(at -410.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13016,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia"
-			(at -485.37 214.63 0)
+			(at -510.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13028,7 +13028,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PESD5V0L2BT,215"
-			(at -585.37 214.63 0)
+			(at -610.135 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
