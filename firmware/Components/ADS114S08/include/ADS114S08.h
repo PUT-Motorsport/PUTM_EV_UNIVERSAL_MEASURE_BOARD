@@ -318,6 +318,12 @@ enum class SYS_TIMEOUT : uint8_t {
     ENABLE = 1,
 };
 
+enum class REF_SEL : uint8_t {
+    EXTERNAL_0 = 0,
+    EXTERNAL_1 = 1,
+    INTERNAL = 2,
+}
+
 class Driver {
   public:
     Driver() = default;
@@ -333,7 +339,7 @@ class Driver {
 
     HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
     HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
-    HAL_StatusTypeDef data_read(uint16_t* data);
+    HAL_StatusTypeDef data_read(uint16_t& data);
     HAL_StatusTypeDef data_read_IT();
     HAL_StatusTypeDef put_to_sleep();
     HAL_StatusTypeDef start_by_command();
@@ -382,6 +388,5 @@ class Driver {
     GPIODAT gpiodat;
     GPIOCON gpiocon;
 };
-
 
 } // namespace ADS114S08

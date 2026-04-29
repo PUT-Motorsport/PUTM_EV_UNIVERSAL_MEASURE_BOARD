@@ -20,14 +20,12 @@ HAL_StatusTypeDef Driver::reg_read(uint8_t reg, uint8_t* data) {
     return status;
 }
 
-HAL_StatusTypeDef Driver::data_read(uint16_t* data) {
-    if(data == NULL)
-        return HAL_ERROR;
+HAL_StatusTypeDef Driver::data_read(uint16_t& data) {
     uint8_t txrx[3]{RDATA_CMD, 0x00, 0x00};
     HAL_StatusTypeDef status = HAL_SPI_TransmitReceive(
         spi_handle, txrx, txrx, sizeof(txrx), SPI_TIMEOUT);
     if(status == HAL_OK) {
-        *data = (txrx[1] << 8) | txrx[2];
+        data = (txrx[1] << 8) | txrx[2];
     }
     return status;
 }

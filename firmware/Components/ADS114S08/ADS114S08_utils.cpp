@@ -50,6 +50,9 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
     // Clear power-on-reset flag
     reg_write(STATUS_ADDR, 0x00);
 
+    // Set internal voltage reference
+    reg_write(REF_ADDR, 0x19);
+
     // Read all registers for verification
     reg_read(STATUS_ADDR, &status.value);
     reg_read(INPMUX_ADDR, &inpmux.value);
@@ -72,8 +75,8 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
 }
 
 void Driver::select_differential(INPMUX_Field muxp, INPMUX_Field muxn) {
-    inpmux.u.MUXN = static_cast<uint8_t>(muxn);
     inpmux.u.MUXP = static_cast<uint8_t>(muxp);
+    inpmux.u.MUXN = static_cast<uint8_t>(muxn);
     reg_write(INPMUX_ADDR, inpmux.value);
     reg_read(INPMUX_ADDR, &inpmux.value);
 }

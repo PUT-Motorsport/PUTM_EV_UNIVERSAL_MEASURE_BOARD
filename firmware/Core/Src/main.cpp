@@ -21,6 +21,7 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "stm32g0xx_hal_gpio.h"
 #include "tim.h"
 #include "usart.h"
 
@@ -43,7 +44,6 @@ class Adc_reading {
 enum Adc_data_status {
     IDLE,
     READY_TO_READ,
-    READING,
     DECODE,
 };
 
@@ -137,11 +137,11 @@ int main(void) {
         ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
         ADS114S08::DR_CLK_Field::INTERNAL_4_096MHZ);
 
-    ads114s08.select_single_ended(ADS114S08::INPMUX_Field::AIN0);
+    ads114s08.select_single_ended(ADS114S08::INPMUX_Field::AIN3);
     ads114s08.start_conversions();
 
-    uint16_t adc_raw_data{};
-
+    ads114s08.state = ADS114S08::Driver::CONTINUOUS_CONVERSION_MODE;
+    uint16_t adc_raw_data{0};
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -157,12 +157,10 @@ int main(void) {
                 break;
             }
             case READY_TO_READ: {
-                if(ads114s08.data_read_IT() == HAL_OK) {
-                    adc_data_status = READING;
+                if(ads114s08.data_read_IT() == HAL_OK &&
+                   adc_data_status == READY_TO_READ) {
+                    adc_data_status = IDLE;
                 }
-                break;
-            }
-            case READING: {
                 break;
             }
             case DECODE: {
