@@ -12086,7 +12086,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cf3236e-6282-4019-99f7-720ea086e729")
 		(property "Reference" "U11"
-			(at 233.68 128.905 0)
+			(at 233.68 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12096,7 +12096,7 @@
 			)
 		)
 		(property "Value" "L7812ABD2T-TR"
-			(at 233.68 131.445 0)
+			(at 233.68 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12105,7 +12105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L7812ABD2TTR"
+		(property "Footprint" "L7805ABD2TTR"
 			(at 265.43 232.08 0)
 			(hide yes)
 			(show_name no)
