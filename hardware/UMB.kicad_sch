@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "b652b05a-4e3d-4ad1-b032-18886abe7d45")
 	(paper "A4")
 	(title_block
@@ -11,8 +11,15 @@
 		(comment 1 "Reviewer:")
 	)
 	(lib_symbols)
-	(bus_alias "ST-LINK"
-		(members "SWDIO" "SWCLK" "NRST")
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b58f56-f37a-4bff-83a5-7fe0630bddf6")
 	)
 	(bus
 		(pts
@@ -23,16 +30,6 @@
 			(type default)
 		)
 		(uuid "11f42601-3342-49bd-ac6e-704d9a2c36c0")
-	)
-	(wire
-		(pts
-			(xy 63.5 43.18) (xy 63.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a716e71-51d8-440a-92bf-12eb2f72f956")
 	)
 	(wire
 		(pts
@@ -123,6 +120,16 @@
 			(type default)
 		)
 		(uuid "618748e9-5a4e-437c-b418-2c209f2c5f3e")
+	)
+	(wire
+		(pts
+			(xy 58.42 30.48) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650f5424-9f04-4bd7-a198-1b92a09fb8b4")
 	)
 	(bus
 		(pts
@@ -256,7 +263,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 58.42) (xy 139.7 58.42)
+			(xy 129.54 54.61) (xy 139.7 54.61)
 		)
 		(stroke
 			(width 0)
@@ -286,16 +293,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 58.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb21530-f1b9-4f7f-a8ec-02b8d8343ad6")
-	)
-	(wire
-		(pts
 			(xy 172.72 59.69) (xy 185.42 59.69)
 		)
 		(stroke
@@ -315,8 +312,8 @@
 		(uuid "ffb153a6-5067-4feb-8971-2e3d1e9edf54")
 	)
 	(sheet
-		(at 139.446 43.18)
-		(size 33.274 31.75)
+		(at 139.7 43.18)
+		(size 33.02 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -326,11 +323,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "27728c5b-995e-4e9b-804c-adae9f98b692")
 		(property "Sheetname" "ADC"
-			(at 139.446 42.418 0)
+			(at 139.7 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -339,7 +338,9 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 139.446 75.692 0)
+			(at 139.7 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +349,7 @@
 			)
 		)
 		(pin "DIF[1..6]" input
-			(at 139.446 48.26 180)
+			(at 139.7 48.26 180)
 			(uuid "bf65095d-0839-471d-8bde-96d416cb1622")
 			(effects
 				(font
@@ -358,7 +359,7 @@
 			)
 		)
 		(pin "SE[1..6]" input
-			(at 139.446 58.42 180)
+			(at 139.7 54.61 180)
 			(uuid "5172e4b0-30dd-410e-9f0b-216de93f97f9")
 			(effects
 				(font
@@ -416,8 +417,8 @@
 		)
 	)
 	(sheet
-		(at 26.416 43.18)
-		(size 51.054 31.75)
+		(at 26.67 43.18)
+		(size 50.8 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -428,11 +429,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "65a08dc3-a462-4aa7-aaa7-17144caab299")
 		(property "Sheetname" "Connectors"
-			(at 26.416 42.0874 0)
+			(at 26.67 42.0874 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -441,7 +444,9 @@
 			)
 		)
 		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 26.416 75.5146 0)
+			(at 26.67 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,8 +524,8 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX" input
-			(at 63.5 43.18 90)
+		(pin "UART_RX" output
+			(at 58.42 43.18 90)
 			(uuid "cd3ebf99-0152-4e80-9f0b-441a7c917294")
 			(effects
 				(font
@@ -530,7 +535,7 @@
 			)
 		)
 		(pin "UART_TX" output
-			(at 58.42 43.18 90)
+			(at 63.5 43.18 90)
 			(uuid "6841c058-7dc1-4120-8002-898871213a3f")
 			(effects
 				(font
@@ -580,11 +585,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d6d0b9a5-d6bd-4532-a3f2-84b92b0fd444")
 		(property "Sheetname" "Power"
 			(at 126.492 110.1594 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -594,6 +601,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 126.492 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,11 +631,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e37d7555-464e-4542-8460-133370bc5076")
 		(property "Sheetname" "MCU"
 			(at 185.42 42.0874 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -636,6 +647,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 185.42 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,6 +658,8 @@
 		)
 		(property "Field2" ""
 			(at 185.42 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +736,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_RX" output
+		(pin "UART_RX" input
 			(at 200.66 43.18 90)
 			(uuid "a97013f7-3d5d-44e8-b231-04667c947b58")
 			(effects
@@ -731,7 +746,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_TX" input
+		(pin "UART_TX" output
 			(at 205.74 43.18 90)
 			(uuid "f2906fae-433d-4fa6-80ec-d60a2cb48e11")
 			(effects
@@ -771,11 +786,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e524c447-0b05-4e0a-b5b6-a853f1ffe627")
 		(property "Sheetname" "Analog"
 			(at 93.98 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -785,6 +802,8 @@
 		)
 		(property "Sheetfile" "Analog.kicad_sch"
 			(at 93.98 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +882,7 @@
 			)
 		)
 		(pin "SE[1..6]" output
-			(at 129.54 58.42 0)
+			(at 129.54 54.61 0)
 			(uuid "070e3d64-97d2-4cee-8039-9e0e3e4b6b79")
 			(effects
 				(font
@@ -893,11 +912,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f86baa9b-d464-4051-a8bf-f0cf2a28b241")
 		(property "Sheetname" "CAN"
 			(at 238.76 42.0874 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -907,6 +928,8 @@
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
 			(at 238.76 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
