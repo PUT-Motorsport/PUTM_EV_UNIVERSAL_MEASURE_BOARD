@@ -99,10 +99,10 @@ int Driver::select_single_ended(INPMUX_Field muxp) {
 
 int Driver::start_conversions() {
     if(state == STANDBY_MODE) {
-        if(datarate.u.DR ==
+        if(datarate.u.MODE ==
            static_cast<uint8_t>(DR_MODE_Field::CONTINUOUS_CONVERSION_MODE)) {
             state = CONTINUOUS_CONVERSION_MODE;
-        } else if(datarate.u.DR ==
+        } else if(datarate.u.MODE ==
                   static_cast<uint8_t>(
                       DR_MODE_Field::SINGLE_SHOT_CONVERSION_MODE)) {
             state = SINGLE_CONVERSION_MODE;

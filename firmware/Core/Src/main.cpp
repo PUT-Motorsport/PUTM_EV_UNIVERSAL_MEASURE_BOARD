@@ -140,7 +140,6 @@ int main(void) {
     ads114s08.select_single_ended(ADS114S08::INPMUX_Field::AIN3);
     ads114s08.start_conversions();
 
-    ads114s08.state = ADS114S08::Driver::CONTINUOUS_CONVERSION_MODE;
     uint16_t adc_raw_data{0};
     /* USER CODE END 2 */
 
