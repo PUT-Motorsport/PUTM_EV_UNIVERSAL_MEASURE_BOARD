@@ -327,6 +327,7 @@ enum class REF_SEL : uint8_t {
 class Driver {
   public:
     Driver() = default;
+    int write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read);
     int init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
              uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
              GPIO_TypeDef* rst_port, uint16_t rst_pin);
