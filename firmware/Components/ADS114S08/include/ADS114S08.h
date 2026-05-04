@@ -326,11 +326,12 @@ enum class REF_SEL : uint8_t {
 
 class Driver {
   public:
-    Driver() = default;
+    explicit Driver(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
+                    uint16_t start_pin, GPIO_TypeDef* drdy_port,
+                    uint16_t drdy_pin, GPIO_TypeDef* rst_port,
+                    uint16_t rst_pin);
     int write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read);
-    int init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
-             uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
-             GPIO_TypeDef* rst_port, uint16_t rst_pin);
+    int init();
     int select_differential(INPMUX_Field muxp, INPMUX_Field muxn);
     int select_single_ended(INPMUX_Field muxp);
     int config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
@@ -364,11 +365,11 @@ class Driver {
 
     SPI_HandleTypeDef* spi_handle{nullptr};
     GPIO_TypeDef* start_port{nullptr};
-    uint16_t start_pin{0};
+    const uint16_t start_pin;
     GPIO_TypeDef* drdy_port{nullptr};
-    uint16_t drdy_pin{0};
+    const uint16_t drdy_pin;
     GPIO_TypeDef* rst_port{nullptr};
-    uint16_t rst_pin{0};
+    const uint16_t rst_pin;
 
     uint8_t rx_buffer[3]{0};
 

@@ -2,6 +2,13 @@
 
 namespace ADS114S08 {
 
+Driver::Driver(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
+               uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
+               GPIO_TypeDef* rst_port, uint16_t rst_pin)
+    : spi_handle{spi_handle}, start_port{start_port}, start_pin{start_pin},
+      drdy_port{drdy_port}, drdy_pin{drdy_pin}, rst_port{rst_port},
+      rst_pin{rst_pin} {}
+
 int Driver::write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read) {
     uint8_t data_buffer{};
     if(reg_write(reg, data_write) != HAL_OK)
@@ -14,9 +21,7 @@ int Driver::write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read) {
     return 0;
 }
 
-int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
-                 uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
-                 GPIO_TypeDef* rst_port, uint16_t rst_pin) {
+int Driver::init() {
 
     if(state == POWER_DOWN_MODE) {
         if(spi_handle == nullptr || start_port == nullptr ||
@@ -24,14 +29,6 @@ int Driver::init(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
            drdy_pin == 0 || rst_pin == 0) {
             return 1;
         }
-
-        this->spi_handle = spi_handle;
-        this->start_port = start_port;
-        this->start_pin = start_pin;
-        this->drdy_port = drdy_port;
-        this->drdy_pin = drdy_pin;
-        this->rst_port = rst_port;
-        this->rst_pin = rst_pin;
 
         // Bring ADC out of reset
         HAL_GPIO_WritePin(rst_port, rst_pin, GPIO_PIN_RESET);

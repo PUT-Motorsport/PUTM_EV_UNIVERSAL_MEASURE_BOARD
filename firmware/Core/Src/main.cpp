@@ -120,11 +120,10 @@ int main(void) {
     // putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
-    ADS114S08::Driver ads114s08;
-
-    ads114s08.init(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
-                   ADC_DRDY_GPIO_Port, ADC_DRDY_Pin, ADC_RST_GPIO_Port,
-                   ADC_RST_Pin);
+    ADS114S08::Driver ads114s08(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
+                                ADC_DRDY_GPIO_Port, ADC_DRDY_Pin,
+                                ADC_RST_GPIO_Port, ADC_RST_Pin);
+    ads114s08.init();
 
     // Bypass PGA
     ads114s08.config_pga(ADS114S08::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
