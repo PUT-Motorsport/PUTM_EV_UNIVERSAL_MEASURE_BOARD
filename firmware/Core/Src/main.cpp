@@ -36,44 +36,111 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
-class Adc_reading {
-    uint16_t raw;
-    float value;
-};
-
-enum Adc_data_status {
+enum class Adc_status {
     IDLE,
     READY_TO_READ,
     DECODE,
 };
 
+template <size_t N> class Adc_readings {
+  private:
+    ADS114S08::Driver& adc;
+    std::array<ADS114S08::INPMUX_Field, N> channels;
+    std::array<uint16_t, N> raw_values;
+    uint8_t current_channel{0};
+
+  public:
+    volatile Adc_status status{Adc_status::IDLE};
+
+    Adc_readings(ADS114S08::Driver& adc,
+                 std::array<ADS114S08::INPMUX_Field, N> channels)
+        : adc{adc}, channels{channels} {};
+
+    void start() { adc.start_conversions(); }
+
+    void next() {
+        if(status == Adc_status::IDLE) {
+            current_channel++;
+            if(current_channel >= N)
+                current_channel = 0;
+            switch(adc.get_state()) {
+            case ADS114S08::Driver::State::CONTINUOUS_CONVERSION_MODE: {
+                adc.select_single_ended(channels[current_channel]);
+                break;
+            }
+            case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
+                adc.select_single_ended(channels[current_channel]);
+                adc.start_conversions();
+                break;
+            }
+            default:
+                break;
+            }
+        }
+    }
+
+    void read() {
+        if(adc.data_read_IT() == HAL_OK &&
+           status == Adc_status::READY_TO_READ) {
+            status = Adc_status::IDLE;
+        }
+    }
+
+    uint16_t update() {
+        if(status == Adc_status::DECODE) {
+            switch(adc.get_state()) {
+            case ADS114S08::Driver::State::CONTINUOUS_CONVERSION_MODE: {
+                raw_values[current_channel] = adc.data_decode_IT();
+                break;
+            }
+            case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
+                break;
+            }
+            default:
+                break;
+            }
+            status = Adc_status::IDLE;
+        }
+        return raw_values[current_channel];
+    }
+};
+
 /* USER CODE END PTD */
 
-/* Private define ------------------------------------------------------------*/
+/* Private define
+ * ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
 /* USER CODE END PD */
 
-/* Private macro -------------------------------------------------------------*/
+/* Private macro
+ * -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 
 /* USER CODE END PM */
 
-/* Private variables ---------------------------------------------------------*/
+/* Private variables
+ * ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-std::array<Adc_reading, 16> adc_readings{{}};
 
-volatile Adc_data_status adc_data_status{IDLE};
+ADS114S08::Driver ads114s08{
+    &hspi1,       ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
+    ADC_DRDY_Pin, ADC_RST_GPIO_Port,   ADC_RST_Pin};
+Adc_readings<2> adc_readings{
+    ads114s08, {ADS114S08::INPMUX_Field::AIN0, ADS114S08::INPMUX_Field::AIN2}};
 /* USER CODE END PV */
 
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes
+ * -----------------------------------------------*/
 void SystemClock_Config(void);
+
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
-/* Private user code ---------------------------------------------------------*/
+/* Private user code
+ * ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
@@ -120,26 +187,22 @@ int main(void) {
     // putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
-    ADS114S08::Driver ads114s08(&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
-                                ADC_DRDY_GPIO_Port, ADC_DRDY_Pin,
-                                ADC_RST_GPIO_Port, ADC_RST_Pin);
     ads114s08.init();
 
     // Bypass PGA
     ads114s08.config_pga(ADS114S08::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
                          ADS114S08::PGA_GAIN_Field::GAIN_1);
 
-    // Configure continuous conversion, 200 samples per second datarate and adc
-    // internal clock
+    // Configure continuous conversion, 200 samples per second datarate and
+    // adc internal clock
     ads114s08.config_datarate(
         ADS114S08::DR_SEL_Field::SEL_200_SPS,
         ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
         ADS114S08::DR_CLK_Field::INTERNAL_4_096MHZ);
 
-    ads114s08.select_single_ended(ADS114S08::INPMUX_Field::AIN3);
-    ads114s08.start_conversions();
+    adc_readings.start();
+    uint16_t adc_raw_data{};
 
-    uint16_t adc_raw_data{0};
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -148,22 +211,19 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-        switch(ads114s08.state) {
-        case ADS114S08::Driver::CONTINUOUS_CONVERSION_MODE: {
-            switch(adc_data_status) {
-            case IDLE: {
+        switch(ads114s08.get_state()) {
+        case ADS114S08::Driver::State::CONTINUOUS_CONVERSION_MODE: {
+            switch(adc_readings.status) {
+            case Adc_status::IDLE: {
+                adc_readings.next();
                 break;
             }
-            case READY_TO_READ: {
-                if(ads114s08.data_read_IT() == HAL_OK &&
-                   adc_data_status == READY_TO_READ) {
-                    adc_data_status = IDLE;
-                }
+            case Adc_status::READY_TO_READ: {
+                adc_readings.read();
                 break;
             }
-            case DECODE: {
-                adc_raw_data = ads114s08.data_decode_IT();
-                adc_data_status = IDLE;
+            case Adc_status::DECODE: {
+                adc_raw_data = adc_readings.update();
                 break;
             }
             }
@@ -188,8 +248,8 @@ void SystemClock_Config(void) {
      */
     HAL_PWREx_ControlVoltageScaling(PWR_REGULATOR_VOLTAGE_SCALE1);
 
-    /** Initializes the RCC Oscillators according to the specified parameters
-     * in the RCC_OscInitTypeDef structure.
+    /** Initializes the RCC Oscillators according to the specified
+     * parameters in the RCC_OscInitTypeDef structure.
      */
     RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
     RCC_OscInitStruct.HSIState = RCC_HSI_ON;
@@ -223,14 +283,14 @@ void SystemClock_Config(void) {
 
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
     if(hspi == &hspi1) {
-        adc_data_status = DECODE;
+        adc_readings.status = Adc_status::DECODE;
     }
 }
 
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
     if(GPIO_Pin == ADC_DRDY_Pin) {
-        if(adc_data_status == IDLE) {
-            adc_data_status = READY_TO_READ;
+        if(adc_readings.status == Adc_status::IDLE) {
+            adc_readings.status = Adc_status::READY_TO_READ;
         };
     }
 }
@@ -242,7 +302,8 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
  */
 void Error_Handler(void) {
     /* USER CODE BEGIN Error_Handler_Debug */
-    /* User can add his own implementation to report the HAL error return state
+    /* User can add his own implementation to report the HAL error return
+     * state
      */
     __disable_irq();
     while(1) {

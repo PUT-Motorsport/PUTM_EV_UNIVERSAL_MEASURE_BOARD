@@ -326,10 +326,19 @@ enum class REF_SEL : uint8_t {
 
 class Driver {
   public:
+    enum class State {
+        POWER_DOWN_MODE,
+        STANDBY_MODE,
+        SINGLE_CONVERSION_MODE,
+        CONTINUOUS_CONVERSION_MODE,
+    };
+
     explicit Driver(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
                     uint16_t start_pin, GPIO_TypeDef* drdy_port,
                     uint16_t drdy_pin, GPIO_TypeDef* rst_port,
                     uint16_t rst_pin);
+
+    State get_state();
     int write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read);
     int init();
     int select_differential(INPMUX_Field muxp, INPMUX_Field muxn);
@@ -351,16 +360,9 @@ class Driver {
     HAL_StatusTypeDef self_offset_calibration();
     HAL_StatusTypeDef system_gain_calibration();
 
-    enum State {
-        POWER_DOWN_MODE,
-        STANDBY_MODE,
-        SINGLE_CONVERSION_MODE,
-        CONTINUOUS_CONVERSION_MODE,
-    };
-
-    State state{POWER_DOWN_MODE};
-
   private:
+    State state{State::POWER_DOWN_MODE};
+
     static constexpr uint32_t SPI_TIMEOUT{100};
 
     SPI_HandleTypeDef* spi_handle{nullptr};

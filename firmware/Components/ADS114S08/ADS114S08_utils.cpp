@@ -21,9 +21,11 @@ int Driver::write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read) {
     return 0;
 }
 
+Driver::State Driver::get_state() { return state; }
+
 int Driver::init() {
 
-    if(state == POWER_DOWN_MODE) {
+    if(state == State::POWER_DOWN_MODE) {
         if(spi_handle == nullptr || start_port == nullptr ||
            drdy_port == nullptr || rst_port == nullptr || start_pin == 0 ||
            drdy_pin == 0 || rst_pin == 0) {
@@ -81,14 +83,14 @@ int Driver::init() {
         reg_read(GPIODAT_ADDR, &gpiodat.value);
         reg_read(GPIOCON_ADDR, &gpiocon.value);
 
-        state = STANDBY_MODE;
+        state = State::STANDBY_MODE;
         return 0;
     }
     return 1;
 }
 
 int Driver::select_differential(INPMUX_Field muxp, INPMUX_Field muxn) {
-    if(state != POWER_DOWN_MODE) {
+    if(state != State::POWER_DOWN_MODE) {
         INPMUX inpmux_write{inpmux};
         inpmux_write.u.MUXP = static_cast<uint8_t>(muxp);
         inpmux_write.u.MUXN = static_cast<uint8_t>(muxn);
@@ -98,21 +100,21 @@ int Driver::select_differential(INPMUX_Field muxp, INPMUX_Field muxn) {
 }
 
 int Driver::select_single_ended(INPMUX_Field muxp) {
-    if(state != POWER_DOWN_MODE) {
+    if(state != State::POWER_DOWN_MODE) {
         return select_differential(muxp, INPMUX_Field::AINCOM);
     }
     return 1;
 }
 
 int Driver::start_conversions() {
-    if(state == STANDBY_MODE) {
+    if(state == State::STANDBY_MODE) {
         if(datarate.u.MODE ==
            static_cast<uint8_t>(DR_MODE_Field::CONTINUOUS_CONVERSION_MODE)) {
-            state = CONTINUOUS_CONVERSION_MODE;
+            state = State::CONTINUOUS_CONVERSION_MODE;
         } else if(datarate.u.MODE ==
                   static_cast<uint8_t>(
                       DR_MODE_Field::SINGLE_SHOT_CONVERSION_MODE)) {
-            state = SINGLE_CONVERSION_MODE;
+            state = State::SINGLE_CONVERSION_MODE;
         } else
             return 1;
         HAL_GPIO_WritePin(start_port, start_pin, GPIO_PIN_SET);
@@ -123,7 +125,7 @@ int Driver::start_conversions() {
 }
 
 int Driver::config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain) {
-    if(state != POWER_DOWN_MODE) {
+    if(state != State::POWER_DOWN_MODE) {
         PGA pga_write{pga};
         pga_write.u.GAIN = static_cast<uint8_t>(gain);
         pga_write.u.PGA_EN = static_cast<uint8_t>(pga_en);
@@ -134,7 +136,7 @@ int Driver::config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain) {
 
 int Driver::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
                             DR_CLK_Field clk) {
-    if(state != POWER_DOWN_MODE) {
+    if(state != State::POWER_DOWN_MODE) {
         DATARATE datarate_write{datarate};
         datarate_write.u.DR = static_cast<uint8_t>(dr);
         datarate_write.u.MODE = static_cast<uint8_t>(mode);
@@ -146,8 +148,8 @@ int Driver::config_datarate(DR_SEL_Field dr, DR_MODE_Field mode,
 
 uint16_t Driver::data_decode_IT() {
     uint16_t data = (rx_buffer[1] << 8) | rx_buffer[2];
-    if(state == SINGLE_CONVERSION_MODE) {
-        state = STANDBY_MODE;
+    if(state == State::SINGLE_CONVERSION_MODE) {
+        state = State::STANDBY_MODE;
     }
     return data;
 }
