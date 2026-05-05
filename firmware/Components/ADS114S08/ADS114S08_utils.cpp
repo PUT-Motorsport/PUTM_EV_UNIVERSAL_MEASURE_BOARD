@@ -13,9 +13,9 @@ int Driver::write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read) {
     uint8_t data_buffer{};
     if(reg_write(reg, data_write) != HAL_OK)
         return 1;
-    if(reg_read(INPMUX_ADDR, &data_buffer) != HAL_OK)
+    if(reg_read(reg, &data_buffer) != HAL_OK)
         return 1;
-    if(data_read != data_buffer)
+    if(data_write != data_buffer)
         return 1;
     data_read = data_buffer;
     return 0;

@@ -38,13 +38,15 @@
 
 enum class Adc_status {
     IDLE,
-    READY_TO_READ,
+    WAIT_FOR_DRDY,
+    DATA_READY,
+    WAIT_FOR_SPI,
     DECODE,
 };
 
 template <size_t N> class Adc_readings {
   private:
-    ADS114S08::Driver& adc;
+    ADS114S08::Driver& instance;
     std::array<ADS114S08::INPMUX_Field, N> channels;
     std::array<uint16_t, N> raw_values;
     uint8_t current_channel{0};
@@ -52,45 +54,54 @@ template <size_t N> class Adc_readings {
   public:
     volatile Adc_status status{Adc_status::IDLE};
 
-    Adc_readings(ADS114S08::Driver& adc,
+    Adc_readings(ADS114S08::Driver& instance,
                  std::array<ADS114S08::INPMUX_Field, N> channels)
-        : adc{adc}, channels{channels} {};
+        : instance{instance}, channels{channels} {};
 
-    void start() { adc.start_conversions(); }
+    int start() {
+        if(status == Adc_status::IDLE) {
+            instance.start_conversions();
+            status = Adc_status::WAIT_FOR_DRDY;
+            return 0;
+        }
+        return 1;
+    }
 
-    void next() {
+    int next() {
         if(status == Adc_status::IDLE) {
             current_channel++;
             if(current_channel >= N)
                 current_channel = 0;
-            switch(adc.get_state()) {
+            instance.select_single_ended(channels[current_channel]);
+            switch(instance.get_state()) {
             case ADS114S08::Driver::State::CONTINUOUS_CONVERSION_MODE: {
-                adc.select_single_ended(channels[current_channel]);
                 break;
             }
             case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
-                adc.select_single_ended(channels[current_channel]);
-                adc.start_conversions();
+                instance.start_conversions();
                 break;
             }
             default:
-                break;
+                return 1;
             }
+            status = Adc_status::WAIT_FOR_DRDY;
+            return 0;
         }
+        return 1;
     }
 
     void read() {
-        if(adc.data_read_IT() == HAL_OK &&
-           status == Adc_status::READY_TO_READ) {
-            status = Adc_status::IDLE;
+        if(instance.data_read_IT() == HAL_OK &&
+           status == Adc_status::DATA_READY) {
+            status = Adc_status::WAIT_FOR_SPI;
         }
     }
 
     uint16_t update() {
         if(status == Adc_status::DECODE) {
-            switch(adc.get_state()) {
+            switch(instance.get_state()) {
             case ADS114S08::Driver::State::CONTINUOUS_CONVERSION_MODE: {
-                raw_values[current_channel] = adc.data_decode_IT();
+                raw_values[current_channel] = instance.data_decode_IT();
                 break;
             }
             case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
@@ -218,7 +229,7 @@ int main(void) {
                 adc_readings.next();
                 break;
             }
-            case Adc_status::READY_TO_READ: {
+            case Adc_status::DATA_READY: {
                 adc_readings.read();
                 break;
             }
@@ -281,17 +292,17 @@ void SystemClock_Config(void) {
 
 /* USER CODE BEGIN 4 */
 
-void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
-    if(hspi == &hspi1) {
-        adc_readings.status = Adc_status::DECODE;
-    }
-}
-
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
     if(GPIO_Pin == ADC_DRDY_Pin) {
-        if(adc_readings.status == Adc_status::IDLE) {
-            adc_readings.status = Adc_status::READY_TO_READ;
+        if(adc_readings.status == Adc_status::WAIT_FOR_DRDY) {
+            adc_readings.status = Adc_status::DATA_READY;
         };
+    }
+}
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
+    if(hspi == &hspi1) {
+        if(adc_readings.status == Adc_status::WAIT_FOR_SPI)
+            adc_readings.status = Adc_status::DECODE;
     }
 }
 /* USER CODE END 4 */
