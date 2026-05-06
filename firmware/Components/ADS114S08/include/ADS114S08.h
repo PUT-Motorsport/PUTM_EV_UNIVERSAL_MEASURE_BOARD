@@ -345,7 +345,8 @@ class Driver {
     int select_single_ended(INPMUX_Field muxp);
     int config_pga(PGA_EN_Field pga_en, PGA_GAIN_Field gain);
     int config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
-    int start_conversions();
+    int start_continous_conversions();
+    int start_single_conversion();
     uint16_t data_decode_IT();
 
     HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);

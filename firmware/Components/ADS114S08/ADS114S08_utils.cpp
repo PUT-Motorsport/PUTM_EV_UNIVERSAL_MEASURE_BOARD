@@ -106,19 +106,26 @@ int Driver::select_single_ended(INPMUX_Field muxp) {
     return 1;
 }
 
-int Driver::start_conversions() {
-    if(state == State::STANDBY_MODE) {
-        if(datarate.u.MODE ==
+int Driver::start_continous_conversions() {
+    if(state == State::STANDBY_MODE &&
+       datarate.u.MODE ==
            static_cast<uint8_t>(DR_MODE_Field::CONTINUOUS_CONVERSION_MODE)) {
-            state = State::CONTINUOUS_CONVERSION_MODE;
-        } else if(datarate.u.MODE ==
-                  static_cast<uint8_t>(
-                      DR_MODE_Field::SINGLE_SHOT_CONVERSION_MODE)) {
-            state = State::SINGLE_CONVERSION_MODE;
-        } else
-            return 1;
+        state = State::CONTINUOUS_CONVERSION_MODE;
         HAL_GPIO_WritePin(start_port, start_pin, GPIO_PIN_SET);
         HAL_Delay(1);
+        return 0;
+    }
+    return 1;
+}
+
+int Driver::start_single_conversion() {
+    if(state == State::STANDBY_MODE &&
+       datarate.u.MODE ==
+           static_cast<uint8_t>(DR_MODE_Field::CONTINUOUS_CONVERSION_MODE)) {
+        state = State::SINGLE_CONVERSION_MODE;
+        HAL_GPIO_WritePin(start_port, start_pin, GPIO_PIN_RESET);
+        HAL_Delay(1);
+        HAL_GPIO_WritePin(start_port, start_pin, GPIO_PIN_SET);
         return 0;
     }
     return 1;
