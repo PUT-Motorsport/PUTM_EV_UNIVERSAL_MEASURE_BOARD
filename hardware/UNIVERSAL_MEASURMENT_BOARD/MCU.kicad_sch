@@ -1792,7 +1792,7 @@
 					(alternate "USART3_CTS" bidirectional line)
 					(alternate "USART3_NSS" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 16.51 -41.91 180)
 					(length 2.54)
 					(name "PB14"
@@ -2212,7 +2212,7 @@
 					(alternate "TIM8_CH2" bidirectional line)
 					(alternate "USART2_TX" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 16.51 -1.27 180)
 					(length 2.54)
 					(name "PA15"
@@ -6031,7 +6031,6 @@
 		)
 		(pin "53"
 			(uuid "f49dc07c-2082-4a65-86bb-a89bd0b57b91")
-			(alternate "UART4_RX")
 		)
 		(pin "22"
 			(uuid "e320607c-b737-46ef-9ca9-57eb3f40da71")
@@ -6080,7 +6079,6 @@
 		)
 		(pin "52"
 			(uuid "c55b1fb6-df3c-4382-81af-270a2859b9c6")
-			(alternate "UART4_TX")
 		)
 		(pin "3"
 			(uuid "2d502203-ae6b-48f9-97cb-83ed9f4c58a8")
