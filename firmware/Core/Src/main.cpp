@@ -30,105 +30,187 @@
 #include "ADS114S08.h"
 #include "PUTM_EV_CAN_LIBRARY/include/can_driver.hpp"
 #include <array>
-#include <utility>
 
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
-enum class Adc_status {
-    IDLE,
-    WAIT_FOR_DRDY,
-    DATA_READY,
-    WAIT_FOR_SPI,
-    DECODE,
-};
-
-class Adc_readings : public ADS114S08::Driver {
-  private:
-    std::array<ADS114S08::INPMUX_Field, 12> channels{
-        ADS114S08::INPMUX_Field::AIN0,  ADS114S08::INPMUX_Field::AIN1,
-        ADS114S08::INPMUX_Field::AIN2,  ADS114S08::INPMUX_Field::AIN3,
-        ADS114S08::INPMUX_Field::AIN4,  ADS114S08::INPMUX_Field::AIN5,
-        ADS114S08::INPMUX_Field::AIN6,  ADS114S08::INPMUX_Field::AIN7,
-        ADS114S08::INPMUX_Field::AIN8,  ADS114S08::INPMUX_Field::AIN9,
-        ADS114S08::INPMUX_Field::AIN10, ADS114S08::INPMUX_Field::AIN11};
-    std::array<bool, 12> channel_status{};
-    std::array<uint16_t, 12> raw_values{};
-    uint8_t current_channel{0};
-    uint8_t active_channels_count{};
-
+class Adc : public ADS114S08::Driver {
   public:
-    volatile Adc_status status{Adc_status::IDLE};
+    enum class Status {
+        STOP,
+        IDLE,
+        WAIT_FOR_DRDY,
+        DATA_READY,
+        WAIT_FOR_SPI,
+        DECODE,
+    };
+    volatile Status status{Status::STOP};
 
-    Adc_readings(ADS114S08::Driver driver_config,
-                 std::array<bool, 12> channel_status)
-        : ADS114S08::Driver{driver_config}, channel_status{channel_status} {
-        for(int e : channel_status) {
-            if(e == true) {
-                active_channels_count++;
-            }
-        }
+    struct Channel {
+        enum class Type : uint8_t {
+            SINGLE_ENDED,
+            DIFFERENTIAL,
+        };
+        enum class Voltage : uint8_t {
+            VOLTAGE_3V3,
+            VOLTAGE_5V,
+            VOLTAGE_12V,
+        };
+        enum class Gain : uint8_t {
+            GAIN_1,
+            GAIN_5,
+            GAIN_25,
+            GAIN_100,
+            GAIN_1000,
+        };
+
+        ADS114S08::INPMUX_Field input;
+        Type type;
+        Voltage voltage;
+        Gain gain{Gain::GAIN_1};
+        bool status{false};
+        uint16_t raw_value{0};
     };
 
+    Adc(ADS114S08::Driver driver_config) : ADS114S08::Driver{driver_config} {}
+
+    int config_channel(ADS114S08::INPMUX_Field input, Channel::Voltage voltage,
+                       Channel::Gain gain) {
+        for(auto& e : channels) {
+            if(e.input == input) {
+                if(((voltage == Channel::Voltage::VOLTAGE_5V ||
+                     voltage == Channel::Voltage::VOLTAGE_12V) &&
+                    e.type == Channel::Type::SINGLE_ENDED))
+                    return 1;
+                else if(voltage == Channel::Voltage::VOLTAGE_3V3 &&
+                        e.type == Channel::Type::DIFFERENTIAL)
+                    return 1;
+                else {
+                    e.voltage = voltage;
+                    e.gain = gain;
+                    e.status = true;
+                    active_channels_count++;
+                    return 0;
+                }
+            }
+        }
+        return 1;
+    }
+
+    int deactivate_channel(ADS114S08::INPMUX_Field input) {
+        for(auto& e : channels) {
+            if(e.input == input) {
+                e.status = false;
+                active_channels_count--;
+                if(active_channels_count <= 0) {
+                    status = Status::STOP;
+                }
+                return 0;
+            }
+        }
+        return 1;
+    }
+
     int start() {
-        if(status == Adc_status::IDLE) {
-            start_continous_conversions();
-            status = Adc_status::WAIT_FOR_DRDY;
+        if(active_channels_count <= 0) {
+            return 1;
+        }
+        if(status == Status::STOP) {
+            current_channel = 0;
+            for(size_t i{}; i < channels.max_size(); i++) {
+                if(channels[i].status == true) {
+                    current_channel = i;
+                    break;
+                }
+            }
+            select_single_ended(channels[current_channel].input);
+
+            switch(get_mode()) {
+            case ADS114S08::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE:
+                start_continous_conversions();
+                break;
+            case ADS114S08::DR_MODE_Field::SINGLE_SHOT_CONVERSION_MODE:
+                start_single_conversion();
+                break;
+            }
+            status = Status::WAIT_FOR_DRDY;
             return 0;
         }
         return 1;
     }
 
     int next() {
-        if(status == Adc_status::IDLE) {
+        if(status == Status::IDLE) {
             do {
-                current_channel++;
-            } while(channel_status[current_channel] == false);
-            select_single_ended(channels[current_channel]);
+                current_channel = (current_channel + 1) % channels.max_size();
+            } while(channels[current_channel].status == false);
+            select_single_ended(channels[current_channel].input);
+
             switch(get_state()) {
-            case State::CONTINUOUS_CONVERSION_MODE: {
+            case Mode::CONTINUOUS_CONVERSION_MODE: {
                 break;
             }
-            case State::SINGLE_CONVERSION_MODE: {
-                start_continous_conversions();
+            case Mode::STANDBY_MODE: {
+                start_single_conversion();
                 break;
             }
             default:
                 return 1;
             }
-            status = Adc_status::WAIT_FOR_DRDY;
+            status = Status::WAIT_FOR_DRDY;
             return 0;
         }
         return 1;
     }
 
-    void read() {
-        if(status == Adc_status::DATA_READY) {
-            status = Adc_status::WAIT_FOR_SPI;
-            data_read_IT();
+    int read() {
+        if(status == Status::DATA_READY) {
+            status = Status::WAIT_FOR_SPI;
+            if(data_read_IT() != HAL_OK)
+                return 1;
+            else
+                return 0;
         }
+        return 1;
     }
 
     uint16_t update() {
-        if(status == Adc_status::DECODE) {
+        if(status == Status::DECODE) {
             switch(get_state()) {
-            case State::CONTINUOUS_CONVERSION_MODE: {
-                raw_values[current_channel] = data_decode_IT();
+            case Mode::CONTINUOUS_CONVERSION_MODE: {
+                channels[current_channel].raw_value = data_decode_IT();
                 break;
             }
-            case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
-                raw_values[current_channel] = data_decode_IT();
+            case Mode::SINGLE_CONVERSION_MODE: {
+                channels[current_channel].raw_value = data_decode_IT();
                 break;
             }
             default:
                 break;
             }
-            status = Adc_status::IDLE;
+            status = Status::IDLE;
         }
-        return raw_values[current_channel];
+        return channels[current_channel].raw_value;
     }
+
+  private:
+    std::array<Channel, 12> channels{
+        {{ADS114S08::INPMUX_Field::AIN0, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN1, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN2, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN3, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN4, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN5, Channel::Type::SINGLE_ENDED},
+         {ADS114S08::INPMUX_Field::AIN6, Channel::Type::DIFFERENTIAL},
+         {ADS114S08::INPMUX_Field::AIN7, Channel::Type::DIFFERENTIAL},
+         {ADS114S08::INPMUX_Field::AIN8, Channel::Type::DIFFERENTIAL},
+         {ADS114S08::INPMUX_Field::AIN9, Channel::Type::DIFFERENTIAL},
+         {ADS114S08::INPMUX_Field::AIN10, Channel::Type::DIFFERENTIAL},
+         {ADS114S08::INPMUX_Field::AIN11, Channel::Type::DIFFERENTIAL}}};
+    uint8_t current_channel{0};
+    int8_t active_channels_count{0};
 };
 
 /* USER CODE END PTD */
@@ -150,11 +232,9 @@ class Adc_readings : public ADS114S08::Driver {
 
 /* USER CODE BEGIN PV */
 
-Adc_readings adc{ADS114S08::Driver{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
-                                   ADC_DRDY_GPIO_Port, ADC_DRDY_Pin,
-                                   ADC_RST_GPIO_Port, ADC_RST_Pin},
-                 {false, true, false, true, false, true, false, true, false,
-                  true, false, true}};
+Adc adc{ADS114S08::Driver{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin,
+                          ADC_DRDY_GPIO_Port, ADC_DRDY_Pin, ADC_RST_GPIO_Port,
+                          ADC_RST_Pin}};
 /* USER CODE END PV */
 
 /* Private function prototypes
@@ -237,17 +317,17 @@ int main(void) {
 
         /* USER CODE BEGIN 3 */
         switch(adc.get_state()) {
-        case ADS114S08::Driver::State::SINGLE_CONVERSION_MODE: {
+        case Adc::Mode::SINGLE_CONVERSION_MODE: {
             switch(adc.status) {
-            case Adc_status::IDLE: {
+            case Adc::Status::IDLE: {
                 adc.next();
                 break;
             }
-            case Adc_status::DATA_READY: {
+            case Adc::Status::DATA_READY: {
                 adc.read();
                 break;
             }
-            case Adc_status::DECODE: {
+            case Adc::Status::DECODE: {
                 adc_raw_data = adc.update();
                 break;
             }
@@ -308,15 +388,15 @@ void SystemClock_Config(void) {
 
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
     if(GPIO_Pin == ADC_DRDY_Pin) {
-        if(adc.status == Adc_status::WAIT_FOR_DRDY) {
-            adc.status = Adc_status::DATA_READY;
+        if(adc.status == Adc::Status::WAIT_FOR_DRDY) {
+            adc.status = Adc::Status::DATA_READY;
         };
     }
 }
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
     if(hspi == &hspi1) {
-        if(adc.status == Adc_status::WAIT_FOR_SPI)
-            adc.status = Adc_status::DECODE;
+        if(adc.status == Adc::Status::WAIT_FOR_SPI)
+            adc.status = Adc::Status::DECODE;
     }
 }
 /* USER CODE END 4 */
