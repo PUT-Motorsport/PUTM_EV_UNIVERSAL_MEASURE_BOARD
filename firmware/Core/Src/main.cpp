@@ -149,10 +149,10 @@ class Adc : public ADS114S08::Driver {
             select_single_ended(channels[current_channel].input);
 
             switch(get_state()) {
-            case Mode::CONTINUOUS_CONVERSION_MODE: {
+            case State::CONTINUOUS_CONVERSION_MODE: {
                 break;
             }
-            case Mode::STANDBY_MODE: {
+            case State::STANDBY: {
                 start_single_conversion();
                 break;
             }
@@ -179,12 +179,12 @@ class Adc : public ADS114S08::Driver {
     uint16_t update() {
         if(status == Status::DECODE) {
             switch(get_state()) {
-            case Mode::CONTINUOUS_CONVERSION_MODE: {
-                channels[current_channel].raw_value = data_decode_IT();
+            case State::CONTINUOUS_CONVERSION_MODE: {
+                channels[current_channel].raw_value = decode_data_IT();
                 break;
             }
-            case Mode::SINGLE_CONVERSION_MODE: {
-                channels[current_channel].raw_value = data_decode_IT();
+            case State::SINGLE_CONVERSION_MODE: {
+                channels[current_channel].raw_value = decode_data_IT();
                 break;
             }
             default:
@@ -317,7 +317,7 @@ int main(void) {
 
         /* USER CODE BEGIN 3 */
         switch(adc.get_state()) {
-        case Adc::Mode::SINGLE_CONVERSION_MODE: {
+        case Adc::State::SINGLE_CONVERSION_MODE: {
             switch(adc.status) {
             case Adc::Status::IDLE: {
                 adc.next();

@@ -326,9 +326,9 @@ enum class REF_SEL : uint8_t {
 
 class Driver {
   public:
-    enum class Mode {
-        POWER_DOWN_MODE,
-        STANDBY_MODE,
+    enum class State {
+        POWER_DOWN,
+        STANDBY,
         SINGLE_CONVERSION_MODE,
         CONTINUOUS_CONVERSION_MODE,
     };
@@ -338,7 +338,7 @@ class Driver {
                     uint16_t drdy_pin, GPIO_TypeDef* rst_port,
                     uint16_t rst_pin);
 
-    Mode get_state();
+    State get_state();
     DR_MODE_Field get_mode();
     int write_check(uint8_t reg, uint8_t data_write, uint8_t& data_read);
     int init();
@@ -348,22 +348,11 @@ class Driver {
     int config_datarate(DR_SEL_Field dr, DR_MODE_Field mode, DR_CLK_Field clk);
     int start_continous_conversions();
     int start_single_conversion();
-    uint16_t data_decode_IT();
-
-    HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
-    HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t* data);
-    HAL_StatusTypeDef data_read(uint16_t& data);
+    uint16_t decode_data_IT();
     HAL_StatusTypeDef data_read_IT();
-    HAL_StatusTypeDef put_to_sleep();
-    HAL_StatusTypeDef start_by_command();
-    HAL_StatusTypeDef stop_by_command();
-    HAL_StatusTypeDef wake_up_the_device();
-    HAL_StatusTypeDef reset_device_to_default_settings();
-    HAL_StatusTypeDef self_offset_calibration();
-    HAL_StatusTypeDef system_gain_calibration();
 
   private:
-    Mode state{Mode::POWER_DOWN_MODE};
+    State state{State::POWER_DOWN};
 
     static constexpr uint32_t SPI_TIMEOUT{100};
 
@@ -375,7 +364,8 @@ class Driver {
     GPIO_TypeDef* rst_port{nullptr};
     const uint16_t rst_pin;
 
-    uint8_t rx_buffer[3]{0};
+    uint8_t tx_buffer[3]{};
+    uint8_t rx_buffer[3]{};
 
     ID id;
     STATUS status;
@@ -393,6 +383,17 @@ class Driver {
     FSCAL1 fscal1;
     GPIODAT gpiodat;
     GPIOCON gpiocon;
+
+    HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
+    HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t& data);
+    HAL_StatusTypeDef data_read(uint16_t& data);
+    HAL_StatusTypeDef put_to_sleep();
+    HAL_StatusTypeDef start_by_command();
+    HAL_StatusTypeDef stop_by_command();
+    HAL_StatusTypeDef wake_up_the_device();
+    HAL_StatusTypeDef reset_device_to_default_settings();
+    HAL_StatusTypeDef self_offset_calibration();
+    HAL_StatusTypeDef system_gain_calibration();
 };
 
 } // namespace ADS114S08
