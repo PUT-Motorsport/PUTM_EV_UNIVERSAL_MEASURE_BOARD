@@ -5790,6 +5790,121 @@
 		(uuid "fe2aedba-006b-4b72-91b6-2e340bc0b449")
 	)
 	(symbol
+		(lib_id "Diode:SMF33A")
+		(at 114.3 212.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "027ffb0a-6893-4070-a89e-3c20a7719274")
+		(property "Reference" "D9"
+			(at 116.84 210.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDSOD323-T05S"
+			(at 116.84 213.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
+			(at 109.22 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 114.3 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
+			(at 114.3 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
+			(at 114.3 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "652-CDSOD323-T05S"
+			(at 114.3 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c28c086c-03da-4118-b0ab-d4156572de97")
+		)
+		(pin "2"
+			(uuid "ea632c12-002f-489d-8cb8-a9ff8eba08f8")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 50.8 106.68 0)
 		(unit 1)
@@ -7064,121 +7179,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF33A")
-		(at 142.24 161.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ccce0c-623b-4e23-9b48-e016bfdac8dd")
-		(property "Reference" "D10"
-			(at 144.78 160.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDSOD323-T05S"
-			(at 144.78 162.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
-			(at 137.16 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
-			(at 142.24 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TVS diode"
-			(at 142.24 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
-			(at 142.24 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
-			(at 142.24 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser No" "652-CDSOD323-T05S"
-			(at 142.24 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec36340a-038d-4c39-aeb1-25da33842f20")
-		)
-		(pin "2"
-			(uuid "13cf4a68-d08c-431c-b574-bde0ad968483")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8814,6 +8814,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF33A")
+		(at 114.3 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a6d339-4086-4964-81f4-428d78e194e6")
+		(property "Reference" "D8"
+			(at 116.84 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDSOD323-T05S"
+			(at 116.84 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
+			(at 109.22 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
+			(at 114.3 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 114.3 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
+			(at 114.3 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
+			(at 114.3 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "652-CDSOD323-T05S"
+			(at 114.3 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85482a47-aec8-4e4a-b934-c7509336bf5c")
+		)
+		(pin "2"
+			(uuid "a5fbf5fe-21fc-48fb-abb6-2e04089bf68e")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 49.53 60.96 0)
 		(unit 1)
@@ -9309,121 +9424,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF33A")
-		(at 142.24 212.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7943e485-0cfc-4aa8-9e7c-287003814877")
-		(property "Reference" "D12"
-			(at 144.78 210.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDSOD323-T05S"
-			(at 144.78 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
-			(at 137.16 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
-			(at 142.24 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TVS diode"
-			(at 142.24 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
-			(at 142.24 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
-			(at 142.24 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser No" "652-CDSOD323-T05S"
-			(at 142.24 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "528e2f76-459c-4331-bd24-b208c117c8ad")
-		)
-		(pin "2"
-			(uuid "123c4d60-2a16-4550-b322-b8b1fa5ea273")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11510,6 +11510,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF33A")
+		(at 142.24 212.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbfa98a0-ee15-42b4-99bc-ada9f4c0f313")
+		(property "Reference" "D12"
+			(at 144.78 210.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDSOD323-T05S"
+			(at 144.78 213.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
+			(at 137.16 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
+			(at 142.24 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 142.24 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
+			(at 142.24 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
+			(at 142.24 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "652-CDSOD323-T05S"
+			(at 142.24 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bb9104c-5338-4b21-bb36-3371121cb7b2")
+		)
+		(pin "2"
+			(uuid "bb28dd05-dca4-4db5-9159-b9bf7b746056")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 273.05 160.02 0)
 		(unit 1)
@@ -11753,7 +11868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0cf7cb0-25ef-4893-8d9f-92d149ca9542")
+		(uuid "bf4be0eb-046b-4cb0-b50c-d9bb6974ddb8")
 		(property "Reference" "D11"
 			(at 144.78 185.4199 90)
 			(show_name no)
@@ -11843,10 +11958,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e70cfe2-a2f8-4d32-881d-32869d0311ae")
+			(uuid "2d197b1c-b59f-4a72-97f5-bb1de2d9dcbc")
 		)
 		(pin "2"
-			(uuid "297e5694-376e-4cb8-b5bc-4d5dbb6aa74b")
+			(uuid "355a58aa-3310-43e4-8c04-dc5bd401358d")
 		)
 		(instances
 			(project "UMB"
@@ -12675,121 +12790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMF33A")
-		(at 114.3 212.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce15fc95-bfe0-44b5-8c35-228a9e79f4c7")
-		(property "Reference" "D9"
-			(at 116.84 210.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDSOD323-T05S"
-			(at 116.84 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
-			(at 109.22 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
-			(at 114.3 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TVS diode"
-			(at 114.3 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
-			(at 114.3 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
-			(at 114.3 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser No" "652-CDSOD323-T05S"
-			(at 114.3 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "952b2643-350b-4969-a2be-f54b72ebee9e")
-		)
-		(pin "2"
-			(uuid "97e70d00-c3bf-4731-9aad-4ecbd55e6487")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 191.77 0)
 		(unit 1)
@@ -13334,6 +13334,121 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
 					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF33A")
+		(at 142.24 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8878f0b-c94b-449a-b8a0-e643f586091b")
+		(property "Reference" "D10"
+			(at 144.78 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDSOD323-T05S"
+			(at 144.78 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
+			(at 137.16 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
+			(at 142.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 142.24 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
+			(at 142.24 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
+			(at 142.24 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "652-CDSOD323-T05S"
+			(at 142.24 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a453573-b583-49ae-8d57-6e324c38379d")
+		)
+		(pin "2"
+			(uuid "a2279de9-933a-4091-bef7-c5b51b3d9d0d")
+		)
+		(instances
+			(project "UMB"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14155,121 +14270,6 @@
 			(project "UMB"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
 					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF33A")
-		(at 114.3 186.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb16c7db-9226-4261-9999-317aed222095")
-		(property "Reference" "D8"
-			(at 116.84 185.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDSOD323-T05S"
-			(at 116.84 187.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "5VtvsUnidir:SOD2513X114N"
-			(at 109.22 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cdsod323_txxsc.pdf"
-			(at 114.3 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TVS diode"
-			(at 114.3 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDSOD323-T05S"
-			(at 114.3 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CDSOD323-T05S?qs=6S5Watp5UnKwEEYVMBfMmA%3D%3D"
-			(at 114.3 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser No" "652-CDSOD323-T05S"
-			(at 114.3 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e03e152-bf69-45be-baaf-9a3b5b8119b2")
-		)
-		(pin "2"
-			(uuid "5f09f412-8018-4fa8-9afa-e2828074bc33")
-		)
-		(instances
-			(project "UMB"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/65a08dc3-a462-4aa7-aaa7-17144caab299"
-					(reference "D8")
 					(unit 1)
 				)
 			)
