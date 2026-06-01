@@ -5,7 +5,7 @@
 #include "gpio.h"
 #include "spi.h"
 
-namespace ADS114S08 {
+namespace ADS114S08B {
 
 constexpr uint8_t NUM_REGISTERS = 18;
 
@@ -62,162 +62,128 @@ constexpr uint8_t RREG_CMD = 0x20;
 constexpr uint8_t WREG_CMD = 0x40;
 
 // 00h ID xxh RESERVED DEV_ID[2:0]
-union ID {
-    uint8_t value;
-    struct {
-        uint8_t DEV_ID : 3;
-        uint8_t RESERVED : 5;
-    } u;
-};
+constexpr uint8_t ID_DEV_ID_MASK = 0x07;
+constexpr uint8_t ID_DEV_ID_SHIFT = 0;
+constexpr uint8_t ID_RESERVED_MASK = 0xF8;
+constexpr uint8_t ID_RESERVED_SHIFT = 3;
 
 // 01h STATUS 80h
-union STATUS {
-    uint8_t value;
-    struct {
-        uint8_t FL_REF_L0 : 1;
-        uint8_t RESERVED : 5;
-        uint8_t RDY : 1;
-        uint8_t FL_POR : 1;
-    } u;
-};
+constexpr uint8_t STATUS_FL_REF_L0_MASK = 0x01;
+constexpr uint8_t STATUS_FL_REF_L0_SHIFT = 0;
+constexpr uint8_t STATUS_RESERVED_MASK = 0x3E;
+constexpr uint8_t STATUS_RESERVED_SHIFT = 1;
+constexpr uint8_t STATUS_RDY_MASK = 0x40;
+constexpr uint8_t STATUS_RDY_SHIFT = 6;
+constexpr uint8_t STATUS_FL_POR_MASK = 0x80;
+constexpr uint8_t STATUS_FL_POR_SHIFT = 7;
 
 // 02h INPMUX
-union INPMUX {
-    uint8_t value;
-    struct {
-        uint8_t MUXN : 4;
-        uint8_t MUXP : 4;
-    } u;
-};
+constexpr uint8_t INPMUX_MUXN_MASK = 0x0F;
+constexpr uint8_t INPMUX_MUXN_SHIFT = 0;
+constexpr uint8_t INPMUX_MUXP_MASK = 0xF0;
+constexpr uint8_t INPMUX_MUXP_SHIFT = 4;
 
 // 03h PGA
-union PGA {
-    uint8_t value;
-    struct {
-        uint8_t GAIN : 3;
-        uint8_t PGA_EN : 2;
-        uint8_t RESERVED : 3;
-    } u;
-};
+constexpr uint8_t PGA_GAIN_MASK = 0x07;
+constexpr uint8_t PGA_GAIN_SHIFT = 0;
+constexpr uint8_t PGA_EN_MASK = 0x18;
+constexpr uint8_t PGA_EN_SHIFT = 3;
+constexpr uint8_t PGA_RESERVED_MASK = 0xE0;
+constexpr uint8_t PGA_RESERVED_SHIFT = 5;
 
 // 04h DATARATE
-union DATARATE {
-    uint8_t value;
-    struct {
-        uint8_t DR : 4;
-        uint8_t RESERVED0 : 1;
-        uint8_t MODE : 1;
-        uint8_t CLK : 1;
-        uint8_t RESERVED1 : 1;
-    } u;
-};
+constexpr uint8_t DATARATE_DR_MASK = 0x0F;
+constexpr uint8_t DATARATE_DR_SHIFT = 0;
+constexpr uint8_t DATARATE_RESERVED0_MASK = 0x10;
+constexpr uint8_t DATARATE_RESERVED0_SHIFT = 4;
+constexpr uint8_t DATARATE_MODE_MASK = 0x20;
+constexpr uint8_t DATARATE_MODE_SHIFT = 5;
+constexpr uint8_t DATARATE_CLK_MASK = 0x40;
+constexpr uint8_t DATARATE_CLK_SHIFT = 6;
+constexpr uint8_t DATARATE_RESERVED1_MASK = 0x80;
+constexpr uint8_t DATARATE_RESERVED1_SHIFT = 7;
 
 // 05h REF
-union REF {
-    uint8_t value;
-    struct {
-        uint8_t REFCON : 2;
-        uint8_t REFSEL : 2;
-        uint8_t REFN_BUF : 1;
-        uint8_t REFP_BUF : 1;
-        uint8_t FL_REF_EN : 1;
-        uint8_t RESERVED : 1;
-    } u;
-};
+constexpr uint8_t REF_REFCON_MASK = 0x03;
+constexpr uint8_t REF_REFCON_SHIFT = 0;
+constexpr uint8_t REF_REFSEL_MASK = 0x0C;
+constexpr uint8_t REF_REFSEL_SHIFT = 2;
+constexpr uint8_t REF_REFN_BUF_MASK = 0x10;
+constexpr uint8_t REF_REFN_BUF_SHIFT = 4;
+constexpr uint8_t REF_REFP_BUF_MASK = 0x20;
+constexpr uint8_t REF_REFP_BUF_SHIFT = 5;
+constexpr uint8_t REF_FL_REF_EN_MASK = 0x40;
+constexpr uint8_t REF_FL_REF_EN_SHIFT = 6;
+constexpr uint8_t REF_RESERVED_MASK = 0x80;
+constexpr uint8_t REF_RESERVED_SHIFT = 7;
 
 // 06h IDACMAG
-union IDACMAG {
-    uint8_t value;
-    struct {
-        uint8_t IMAG : 4;
-        uint8_t RESERVED : 4;
-    } u;
-};
+constexpr uint8_t IDACMAG_IMAG_MASK = 0x0F;
+constexpr uint8_t IDACMAG_IMAG_SHIFT = 0;
+constexpr uint8_t IDACMAG_RESERVED_MASK = 0xF0;
+constexpr uint8_t IDACMAG_RESERVED_SHIFT = 4;
 
 // 07h IDACMUX
-union IDACMUX {
-    uint8_t value;
-    struct {
-        uint8_t I1MUX : 4;
-        uint8_t I2MUX : 4;
-    } u;
-};
+constexpr uint8_t IDACMUX_I1MUX_MASK = 0x0F;
+constexpr uint8_t IDACMUX_I1MUX_SHIFT = 0;
+constexpr uint8_t IDACMUX_I2MUX_MASK = 0xF0;
+constexpr uint8_t IDACMUX_I2MUX_SHIFT = 4;
 
 // 08h VBIAS
-union VBIAS {
-    uint8_t value;
-    struct {
-        uint8_t VB_AIN0 : 1;
-        uint8_t VB_AIN1 : 1;
-        uint8_t VB_AIN2 : 1;
-        uint8_t VB_AIN3 : 1;
-        uint8_t VB_AIN4 : 1;
-        uint8_t VB_AIN5 : 1;
-        uint8_t VB_AINC : 1;
-        uint8_t RESERVED : 1;
-    } u;
-};
+constexpr uint8_t VBIAS_VB_AIN0_MASK = 0x01;
+constexpr uint8_t VBIAS_VB_AIN0_SHIFT = 0;
+constexpr uint8_t VBIAS_VB_AIN1_MASK = 0x02;
+constexpr uint8_t VBIAS_VB_AIN1_SHIFT = 1;
+constexpr uint8_t VBIAS_VB_AIN2_MASK = 0x04;
+constexpr uint8_t VBIAS_VB_AIN2_SHIFT = 2;
+constexpr uint8_t VBIAS_VB_AIN3_MASK = 0x08;
+constexpr uint8_t VBIAS_VB_AIN3_SHIFT = 3;
+constexpr uint8_t VBIAS_VB_AIN4_MASK = 0x10;
+constexpr uint8_t VBIAS_VB_AIN4_SHIFT = 4;
+constexpr uint8_t VBIAS_VB_AIN5_MASK = 0x20;
+constexpr uint8_t VBIAS_VB_AIN5_SHIFT = 5;
+constexpr uint8_t VBIAS_VB_AINC_MASK = 0x40;
+constexpr uint8_t VBIAS_VB_AINC_SHIFT = 6;
+constexpr uint8_t VBIAS_RESERVED_MASK = 0x80;
+constexpr uint8_t VBIAS_RESERVED_SHIFT = 7;
 
 // 09h SYS
-union SYS {
-    uint8_t value;
-    struct {
-        uint8_t RESERVED : 2;
-        uint8_t TIMEOUT : 1;
-        uint8_t CAL_SAMP : 2;
-        uint8_t SYS_MON : 3;
-    } u;
-};
+constexpr uint8_t SYS_RESERVED_MASK = 0x03;
+constexpr uint8_t SYS_RESERVED_SHIFT = 0;
+constexpr uint8_t SYS_TIMEOUT_MASK = 0x04;
+constexpr uint8_t SYS_TIMEOUT_SHIFT = 2;
+constexpr uint8_t SYS_CAL_SAMP_MASK = 0x18;
+constexpr uint8_t SYS_CAL_SAMP_SHIFT = 3;
+constexpr uint8_t SYS_SYS_MON_MASK = 0xE0;
+constexpr uint8_t SYS_SYS_MON_SHIFT = 5;
 
 // 0Bh OFCAL0
-union OFCAL0 {
-    uint8_t value;
-    struct {
-        uint8_t OFC : 8;
-    } u;
-};
+constexpr uint8_t OFCAL0_OFC_MASK = 0xFF;
+constexpr uint8_t OFCAL0_OFC_SHIFT = 0;
 
 // 0Ch OFCAL1
-union OFCAL1 {
-    uint8_t value;
-    struct {
-        uint8_t OFC : 8;
-    } u;
-};
+constexpr uint8_t OFCAL1_OFC_MASK = 0xFF;
+constexpr uint8_t OFCAL1_OFC_SHIFT = 0;
 
 // FSCAL0 0Eh
-union FSCAL0 {
-    uint8_t value;
-    struct {
-        uint8_t FSC : 8;
-    } u;
-};
+constexpr uint8_t FSCAL0_FSC_MASK = 0xFF;
+constexpr uint8_t FSCAL0_FSC_SHIFT = 0;
 
 // FSCAL1 0Fh
-union FSCAL1 {
-    uint8_t value;
-    struct {
-        uint8_t FSC : 8;
-    } u;
-};
+constexpr uint8_t FSCAL1_FSC_MASK = 0xFF;
+constexpr uint8_t FSCAL1_FSC_SHIFT = 0;
 
 // GPIODAT 10h
-union GPIODAT {
-    uint8_t value;
-    struct {
-        uint8_t DAT : 4;
-        uint8_t DIR : 4;
-    } u;
-};
+constexpr uint8_t GPIODAT_DAT_MASK = 0x0F;
+constexpr uint8_t GPIODAT_DAT_SHIFT = 0;
+constexpr uint8_t GPIODAT_DIR_MASK = 0xF0;
+constexpr uint8_t GPIODAT_DIR_SHIFT = 4;
 
 // GPIOCON 11h
-union GPIOCON {
-    uint8_t value;
-    struct {
-        uint8_t CON : 4;
-        uint8_t RESERVED : 4;
-    } u;
-};
+constexpr uint8_t GPIOCON_CON_MASK = 0x0F;
+constexpr uint8_t GPIOCON_CON_SHIFT = 0;
+constexpr uint8_t GPIOCON_RESERVED_MASK = 0xF0;
+constexpr uint8_t GPIOCON_RESERVED_SHIFT = 4;
 
 // Input Multiplexer(INPMUX) Register Field Descriptions
 // Selects the ADC positive input channel.
@@ -351,38 +317,41 @@ class Driver {
     uint16_t decode_data_IT();
     HAL_StatusTypeDef data_read_IT();
 
-  private:
+  protected:
     State state{State::POWER_DOWN};
 
     static constexpr uint32_t SPI_TIMEOUT{100};
 
-    SPI_HandleTypeDef* spi_handle{nullptr};
-    GPIO_TypeDef* start_port{nullptr};
+    SPI_HandleTypeDef* const spi_handle;
+
+    GPIO_TypeDef* const start_port;
     const uint16_t start_pin;
-    GPIO_TypeDef* drdy_port{nullptr};
+
+    GPIO_TypeDef* const drdy_port;
     const uint16_t drdy_pin;
-    GPIO_TypeDef* rst_port{nullptr};
+
+    GPIO_TypeDef* const rst_port;
     const uint16_t rst_pin;
 
     uint8_t tx_buffer[3]{};
     uint8_t rx_buffer[3]{};
 
-    ID id;
-    STATUS status;
-    INPMUX inpmux;
-    PGA pga;
-    DATARATE datarate;
-    REF ref;
-    IDACMAG idacmag;
-    IDACMUX idacmux;
-    VBIAS vbias;
-    SYS sys;
-    OFCAL0 ofcal0;
-    OFCAL1 ofcal1;
-    FSCAL0 fscal0;
-    FSCAL1 fscal1;
-    GPIODAT gpiodat;
-    GPIOCON gpiocon;
+    uint8_t id{0};
+    uint8_t status{0};
+    uint8_t inpmux{0};
+    uint8_t pga{0};
+    uint8_t datarate{0};
+    uint8_t ref{0};
+    uint8_t idacmag{0};
+    uint8_t idacmux{0};
+    uint8_t vbias{0};
+    uint8_t sys{0};
+    uint8_t ofcal0{0};
+    uint8_t ofcal1{0};
+    uint8_t fscal0{0};
+    uint8_t fscal1{0};
+    uint8_t gpiodat{0};
+    uint8_t gpiocon{0};
 
     HAL_StatusTypeDef reg_write(uint8_t reg, uint8_t data);
     HAL_StatusTypeDef reg_read(uint8_t reg, uint8_t& data);
@@ -396,4 +365,4 @@ class Driver {
     HAL_StatusTypeDef system_gain_calibration();
 };
 
-} // namespace ADS114S08
+} // namespace ADS114S08B
