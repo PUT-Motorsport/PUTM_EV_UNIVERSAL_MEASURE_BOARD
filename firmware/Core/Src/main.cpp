@@ -18,9 +18,11 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "stm32g0xx_hal_uart.h"
 #include "tim.h"
 #include "usart.h"
 
@@ -29,6 +31,7 @@
 #include "PUTM_EV_CAN_LIBRARY/include/can_driver.hpp"
 #include "upp.hpp"
 #include <array>
+#include <cstdio>
 #include <optional>
 
 /* USER CODE END Includes */
@@ -55,8 +58,10 @@
 
 /* USER CODE BEGIN PV */
 
-Adc adc{{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
+Upp upp{{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
          ADC_DRDY_Pin, ADC_RST_GPIO_Port, ADC_RST_Pin}};
+
+volatile bool uart1_ready{false};
 /* USER CODE END PV */
 
 /* Private function prototypes
@@ -103,6 +108,7 @@ int main(void) {
 
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
+    MX_DMA_Init();
     MX_SPI1_Init();
     MX_USART1_UART_Init();
     MX_FDCAN1_Init();
@@ -115,23 +121,26 @@ int main(void) {
     // putm_ev_can::CanDriver can_m{};
 
     // Initialize ADC
-    adc.init();
+    upp.init();
 
     // Bypass PGA
-    adc.config_pga(ADS114S08B::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
+    upp.config_pga(ADS114S08B::PGA_EN_Field::POWERED_DOWN_AND_BYPASSED,
                    ADS114S08B::PGA_GAIN_Field::GAIN_1);
 
     // Configure continuous conversion, 200 samples per second datarate and
     // adc internal clock
-    adc.config_datarate(ADS114S08B::DR_SEL_Field::SEL_200_SPS,
+    upp.config_datarate(ADS114S08B::DR_SEL_Field::SEL_200_SPS,
                         ADS114S08B::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
                         ADS114S08B::DR_CLK_Field::INTERNAL_4_096MHZ);
 
-    adc.config_channel(ADS114S08B::INPMUX_Field::AIN3,
-                       Adc::Channel::Voltage::U_5V, Adc::Channel::Gain::G_1);
+    upp.config_channel(ADS114S08B::INPMUX_Field::AIN3,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
 
-    adc.start();
-    int32_t voltage{};
+    upp.start();
+
+    const Upp::Channel* channel_data;
+    char upp_data[64]{};
+    bool upp_data_ready{false};
 
     /* USER CODE END 2 */
 
@@ -141,10 +150,19 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-        auto adc_ret = adc.step();
+        auto adc_ret = upp.step();
         if(adc_ret.has_value()) {
-            Adc::Channel channel_data = adc_ret.value();
-            voltage = channel_data.get_voltage_mv();
+            channel_data = adc_ret.value();
+            upp_data_ready = true;
+        } else if(upp_data_ready == true && uart1_ready == true) {
+            int len = snprintf(
+                upp_data, sizeof(upp_data), "Channel: %d, Voltage: %d\n",
+                static_cast<int>(channel_data->input),
+                static_cast<int>(channel_data->get_voltage_mv()));
+            if(len > 0)
+                HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data, len);
+            upp_data_ready = false;
+            uart1_ready = false;
         }
     }
     /* USER CODE END 3 */
@@ -196,10 +214,15 @@ void SystemClock_Config(void) {
 /* USER CODE BEGIN 4 */
 
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
-    adc.drdy_callback(GPIO_Pin);
+    upp.drdy_callback(GPIO_Pin);
 }
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef* hspi) {
-    adc.spi_callback(hspi);
+    upp.spi_callback(hspi);
+}
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef* huart) {
+    if(huart == &huart1) {
+        uart1_ready = true;
+    }
 }
 /* USER CODE END 4 */
 

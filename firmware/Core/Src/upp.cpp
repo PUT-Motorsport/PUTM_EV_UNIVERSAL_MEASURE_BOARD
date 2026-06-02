@@ -1,6 +1,6 @@
 #include "upp.hpp"
 
-int Adc::config_channel(ADS114S08B::INPMUX_Field input,
+int Upp::config_channel(ADS114S08B::INPMUX_Field input,
                         Channel::Voltage voltage, Channel::Gain gain) {
     if(input == ADS114S08B::INPMUX_Field::AINCOM ||
        voltage == Channel::Voltage::OFF || gain == Channel::Gain::OFF)
@@ -28,7 +28,7 @@ int Adc::config_channel(ADS114S08B::INPMUX_Field input,
     return 1;
 }
 
-int Adc::deactivate_channel(ADS114S08B::INPMUX_Field input) {
+int Upp::deactivate_channel(ADS114S08B::INPMUX_Field input) {
     for(auto& ch : channels) {
         if(ch.input == input && ch.status == true) {
             ch.status = false;
@@ -44,7 +44,7 @@ int Adc::deactivate_channel(ADS114S08B::INPMUX_Field input) {
     return 1;
 }
 
-int Adc::start() {
+int Upp::start() {
     if(active_channels_count <= 0) {
         return 1;
     }
@@ -72,9 +72,9 @@ int Adc::start() {
     return 1;
 }
 
-[[nodiscard]] std::optional<Adc::Channel> Adc::step() {
+[[nodiscard]] std::optional<const Upp::Channel*> Upp::step() {
     switch(get_state()) {
-    case Adc::State::CONTINUOUS_CONVERSION_MODE: {
+    case Upp::State::CONTINUOUS_CONVERSION_MODE: {
         switch(status) {
         case Status::IDLE: {
             next();
@@ -96,7 +96,7 @@ int Adc::start() {
     }
 }
 
-int Adc::next() {
+int Upp::next() {
     if(status == Status::IDLE) {
         if(active_channels_count <= 0)
             return 1;
@@ -122,7 +122,7 @@ int Adc::next() {
     return 1;
 }
 
-int Adc::read() {
+int Upp::read() {
     if(status == Status::DATA_READY) {
         status = Status::WAIT_FOR_SPI;
         if(data_read_IT() != HAL_OK)
@@ -133,7 +133,7 @@ int Adc::read() {
     return 1;
 }
 
-Adc::Channel Adc::update() {
+const Upp::Channel* Upp::update() {
     if(status == Status::DECODE) {
         switch(get_state()) {
         case State::CONTINUOUS_CONVERSION_MODE: {
@@ -149,5 +149,5 @@ Adc::Channel Adc::update() {
         }
         status = Status::IDLE;
     }
-    return channels[current_channel];
+    return &channels[current_channel];
 }

@@ -4,7 +4,7 @@
 #include <array>
 #include <optional>
 
-class Adc : public ADS114S08B::Driver {
+class Upp : public ADS114S08B::Driver {
   public:
     enum class Status {
         STOP,
@@ -45,7 +45,7 @@ class Adc : public ADS114S08B::Driver {
                 return 0;
             }
             constexpr int16_t MAX_VAL_12B{32767};
-            int32_t value{(raw_value / MAX_VAL_12B) * ADC_VOLTAGE_REF};
+            int32_t value{(static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF) / MAX_VAL_12B};
             return value;
         }
 
@@ -56,7 +56,7 @@ class Adc : public ADS114S08B::Driver {
     static constexpr uint32_t CHANNEL_COUNT{12};
     static constexpr int32_t ADC_VOLTAGE_REF{5000};
 
-    Adc(ADS114S08B::Driver driver_config) : ADS114S08B::Driver{driver_config} {}
+    Upp(ADS114S08B::Driver driver_config) : ADS114S08B::Driver{driver_config} {}
 
     int config_channel(ADS114S08B::INPMUX_Field input, Channel::Voltage voltage,
                        Channel::Gain gain);
@@ -80,7 +80,7 @@ class Adc : public ADS114S08B::Driver {
         }
     }
 
-    [[nodiscard]] std::optional<Channel> step();
+    [[nodiscard]] std::optional<const Channel*> step();
 
   private:
     std::array<Channel, CHANNEL_COUNT> channels{
@@ -101,5 +101,5 @@ class Adc : public ADS114S08B::Driver {
 
     int next();
     int read();
-    Channel update();
+    const Channel* update();
 };
