@@ -299,10 +299,9 @@ class Driver {
         CONTINUOUS_CONVERSION_MODE,
     };
 
-    explicit Driver(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
-                    uint16_t start_pin, GPIO_TypeDef* drdy_port,
-                    uint16_t drdy_pin, GPIO_TypeDef* rst_port,
-                    uint16_t rst_pin);
+    Driver(SPI_HandleTypeDef* spi_handle, GPIO_TypeDef* start_port,
+           uint16_t start_pin, GPIO_TypeDef* drdy_port, uint16_t drdy_pin,
+           GPIO_TypeDef* rst_port, uint16_t rst_pin);
 
     State get_state();
     DR_MODE_Field get_mode();
