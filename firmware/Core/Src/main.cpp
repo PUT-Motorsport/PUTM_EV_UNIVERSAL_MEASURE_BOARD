@@ -22,6 +22,7 @@
 #include "fdcan.h"
 #include "gpio.h"
 #include "spi.h"
+#include "stm32g0xx_hal.h"
 #include "stm32g0xx_hal_uart.h"
 #include "tim.h"
 #include "usart.h"
@@ -61,7 +62,9 @@
 Upp upp{{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
          ADC_DRDY_Pin, ADC_RST_GPIO_Port, ADC_RST_Pin}};
 
-volatile bool uart1_ready{false};
+volatile bool uart1_ready{true};
+std::array<int32_t, 12> voltages{};
+
 /* USER CODE END PV */
 
 /* Private function prototypes
@@ -129,11 +132,34 @@ int main(void) {
 
     // Configure continuous conversion, 200 samples per second datarate and
     // adc internal clock
-    upp.config_datarate(ADS114S08B::DR_SEL_Field::SEL_200_SPS,
+    upp.config_datarate(ADS114S08B::DR_SEL_Field::SEL_2000_SPS,
                         ADS114S08B::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
                         ADS114S08B::DR_CLK_Field::INTERNAL_4_096MHZ);
 
-    upp.config_channel(ADS114S08B::INPMUX_Field::AIN3,
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_1,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_2,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_3,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_4,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_5,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_6,
+                       Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
+
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_1,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_2,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_3,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_4,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_5,
+                       Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
+    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_6,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
 
     upp.start();
@@ -142,6 +168,9 @@ int main(void) {
     char upp_data[64]{};
     bool upp_data_ready{false};
 
+    int counter{};
+    uint32_t tick_old = HAL_GetTick();
+    uint32_t loop_time{};
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -153,16 +182,36 @@ int main(void) {
         auto adc_ret = upp.step();
         if(adc_ret.has_value()) {
             channel_data = adc_ret.value();
+            voltages[counter] = channel_data->get_voltage_mv();
             upp_data_ready = true;
-        } else if(upp_data_ready == true && uart1_ready == true) {
-            int len = snprintf(
-                upp_data, sizeof(upp_data), "Channel: %d, Voltage: %d\n",
-                static_cast<int>(channel_data->input),
-                static_cast<int>(channel_data->get_voltage_mv()));
-            if(len > 0)
-                HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data, len);
-            upp_data_ready = false;
-            uart1_ready = false;
+            counter++;
+        }
+        if(counter >= 12) {
+            counter = 0;
+            uint32_t tick_now = HAL_GetTick();
+            loop_time = tick_now - tick_old;
+            tick_old = tick_now;
+            // } else if(upp_data_ready == true && uart1_ready == true) {
+            //     int len = snprintf(
+            //         upp_data, sizeof(upp_data), "Channel: %d, Voltage: %d\n",
+            //         static_cast<int>(channel_data->ads_input),
+            //         static_cast<int>(channel_data->get_voltage_mv()));
+            //     if(len > 0)
+            //         HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data, len);
+            //     upp_data_ready = false;
+            //     uart1_ready = false;
+            // }
+            // }
+            // if(counter >= 12) {
+            //     counter = 0;
+            //     for(int i{}; i < 12; i++) {
+            //         int len =
+            //             snprintf(upp_data, sizeof(upp_data),
+            //                      "Channel: %d, Voltage: %d\n", i,
+            //                      voltages[i]);
+            //         HAL_UART_Transmit(&huart1, (uint8_t*)upp_data, len, 5);
+            //         uart1_ready = false;
+            //     }
         }
     }
     /* USER CODE END 3 */

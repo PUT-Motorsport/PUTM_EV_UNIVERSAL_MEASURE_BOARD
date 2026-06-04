@@ -17,7 +17,22 @@ class Upp : public ADS114S08B::Driver {
 
     class Channel {
       public:
-        const ADS114S08B::INPMUX_Field input;
+        enum class Upp_input : uint8_t {
+            SINGLE_ENDED_1,
+            SINGLE_ENDED_2,
+            SINGLE_ENDED_3,
+            DIFFERENTIAL_1,
+            DIFFERENTIAL_5,
+            DIFFERENTIAL_3,
+            DIFFERENTIAL_4,
+            DIFFERENTIAL_6,
+            SINGLE_ENDED_6,
+            DIFFERENTIAL_2,
+            SINGLE_ENDED_5,
+            SINGLE_ENDED_4,
+        };
+
+        const ADS114S08B::INPMUX_Field ads_input;
 
         enum class Type : uint8_t {
             SINGLE_ENDED,
@@ -45,7 +60,8 @@ class Upp : public ADS114S08B::Driver {
                 return 0;
             }
             constexpr int16_t MAX_VAL_12B{32767};
-            int32_t value{(static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF) / MAX_VAL_12B};
+            int32_t value{(static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF) /
+                          MAX_VAL_12B};
             return value;
         }
 
@@ -58,10 +74,10 @@ class Upp : public ADS114S08B::Driver {
 
     Upp(ADS114S08B::Driver driver_config) : ADS114S08B::Driver{driver_config} {}
 
-    int config_channel(ADS114S08B::INPMUX_Field input, Channel::Voltage voltage,
+    int config_channel(Channel::Upp_input upp_input, Channel::Voltage voltage,
                        Channel::Gain gain);
 
-    int deactivate_channel(ADS114S08B::INPMUX_Field input);
+    int deactivate_channel(Channel::Upp_input upp_input);
 
     int start();
 
