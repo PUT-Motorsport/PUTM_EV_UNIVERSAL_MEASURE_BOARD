@@ -136,30 +136,30 @@ int main(void) {
                         ADS114S08B::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE,
                         ADS114S08B::DR_CLK_Field::INTERNAL_4_096MHZ);
 
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_1,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_1,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_2,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_2,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_3,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_3,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_4,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_4,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_5,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_5,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::SINGLE_ENDED_6,
+    upp.config_channel(Upp::Channel::Input::SINGLE_ENDED_6,
                        Upp::Channel::Voltage::U_3V3, Upp::Channel::Gain::G_1);
 
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_1,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_1,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_2,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_2,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_3,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_3,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_4,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_4,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_5,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_5,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
-    upp.config_channel(Upp::Channel::Upp_input::DIFFERENTIAL_6,
+    upp.config_channel(Upp::Channel::Input::DIFFERENTIAL_6,
                        Upp::Channel::Voltage::U_5V, Upp::Channel::Gain::G_1);
 
     upp.start();

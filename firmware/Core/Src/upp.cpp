@@ -1,6 +1,6 @@
 #include "upp.hpp"
 
-int Upp::config_channel(Channel::Upp_input upp_input, Channel::Voltage voltage,
+int Upp::config_channel(Channel::Input upp_input, Channel::Voltage voltage,
                         Channel::Gain gain) {
     if(voltage == Channel::Voltage::OFF || gain == Channel::Gain::OFF)
         return 1;
@@ -24,7 +24,7 @@ int Upp::config_channel(Channel::Upp_input upp_input, Channel::Voltage voltage,
     return 1;
 }
 
-int Upp::deactivate_channel(Channel::Upp_input upp_input) {
+int Upp::deactivate_channel(Channel::Input upp_input) {
     Channel& ch = channels.at(static_cast<uint8_t>(upp_input));
     if(ch.status == true) {
         ch.status = false;
@@ -54,7 +54,7 @@ int Upp::start() {
                 break;
             }
         }
-        select_single_ended(channels[current_channel].ads_input);
+        select_single_ended(channels[current_channel].ads_input_id);
 
         switch(get_mode()) {
         case ADS114S08B::DR_MODE_Field::CONTINUOUS_CONVERSION_MODE:
@@ -103,7 +103,7 @@ int Upp::next() {
         do {
             current_channel = (current_channel + 1) % channels.size();
         } while(channels[current_channel].status == false);
-        select_single_ended(channels[current_channel].ads_input);
+        select_single_ended(channels[current_channel].ads_input_id);
 
         switch(get_state()) {
         case State::CONTINUOUS_CONVERSION_MODE: {
