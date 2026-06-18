@@ -7,10 +7,10 @@ int Upp::config_channel(Channel::Input upp_input, Channel::Voltage voltage,
     Channel& ch = channels.at(static_cast<uint8_t>(upp_input));
     if(((voltage == Channel::Voltage::U_5V ||
          voltage == Channel::Voltage::U_12V) &&
-        ch.type == Channel::Type::SINGLE_ENDED))
+        ch.TYPE == Channel::Type::SINGLE_ENDED))
         return 1;
     else if(voltage == Channel::Voltage::U_3V3 &&
-            ch.type == Channel::Type::DIFFERENTIAL)
+            ch.TYPE == Channel::Type::DIFFERENTIAL)
         return 1;
     else {
         ch.voltage = voltage;
@@ -72,7 +72,7 @@ int Upp::start() {
     return 1;
 }
 
-[[nodiscard]] std::optional<const Upp::Channel*> Upp::step() {
+[[nodiscard]] std::optional<Upp::Channel> Upp::step() {
     switch(get_state()) {
     case Upp::State::CONTINUOUS_CONVERSION_MODE: {
         switch(status) {
@@ -133,7 +133,7 @@ int Upp::read() {
     return 1;
 }
 
-const Upp::Channel* Upp::update() {
+Upp::Channel Upp::update() {
     if(status == Status::DECODE) {
         switch(get_state()) {
         case State::CONTINUOUS_CONVERSION_MODE: {
@@ -149,5 +149,5 @@ const Upp::Channel* Upp::update() {
         }
         status = Status::IDLE;
     }
-    return &channels[current_channel];
+    return channels[current_channel];
 }

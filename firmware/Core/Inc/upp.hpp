@@ -37,16 +37,16 @@ class Upp : public ADS114S08B::Driver {
         enum class Type : uint8_t {
             SINGLE_ENDED,
             DIFFERENTIAL,
-        } const type;
+        } const TYPE;
 
-        enum class Voltage : int32_t {
+        enum class Voltage : uint16_t {
             OFF,
             U_3V3 = 3300,
             U_5V = 5000,
             U_12V = 12000,
         } voltage{Voltage::OFF};
 
-        enum class Gain : int32_t {
+        enum class Gain : uint16_t {
             OFF,
             G_1 = 1,
             G_5 = 5,
@@ -55,29 +55,32 @@ class Upp : public ADS114S08B::Driver {
             G_1000 = 1000,
         } gain{Gain::OFF};
 
+        //- return max 12-bit value + 1 for invalid input
+        //- return voltage in mV for valid input
         int32_t get_voltage_mv() const {
             if(status == false) {
-                return 0;
+                return MAX_12BIT_VALUE + 1;
             }
-            constexpr int32_t MAX_VAL_12B{32767};
-            constexpr int32_t INA2128_OFFSET_VOLTAGE{6000};
-            constexpr int32_t VOLTAGE_DIVIDER{3};
-            int32_t value{MAX_VAL_12B + 1};
-            switch(type) {
-            case Type::SINGLE_ENDED: {
-                value = (static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF) /
-                        (MAX_VAL_12B * static_cast<int32_t>(gain));
-                break;
-            }
-            case Type::DIFFERENTIAL: {
-                value = (((static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF *
-                           VOLTAGE_DIVIDER) /
-                          MAX_VAL_12B) -
-                         INA2128_OFFSET_VOLTAGE) /
+            int32_t value{(static_cast<int32_t>(raw_value) * ADC_VOLTAGE_REF) /
+                          MAX_12BIT_VALUE};
+            if(TYPE == Type::SINGLE_ENDED) {
+                value = value / static_cast<int32_t>(gain);
+            } else if(TYPE == Type::DIFFERENTIAL) {
+
+                int32_t voltage_divider{};
+                if(voltage == Voltage::U_12V)
+                    voltage_divider = VOLTAGE_DIVIDER_12V;
+                else if(voltage == Voltage::U_5V)
+                    voltage_divider = VOLTAGE_DIVIDER_5V;
+                else
+                    return MAX_12BIT_VALUE + 1;
+
+                value = (value * voltage_divider - INA2128_OFFSET_VOLTAGE) /
                         static_cast<int32_t>(gain);
-                break;
+            } else {
+                value = MAX_12BIT_VALUE + 1;
             }
-            }
+
             return value;
         }
 
@@ -87,8 +90,15 @@ class Upp : public ADS114S08B::Driver {
 
     static constexpr uint32_t CHANNEL_COUNT{12};
     static constexpr int32_t ADC_VOLTAGE_REF{5000};
+    static constexpr int32_t MAX_12BIT_VALUE{32767};
+    static constexpr int32_t INA2128_OFFSET_VOLTAGE{6000};
+
+    static constexpr int32_t VOLTAGE_DIVIDER_5V{3};
+    static constexpr int32_t VOLTAGE_DIVIDER_12V{3};
 
     Upp(ADS114S08B::Driver driver_config) : ADS114S08B::Driver{driver_config} {}
+
+    int8_t get_active_channel_count() { return active_channels_count; }
 
     int config_channel(Channel::Input upp_input, Channel::Voltage voltage,
                        Channel::Gain gain);
@@ -112,7 +122,7 @@ class Upp : public ADS114S08B::Driver {
         }
     }
 
-    [[nodiscard]] std::optional<const Channel*> step();
+    [[nodiscard]] std::optional<Channel> step();
 
   private:
     std::array<Channel, CHANNEL_COUNT> channels{
@@ -133,5 +143,5 @@ class Upp : public ADS114S08B::Driver {
 
     int next();
     int read();
-    const Channel* update();
+    Channel update();
 };

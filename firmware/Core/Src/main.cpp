@@ -59,6 +59,23 @@
 
 /* USER CODE BEGIN PV */
 
+struct Upp_frame {
+    int32_t voltage_measured_mv;
+    uint8_t channel_input;
+    uint8_t channel_type;
+    uint16_t gain;
+};
+
+Upp_frame frame(const Upp::Channel& channel) {
+    Upp_frame frame{};
+    frame.voltage_measured_mv = channel.get_voltage_mv();
+    frame.channel_input = static_cast<uint8_t>(channel.ads_input_id);
+    frame.channel_type = static_cast<uint8_t>(channel.TYPE);
+    frame.gain = static_cast<uint16_t>(channel.gain);
+
+    return frame;
+}
+
 Upp upp{{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
          ADC_DRDY_Pin, ADC_RST_GPIO_Port, ADC_RST_Pin}};
 
@@ -164,13 +181,11 @@ int main(void) {
 
     upp.start();
 
-    const Upp::Channel* channel_data;
-    char upp_data[64]{};
+    char upp_data[66]{};
+    int upp_data_len{66};
     bool upp_data_ready{false};
 
     int counter{};
-    uint32_t tick_old = HAL_GetTick();
-    uint32_t loop_time{};
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -181,37 +196,21 @@ int main(void) {
         /* USER CODE BEGIN 3 */
         auto adc_ret = upp.step();
         if(adc_ret.has_value()) {
-            channel_data = adc_ret.value();
-            voltages[counter] = channel_data->get_voltage_mv();
+            Upp_frame upp_frame{frame(adc_ret.value())};
+            upp_data_len =
+                snprintf(upp_data, sizeof(upp_data), "%ld%c%c%u\n",
+                         upp_frame.voltage_measured_mv, upp_frame.channel_input,
+                         upp_frame.channel_type, upp_frame.gain);
             upp_data_ready = true;
-            counter++;
         }
-        if(counter >= 12) {
-            counter = 0;
-            uint32_t tick_now = HAL_GetTick();
-            loop_time = tick_now - tick_old;
-            tick_old = tick_now;
-            // } else if(upp_data_ready == true && uart1_ready == true) {
-            //     int len = snprintf(
-            //         upp_data, sizeof(upp_data), "Channel: %d, Voltage: %d\n",
-            //         static_cast<int>(channel_data->ads_input),
-            //         static_cast<int>(channel_data->get_voltage_mv()));
-            //     if(len > 0)
-            //         HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data, len);
-            //     upp_data_ready = false;
-            //     uart1_ready = false;
-            // }
-            // }
-            // if(counter >= 12) {
-            //     counter = 0;
-            //     for(int i{}; i < 12; i++) {
-            //         int len =
-            //             snprintf(upp_data, sizeof(upp_data),
-            //                      "Channel: %d, Voltage: %d\n", i,
-            //                      voltages[i]);
-            //         HAL_UART_Transmit(&huart1, (uint8_t*)upp_data, len, 5);
-            //         uart1_ready = false;
-            //     }
+
+        else if(upp_data_ready == true && uart1_ready == true) {
+
+            if(upp_data_len > 0)
+                HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data,
+                                      upp_data_len);
+            upp_data_ready = false;
+            uart1_ready = false;
         }
     }
     /* USER CODE END 3 */
