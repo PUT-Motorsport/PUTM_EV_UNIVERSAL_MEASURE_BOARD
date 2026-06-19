@@ -60,21 +60,37 @@
 /* USER CODE BEGIN PV */
 
 struct Upp_frame {
+    static constexpr size_t len{8};
+
     int32_t voltage_measured_mv;
     uint8_t channel_input;
     uint8_t channel_type;
     uint16_t gain;
+
+    Upp_frame(const Upp::Channel& channel) {
+        voltage_measured_mv = channel.get_voltage_mv();
+        channel_input = static_cast<uint8_t>(channel.ads_input_id);
+        channel_type = static_cast<uint8_t>(channel.TYPE);
+        gain = static_cast<uint16_t>(channel.gain);
+    }
+
+    size_t to_buffer(uint8_t buffer[len]) {
+        if(buffer == nullptr)
+            return 0;
+        buffer[0] = voltage_measured_mv & 0x000000FF;
+        buffer[1] = (voltage_measured_mv >> 8) & 0x000000FF;
+        buffer[2] = (voltage_measured_mv >> 16) & 0x000000FF;
+        buffer[3] = (voltage_measured_mv >> 24) & 0x000000FF;
+
+        buffer[4] = channel_input & 0xFF;
+
+        buffer[5] = channel_type & 0xFF;
+
+        buffer[6] = gain & 0x00FF;
+        buffer[7] = (gain >> 8) & 0x00FF;
+        return len;
+    }
 };
-
-Upp_frame frame(const Upp::Channel& channel) {
-    Upp_frame frame{};
-    frame.voltage_measured_mv = channel.get_voltage_mv();
-    frame.channel_input = static_cast<uint8_t>(channel.ads_input_id);
-    frame.channel_type = static_cast<uint8_t>(channel.TYPE);
-    frame.gain = static_cast<uint16_t>(channel.gain);
-
-    return frame;
-}
 
 Upp upp{{&hspi1, ADC_START_GPIO_Port, ADC_START_Pin, ADC_DRDY_GPIO_Port,
          ADC_DRDY_Pin, ADC_RST_GPIO_Port, ADC_RST_Pin}};
@@ -181,8 +197,8 @@ int main(void) {
 
     upp.start();
 
-    char upp_data[66]{};
-    int upp_data_len{66};
+    int upp_data_len{};
+    uint8_t upp_data[8]{};
     bool upp_data_ready{false};
 
     int counter{};
@@ -196,15 +212,10 @@ int main(void) {
         /* USER CODE BEGIN 3 */
         auto adc_ret = upp.step();
         if(adc_ret.has_value()) {
-            Upp_frame upp_frame{frame(adc_ret.value())};
-            upp_data_len =
-                snprintf(upp_data, sizeof(upp_data), "%ld%c%c%u\n",
-                         upp_frame.voltage_measured_mv, upp_frame.channel_input,
-                         upp_frame.channel_type, upp_frame.gain);
+            Upp_frame upp_frame{adc_ret.value()};
+            upp_data_len = upp_frame.to_buffer(upp_data);
             upp_data_ready = true;
-        }
-
-        else if(upp_data_ready == true && uart1_ready == true) {
+        } else if(upp_data_ready == true && uart1_ready == true) {
 
             if(upp_data_len > 0)
                 HAL_UART_Transmit_DMA(&huart1, (uint8_t*)upp_data,
