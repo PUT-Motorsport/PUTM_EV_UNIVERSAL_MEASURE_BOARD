@@ -5958,7 +5958,7 @@
 		(fields_autoplaced yes)
 		(uuid "080e01d6-417a-40d5-87a6-1aed2a0dc575")
 		(property "Reference" "D21"
-			(at 86.995 205.105 0)
+			(at 86.995 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Value" "ESDS304DBVR"
-			(at 86.995 207.645 0)
+			(at 86.995 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5977,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 111.125 305.74 0)
 			(hide yes)
 			(show_name no)
@@ -6197,7 +6197,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f8cb50a-e1fb-4b2a-83f8-9c754e7a9f15")
 		(property "Reference" "D18"
-			(at 313.055 125.7299 90)
+			(at 312.42 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6208,7 +6208,7 @@
 			)
 		)
 		(property "Value" "ATV02W150-HF"
-			(at 313.055 128.2699 90)
+			(at 312.42 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6218,7 +6218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 403.53 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6675,7 +6675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 380.035 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -7208,7 +7208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 139.065 315.265 0)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 199.695 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7902,7 +7902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 176.2 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -8046,7 +8046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 176.2 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -8265,7 +8265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 139.065 295.58 0)
 			(hide yes)
 			(show_name no)
@@ -8618,7 +8618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 139.065 305.74 0)
 			(hide yes)
 			(show_name no)
@@ -9613,7 +9613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 335.585 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9757,7 +9757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 244.145 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -10248,7 +10248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 244.145 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -10390,7 +10390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 111.125 315.265 0)
 			(hide yes)
 			(show_name no)
@@ -11037,7 +11037,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ccfd7b-7923-4a60-b9ec-1b5c7288fa8d")
 		(property "Reference" "D19"
-			(at 196.215 186.6899 90)
+			(at 196.85 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,7 +11048,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L2BT,215"
-			(at 196.215 189.2299 90)
+			(at 196.85 189.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11058,7 +11058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "PESD5V0L2BT,215:SOT95P230X110-3N"
 			(at 114.63 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -11287,7 +11287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 312.09 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -11584,7 +11584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 111.125 295.58 0)
 			(hide yes)
 			(show_name no)
@@ -11899,7 +11899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 111.125 325.425 0)
 			(hide yes)
 			(show_name no)
@@ -12139,7 +12139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 199.695 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12944,7 +12944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "PESD5V0L2BT,215:SOT95P230X110-3N"
 			(at 89.865 211.455 0)
 			(hide yes)
 			(show_name no)
@@ -13562,7 +13562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 267.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14133,7 +14133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 267.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15049,7 +15049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "ESDS304DBVR:SOT95P280X145-5N"
 			(at 139.065 325.425 0)
 			(hide yes)
 			(show_name no)
@@ -16086,7 +16086,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0d94017-b48e-4105-ae46-16eddaed18cb")
 		(property "Reference" "D10"
-			(at 313.055 78.7399 90)
+			(at 312.42 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16097,7 +16097,7 @@
 			)
 		)
 		(property "Value" "ATV02W150-HF"
-			(at 313.055 81.2799 90)
+			(at 312.42 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16107,7 +16107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 403.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16328,7 +16328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 312.09 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -16472,7 +16472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 335.585 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16694,7 +16694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL3718X130N"
+		(property "Footprint" "ATV02W150-HF:SODFL3718X130N"
 			(at 380.035 114.935 0)
 			(hide yes)
 			(show_name no)

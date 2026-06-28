@@ -5517,7 +5517,7 @@
 		(fields_autoplaced yes)
 		(uuid "05fbc886-e426-4baf-a424-12d718422ca4")
 		(property "Reference" "Y1"
-			(at 198.12 107.315 0)
+			(at 198.12 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5527,7 +5527,7 @@
 			)
 		)
 		(property "Value" "ATX-H11-F-16.000MHz-G100-T"
-			(at 198.12 109.855 0)
+			(at 198.12 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ATXH11F16000MHzG100T"
+		(property "Footprint" "ATX-H11-F-16.000MHz-G100-T:ATXH11F16000MHzG100T"
 			(at 224.79 212.395 0)
 			(hide yes)
 			(show_name no)
@@ -5764,7 +5764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFP50P1200X1200X160-64N"
+		(property "Footprint" "STM32G484RET3:QFP50P1200X1200X160-64N"
 			(at 158.75 177.47 0)
 			(hide yes)
 			(show_name no)
@@ -8632,7 +8632,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea11adda-c97a-4180-8bb0-941e77d1a1a9")
 		(property "Reference" "U1"
-			(at 233.68 43.815 0)
+			(at 233.68 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8642,7 +8642,7 @@
 			)
 		)
 		(property "Value" "ADS8863IDGS"
-			(at 233.68 46.355 0)
+			(at 233.68 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8651,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "ADS8863IDGS:SOP50P490X110-10N"
 			(at 232.41 134.925 0)
 			(hide yes)
 			(show_name no)

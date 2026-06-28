@@ -4806,7 +4806,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ccd9171-19e1-4194-b7f4-fefee4172da1")
 		(property "Reference" "U4"
-			(at 57.785 126.365 0)
+			(at 57.785 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +4816,7 @@
 			)
 		)
 		(property "Value" "CD4097BM"
-			(at 57.785 128.905 0)
+			(at 57.785 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4825,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-24N"
+		(property "Footprint" "CD4097BM:SOIC127P1030X265-24N"
 			(at 112.395 259.385 0)
 			(hide yes)
 			(show_name no)

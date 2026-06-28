@@ -4342,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1032X265-20N"
+		(property "Footprint" "ADM3057EBRWZ:SOIC127P1032X265-20N"
 			(at 196.215 183.185 0)
 			(hide yes)
 			(show_name no)
