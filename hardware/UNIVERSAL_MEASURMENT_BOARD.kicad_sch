@@ -1252,7 +1252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN.kicad_sch"
+		(property "Sheetfile" "umb-can.kicad_sch"
 			(at 263.525 185.3696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1349,7 +1349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mux & pga.kicad_sch"
+		(property "Sheetfile" "umb-mux-pga.kicad_sch"
 			(at 120.015 185.3696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,7 +1656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "umb-mcu.kicad_sch"
 			(at 212.725 161.2396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +1893,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Conv.kicad_sch"
+		(property "Sheetfile" "umb-power.kicad_sch"
 			(at 120.015 69.7996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1939,7 +1939,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Connectors.kicad_sch"
+		(property "Sheetfile" "umb-connectors.kicad_sch"
 			(at 120.015 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
